@@ -1,8 +1,8 @@
 function solution(val){
     const valStr = String(val);
-    const paddedStr = valStr.padStart(5, 0);
+    const paddedStr = valStr.padStart(5, "0");
 
-    return `Value is ${paddedStr}`
+    return `Value is ${paddedStr}`;
 }
 
 console.log(solution(5)); // "Value is 00005"

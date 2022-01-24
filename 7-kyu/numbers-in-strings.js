@@ -4,6 +4,6 @@ function solve(str){
     const maxNum = Math.max(...numsArr);
     
     return maxNum;
-};
+}
 
 console.log(solve("gh12cdy695m1"));

@@ -21,4 +21,4 @@ function task(weekday, numTrees, costOfOneLitre) {
     return `It is ${weekday} today, ${currEmployee}, you have to work, you must spray ${numTrees} trees and you need ${totalLiquidCost} dollars to buy liquid`;
 }
 
-console.log(task('Wednesday',10,2)); // 'It is Wednesday today, Robert, you have to work, you must spray 10 trees and you need 20 dollars to buy liquid'
+console.log(task("Wednesday",10,2)); // 'It is Wednesday today, Robert, you have to work, you must spray 10 trees and you need 20 dollars to buy liquid'

@@ -6,7 +6,7 @@
  * @returns {array} - Returns an array of strings.
  */
 function openOrSenior(arr) {
-    return arr.map(innerArr => {
+    return arr.map((innerArr) => {
         const [age, handicap] = innerArr;
 
         if (age >= 55 && handicap > 7) {

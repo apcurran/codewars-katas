@@ -7,7 +7,7 @@
 function vowelIndices(word){
     const regex = /a|e|i|o|u/gi;
     const matches = [...word.matchAll(regex)];
-    const resultArr = matches.map(match => match.index + 1);
+    const resultArr = matches.map((match) => match.index + 1);
     
     return resultArr;
 }

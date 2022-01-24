@@ -1,5 +1,5 @@
 function daysRepresented(tripsArr) {
-    const representedDaysArr = tripsArr.map(innerArr => (innerArr[1] - innerArr[0]) + 1);
+    const representedDaysArr = tripsArr.map((innerArr) => (innerArr[1] - innerArr[0]) + 1);
     const totalRepresentedDays = representedDaysArr.reduce((accum, curr) => accum + curr, 0);
     
     return totalRepresentedDays;

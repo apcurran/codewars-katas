@@ -1,4 +1,4 @@
-const removeConsecutiveDuplicates = str => {
+const removeConsecutiveDuplicates = (str) => {
     const wordsArr = str.split(" ");
     let resWordArr = [];
 
@@ -12,6 +12,6 @@ const removeConsecutiveDuplicates = str => {
     }
 
     return resWordArr.join(" ");
-}
+};
 
 console.log(removeConsecutiveDuplicates("alpha beta beta gamma gamma gamma delta alpha beta beta gamma gamma gamma delta")); // "alpha beta gamma delta alpha beta gamma delta"

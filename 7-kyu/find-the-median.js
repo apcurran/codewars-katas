@@ -21,6 +21,6 @@ function median(arr) {
     return sortedArr[middleIndex];
 }
 
-console.log(median([33, 99, 100, 30, 29, 50])) // 41.5
-console.log(median([3, 2, 1])) // 2
-console.log(median([3, 2, 1, 4, 6])) // 3
+console.log(median([33, 99, 100, 30, 29, 50])); // 41.5
+console.log(median([3, 2, 1])); // 2
+console.log(median([3, 2, 1, 4, 6])); // 3

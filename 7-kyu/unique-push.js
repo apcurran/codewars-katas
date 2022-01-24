@@ -21,4 +21,4 @@ function uniquePush(arr, obj) {
     return true;
 }
 
-console.log(uniquePush([{name:'bob', phoneNumber:1234}, {name:'joe', phoneNumber:12345}], {name:'I am duped', phoneNumber:12345}));
+console.log(uniquePush([{name:"bob", phoneNumber:1234}, {name:"joe", phoneNumber:12345}], {name:"I am duped", phoneNumber:12345}));

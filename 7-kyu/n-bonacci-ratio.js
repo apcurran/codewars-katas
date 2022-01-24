@@ -4,5 +4,5 @@
  * @returns 
  */
 function nBonacciRatio(n){
-    return // n-bonacci ratio
+    return; // n-bonacci ratio
 }

@@ -17,5 +17,5 @@ function lastSurvivor(letters, coords) {
     return lettersCopy.join("");
 }
 
-console.log(lastSurvivor('abc', [1, 1])); // "a"
-console.log(lastSurvivor('kbc', [0, 1])); // "b"
+console.log(lastSurvivor("abc", [1, 1])); // "a"
+console.log(lastSurvivor("kbc", [0, 1])); // "b"

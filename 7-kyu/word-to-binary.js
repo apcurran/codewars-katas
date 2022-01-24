@@ -3,7 +3,7 @@
 function wordToBin(str){
     const binStr = str
                     .split("")
-                    .map(char => {
+                    .map((char) => {
                         return char
                                 .charCodeAt(0)
                                 .toString(2)

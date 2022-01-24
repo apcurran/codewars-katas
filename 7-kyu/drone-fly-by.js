@@ -14,5 +14,5 @@ function flyBy(lamps, drone) {
     return lamps.replace("x".repeat(drone.length), "o".repeat(drone.length));
 }
 
-console.log( flyBy('xxxxxx', '====T') ); // 'ooooox'
-console.log( flyBy('xxxxxxxxx', '==T') ); // 'oooxxxxxx'
+console.log( flyBy("xxxxxx", "====T") ); // 'ooooox'
+console.log( flyBy("xxxxxxxxx", "==T") ); // 'oooxxxxxx'

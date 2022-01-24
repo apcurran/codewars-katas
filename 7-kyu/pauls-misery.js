@@ -20,7 +20,7 @@ function paul(arr){
     }
 }
 
-console.log(paul(['life', 'eating', 'life'])); // "Super happy!"
-console.log(paul(['life', 'Petes kata', 'Petes kata', 'Petes kata', 'eating'])); // "Super happy!"
-console.log(paul(['Petes kata', 'Petes kata', 'eating', 'Petes kata', 'Petes kata', 'eating'])); // "Happy!"
+console.log(paul(["life", "eating", "life"])); // "Super happy!"
+console.log(paul(["life", "Petes kata", "Petes kata", "Petes kata", "eating"])); // "Super happy!"
+console.log(paul(["Petes kata", "Petes kata", "eating", "Petes kata", "Petes kata", "eating"])); // "Happy!"
 console.log(paul(["eating","kata","life","eating","eating","kata","life","Petes kata","Petes kata","kata","life","eating","life","eating","life","kata","eating","kata","kata","Petes kata","kata","kata","kata","life","eating","kata"])); // "Happy!"

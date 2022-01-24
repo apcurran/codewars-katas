@@ -21,6 +21,6 @@ function evenOrOdd(strNum) {
     }
 }
 
-console.log(evenOrOdd('12')); //'Even is greater than Odd'
-console.log(evenOrOdd('123')); //'Odd is greater than Even'
-console.log(evenOrOdd('112')); //'Even and Odd are the same'
+console.log(evenOrOdd("12")); //'Even is greater than Odd'
+console.log(evenOrOdd("123")); //'Odd is greater than Even'
+console.log(evenOrOdd("112")); //'Even and Odd are the same'

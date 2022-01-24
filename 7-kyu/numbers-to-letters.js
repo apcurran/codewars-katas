@@ -48,4 +48,4 @@ function switcher(nums){
     return resultStr;
 }
 
-console.log(switcher(['24', '12', '23', '22', '4', '26', '9', '8'])); // "codewars"
+console.log(switcher(["24", "12", "23", "22", "4", "26", "9", "8"])); // "codewars"

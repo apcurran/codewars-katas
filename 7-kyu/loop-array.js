@@ -21,4 +21,4 @@ function loopArr(arr, direction, steps) {
 }
 
 // console.log(loopArr([1, 5, 87, 45, 8, 8], 'left', 2)); // [87, 45, 8, 8, 1, 5]
-console.log(loopArr([1, 5, 87, 45, 8, 8], 'right', 2)); // [8, 8, 1, 5, 87, 45]
+console.log(loopArr([1, 5, 87, 45, 8, 8], "right", 2)); // [8, 8, 1, 5, 87, 45]
