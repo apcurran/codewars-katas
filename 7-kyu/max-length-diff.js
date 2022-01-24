@@ -35,4 +35,4 @@ function mxdiflg(a1, a2) {
 // Test
 const a1 = ["hoqq", "bbllkw", "oox", "ejjuyyy", "plmiis", "xxxzgpsssa", "xxwwkktt", "znnnnfqknaz", "qqquuhii", "dvvvwz"];
 const a2 = ["cccooommaaqqoxii", "gggqaffhhh", "tttoowwwmmww"];
-console.log(mxdiflg(a1, a2)) // 13
+console.log(mxdiflg(a1, a2)); // 13
