@@ -70,7 +70,7 @@ function inArray(array1, array2) {
     const resArr = array1.filter((str) => {
         return array2
                     .join(" ")
-                    .includes(str)
+                    .includes(str);
     });
 
     return resArr.sort();

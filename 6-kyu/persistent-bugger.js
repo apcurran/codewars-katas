@@ -20,4 +20,4 @@ function persistence(num) {
     return multiplicativePersistence;
 }
 
-console.log(persistence(39)) // 3
+console.log(persistence(39)); // 3

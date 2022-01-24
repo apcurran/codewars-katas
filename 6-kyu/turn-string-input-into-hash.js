@@ -8,7 +8,7 @@ function strToHash(str){
 
     const splitStrArr = str
                         .split(", ")
-                        .map(partialStr => {
+                        .map((partialStr) => {
                             return partialStr.split("=");
                         });
 

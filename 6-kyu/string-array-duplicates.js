@@ -1,5 +1,5 @@
 function dup(strArr) {
-    return strArr.map(word => {
+    return strArr.map((word) => {
         return word
             .split("")
             .filter((char, index, selfArr) => {
@@ -9,6 +9,6 @@ function dup(strArr) {
             })
             .join("");
     });
-};
+}
 
 console.log(dup(["ccooddddddewwwaaaaarrrrsssss","piccaninny","hubbubbubboo"]));

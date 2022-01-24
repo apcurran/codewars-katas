@@ -42,7 +42,7 @@ function high(str){
         }, 0);
         // Now map word to total pts for that word
         // wordMap.set(word, wordTotalPts);
-        wordMap.set(wordTotalPts, word)
+        wordMap.set(wordTotalPts, word);
         // Now set highest word pt if applicable
         if (highestWordPts < wordTotalPts) {
             highestWordPts = wordTotalPts;
@@ -62,4 +62,4 @@ function getByMapVal(map, searchVal) {
     }
 }
 
-console.log(high('man i need a taxi up to ubud')); // taxi
+console.log(high("man i need a taxi up to ubud")); // taxi

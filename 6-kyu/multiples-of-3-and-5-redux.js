@@ -1,21 +1,21 @@
 "use strict";
 
-/**
- * Solution 1 -- O(n) -> too slow...
- * @param {*} n 
- * @returns {number}
- */
-function solution(n) {
-    let sum = 0;
+// /**
+//  * Solution 1 -- O(n) -> too slow...
+//  * @param {*} n 
+//  * @returns {number}
+//  */
+// function solution(n) {
+//     let sum = 0;
 
-    for (let i = 3; i < n; i++) {
-        if (i % 5 === 0 || i % 3 === 0) {
-            sum += i;
-        }
-    }
+//     for (let i = 3; i < n; i++) {
+//         if (i % 5 === 0 || i % 3 === 0) {
+//             sum += i;
+//         }
+//     }
 
-    return sum;
-}
+//     return sum;
+// }
 
 /**
  * Solution 2 -- O(1)

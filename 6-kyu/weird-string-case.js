@@ -22,4 +22,4 @@ function toWeirdCase(str){
 }
 
 console.log(toWeirdCase("String"));//=> returns "StRiNg")
-console.log((toWeirdCase('This is a test'))); // 'ThIs Is A TeSt'
+console.log((toWeirdCase("This is a test"))); // 'ThIs Is A TeSt'

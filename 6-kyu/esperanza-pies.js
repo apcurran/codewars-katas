@@ -9,8 +9,9 @@
 //     return Math.floor(t / .8);
 // }
 
-// console.log(esperanzaPies(1)); // 1
-// console.log(esperanzaPies(5)); // 6
 
 // SHORTENED VERSION
-esperanzaPies=t=>t/.8|0
+const esperanzaPies = (t) => t/.8|0;
+
+console.log(esperanzaPies(1)); // 1
+console.log(esperanzaPies(5)); // 6
