@@ -1,6 +1,9 @@
 "use strict";
 
 /**
+ * Solution 1
+ * time: O(n)
+ * space: O(n)
  * 
  * @param {string} n - str version of bin num
  * @returns {string} - str version of bin num with switched digits
