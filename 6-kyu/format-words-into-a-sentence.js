@@ -31,5 +31,5 @@ function formatWords(words) {
 console.log( formatWords(["one", "two", "three", "four"]) ); // 'one, two, three and four'
 console.log( formatWords(["one", "two", ""]) ); // 'one and two'
 console.log( formatWords(["one"]) ); // 'one'
-console.log( formatWords(null) ); // 'one'
-console.log( formatWords([""]) ); // 'one'
+console.log( formatWords(null) ); // ''
+console.log( formatWords([""]) ); // ''
