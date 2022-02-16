@@ -1,6 +1,9 @@
 "use strict";
 
 /**
+ * Solution 1
+ * time: O(n)
+ * space: O(n)
  * 
  * @param {string} str 
  * @returns {boolean}
@@ -8,7 +11,7 @@
 function validateWord(str) {
     const loweredStr = str.toLowerCase();
     let charMap = new Map();
-    
+
     for (let char of loweredStr) {
         if (!charMap.has(char)) {
             // Add new char
