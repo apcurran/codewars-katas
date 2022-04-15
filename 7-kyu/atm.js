@@ -14,20 +14,20 @@ function solve(n) {
     let nCopy = n;
 
     while (nCopy) {
-        if (nCopy % 500 < nCopy) {
+        if (nCopy >= 500) {
             // divisible by 500
             nCopy -= 500;
             notesCount++;
-        } else if (nCopy % 200 < nCopy) {
+        } else if (nCopy >= 200) {
             nCopy -= 200;
             notesCount++;
-        } else if (nCopy % 100 < nCopy) {
+        } else if (nCopy >= 100) {
             nCopy -= 100;
             notesCount++;
-        } else if (nCopy % 50 < nCopy) {
+        } else if (nCopy >= 50) {
             nCopy -= 50;
             notesCount++;
-        } else if (nCopy % 20 < nCopy) {
+        } else if (nCopy >= 20) {
             nCopy -= 20;
             notesCount++;
         }
