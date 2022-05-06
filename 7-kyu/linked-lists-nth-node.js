@@ -12,29 +12,46 @@ const c = new ListNode(3);
 a.next = b;
 b.next = c;
 
+// /**
+//  * solution 1 -- iterative
+//  * time: O(n)
+//  * space: O(1)
+//  * 
+//  * @param {ListNode} node 
+//  * @param {number} index
+//  * @returns {ListNode}
+//  */
+// function getNth(node, index) {
+//     let current = node;
+//     let indexCounter = 0;
+
+//     while (current !== null) {
+//         if (indexCounter === index) return current;
+
+//         // incr counter
+//         indexCounter++;
+//         // move pointer to next node
+//         current = current.next;
+//     }
+
+//     throw new Error("No valid index given");
+// }
+
 /**
- * solution 1 -- iterative
+ * solution 2 -- recursive
  * time: O(n)
- * space: O(1)
+ * space: O(n)
  * 
  * @param {ListNode} node 
  * @param {number} index
  * @returns {ListNode}
  */
 function getNth(node, index) {
-    let current = node;
-    let indexCounter = 0;
+    if (node === null) throw new Error("No valid index given");
 
-    while (current !== null) {
-        if (indexCounter === index) return current;
+    if (index === 0) return node;
 
-        // incr counter
-        indexCounter++;
-        // move pointer to next node
-        current = current.next;
-    }
-
-    throw new Error("No valid index given");
+    return getNth(node.next, index - 1);
 }
 
 console.log( getNth(a, 0) ); // node with data = 1
