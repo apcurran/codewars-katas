@@ -1,6 +1,9 @@
 "use strict";
 
 /**
+ * solution 1 -- iterative
+ * time: O(n)
+ * space: O(1)
  * 
  * @param {number} amount 
  * @returns {number[]}
@@ -56,4 +59,4 @@ function giveChange(amount) {
 }
 
 console.log( giveChange(365) ); // [0,1,1,0,1,3]
-// console.log( giveChange(217) ); // [2,1,1,0,0,2]
+console.log( giveChange(217) ); // [2,1,1,0,0,2]
