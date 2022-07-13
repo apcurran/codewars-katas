@@ -1,6 +1,6 @@
 "use strict";
 
-class Node {
+class ListNode {
     constructor(value, left = null, right = null) {
         this.value = value;
         this.left = left;
@@ -64,7 +64,7 @@ class Node {
  * space: O(n)
  * 
  * @param {number} target
- * @param {Node} root
+ * @param {ListNode} root
  * @returns {boolean}
  */
 function search(target, root) {
