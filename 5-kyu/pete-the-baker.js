@@ -12,8 +12,8 @@
  * @returns {number}
  */
 function cakes(recipe, available) {
-    let cakeIngredientsAmtsArr = [];
     const availableMap = new Map(Object.entries(available));
+    let cakeIngredientsAmtsArr = [];
 
     for (let [recipeKey, recipeVal] of Object.entries(recipe)) {
         // if key/val pair in recipe does not exist in available -> return 0 early
