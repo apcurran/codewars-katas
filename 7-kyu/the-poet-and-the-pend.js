@@ -28,9 +28,39 @@
 //     return resArr;
 // }
 
+// /**
+//  * solution 2
+//  * time: O(n * log n) -- pre-sorting values arr
+//  * space: O(n)
+//  * 
+//  * @param {number[]} values 
+//  * @returns {number[]}
+//  */
+// function pendulum(values) {
+//     // sort ASC
+//     let sortedValsCopy = [...values].sort((a, b) => a - b);
+//     let leftHalf = [];
+//     let rightHalf = [];
+
+//     for (let i = 0; i < sortedValsCopy.length; i++) {
+//         const currNum = sortedValsCopy[i];
+
+//         if (i % 2 === 0) {
+//             // is even index
+//             leftHalf.push(currNum);
+//         } else {
+//             // odd index
+//             rightHalf.push(currNum);
+//         }
+//     }
+
+//     return leftHalf.reverse()
+//                    .concat(rightHalf);
+// }
+
 /**
- * solution 1
- * time: O(n * log n) -- pre-sorting values arr
+ * solution 3
+ * time: O(n * log n) -- slight variation without array.reverse()
  * space: O(n)
  * 
  * @param {number[]} values 
@@ -42,20 +72,22 @@ function pendulum(values) {
     let leftHalf = [];
     let rightHalf = [];
 
+    // iterate in reverse for leftHalf vals
+    for (let i = sortedValsCopy.length - 1; i >= 0; i--) {
+        const currNum = sortedValsCopy[i];
+        
+        // is even index
+        if (i % 2 === 0) leftHalf.push(currNum);
+    }
+
     for (let i = 0; i < sortedValsCopy.length; i++) {
         const currNum = sortedValsCopy[i];
 
-        if (i % 2 === 0) {
-            // is even index
-            leftHalf.push(currNum);
-        } else {
-            // odd index
-            rightHalf.push(currNum);
-        }
+        // is odd index
+        if (i % 2 !== 0) rightHalf.push(currNum);
     }
 
-    return leftHalf.reverse()
-                   .concat(rightHalf);
+    return [...leftHalf, ...rightHalf];
 }
 
 console.log( pendulum([4,10,9]) ); // [10,4,9]
