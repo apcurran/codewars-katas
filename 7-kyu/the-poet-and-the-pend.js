@@ -69,25 +69,24 @@
 function pendulum(values) {
     // sort ASC
     let sortedValsCopy = [...values].sort((a, b) => a - b);
-    let leftHalf = [];
-    let rightHalf = [];
+    let resultArr = [];
 
     // iterate in reverse for leftHalf vals
     for (let i = sortedValsCopy.length - 1; i >= 0; i--) {
         const currNum = sortedValsCopy[i];
         
         // is even index
-        if (i % 2 === 0) leftHalf.push(currNum);
+        if (i % 2 === 0) resultArr.push(currNum);
     }
 
     for (let i = 0; i < sortedValsCopy.length; i++) {
         const currNum = sortedValsCopy[i];
 
         // is odd index
-        if (i % 2 !== 0) rightHalf.push(currNum);
+        if (i % 2 !== 0) resultArr.push(currNum);
     }
 
-    return [...leftHalf, ...rightHalf];
+    return resultArr;
 }
 
 console.log( pendulum([4,10,9]) ); // [10,4,9]
