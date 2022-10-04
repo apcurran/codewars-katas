@@ -37,6 +37,6 @@ function countContiguousDistinct(k, arr) {
 }
 
 console.log(countContiguousDistinct(4, [1, 2, 1, 3, 4, 2, 3])); // [3, 4, 4, 3]
-console.log(countContiguousDistinct(2, [1, 2, 1, 3, 4, 2, 3, 3])); // [2,2,2,2,2,2,1]
+console.log(countContiguousDistinct(2, [1, 2, 1, 3, 4, 2, 3, 3])); // [2, 2, 2, 2, 2, 2, 1]
 console.log(countContiguousDistinct(8, [1, 2, 1, 3, 4, 2, 3, 3])); // [4]
 
