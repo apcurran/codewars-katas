@@ -31,9 +31,10 @@
  * @returns {boolean}
  */
 function isPerfect(n) {
+    const sqrtN = Math.floor(Math.sqrt(n));
     let divisorsSum = 1;
 
-    for (let i = 2; i * i <= n; i++) {
+    for (let i = 2; i <= sqrtN; i++) {
         const isDivisible = n % i === 0;
         
         if (isDivisible) {
