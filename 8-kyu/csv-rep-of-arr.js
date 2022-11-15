@@ -1,7 +1,32 @@
 "use strict";
 
+// /**
+//  * solution 1
+//  * time: O(n * m) 
+//  * space: O(n + m)
+//  * 
+//  * @param {number[][]} arr 
+//  * @returns {string}
+//  */
+// function toCsvText(arr) {
+//     let res = "";
+
+//     for (let i = 0; i < arr.length; i++) {
+//         const currArr = arr[i];
+//         const numStr = currArr.join(",");
+
+//         res += numStr;
+
+//         if (i === arr.length - 1) continue;
+
+//         res += "\n";
+//     }
+
+//     return res;
+// }
+
 /**
- * solution 1
+ * solution 2 -- slight optimizations
  * time: O(n * m) 
  * space: O(n + m)
  * 
@@ -9,20 +34,7 @@
  * @returns {string}
  */
 function toCsvText(arr) {
-    let res = "";
-
-    for (let i = 0; i < arr.length; i++) {
-        const currArr = arr[i];
-        const numStr = currArr.join(",");
-
-        res += numStr;
-
-        if (i === arr.length - 1) continue;
-
-        res += "\n";
-    }
-
-    return res;
+    return arr.join("\n");
 }
 
 console.log( toCsvText(
