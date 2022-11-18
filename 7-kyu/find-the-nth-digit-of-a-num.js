@@ -2,8 +2,8 @@
 
 /**
  * solution 1
- * time: O(n)
- * space: O(n)
+ * time: O(n) -- str conversion
+ * space: O(n) -- str conversion
  * 
  * @param {number} num 
  * @param {number} nth 
