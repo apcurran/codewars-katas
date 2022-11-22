@@ -2,7 +2,6 @@
 
 /**
  * solution 1
- * x = total chars in 2d arr
  * time: O(n * m)
  * space: O(n * m)
  * 
