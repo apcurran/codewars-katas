@@ -33,14 +33,14 @@ function extractIds(data) {
         // base case
         if (items.length === 0) return;
 
-        // recursive case
         /** @type {object} item */
         for (let item of items) {
             if (item.id) {
                 results.push(item.id);
             }
-
+            
             if (item.items) {
+                // recursive case
                 recursiveIdCheck(item.items);
             }
         }
