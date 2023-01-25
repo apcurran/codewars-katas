@@ -1,6 +1,9 @@
 "use strict";
 
 /**
+ * solution 1
+ * time: O(n)
+ * space: O(1)
  * 
  * @param {number} n 
  * @returns {string}
