@@ -2,7 +2,7 @@
 
 /**
  * solution 1
- * time: O(n * sqrt(n))
+ * time: O(sqrt(n))
  * space: O(sqrt(n))
  * 
  * @param {number} a 
@@ -12,13 +12,14 @@
 function evenDigitSquares(a, b) {
     let results = [];
 
-    numsLoop: for (let i = a; i <= b; i++) {
-        const isPerfectSquare = Number.isInteger(Math.sqrt(i));
+    numsLoop: for (let i = Math.ceil(Math.sqrt(a)); i <= Math.sqrt(b); i++) {
+        const num = i ** 2;
+        const isPerfectSquare = Number.isInteger(Math.sqrt(num));
 
         if (!isPerfectSquare) continue;
 
         // otherwise, check for even digits
-        const strDigits = String(i).split("");
+        const strDigits = String(num).split("");
 
         for (let strDigit of strDigits) {
             const isEvenDigit = Number(strDigit) % 2 === 0;
@@ -26,7 +27,7 @@ function evenDigitSquares(a, b) {
             if (!isEvenDigit) continue numsLoop;
         }
 
-        results.push(i);
+        results.push(num);
     }
 
     return results;
