@@ -16,7 +16,7 @@
 // }
 
 /**
- * solution 1
+ * solution 2
  * time: O(n)
  * space: O(1)
  * 
