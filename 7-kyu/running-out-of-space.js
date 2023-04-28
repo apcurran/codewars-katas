@@ -4,7 +4,7 @@
 //  * solution 1
 //  * n = words length
 //  * m = chunk length
-//  * time: O(n^2)
+//  * time: O(n^2 * m)
 //  * space: O(n + m)
 //  * 
 //  * @param {string[]} words 
