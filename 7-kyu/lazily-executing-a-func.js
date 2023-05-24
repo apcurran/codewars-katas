@@ -4,7 +4,6 @@ function add(a, b) {
     return a + b;
 }
 
-
 /**
  * solution 1 -- closure
  * time: O(args)
