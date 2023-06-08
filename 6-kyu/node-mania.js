@@ -41,4 +41,4 @@ function searchKFromEnd(linkedList, k) {
     return nodes[nodes.length - k];
 }
 
-console.log( searchKFromEnd(a, 1) ); // Node d
+console.log( searchKFromEnd(a, 1) ); // "d"
