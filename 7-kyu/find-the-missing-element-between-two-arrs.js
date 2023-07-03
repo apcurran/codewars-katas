@@ -50,7 +50,6 @@ function findMissing(arr1, arr2) {
 }
 
 /**
- * 
  * @param {number[]} arr 
  * @returns {number}
  */
