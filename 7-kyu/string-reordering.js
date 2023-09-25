@@ -1,7 +1,29 @@
 "use strict";
 
+// /**
+//  * solution 1
+//  * time: O(n * log n)
+//  * space: O(n)
+//  * 
+//  * @param {object[]} list 
+//  * @returns {string}
+//  */
+// function sentence(list) {
+//     let words = [];
+//     let listEntries = list.map((obj) => Object.entries(obj));
+//     listEntries.sort((tupleA, tupleB) => {
+//         return Number(tupleA[0][0]) - Number(tupleB[0][0]);
+//     });
+
+//     for (let entry of listEntries) {
+//         words.push(entry[0][1]);
+//     }
+
+//     return words.join(" ");
+// }
+
 /**
- * solution 1
+ * solution 2
  * time: O(n * log n)
  * space: O(n)
  * 
@@ -9,17 +31,12 @@
  * @returns {string}
  */
 function sentence(list) {
-    let words = [];
-    let listEntries = list.map((obj) => Object.entries(obj));
-    listEntries.sort((tupleA, tupleB) => {
-        return Number(tupleA[0][0]) - Number(tupleB[0][0]);
-    });
-    
-    for (let entry of listEntries) {
-        words.push(entry[0][1]);
-    }
-
-    return words.join(" ");
+    return list
+        .sort((objA, objB) => {
+            return Number(Object.keys(objA)[0]) - Number(Object.keys(objB)[0]);
+        })
+        .map((obj) => Object.values(obj)[0])
+        .join(" ");
 }
 
 const list = [
