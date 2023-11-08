@@ -2,7 +2,7 @@
 
 // /**
 //  * solution 1 -- brute-force TLE
-//  * time: O(a * b + a * c)
+//  * time: O((a * b) + (a * c))
 //  * space: O(1)
 //  * 
 //  * @param {number[]} a 
