@@ -21,9 +21,9 @@ function common(a, b, c) {
         if (bIncludesIndex > -1 && cIncludesIndex > -1) {
             sum += aValue;
 
-            // remove value from b and c arrs
-            b.splice(bIncludesIndex, 1);
-            c.splice(cIncludesIndex, 1);
+            // replace value with 0 (does not affect sum now) for b and c arrs
+            b[bIncludesIndex] = 0;
+            c[cIncludesIndex] = 0;
         }
     }
 
