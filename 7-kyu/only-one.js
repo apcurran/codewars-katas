@@ -1,7 +1,33 @@
 "use strict";
 
+// /**
+//  * solution 1
+//  * time: O(n)
+//  * space: O(1)
+//  * 
+//  * @param  {...boolean} args 
+//  * @returns {boolean} return true if and only if one of them is true while others are false
+//  */
+// function onlyOne(...args) {
+//     if (args.length === 0) return false;
+
+//     let seenBooleans = new Set();
+
+//     for (let bool of args) {
+//         if (bool === true) {
+//             if (seenBooleans.has(true)) {
+//                 return false;
+//             } else {
+//                 seenBooleans.add(true);
+//             }
+//         }
+//     }
+
+//     return seenBooleans.size === 1;
+// }
+
 /**
- * solution 1
+ * solution 2 -- slightly optimized
  * time: O(n)
  * space: O(1)
  * 
@@ -9,21 +35,13 @@
  * @returns {boolean} return true if and only if one of them is true while others are false
  */
 function onlyOne(...args) {
-    if (args.length === 0) return false;
-
-    let seenBooleans = new Set();
+    let trueCount = 0;
 
     for (let bool of args) {
-        if (bool === true) {
-            if (seenBooleans.has(true)) {
-                return false;
-            } else {
-                seenBooleans.add(true);
-            }
-        }
+        if (bool === true) trueCount++;
     }
 
-    return seenBooleans.size === 1;
+    return trueCount === 1;
 }
 
 console.log(onlyOne()); // false
