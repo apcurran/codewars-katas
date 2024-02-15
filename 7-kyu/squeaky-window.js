@@ -14,7 +14,7 @@ function sliding(nums, k) {
     let left = 0;
     let right = k;
     
-    while (left < right && right <= nums.length) {
+    while (right <= nums.length) {
         let currentWindowMax = -Infinity;
 
         for (let j = left; j < right; j++) {
