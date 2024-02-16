@@ -1,9 +1,33 @@
 "use strict";
 
+// /**
+//  * solution 1
+//  * time: O(n * m)
+//  * space: O(m)
+//  * 
+//  * @param {object} customers 
+//  * @param {number} minOrders 
+//  * @param {number} minPrice 
+//  */
+// function pizzaRewards(customers, minOrders, minPrice) {
+//     let eligibleCustomers = [];
+
+//     for (let customer in customers) {
+//         const customerOrders = customers[customer];
+//         const customerOrdersAboveMinPrice = customerOrders.filter((order) => order >= minPrice);
+
+//         if (customerOrdersAboveMinPrice.length >= minOrders) {
+//             eligibleCustomers.push(customer);
+//         }
+//     }
+
+//     return eligibleCustomers;
+// }
+
 /**
- * solution 1
+ * solution 2
  * time: O(n * m)
- * space: O(m)
+ * space: O(1)
  * 
  * @param {object} customers 
  * @param {number} minOrders 
@@ -14,9 +38,13 @@ function pizzaRewards(customers, minOrders, minPrice) {
 
     for (let customer in customers) {
         const customerOrders = customers[customer];
-        const customerOrdersAboveMinPrice = customerOrders.filter((order) => order >= minPrice);
+        let customerOrdersAboveMinPriceCount = 0;
 
-        if (customerOrdersAboveMinPrice.length >= minOrders) {
+        for (let order of customerOrders) {
+            if (order >= minPrice) customerOrdersAboveMinPriceCount++;
+        }
+
+        if (customerOrdersAboveMinPriceCount >= minOrders) {
             eligibleCustomers.push(customer);
         }
     }
