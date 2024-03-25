@@ -25,9 +25,7 @@
  * @returns {boolean}
  */
 function isItLetter(character) {
-    const isLetter = /[a-zA-Z]/i;
-
-    return isLetter.test(character);
+    return /[a-zA-Z]/i.test(character);
 }
 
 console.log(isItLetter("a")); // true
