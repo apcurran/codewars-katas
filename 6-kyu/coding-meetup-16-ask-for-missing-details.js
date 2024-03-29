@@ -11,8 +11,61 @@
  * }} Person
 */
 
+// /**
+//  * solution 1
+//  * n = list length
+//  * m = Person properties
+//  * time: O(n * m)
+//  * space: O(n)
+//  * 
+//  * @param {Person[]} list 
+//  * @returns {{
+//  *  firstName: String,
+//  *   lastName: String,
+//  *   country: String,
+//  *   continent: String,
+//  *   age: Number,
+//  *   language: String,
+//  *   question: String,
+//  * }[]}
+//  */
+// function askForMissingDetails(list) {
+//     // filter
+//     return list
+//         .filter(function getMissingDetailsDevs(person) {
+//             for (let prop in person) {
+//                 const value = person[prop];
+
+//                 if (value === null) {
+//                     // keep in array
+//                     return true;
+//                 }
+//             }
+//         })
+//         .map(function addQuestionFieldToMissingDetailsDevs(person) {
+//             let missingProp = "";
+
+//             for (let prop in person) {
+//                 const value = person[prop];
+
+//                 if (value === null) {
+//                     missingProp = prop;
+
+//                     break;
+//                 }
+//             }
+
+//             const questionValue = `Hi, could you please provide your ${missingProp}.`;
+
+//             return {
+//                 ...person,
+//                 question: questionValue
+//             };
+//         });
+// }
+
 /**
- * solution 1
+ * solution 2
  * n = list length
  * m = Person properties
  * time: O(n * m)
@@ -30,38 +83,24 @@
  * }[]}
  */
 function askForMissingDetails(list) {
-    // filter
-    return list
-        .filter(function getMissingDetailsDevs(person) {
-            for (let prop in person) {
-                const value = person[prop];
+    let missingDetailsDevs = [];
 
-                if (value === null) {
-                    // keep in array
-                    return true;
-                }
+    for (let person of list) {
+        for (let prop in person) {
+            if (person[prop] === null) {
+                const question = `Hi, could you please provide your ${prop}.`;
+                const updatedPerson = {
+                    ...person,
+                    question
+                };
+                missingDetailsDevs.push(updatedPerson);
+
+                break;
             }
-        })
-        .map(function addQuestionFieldToMissingDetailsDevs(person) {
-            let missingProp = "";
+        }
+    }
 
-            for (let prop in person) {
-                const value = person[prop];
-
-                if (value === null) {
-                    missingProp = prop;
-
-                    break;
-                }
-            }
-
-            const questionValue = `Hi, could you please provide your ${missingProp}.`;
-
-            return {
-                ...person,
-                question: questionValue
-            };
-        });
+    return missingDetailsDevs;
 }
 
 const list1 = [
