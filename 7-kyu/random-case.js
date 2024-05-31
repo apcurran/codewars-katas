@@ -6,7 +6,7 @@
  * space: O(n)
  * 
  * @param {string} x 
- * @returns {strin}
+ * @returns {string}
  */
 function randomCase(x) {
     let result = "";
