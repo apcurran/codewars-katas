@@ -10,3 +10,4 @@ WHERE EXISTS
             departments.id = sales.department_id AND
             sales.price > 98
     )
+    
