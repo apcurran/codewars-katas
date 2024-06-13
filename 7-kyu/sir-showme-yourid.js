@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * solution 1
+ * solution 1 -- regex
  * n = words length
  * m = word length
  * time: O(n * m)
