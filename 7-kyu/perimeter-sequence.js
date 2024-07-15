@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * solution 1
+ * solution 1 -- math formula
  * time: O(1)
  * space: O(1)
  * 
