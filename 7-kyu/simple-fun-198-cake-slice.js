@@ -9,7 +9,7 @@
  * @returns {number} max slices possible
  */
 function cakeSlice(n) {
-    let maxSlices = 1; // 1 slice is always possible with a whole cake
+    let maxSlices = 1; // 1 piece is always possible with a whole cake
 
     for (let i = 1; i <= n; i++) {
         maxSlices += i;
