@@ -1,7 +1,22 @@
 "use strict";
 
+// /**
+//  * solution 1 -- regex
+//  * time: O(n)
+//  * space: O(n)
+//  * 
+//  * @param {string} text 
+//  * @returns {string}
+//  */
+// function areaCode(text) {
+//     // regex
+//     const areaCodeRegex = /\((\d+)\)/g;
+    
+//     return [...text.matchAll(areaCodeRegex)][0][1];
+// }
+
 /**
- * solution 1 -- regex
+ * solution 2 -- regex 2 (only match 3-digit area codes)
  * time: O(n)
  * space: O(n)
  * 
@@ -9,10 +24,10 @@
  * @returns {string}
  */
 function areaCode(text) {
-    // regex
-    const areaCodeRegex = /\((\d+)\)/g;
-    
-    return [...text.matchAll(areaCodeRegex)][0][1];
+    const areaCodeStartIndex = text.indexOf("(") + 1;
+    const areaCodeEndIndex = text.indexOf(")");
+
+    return text.slice(areaCodeStartIndex, areaCodeEndIndex);
 }
 
 console.log(areaCode("The supplier's phone number is (555) 867-5309")); // "555"
