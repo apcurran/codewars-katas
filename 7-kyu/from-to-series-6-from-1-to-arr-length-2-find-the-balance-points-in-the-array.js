@@ -3,7 +3,7 @@
 /**
  * solution 1
  * time: O(n^2)
- * space: O(n)
+ * space: O(n) -- including results space, otherwise O(1)
  * 
  * @param {number[]} arr 
  * @returns {number[]}
