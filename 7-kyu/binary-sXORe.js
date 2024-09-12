@@ -1,21 +1,43 @@
 "use strict";
 
+// /**
+//  * solution 1 -- correct, but TLE
+//  * time: O(n)
+//  * space: O(1)
+//  * 
+//  * @param {number} n 
+//  * @returns {number}
+//  */
+// function sxore(n) {
+//     let xor = 0;
+
+//     for (let i = 1; i <= n; i++) {
+//         xor ^= i;
+//     }
+
+//     return xor;
+// }
+
 /**
- * solution 1 -- correct, but TLE
- * time: O(n)
+ * solution 2
+ * time: O(1)
  * space: O(1)
  * 
  * @param {number} n 
  * @returns {number}
  */
 function sxore(n) {
-    let xor = 0;
+    const nth = n % 4;
 
-    for (let i = 1; i <= n; i++) {
-        xor ^= i;
+    if (nth === 0) {
+        return n;
+    } else if (nth === 1) {
+        return 1;
+    } else if (nth === 2) {
+        return n + 1;
+    } else if (nth === 3) {
+        return 0;
     }
-
-    return xor;
 }
 
 console.log(sxore(50)); // 51
