@@ -38,7 +38,7 @@
 // }
 
 /**
- * solution 2 -- refactor
+ * solution 2 -- refactor (using es6 default args)
  * time: O(n)
  * space: O(n)
  * 
@@ -47,10 +47,10 @@
  * @param {number} start 
  * @returns {number[]}
  */
-function every(arr, interval, start) {
+function every(arr, interval = 1, start = 0) {
     let results = [];
 
-    for (let i = start || 0; i < arr.length; i += interval || 1) {
+    for (let i = start; i < arr.length; i += interval) {
         results.push(arr[i]);
     }
 
