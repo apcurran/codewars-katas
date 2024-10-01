@@ -1,0 +1,7 @@
+CREATE OR REPLACE FUNCTION increment(my_value INTEGER)
+RETURNS INTEGER AS $$
+BEGIN
+    -- INSERT HERE
+    RETURN my_value + 1;
+END;
+$$ LANGUAGE plpgsql;
