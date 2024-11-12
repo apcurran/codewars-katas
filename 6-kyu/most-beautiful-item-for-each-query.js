@@ -1,8 +1,39 @@
 "use strict";
 
+// /**
+//  * solution 1 -- brute force, TLE
+//  * n = queries length
+//  * m = items length
+//  * time: O(n * m)
+//  * space: O(n)
+//  * 
+//  * @param {number[][]} items
+//  * @param {number[]} queries
+//  * @return {number[]}
+//  */
+// function maximumBeauty(items, queries) {
+//     let maxBeauties = [];
+
+//     for (let query of queries) {
+//         let currentMaxBeautyValue = 0; // default value based on problem description
+
+//         for (let [itemPrice, itemBeauty] of items) {
+//             // get item with price <= current query
+//             // obtain max beauty for an item with above criteria
+//             if (itemPrice <= query) {
+//                 currentMaxBeautyValue = Math.max(currentMaxBeautyValue, itemBeauty);
+//             }
+//         }
+//         // add this max amount to results
+//         maxBeauties.push(currentMaxBeautyValue);
+//     }
+
+//     return maxBeauties;
+// }
+
 /**
- * solution 1 -- brute force, TLE
- * time: O(n^2)
+ * solution 2 -- 
+ * time: O(n)
  * space: O(n)
  * 
  * @param {number[][]} items
