@@ -1,24 +1,44 @@
 "use strict";
 
+// /**
+//  * solution 1 -- BigInt conversion
+//  * time: O(n)
+//  * space: O(n)
+//  * 
+//  * @param {number} m 
+//  * @param {number} n 
+//  * @returns {number}
+//  */
+// function nMod9(m, n) {
+//     let sequence = "";
+
+//     for (let i = m; i <= n; i++) {
+//         sequence += i;
+//     }
+
+//     const bigIntResult = BigInt(sequence) % BigInt(9);
+
+//     return Number(bigIntResult);
+// }
+
 /**
- * solution 1 -- BigInt conversion
+ * solution 2 -- mod each num
  * time: O(n)
- * space: O(n)
+ * space: O(1)
  * 
  * @param {number} m 
  * @param {number} n 
  * @returns {number}
  */
 function nMod9(m, n) {
-    let sequence = "";
+    let result = 0;
 
     for (let i = m; i <= n; i++) {
-        sequence += i;
+        result += i;
+        result %= 9;
     }
 
-    const bigIntResult = BigInt(sequence) % BigInt(9);
-
-    return Number(bigIntResult);
+    return result;
 }
 
 console.log(nMod9(1,2)); // 3
