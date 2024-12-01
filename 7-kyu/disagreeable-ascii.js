@@ -9,21 +9,21 @@
  * @returns {number}
  */
 function getWeight(name) {
-    let sum = 0;
+    let totalWeight = 0;
 
     for (let char of name) {
         const charCode = char.charCodeAt(0);
         
         if (charCode >= 65 && charCode <= 90) {
             const adjustedCharCodeValue = charCode + 32;
-            sum += adjustedCharCodeValue;
+            totalWeight += adjustedCharCodeValue;
         } else if (charCode >= 97 && charCode <= 122) {
             const adjustedCharCodeValue = charCode - 32;
-            sum += adjustedCharCodeValue;
+            totalWeight += adjustedCharCodeValue;
         }
     }
 
-    return sum;
+    return totalWeight;
 }
 
 console.log(getWeight("Joe")); // 254
