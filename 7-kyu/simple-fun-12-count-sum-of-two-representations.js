@@ -2,7 +2,7 @@
 
 /**
  * solution 1 -- brute force (correct, but TLE)
- * time: O(n)
+ * time: O(n^2)
  * space: O(1)
  * 
  * @param {number} goalSum 
@@ -18,6 +18,10 @@ function countSumOfTwoRepresentations(goalSum, left, right) {
             if (a > b) continue;
 
             const currentSum = a + b;
+
+            if (currentSum > goalSum) {
+                break;
+            }
 
             if (currentSum === goalSum) {
                 validSumsCount++;
