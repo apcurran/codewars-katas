@@ -6,6 +6,7 @@
  * m = sentence length
  * time: O(n * m)
  * space: O(n + m)
+ * 
  * @param {string} str 
  * @returns {string}
  */
