@@ -20,8 +20,22 @@
 //     return false;
 // }
 
+// /**
+//  * solution 2 -- array.includes() method
+//  * time: O(n)
+//  * space: O(1)
+//  * 
+//  * @param {any[]} arr 
+//  * @returns {boolean}
+//  */
+// function oddBall(arr) {
+//     const oddWordIndex = arr.indexOf("odd");
+
+//     return arr.includes(oddWordIndex);
+// }
+
 /**
- * solution 2 -- array.includes() method
+ * solution 3 -- array.some() method
  * time: O(n)
  * space: O(1)
  * 
@@ -29,9 +43,7 @@
  * @returns {boolean}
  */
 function oddBall(arr) {
-    const oddWordIndex = arr.indexOf("odd");
-
-    return arr.includes(oddWordIndex);
+    return arr.some((elem) => arr[elem] === "odd");
 }
 
 console.log(oddBall(["even",4,"even",7,"even",55,"even",6,"even",10,"odd",3,"even"])); // true
