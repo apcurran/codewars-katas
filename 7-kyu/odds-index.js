@@ -1,7 +1,27 @@
 "use strict";
 
+// /**
+//  * solution 1
+//  * time: O(n)
+//  * space: O(1)
+//  * 
+//  * @param {any[]} arr 
+//  * @returns {boolean}
+//  */
+// function oddBall(arr) {
+//     const oddWordIndex = arr.indexOf("odd");
+
+//     for (let elem of arr) {
+//         if (typeof elem === "number" && elem === oddWordIndex) {
+//             return true;
+//         }
+//     }
+
+//     return false;
+// }
+
 /**
- * solution 1
+ * solution 2 -- array.includes() method
  * time: O(n)
  * space: O(1)
  * 
@@ -11,13 +31,7 @@
 function oddBall(arr) {
     const oddWordIndex = arr.indexOf("odd");
 
-    for (let elem of arr) {
-        if (typeof elem === "number" && elem === oddWordIndex) {
-            return true;
-        }
-    }
-
-    return false;
+    return arr.includes(oddWordIndex);
 }
 
 console.log(oddBall(["even",4,"even",7,"even",55,"even",6,"even",10,"odd",3,"even"])); // true
