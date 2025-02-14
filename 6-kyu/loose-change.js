@@ -27,7 +27,7 @@ function looseChange(cents) {
 
     let flooredCents = Math.floor(cents);
 
-    while (flooredCents / 25 >= 1) {
+    if (flooredCents / 25 >= 1) {
         // divide
         const quartersCount = Math.floor(flooredCents / 25);
         change.Quarters += quartersCount;
@@ -35,19 +35,19 @@ function looseChange(cents) {
         flooredCents = flooredCents % 25;
     }
 
-    while (flooredCents / 10 >= 1) {
+    if (flooredCents / 10 >= 1) {
         const dimesCount = Math.floor(flooredCents / 10);
         change.Dimes += dimesCount;
         flooredCents = flooredCents % 10;
     }
 
-    while (flooredCents / 5 >= 1) {
+    if (flooredCents / 5 >= 1) {
         const nickelsCount = Math.floor(flooredCents / 5);
         change.Nickels += nickelsCount;
         flooredCents = flooredCents % 5;
     }
 
-    while (flooredCents / 1 >= 1) {
+    if (flooredCents / 1 >= 1) {
         const penniesCount = Math.floor(flooredCents / 1);
         change.Pennies += penniesCount;
         flooredCents = flooredCents % 1;
