@@ -9,7 +9,7 @@
  * @returns {string}
  */
 function htmlEndTagByStartTag(startTag) {
-    const match = startTag.match(/<(\w+)/);
+    const match = startTag.match(/(\w+)/);
 
     if (!match) return "No match";
 
