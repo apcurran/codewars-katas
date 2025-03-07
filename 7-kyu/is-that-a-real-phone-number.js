@@ -10,7 +10,9 @@
  */
 function validateNumber(str) {
     const noDashes = str.replaceAll("-", "");
-    const validPhoneNumberRegex = /^(07\d{9}|\+447\d{9})$/;
+    // (?:) non-capturing group (does not need to store the reference for a .match() call later)
+    // this improves performance by not memorizing a capture group ref that I do not need for regex.test() to work
+    const validPhoneNumberRegex = /^(?:07\d{9}|\+447\d{9})$/;
 
     return validPhoneNumberRegex.test(noDashes) ? "In with a chance" : "Plenty more fish in the sea";
 }
