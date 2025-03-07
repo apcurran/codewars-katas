@@ -9,16 +9,12 @@
  * @returns {number} num with longest collatz sequence (that comes first if equal to another)
  */
 function longestCollatz(nums) {
-    // record longest num
     let longestCollatzNum = -Infinity;
-    // recorc longest num index
     let longestCollatzNumLength = -1;
 
-    // iterate list
     for (let num of nums) {
-        // check collatz sequence length
         const currentNumCollatzLength = getCollatzLength(num);
-        // possible update if conditions are met
+
         if (currentNumCollatzLength > longestCollatzNumLength) {
             longestCollatzNum = num;
             longestCollatzNumLength = currentNumCollatzLength;
@@ -40,7 +36,7 @@ console.log(longestCollatz([75, 113, 226, 75])); // 75
  */
 function getCollatzLength(num) {
     let counter = 0;
-    // while loop to check condition is met
+    
     while (num !== 1) {
         if (num % 2 === 0) {
             // even num
