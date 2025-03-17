@@ -19,6 +19,8 @@ function sortIt(list, n) {
             const wordBCharCodeLower = wordB[n - 1].toLowerCase().charCodeAt(0);
 
             if (wordACharCodeLower === wordBCharCodeLower) {
+                // account for cases when both words have the same letter ex. first letters of "ape" and "ace"
+                // need to locale compare the entire string (for this example, check the second letters of "ape" and "ace")
                 return collator.compare(wordA, wordB);
             } else {
                 return wordACharCodeLower - wordBCharCodeLower;
