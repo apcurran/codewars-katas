@@ -26,4 +26,4 @@ function findAB(numbers, c) {
 
 console.log(findAB([1,2,3], 3)); // [1,3]
 console.log(findAB([1,2,3], 6)); // [2,3]
-console.log(findAB([1,2,3], 7)); // null)
+console.log(findAB([1,2,3], 7)); // null
