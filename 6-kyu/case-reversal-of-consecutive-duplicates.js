@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * solution 1
+ * solution 1 -- basic, iterative
  * time: O(n)
  * space: O(n)
  * 
