@@ -43,30 +43,44 @@
 //     return results.join("");
 // }
 
+// /**
+//  * solution 2 -- iterative (simplified)
+//  * time: O(n)
+//  * space: O(1)
+//  * 
+//  * @param {string} str
+//  * @returns {string}
+//  */
+// function reverseCase(str) {
+//     let result = "";
+
+//     for (let i = 0; i < str.length; i++) {
+//         const char = str[i];
+
+//         if (char === str[i + 1] || char === str[i - 1]) {
+//             // consecutive char found
+//             const charAdjustedCase = char === char.toLowerCase() ? char.toUpperCase() : char.toLowerCase();
+//             result += charAdjustedCase;
+//         } else {
+//             result += char;
+//         }
+//     }
+
+//     return result;
+// }
+
 /**
- * solution 2 -- iterative (simplified)
+ * solution 3 -- regex (capture group and backreference)
  * time: O(n)
- * space: O(1)
+ * space: O(1) -- not including results
  * 
  * @param {string} str
  * @returns {string}
  */
 function reverseCase(str) {
-    let result = "";
-
-    for (let i = 0; i < str.length; i++) {
-        const char = str[i];
-
-        if (char === str[i + 1] || char === str[i - 1]) {
-            // consecutive char found
-            const charAdjustedCase = char === char.toLowerCase() ? char.toUpperCase() : char.toLowerCase();
-            result += charAdjustedCase;
-        } else {
-            result += char;
-        }
-    }
-
-    return result;
+    return str.replace(/([a-zA-Z])\1+/g, function invertCharCasing(letter) {
+        return letter.toLowerCase() === letter ? letter.toUpperCase() : letter.toLowerCase();
+    });
 }
 
 console.log(reverseCase("puzzles")); // "puZZles"
