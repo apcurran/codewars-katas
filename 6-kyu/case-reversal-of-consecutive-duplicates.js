@@ -1,46 +1,72 @@
 "use strict";
 
+// /**
+//  * solution 1 -- basic, iterative
+//  * time: O(n)
+//  * space: O(n)
+//  * 
+//  * @param {string} str
+//  * @returns {string}
+//  */
+// function reverseCase(str) {
+//     let results = [];
+//     let consectiveChar = null;
+//     let consectiveCharsCount = 0;
+
+//     for (let i = 0; i < str.length; i++) {
+//         const currentChar = str[i];
+//         const nextChar = str[i + 1];
+
+//         if (currentChar === nextChar) {
+//             consectiveCharsCount++;
+
+//             if (currentChar === currentChar.toLowerCase()) {
+//                 consectiveChar = currentChar.toUpperCase();
+//             } else {
+//                 consectiveChar = currentChar.toLowerCase();
+//             }
+//         } else if (consectiveCharsCount > 0) {
+//             results.push(consectiveChar.repeat(consectiveCharsCount + 1));
+
+//             // reset
+//             consectiveChar = null;
+//             consectiveCharsCount = 0;
+//         } else {
+//             results.push(currentChar);
+//         }
+//     }
+
+//     if (consectiveChar) {
+//         results.push(consectiveChar.repeat(consectiveCharsCount + 1));
+//     }
+
+//     return results.join("");
+// }
+
 /**
- * solution 1 -- basic, iterative
+ * solution 2 -- iterative (simplified)
  * time: O(n)
- * space: O(n)
+ * space: O(1)
  * 
  * @param {string} str
  * @returns {string}
  */
 function reverseCase(str) {
-    let results = [];
-    let consectiveChar = null;
-    let consectiveCharsCount = 0;
+    let result = "";
 
     for (let i = 0; i < str.length; i++) {
-        const currentChar = str[i];
-        const nextChar = str[i + 1];
+        const char = str[i];
 
-        if (currentChar === nextChar) {
-            consectiveCharsCount++;
-
-            if (currentChar === currentChar.toLowerCase()) {
-                consectiveChar = currentChar.toUpperCase();
-            } else {
-                consectiveChar = currentChar.toLowerCase();
-            }
-        } else if (consectiveCharsCount > 0) {
-            results.push(consectiveChar.repeat(consectiveCharsCount + 1));
-
-            // reset
-            consectiveChar = null;
-            consectiveCharsCount = 0;
+        if (char === str[i + 1] || char === str[i - 1]) {
+            // consecutive char found
+            const charAdjustedCase = char === char.toLowerCase() ? char.toUpperCase() : char.toLowerCase();
+            result += charAdjustedCase;
         } else {
-            results.push(currentChar);
+            result += char;
         }
     }
 
-    if (consectiveChar) {
-        results.push(consectiveChar.repeat(consectiveCharsCount + 1));
-    }
-
-    return results.join("");
+    return result;
 }
 
 console.log(reverseCase("puzzles")); // "puZZles"
