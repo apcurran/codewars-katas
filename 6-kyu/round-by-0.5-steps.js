@@ -1,0 +1,13 @@
+"use strict";
+
+/**
+ * solution 1 -- math
+ * time: O(1)
+ * space: O(1)
+ * 
+ * @param {number} num 
+ * @returns {number}
+ */
+function solution(num) {
+    return Math.round(num * 2) / 2;
+}
