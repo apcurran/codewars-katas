@@ -11,17 +11,16 @@
  * @returns {string[]} - top 3 product names ordered from highest revenue to lowest
  */
 function top3(products, amounts, prices) {
-    let productsWithRevenue = products.map(function mapNameWithRevenue(product, index) {
-        const productRevenue = amounts[index] * prices[index];
+    return products
+        .map(function mapNameWithRevenue(product, index) {
+            const productRevenue = amounts[index] * prices[index];
 
-        return {
-            productName: product,
-            productRevenue,
-            index,
-        };
-    });
-
-    return productsWithRevenue
+            return {
+                productName: product,
+                productRevenue,
+                index,
+            };
+        })
         .sort(function sortByRevenue(productA, productB) {
             if (productA.productRevenue === productB.productRevenue) {
                 return productA.index - productB.index;
