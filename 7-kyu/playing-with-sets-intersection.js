@@ -10,15 +10,15 @@
  * @returns {Set}
  */
 function inter(s1, s2) {
-    let result = new Set();
+    let sharedValues = new Set();
 
     // iterate s1
     for (let s1Value of s1) {
         // check if s2 has current value from s1 (yes -> add to result)
-        if (s2.has(s1Value)) result.add(s1Value);
+        if (s2.has(s1Value)) sharedValues.add(s1Value);
     }
 
-    return result;
+    return sharedValues;
 }
 
 console.log(inter(new Set([1, 2]), new Set([2, 3]))); // { 2 }
