@@ -12,10 +12,10 @@ String.prototype.camelCase = function () {
         return "";
     } else {
         return this
-                .trim()
-                .split(" ")
-                .map((word) => word[0].toUpperCase() + word.slice(1))
-                .join("");
+            .trim()
+            .split(" ")
+            .map((word) => word[0].toUpperCase() + word.slice(1))
+            .join("");
     }
 };
 

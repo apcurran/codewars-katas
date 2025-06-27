@@ -19,13 +19,13 @@ function sortTheInnerContent(words) {
         const lastChar = word[word.length - 1];
         // sort middle chars in desc order
         const sortedMiddleChars = word
-                                .slice(1, -1)
-                                .split("")
-                                .sort((a, b) => {
-                                    if (a < b) return 1;
-                                    if (a > b) return -1;
-                                })
-                                .join("");        
+            .slice(1, -1)
+            .split("")
+            .sort((a, b) => {
+                if (a < b) return 1;
+                if (a > b) return -1;
+            })
+            .join("");        
         // create a new str with first char, sorted middle chars, and last char
         const sortedWord = firstChar + sortedMiddleChars + lastChar;
         // append sorted word to new str

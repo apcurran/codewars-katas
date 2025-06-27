@@ -10,8 +10,8 @@
  */
 function errBob(str) {
     return str
-            .replace(/([bcdfghjklmnpqrstvwxyz])(\W|$)/g, "$1err$2")
-            .replace(/([BCDFGHJKLMNPQRSTVWXYZ])(\W|$)/g, "$1ERR$2");
+        .replace(/([bcdfghjklmnpqrstvwxyz])(\W|$)/g, "$1err$2")
+        .replace(/([BCDFGHJKLMNPQRSTVWXYZ])(\W|$)/g, "$1ERR$2");
 }
 
 console.log(errBob("Hello, I am Mr Bob"));

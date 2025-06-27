@@ -17,4 +17,4 @@ function meeting(rooms) {
 }
 
 console.log( meeting(["X", "O", "X"]) ); // 1
-console.log( meeting(["X","X","X","X","X"]) ); // "None available!"
+console.log( meeting(["X", "X", "X", "X", "X"]) ); // "None available!"

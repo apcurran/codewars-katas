@@ -10,9 +10,9 @@
  */
 function toAcronym(text) {
     return text
-            .split(" ")
-            .map((word) => word[0].toUpperCase())
-            .join("");
+        .split(" ")
+        .map((word) => word[0].toUpperCase())
+        .join("");
 }
 
 console.log( toAcronym("Code Wars") ); // "CW"

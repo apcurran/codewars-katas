@@ -17,11 +17,11 @@ function longestPossible(maxPlaybackTime) {
         
         return {
             ...song,
-            playback: totalSongTimeSeconds
+            playback: totalSongTimeSeconds,
         };
     })
-    .filter((song) => song.playback <= maxPlaybackTime)
-    .sort((songA, songB) => songB.playback - songA.playback);
+        .filter((song) => song.playback <= maxPlaybackTime)
+        .sort((songA, songB) => songB.playback - songA.playback);
 
     if (possibleSongs.length > 0) {
         return possibleSongs[0].title;

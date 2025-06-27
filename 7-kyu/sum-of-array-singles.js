@@ -43,7 +43,7 @@ function repeats(arr){
 // }
 
 const start = performance.now();
-repeats([4,5,7,5,4,8]);
+repeats([4, 5, 7, 5, 4, 8]);
 repeats([9, 10, 19, 13, 19, 13]);
 repeats([16, 0, 11, 4, 8, 16, 0, 11]);
 repeats([5, 17, 18, 11, 13, 18, 11, 13]);

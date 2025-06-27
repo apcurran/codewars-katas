@@ -36,8 +36,8 @@ function streetFighterSelection(fighters, startingPos, moves) {
 }
 
 const fighters = [
-	["Ryu", "E.Honda", "Blanka", "Guile", "Balrog", "Vega"],
-	["Ken", "Chun Li", "Zangief", "Dhalsim", "Sagat", "M.Bison"]
+    ["Ryu", "E.Honda", "Blanka", "Guile", "Balrog", "Vega"],
+    ["Ken", "Chun Li", "Zangief", "Dhalsim", "Sagat", "M.Bison"],
 ];
 const startingPosition = [0, 0];
 const moves = ["up", "left", "right", "left", "left"];

@@ -1,9 +1,9 @@
 // preloaded Node definition :
 class TreeNode {
-  constructor (data, children = []) {
-    this.data = data;
-    this.children = children;
-  }
+    constructor (data, children = []) {
+        this.data = data;
+        this.children = children;
+    }
 }
 
 /**

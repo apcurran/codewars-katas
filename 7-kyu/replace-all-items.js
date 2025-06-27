@@ -31,4 +31,4 @@ function replaceAll(seq, find, replace) {
 }
 
 console.log(replaceAll([], 1, 2)); // []
-console.log(replaceAll([1,2,2], 1, 2)); // [2, 2, 2]
+console.log(replaceAll([1, 2, 2], 1, 2)); // [2, 2, 2]

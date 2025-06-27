@@ -18,7 +18,7 @@ function looseChange(cents) {
         "Nickels": 0,
         "Pennies": 0,
         "Dimes": 0,
-        "Quarters": 0
+        "Quarters": 0,
     };
 
     if (cents <= 0) {

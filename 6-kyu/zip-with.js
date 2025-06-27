@@ -22,6 +22,8 @@ function zipWith(fn, a0, a1) {
     });
 }
 
-console.log( zipWith(Math.pow, [10,10,10,10], [0,1,2,3]) ); //  [1,10,100,1000]
-console.log( zipWith( function(a, b) { return a + b; }, [0,1,2,3], [0,1,2,3] ) ); //  [0,2,4,6]
-console.log( zipWith(((a,b) => a + b), [0,1,2,3,4  ], [6,5,4,3,2,1]) ); // [6,6,6,6,6  ]
+console.log( zipWith(Math.pow, [10, 10, 10, 10], [0, 1, 2, 3]) ); //  [1,10,100,1000]
+console.log( zipWith( function(a, b) {
+    return a + b; 
+}, [0, 1, 2, 3], [0, 1, 2, 3] ) ); //  [0,2,4,6]
+console.log( zipWith(((a, b) => a + b), [0, 1, 2, 3, 4  ], [6, 5, 4, 3, 2, 1]) ); // [6,6,6,6,6  ]

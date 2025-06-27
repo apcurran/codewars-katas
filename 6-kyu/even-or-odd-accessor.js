@@ -15,7 +15,7 @@ function target(n) {
 const handler = {
     get(target, prop) {
         return target(prop);
-    }
+    },
 };
 
 const evenOrOdd = new Proxy(target, handler);

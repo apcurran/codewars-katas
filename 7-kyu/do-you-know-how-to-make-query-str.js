@@ -33,10 +33,10 @@ function toQueryString(obj) {
 console.log( toQueryString({
     "username": "warrior",
     "kyu": 1,
-    "age": 28
+    "age": 28,
 }) ); // username=warrior&kyu=1&age=28
 
 console.log( toQueryString({
     "name": "shirt",
-    "colors": [ "white", "black" ]
+    "colors": [ "white", "black" ],
 }) ); // name=shirt&colors=white&colors=black

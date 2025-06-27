@@ -22,7 +22,7 @@ function countDuplicates(name, age, height) {
     return name.length - uniquePeople.size;
 }
 
-const myNames = ["John","Beth","Beth","Beth","Bill"];
-const age = [37,23,23,23,46];
-const height = [183,170,170,170,175];
+const myNames = ["John", "Beth", "Beth", "Beth", "Bill"];
+const age = [37, 23, 23, 23, 46];
+const height = [183, 170, 170, 170, 175];
 console.log(countDuplicates(myNames, age, height)); // 2

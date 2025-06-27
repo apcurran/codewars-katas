@@ -12,9 +12,9 @@ function findChildren(dancingBrigade) {
     const alphaStr = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
 
     return dancingBrigade
-            .split("")
-            .sort((a, b) => alphaStr.indexOf(a) - alphaStr.indexOf(b))
-            .join("");
+        .split("")
+        .sort((a, b) => alphaStr.indexOf(a) - alphaStr.indexOf(b))
+        .join("");
 }
 
 console.log( findChildren("beeeEBb") ); // "BbbEeee"

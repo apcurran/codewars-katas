@@ -13,9 +13,9 @@ function digitSum(strNum) {
     if (strNum.length === 1) return strNum;
     
     const digitSumTotal = strNum
-                            .split("")
-                            .reduce((sum, digit) => Number(sum) + Number(digit), 0)
-                            .toString();
+        .split("")
+        .reduce((sum, digit) => Number(sum) + Number(digit), 0)
+        .toString();
     
     // recursive case
     return digitSum(digitSumTotal);

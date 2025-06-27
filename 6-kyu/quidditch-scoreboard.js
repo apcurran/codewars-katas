@@ -28,7 +28,7 @@ function quidditchScoreboard(teams, actions) {
         ["Quaffle-pocking foul", -30],
         ["Stooging foul", -30],
         // Snitch ender
-        ["Caught Snitch", 150]
+        ["Caught Snitch", 150],
     ]);
 
     for (let i = 0; i < actionsArr.length; i++) {

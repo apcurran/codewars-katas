@@ -39,8 +39,8 @@ function displayValue(totalMinutes) {
     const values = [formattedMonths, formattedWeeks, formattedDays, formattedHours, formattedMinutes];
 
     return values
-            .filter((value) => value !== "")
-            .join(" ");
+        .filter((value) => value !== "")
+        .join(" ");
 }
 
 console.log(displayValue(52874)); // "1 month 1 week 1 day 17 hours 14 minutes"

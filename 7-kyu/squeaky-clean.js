@@ -18,5 +18,5 @@ function squeakyClean(arr) {
     });
 }
 
-console.log(squeakyClean(["click1","click2",null,"","","submitForm"]));
+console.log(squeakyClean(["click1", "click2", null, "", "", "submitForm"]));
 // ['click1', 'click2','submitForm']

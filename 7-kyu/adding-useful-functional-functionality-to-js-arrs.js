@@ -20,8 +20,8 @@ Array.range = function (start, count) {
     return result;
 };
 
-console.log( Array.range(1,3) ); // [1, 2, 3]
-console.log( Array.range(-3,5) ); // [-3,-2,-1,0,1]
+console.log( Array.range(1, 3) ); // [1, 2, 3]
+console.log( Array.range(-3, 5) ); // [-3,-2,-1,0,1]
 
 /**
  * time: O(n)

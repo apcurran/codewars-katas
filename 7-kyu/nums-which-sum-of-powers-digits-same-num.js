@@ -19,18 +19,18 @@ function eqSumPowdig(hMax, exp) {
     for (let i = 2; i <= hMax; i++) {
         // break i num into digits
         const digitsRaisedSum = String(i)
-                                    .split("")
-                                    .map((digitStr) => {
-                                        const digit = Number(digitStr);
-                                        // raise each digit to exp power
-                                        const raisedDigit = digit ** exp;
+            .split("")
+            .map((digitStr) => {
+                const digit = Number(digitStr);
+                // raise each digit to exp power
+                const raisedDigit = digit ** exp;
 
-                                        return raisedDigit;
-                                    })
-                                    // sum digit power results
-                                    .reduce((sum, currNum) => {
-                                        return sum + currNum;
-                                    }, 0);
+                return raisedDigit;
+            })
+        // sum digit power results
+            .reduce((sum, currNum) => {
+                return sum + currNum;
+            }, 0);
         // check if resulting sum is equal to original num
         if (digitsRaisedSum === i) {
             // if res matches original num, add to resNums arr

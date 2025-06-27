@@ -10,9 +10,9 @@
  */
 function insertDash(num) {
     const digitsArr = num
-                            .toString()
-                            .split("")
-                            .map((num) => +num);
+        .toString()
+        .split("")
+        .map((num) => +num);
     let resStr = "";
 
     for (let i = 0; i < digitsArr.length; i++) {

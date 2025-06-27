@@ -43,6 +43,6 @@ const basketballResults = [
     ["Sacramento Kings", "420:431"],
     ["San Antonio Spurs", "469:460"],
     ["Phoenix Suns", "523:522"],
-    ["Denver Nuggets", "646:658"]
+    ["Denver Nuggets", "646:658"],
 ];
 console.log(getLosAngelesPoints(basketballResults)); // 1023 (641 + 382)

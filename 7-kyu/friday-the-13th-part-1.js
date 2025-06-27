@@ -21,4 +21,4 @@ function killcount(counselors, jasonIntelligence) {
     return survivors;
 }
 
-console.log(killcount([["Mike", 7],["Alysa", 3]], 7)); // ["Alysa"]
+console.log(killcount([["Mike", 7], ["Alysa", 3]], 7)); // ["Alysa"]

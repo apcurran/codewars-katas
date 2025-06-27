@@ -21,7 +21,7 @@ function deEmojify(emojiString) {
         ":O": 6,
         ";)": 7,
         "^.^": 8,
-        ":(": 9
+        ":(": 9,
     };
 
     const parts = emojiString.split("  ");
@@ -29,9 +29,9 @@ function deEmojify(emojiString) {
 
     for (let part of parts) {
         const asciiCodeStr = part
-                        .split(" ")
-                        .map((emoji) => emojiHash[emoji])
-                        .join("");
+            .split(" ")
+            .map((emoji) => emojiHash[emoji])
+            .join("");
         const char = String.fromCharCode(Number(asciiCodeStr));
         results += char;
     }

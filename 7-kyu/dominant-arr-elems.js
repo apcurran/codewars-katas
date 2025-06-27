@@ -40,9 +40,9 @@
 function solve(arr) {
     return arr.filter((elem, i) => {
         return arr
-                .slice(i + 1)
-                .every((val) => val < elem);
+            .slice(i + 1)
+            .every((val) => val < elem);
     });
 }
 
-console.log( solve([1,21,4,7,5]) ); // [21,7,5]
+console.log( solve([1, 21, 4, 7, 5]) ); // [21,7,5]

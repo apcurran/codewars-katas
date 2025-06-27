@@ -27,6 +27,6 @@ function strongEnough(shockwaves, age) {
     }
 }
 
-console.log(strongEnough([[2,3,1],[3,1,1],[1,1,2]], 2)); // "Safe!"
-console.log(strongEnough([[5,8,7],[3,3,1],[4,1,2]], 2)); // "Safe!"
-console.log(strongEnough([[5,8,7],[3,3,1],[4,1,2]], 3)); // "Needs Reinforcement!"
+console.log(strongEnough([[2, 3, 1], [3, 1, 1], [1, 1, 2]], 2)); // "Safe!"
+console.log(strongEnough([[5, 8, 7], [3, 3, 1], [4, 1, 2]], 2)); // "Safe!"
+console.log(strongEnough([[5, 8, 7], [3, 3, 1], [4, 1, 2]], 3)); // "Needs Reinforcement!"

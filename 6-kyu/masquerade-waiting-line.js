@@ -28,6 +28,6 @@ function friendFind(masks) {
     return possibleFriendCount;
 }
 
-console.log(friendFind(["blue","blue","red","red","blue","green"])); // 1
-console.log(friendFind(["blue","red","blue","blue","red","blue","red"])); // 2
-console.log(friendFind(["brown","brown","red","green"])); // 0
+console.log(friendFind(["blue", "blue", "red", "red", "blue", "green"])); // 1
+console.log(friendFind(["blue", "red", "blue", "blue", "red", "blue", "red"])); // 2
+console.log(friendFind(["brown", "brown", "red", "green"])); // 0

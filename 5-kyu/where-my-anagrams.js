@@ -71,9 +71,9 @@ function anagrams(targetWord, words) {
  */
 function reorderWord(word) {
     return word
-            .split("")
-            .sort()
-            .join("");
+        .split("")
+        .sort()
+        .join("");
 }
 
 console.log(anagrams("abba", ["aabb", "abcd", "bbaa", "dada"])); // ['aabb', 'bbaa']

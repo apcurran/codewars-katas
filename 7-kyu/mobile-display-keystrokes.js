@@ -13,7 +13,7 @@ function mobileKeyboard(str) {
         ["adgjmptw", 2],
         ["behknqux", 3],
         ["cfilorvy", 4],
-        ["sz", 5]
+        ["sz", 5],
     ]);
     let totalKeystrokes = 0;
 

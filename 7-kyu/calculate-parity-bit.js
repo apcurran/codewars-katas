@@ -23,5 +23,5 @@ function checkParity(parity, binValue) {
     }
 }
 
-console.log(checkParity("even","101010")); // 1
-console.log(checkParity("odd","101010")); // 0
+console.log(checkParity("even", "101010")); // 1
+console.log(checkParity("odd", "101010")); // 0

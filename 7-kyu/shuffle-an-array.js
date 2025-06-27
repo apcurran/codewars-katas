@@ -24,4 +24,4 @@ function shuffle(arr) {
     return arr;
 }
 
-console.log(shuffle([1,2,3,4])); // ex. [3,1,4,2]
+console.log(shuffle([1, 2, 3, 4])); // ex. [3,1,4,2]

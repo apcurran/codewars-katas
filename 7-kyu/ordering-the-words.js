@@ -12,9 +12,9 @@ function orderWord(str) {
     if (!str) return "Invalid String!";
 
     return str
-            .split("")
-            .sort()
-            .join("");
+        .split("")
+        .sort()
+        .join("");
 }
 
 console.log(orderWord("")); // "Invalid String!"

@@ -20,10 +20,10 @@ function palindromeChainLength(n) {
 
 function reverseDigits(num) {
     return +num
-            .toString()
-            .split("")
-            .reverse()
-            .join("");
+        .toString()
+        .split("")
+        .reverse()
+        .join("");
 }
 
 console.log( palindromeChainLength(87) ); // 4

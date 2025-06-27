@@ -21,4 +21,4 @@ function candies(kidsCandies) {
     return candyCounter;
 }
 
-console.log( candies([5,8,6,4]) ); // 9
+console.log( candies([5, 8, 6, 4]) ); // 9

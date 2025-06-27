@@ -13,10 +13,10 @@
  */
 function extend(...objects) {
     return objects
-            .filter(isObject)
-            .reduce((fullObject, currentObject) => {
-                return { ...currentObject, ...fullObject };
-            }, {});
+        .filter(isObject)
+        .reduce((fullObject, currentObject) => {
+            return { ...currentObject, ...fullObject };
+        }, {});
 }
 
 console.log(extend({a: 1, b: 2}, {c: 3}));

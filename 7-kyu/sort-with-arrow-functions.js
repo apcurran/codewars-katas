@@ -26,7 +26,7 @@ console.log(OrderPeople(
         { age: 46, name: "roger" },
         { age: 99, name: "vinny" },
         { age: 26, name: "don" },
-        { age: 74, name: "brendan" }
-    ]
+        { age: 74, name: "brendan" },
+    ],
 )); // [{ age: 26, name: "don" }, { age: 46, name: "roger" }, { age: 74, name: "brendan" }, { age: 83, name: "joel" }, { age: 99, name: "vinny" }]
 

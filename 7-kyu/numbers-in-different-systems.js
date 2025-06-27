@@ -21,7 +21,7 @@ function sysNums(n, sys) {
     }
 }
 
-console.log(sysNums(5,2)); // 101
-console.log(sysNums(5,8)); // 5
-console.log(sysNums(250,2)); // 11111010
-console.log(sysNums(250,16)); // "fa"
+console.log(sysNums(5, 2)); // 101
+console.log(sysNums(5, 8)); // 5
+console.log(sysNums(250, 2)); // 11111010
+console.log(sysNums(250, 16)); // "fa"

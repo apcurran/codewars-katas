@@ -12,8 +12,8 @@ function scrollingText(text) {
     if (text.length === 0) return [];
 
     let rotatedText = text
-                        .toUpperCase()
-                        .split("");
+        .toUpperCase()
+        .split("");
     let rotations = [text.toUpperCase()];
 
     for (let i = 1; i < rotatedText.length; i++) {

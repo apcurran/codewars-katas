@@ -2,13 +2,13 @@
 
 function wordToBin(str){
     const binStr = str
-                    .split("")
-                    .map((char) => {
-                        return char
-                                .charCodeAt(0)
-                                .toString(2)
-                                .padStart(8, "0");
-                    });
+        .split("")
+        .map((char) => {
+            return char
+                .charCodeAt(0)
+                .toString(2)
+                .padStart(8, "0");
+        });
 
     return binStr;
 }

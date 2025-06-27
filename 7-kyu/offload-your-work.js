@@ -31,8 +31,8 @@ function workNeeded(projectMinutes, freelancersTime) {
     }
 }
 
-console.log(workNeeded(60, [[1,0]])); // "Easy Money!"
-console.log(workNeeded(60, [[0,0]])); // "I need to work 1 hour(s) and 0 minute(s)"
+console.log(workNeeded(60, [[1, 0]])); // "Easy Money!"
+console.log(workNeeded(60, [[0, 0]])); // "I need to work 1 hour(s) and 0 minute(s)"
 
 /**
  * @param {number} timeInMinutes 

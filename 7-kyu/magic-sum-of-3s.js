@@ -16,7 +16,7 @@ function magicSum(numbers) {
 
     for (let num of numbers) {
         // if num is odd & num has a 3 digit somewhere,
-            // add to sum
+        // add to sum
         if (num % 2 === 1 && String(num).includes("3")) {
             sum += num;
         }

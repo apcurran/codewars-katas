@@ -12,9 +12,9 @@ function camelize(str) {
     if (str === "") return "";
 
     return str
-            .match(/[a-z0-9]+/gi)
-            .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
-            .join("");
+        .match(/[a-z0-9]+/gi)
+        .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
+        .join("");
 }
 
 console.log( camelize("example name") ); // "ExampleName"

@@ -3,10 +3,10 @@ function reverseNumber(num) {
     const numWithoutSign = Math.abs(num);
 
     const reversedNumStr = numWithoutSign
-                          .toString()
-                          .split("")
-                          .reverse()
-                          .join("");
+        .toString()
+        .split("")
+        .reverse()
+        .join("");
     const finalReversedNum = numSign * (Number(reversedNumStr));
 
     return finalReversedNum;

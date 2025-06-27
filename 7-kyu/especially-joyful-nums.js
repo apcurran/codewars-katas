@@ -10,12 +10,12 @@
  */
 function numberJoy(n) {
     const digitSum = String(n)
-                        .split("")
-                        .reduce((sum, curr) => sum + Number(curr), 0);
+        .split("")
+        .reduce((sum, curr) => sum + Number(curr), 0);
     const reversedSum = +String(digitSum)
-                            .split("")
-                            .reverse()
-                            .join("");
+        .split("")
+        .reverse()
+        .join("");
     const digitSumRevSumProd = digitSum * reversedSum;
 
     return n === digitSumRevSumProd;

@@ -6,4 +6,4 @@ function array_diff_very_fast(arrA, arrB) {
     return arrA.filter((num) => !setB.has(num));
 }
 
-console.log(array_diff_very_fast([1,2,2,2,3], [2])); // [1, 3]
+console.log(array_diff_very_fast([1, 2, 2, 2, 3], [2])); // [1, 3]

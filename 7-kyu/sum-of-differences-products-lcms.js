@@ -1,6 +1,6 @@
 function gcd(a, b) {
     while (b !== 0) {
-      [a, b] = [b, a % b];
+        [a, b] = [b, a % b];
     }
     
     return a;
@@ -30,4 +30,4 @@ function sumDifferencesBetweenProductsAndLCMs(pairs){
 }
 
 // console.log(sumDifferencesBetweenProductsAndLCMs([[15,18], [4,5], [12,60]]));
-console.log((sumDifferencesBetweenProductsAndLCMs([[1,1], [0,0], [13,91]])));
+console.log((sumDifferencesBetweenProductsAndLCMs([[1, 1], [0, 0], [13, 91]])));

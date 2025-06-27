@@ -30,7 +30,7 @@ function isAgeDiverse(devs) {
         seventies: false,
         eighties: false,
         nineties: false,
-        centenarian: false
+        centenarian: false,
     };
 
     for (let dev of devs) {
@@ -58,9 +58,9 @@ function isAgeDiverse(devs) {
     }
 
     return Object.values(ageGroups)
-                 .every(function isAgeGroupHere(ageGroup) {
-                    return ageGroup === true;
-                 });
+        .every(function isAgeGroupHere(ageGroup) {
+            return ageGroup === true;
+        });
 }
 
 const list1 = [
@@ -73,6 +73,6 @@ const list1 = [
     { firstName: "Lukas", lastName: "X.", country: "Croatia", continent: "Europe", age: 75, language: "Python" },
     { firstName: "Chloe", lastName: "K.", country: "Guernsey", continent: "Europe", age: 88, language: "Ruby" },
     { firstName: "Viktoria", lastName: "W.", country: "Bulgaria", continent: "Europe", age: 98, language: "PHP" },
-    { firstName: "Piotr", lastName: "B.", country: "Poland", continent: "Europe", age: 128, language: "JavaScript" }
-  ];
+    { firstName: "Piotr", lastName: "B.", country: "Poland", continent: "Europe", age: 128, language: "JavaScript" },
+];
 console.log(isAgeDiverse(list1)); // true

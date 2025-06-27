@@ -15,7 +15,7 @@ var Calculator = {
         const sum = args.reduce((sum, currentNum) => sum + currentNum, 0);
 
         return sum / args.length;
-    }
+    },
 };
 
 console.log(Calculator.average()); // 0

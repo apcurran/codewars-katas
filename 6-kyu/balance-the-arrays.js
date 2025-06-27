@@ -51,6 +51,6 @@ function balance(arr1, arr2) {
 
 let array1;
 let array2;
-array1 = ["a","a","a","a","a","b","b","b"],
-array2 = ["c","c","c","c","c","d","d","d"];
+array1 = ["a", "a", "a", "a", "a", "b", "b", "b"],
+array2 = ["c", "c", "c", "c", "c", "d", "d", "d"];
 console.log(balance(array1, array2)); // true

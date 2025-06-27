@@ -23,4 +23,4 @@ function largestSum(arr) {
     return maxSum;
 }
 
-console.log( largestSum([31,-41,59,26,-53,58,97,-93,-23,84]) ); // 187
+console.log( largestSum([31, -41, 59, 26, -53, 58, 97, -93, -23, 84]) ); // 187

@@ -35,7 +35,7 @@ function toLeetSpeak(str) {
         ["W", "W"],
         ["X", "X"],
         ["Y", "Y"],
-        ["Z", "2"]
+        ["Z", "2"],
     ]);
     let leetedWord = "";
 

@@ -12,17 +12,17 @@
  */
 function smallWordHelper(sentence) {
     return sentence
-            .split(" ")
-            .map((word) => {
-                if (word.length <= 3) {
-                    // if word 3 chars or fewer -- uppercase word
-                    return word.toUpperCase();
-                } else {
-                    // else -- remove all vowels from word
-                    return word.replace(/a|e|i|o|u/gi, "");
-                }
-            })
-            .join(" ");
+        .split(" ")
+        .map((word) => {
+            if (word.length <= 3) {
+                // if word 3 chars or fewer -- uppercase word
+                return word.toUpperCase();
+            } else {
+                // else -- remove all vowels from word
+                return word.replace(/a|e|i|o|u/gi, "");
+            }
+        })
+        .join(" ");
 }
 
 console.log(smallWordHelper("The quick brown fox jumps over the lazy dog"));

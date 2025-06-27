@@ -61,6 +61,6 @@ console.log(strCount(
         second: "2",
         third: false,
         fourth: ["anytime", 2, 3, 4],
-        fifth: null
-    }
+        fifth: null,
+    },
 ));

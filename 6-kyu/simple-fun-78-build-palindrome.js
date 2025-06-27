@@ -16,10 +16,10 @@ function buildPalindrome(str) {
 
         if (isPalindrome(currentChunk)) {
             const reversedPriorChunk = str
-                                        .split("")
-                                        .slice(0, i)
-                                        .reverse()
-                                        .join("");
+                .split("")
+                .slice(0, i)
+                .reverse()
+                .join("");
 
             result = `${str}${reversedPriorChunk}`;
 

@@ -8,9 +8,9 @@
  */
 function kebabize(str) {
     return str
-            .replace(/[^a-z]/gi, "")
-            .replace(/^[A-Z]/, (letter) => letter.toLowerCase())
-            .replace(/[A-Z]/g, (letter) => "-" + letter.toLowerCase());
+        .replace(/[^a-z]/gi, "")
+        .replace(/^[A-Z]/, (letter) => letter.toLowerCase())
+        .replace(/[A-Z]/g, (letter) => "-" + letter.toLowerCase());
 }
 
 console.log( kebabize("camelsHaveThreeHumps") ); // "camels-have-three-humps"

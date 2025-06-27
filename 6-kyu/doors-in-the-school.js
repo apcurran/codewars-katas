@@ -18,8 +18,8 @@ function doors(n) {
     }
 
     return doorsArr
-            .filter((num) => num > 0)
-            .length;
+        .filter((num) => num > 0)
+        .length;
 }
 
 console.log( doors(5) ); // 2

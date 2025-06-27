@@ -21,5 +21,5 @@ function conferencePicker(citiesVisited, citiesOffered) {
     return "No worthwhile conferences this year!";
 }
 
-console.log(conferencePicker(["Mexico City","Johannesburg","Stockholm","Osaka","Saint Petersburg","London"],["Stockholm","Paris","Melbourne"])); // "Paris"
-console.log(conferencePicker(["London","Berlin","Mexico City","Melbourne","Buenos Aires","Hong Kong","Madrid","Paris"],["Berlin","Melbourne"])); // "No worthwhile conferences this year!"
+console.log(conferencePicker(["Mexico City", "Johannesburg", "Stockholm", "Osaka", "Saint Petersburg", "London"], ["Stockholm", "Paris", "Melbourne"])); // "Paris"
+console.log(conferencePicker(["London", "Berlin", "Mexico City", "Melbourne", "Buenos Aires", "Hong Kong", "Madrid", "Paris"], ["Berlin", "Melbourne"])); // "No worthwhile conferences this year!"

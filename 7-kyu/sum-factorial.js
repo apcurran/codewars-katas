@@ -31,4 +31,4 @@ function calcFactorial(num) {
 }
 
 console.log( sumFactorial([4, 6]) ); // 744
-console.log( sumFactorial([5,4,1]) ); // 145
+console.log( sumFactorial([5, 4, 1]) ); // 145

@@ -27,5 +27,5 @@ function crap(arr, bags, cap) {
     return presentsCount > totalCapacity ? "Cr@p" : "Clean";
 }
 
-console.log(crap([["_","_","_","_"], ["_","_","_","@"], ["_","_","@", "_"]], 2, 2));
+console.log(crap([["_", "_", "_", "_"], ["_", "_", "_", "@"], ["_", "_", "@", "_"]], 2, 2));
 // "Clean"

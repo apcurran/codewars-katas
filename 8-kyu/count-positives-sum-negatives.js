@@ -1,17 +1,17 @@
 function countPositivesSumNegatives(inputArr) {
     if (inputArr == null || inputArr.length === 0) {
-      return [];
+        return [];
     }
     
     let positiveNumsArr = [];
     let negativeNumsTotal = 0;
     
     for (let num of inputArr) {
-      if (num > 0) {
-        positiveNumsArr.push(num);
-      } else {
-        negativeNumsTotal += num;
-      }
+        if (num > 0) {
+            positiveNumsArr.push(num);
+        } else {
+            negativeNumsTotal += num;
+        }
     }
     
     return [positiveNumsArr.length, negativeNumsTotal];

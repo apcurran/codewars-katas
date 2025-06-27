@@ -33,4 +33,4 @@ function myWindow(length, offset, list) {
 
 console.log(myWindow(2, 1, [0, 1, 2, 3, 4])); // [ [0,1], [1,2], [2,3], [3,4] ]
 console.log(myWindow(2, 3, [0, 1, 2, 3, 4])); // [ [0,1], [3,4] ]
-console.log(myWindow(0, 1, [0,1,2])); // [ [], [], [], [] ]
+console.log(myWindow(0, 1, [0, 1, 2])); // [ [], [], [], [] ]

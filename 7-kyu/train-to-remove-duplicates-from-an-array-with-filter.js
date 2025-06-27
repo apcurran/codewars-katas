@@ -14,4 +14,4 @@ function unique(arr) {
     });
 }
 
-console.log(unique([1,1,1,2,2,3])); // [1, 2, 3]
+console.log(unique([1, 1, 1, 2, 2, 3])); // [1, 2, 3]

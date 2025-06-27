@@ -14,8 +14,8 @@
  */
 function zeroAndOne(str) {
     return str
-            .replace(/(01|10)/g, "")
-            .length;
+        .replace(/(01|10)/g, "")
+        .length;
 }
 
 console.log( zeroAndOne("01010") ); // 1

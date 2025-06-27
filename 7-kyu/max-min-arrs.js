@@ -28,4 +28,4 @@ function solve(arr){
     return results;
 }
 
-console.log( solve([15,11,10,7,12]) ); // [15,7,12,10,11]
+console.log( solve([15, 11, 10, 7, 12]) ); // [15,7,12,10,11]

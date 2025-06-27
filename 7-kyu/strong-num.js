@@ -14,8 +14,8 @@
 function strong(n) {
     // get factorial of each digit
     const factorials = String(n)
-                        .split("")
-                        .map((digitStr) => getFactorial(digitStr));
+        .split("")
+        .map((digitStr) => getFactorial(digitStr));
 
 
     // add factorial results of digits together

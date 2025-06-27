@@ -4,16 +4,16 @@ function toWeirdCase(str){
     
     for (let word of wordsArr) {
         const casedWord = word
-                            .split("")
-                            .map((letter, index) => {
-                                if (index % 2 === 0) {
-                                    // Letter index is even
-                                    return letter.toUpperCase();
-                                } else {
-                                    return letter.toLowerCase();
-                                }
-                            })
-                            .join("");
+            .split("")
+            .map((letter, index) => {
+                if (index % 2 === 0) {
+                    // Letter index is even
+                    return letter.toUpperCase();
+                } else {
+                    return letter.toLowerCase();
+                }
+            })
+            .join("");
         
         casedWordsArr.push(casedWord);
     }

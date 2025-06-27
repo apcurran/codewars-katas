@@ -14,13 +14,13 @@ class RankCalculator {
     static GetRankings(climbers) {
         const climbersSummedPoints = climbers.map((climberObj) => {
             const pointsSum = climberObj.points
-                                            .sort((a, b) => b - a)
-                                            .slice(0, 6)
-                                            .reduce((sum, curr) => sum + curr, 0);
+                .sort((a, b) => b - a)
+                .slice(0, 6)
+                .reduce((sum, curr) => sum + curr, 0);
 
             return {
                 name: climberObj.name,
-                points: pointsSum
+                points: pointsSum,
             };
         });
 
@@ -31,6 +31,6 @@ class RankCalculator {
 console.log( RankCalculator.GetRankings(
     [
         {"name":"SKOFIC Domen", "points":[55, 100, 100, 25, 100, 51, 80]},
-        {"name":"SCHUBERT Jakob", "points":[80, 80, 40, 47, 65, 100, 65, 37]}
-    ]
+        {"name":"SCHUBERT Jakob", "points":[80, 80, 40, 47, 65, 100, 65, 37]},
+    ],
 ) ); // [{"name":"SKOFIC Domen", "points":486}, {"name":"SCHUBERT Jakob", "points":437}]

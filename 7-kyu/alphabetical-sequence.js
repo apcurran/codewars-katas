@@ -10,9 +10,9 @@
  */
 function alphaSeq(str) {
     let alphabeticalStrList = str
-                            .toLowerCase()
-                            .split("")
-                            .sort();
+        .toLowerCase()
+        .split("")
+        .sort();
     let result = [];
 
     for (let char of alphabeticalStrList) {

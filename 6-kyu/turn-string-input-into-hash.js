@@ -7,10 +7,10 @@ function strToHash(str){
     if (str === "") return {};
 
     const splitStrArr = str
-                        .split(", ")
-                        .map((partialStr) => {
-                            return partialStr.split("=");
-                        });
+        .split(", ")
+        .map((partialStr) => {
+            return partialStr.split("=");
+        });
 
     let resultObj = {};
 

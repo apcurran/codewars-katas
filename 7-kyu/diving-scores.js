@@ -11,9 +11,9 @@
  */
 function scoreOfDive(scores, tariff) {
     const validScoresSum = [...scores]
-                            .sort((a, b) => a - b)
-                            .slice(2, -2)
-                            .reduce((sum, currNum) => sum + currNum, 0);
+        .sort((a, b) => a - b)
+        .slice(2, -2)
+        .reduce((sum, currNum) => sum + currNum, 0);
 
     const divingScore = validScoresSum * tariff;
     

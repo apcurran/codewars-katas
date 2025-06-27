@@ -9,12 +9,12 @@ function zebulansNightmare(functionName) {
     const strings = functionName.split("_");
 
     return strings
-            .map((str, index) => {
-                if (index === 0) return str;
+        .map((str, index) => {
+            if (index === 0) return str;
 
-                return titleCaseString(str);
-            })
-            .join("");
+            return titleCaseString(str);
+        })
+        .join("");
 }
 
 /**

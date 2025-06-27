@@ -31,6 +31,6 @@ function midpointSum(nums) {
 }
 
 console.log( midpointSum([4, 1, 7, 9, 3, 9]) ); // 3
-console.log( midpointSum([1,0,1]) ); // 1
-console.log( midpointSum([-10,3,7,8,-6,-13,21]) ); // 4
-console.log( midpointSum([1,0,0]) ); // undefined
+console.log( midpointSum([1, 0, 1]) ); // 1
+console.log( midpointSum([-10, 3, 7, 8, -6, -13, 21]) ); // 4
+console.log( midpointSum([1, 0, 0]) ); // undefined

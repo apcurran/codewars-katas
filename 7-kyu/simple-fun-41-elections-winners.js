@@ -36,9 +36,9 @@ function electionsWinners(votes, k) {
     }
 }
 
-console.log(electionsWinners([2, 3, 5, 2],3)); // 2
-console.log(electionsWinners([1, 3, 3, 1, 1],0)); // 0
-console.log(electionsWinners([5, 1, 3, 4, 1],0)); // 1
-console.log(electionsWinners([1, 1, 1, 1],1)); // 4
-console.log(electionsWinners([1, 1, 1, 1],0)); // 0
-console.log(electionsWinners([3, 1, 1, 3, 1],2)); // 2
+console.log(electionsWinners([2, 3, 5, 2], 3)); // 2
+console.log(electionsWinners([1, 3, 3, 1, 1], 0)); // 0
+console.log(electionsWinners([5, 1, 3, 4, 1], 0)); // 1
+console.log(electionsWinners([1, 1, 1, 1], 1)); // 4
+console.log(electionsWinners([1, 1, 1, 1], 0)); // 0
+console.log(electionsWinners([3, 1, 1, 3, 1], 2)); // 2

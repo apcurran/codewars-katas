@@ -66,4 +66,4 @@ function findDup(arr) {
 //     return arrSum - uniqueValuesSum;
 // }
 
-console.log( findDup([1,3,2,5,4,5,7,6]) ); // 5
+console.log( findDup([1, 3, 2, 5, 4, 5, 7, 6]) ); // 5

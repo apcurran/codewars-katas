@@ -2,8 +2,8 @@
 
 function iqTest(numsArr) {
     const nums = numsArr
-                    .split(" ")
-                    .map((numStr) => Number(numStr));
+        .split(" ")
+        .map((numStr) => Number(numStr));
 
     let evens = [];
     let odds = [];

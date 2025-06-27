@@ -10,12 +10,12 @@
  */
 function firstNonRepeatingLetter(str) {
     const nonRepeatChar = str
-                            .split("")
-                            .find((char) => {
-                                const myRegex = new RegExp(char, "gi");
+        .split("")
+        .find((char) => {
+            const myRegex = new RegExp(char, "gi");
 
-                                return str.match(myRegex).length === 1;
-                            });
+            return str.match(myRegex).length === 1;
+        });
     
     return nonRepeatChar ? nonRepeatChar : "";
 }

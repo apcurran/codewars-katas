@@ -37,7 +37,7 @@ class Block {
     }
 }
 
-let b = new Block([2,4,6]);
+let b = new Block([2, 4, 6]);
 console.log( b.getWidth() ); // 2
 console.log( b.getLength() ); // 4
 console.log( b.getHeight() ); // 6

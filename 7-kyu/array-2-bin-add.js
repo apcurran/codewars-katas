@@ -20,5 +20,5 @@ function arr2bin(arr) {
     return sum.toString(2);
 }
 
-console.log(arr2bin([1,2])); // "11"
-console.log(arr2bin([1,2,"a"])); // false
+console.log(arr2bin([1, 2])); // "11"
+console.log(arr2bin([1, 2, "a"])); // false

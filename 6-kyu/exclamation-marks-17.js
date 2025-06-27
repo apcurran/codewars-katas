@@ -43,6 +43,6 @@ function balance(left, right) {
     }
 }
 
-console.log( balance("!!","??") ); // 4 < 6 -> "Right"
-console.log( balance("!??","?!!") ); // "Left"
-console.log( balance("!?!!","?!?") ); // "Left"
+console.log( balance("!!", "??") ); // 4 < 6 -> "Right"
+console.log( balance("!??", "?!!") ); // "Left"
+console.log( balance("!?!!", "?!?") ); // "Left"

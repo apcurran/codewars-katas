@@ -10,7 +10,7 @@
  */
 function groupByCommas(n) {
     const formatter = new Intl.NumberFormat("en-US", {
-        style: "decimal"
+        style: "decimal",
     });
 
     return formatter.format(n);

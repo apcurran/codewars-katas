@@ -37,11 +37,11 @@ function checkConcatenatedSum(originalNum, n) {
     const positiveOriginalNum = Math.abs(originalNum);
     const strNum = String(positiveOriginalNum);
     const digitsSum = strNum
-            .split("")
-            .reduce((sum, currentDigit) => sum + Number(currentDigit.repeat(n)), 0);
+        .split("")
+        .reduce((sum, currentDigit) => sum + Number(currentDigit.repeat(n)), 0);
 
     return positiveOriginalNum === digitsSum;
 }
 
-console.log(checkConcatenatedSum(2997 , 3)); // true
-console.log(checkConcatenatedSum(-2997 , 3)); // true
+console.log(checkConcatenatedSum(2997, 3)); // true
+console.log(checkConcatenatedSum(-2997, 3)); // true

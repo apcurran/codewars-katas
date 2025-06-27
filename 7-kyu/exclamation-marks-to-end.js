@@ -9,11 +9,11 @@ function remove(str) {
     if (!str.includes("!")) return str;
 
     let exclamationMarksStr = str
-                                .match(/!/g)
-                                .join("");
+        .match(/!/g)
+        .join("");
     const noMarkStr = str
-                    .split("!")
-                    .join("");
+        .split("!")
+        .join("");
 
     return `${noMarkStr}${exclamationMarksStr}`;
 }

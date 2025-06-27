@@ -14,8 +14,8 @@ function solve(str) {
     // break up string into pieces split on vowels (aeiou)
     // remove empty strings from splitStrArr
     const strChunks = str
-                        .split(/[aeiou]/g)
-                        .filter((chunk) => chunk !== "");
+        .split(/[aeiou]/g)
+        .filter((chunk) => chunk !== "");
     let maxConsonantChunkValue = -Infinity;
     // for each chunk in splitStrArr
     for (let chunk of strChunks) {

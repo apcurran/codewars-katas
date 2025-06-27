@@ -41,10 +41,10 @@ function nMod9(m, n) {
     return result;
 }
 
-console.log(nMod9(1,2)); // 3
-console.log(nMod9(1,3)); // 6
-console.log(nMod9(2,3)); // 5
+console.log(nMod9(1, 2)); // 3
+console.log(nMod9(1, 3)); // 6
+console.log(nMod9(2, 3)); // 5
 console.log(nMod9(1, 8)); // 0
-console.log(nMod9(1,20)); // 3
-console.log(nMod9(10,100)); // 1
-console.log(nMod9(1,2016)); // 0
+console.log(nMod9(1, 20)); // 3
+console.log(nMod9(10, 100)); // 1
+console.log(nMod9(1, 2016)); // 0

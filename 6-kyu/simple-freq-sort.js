@@ -19,20 +19,20 @@ function solve(arr) {
 
     // sort Map obj by frequency
     const sortedNumberFrequencies = new Map([...numberFrequencies.entries()]
-                                        .sort((a, b) => {
-                                            const numAFrequency = a[1];
-                                            const numBFrequency = b[1];
+        .sort((a, b) => {
+            const numAFrequency = a[1];
+            const numBFrequency = b[1];
 
-                                            if (numAFrequency === numBFrequency) {
-                                                const numA = a[0];
-                                                const numB = b[0];
+            if (numAFrequency === numBFrequency) {
+                const numA = a[0];
+                const numB = b[0];
 
-                                                // if elem frequency is the same, sort nums ASC
-                                                return numA - numB;
-                                            }
+                // if elem frequency is the same, sort nums ASC
+                return numA - numB;
+            }
 
-                                            return numBFrequency - numAFrequency;
-                                        }));
+            return numBFrequency - numAFrequency;
+        }));
     // iterate sorted Map and make a new array with items by most frequent elem
     let mostFrequentNumbersSorted = [];
 
@@ -46,4 +46,4 @@ function solve(arr) {
     return mostFrequentNumbersSorted;
 }
 
-console.log( solve([2,3,5,3,7,9,5,3,7]) ); // [3,3,3,5,5,7,7,2,9]
+console.log( solve([2, 3, 5, 3, 7, 9, 5, 3, 7]) ); // [3,3,3,5,5,7,7,2,9]

@@ -91,7 +91,7 @@ function askForMissingDetails(list) {
                 const question = `Hi, could you please provide your ${prop}.`;
                 const updatedPerson = {
                     ...person,
-                    question
+                    question,
                 };
                 missingDetailsDevs.push(updatedPerson);
 
@@ -106,7 +106,7 @@ function askForMissingDetails(list) {
 const list1 = [
     { firstName: null, lastName: "I.", country: "Argentina", continent: "Americas", age: 35, language: "Java" },
     { firstName: "Lukas", lastName: "X.", country: "Croatia", continent: "Europe", age: 35, language: null },
-    { firstName: "Madison", lastName: "U.", country: "United States", continent: "Americas", age: 32, language: "Ruby" }
+    { firstName: "Madison", lastName: "U.", country: "United States", continent: "Americas", age: 32, language: "Ruby" },
 ];
 
 console.log(askForMissingDetails(list1));

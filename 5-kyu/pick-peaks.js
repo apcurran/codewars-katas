@@ -11,7 +11,7 @@
 function pickPeaks(arr) {
     let results = {
         pos: [],
-        peaks: []
+        peaks: [],
     };
 
     if (arr.length <= 2) {

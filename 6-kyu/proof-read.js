@@ -12,13 +12,13 @@
  */
 function proofread(str) {
     return str
-            .toLowerCase()
-            .replace(/ie/g, "ei")
-            .split(". ")
-            .map(function uppercaseSentenceFirstLetter(sentence) {
-                return sentence[0].toUpperCase() + sentence.slice(1);
-            })
-            .join(". ");
+        .toLowerCase()
+        .replace(/ie/g, "ei")
+        .split(". ")
+        .map(function uppercaseSentenceFirstLetter(sentence) {
+            return sentence[0].toUpperCase() + sentence.slice(1);
+        })
+        .join(". ");
 }
 
 console.log(proofread("THe neIghBour's ceiLing FEll on His Head. The WiEght of It crusHed him To thE gROuNd."));

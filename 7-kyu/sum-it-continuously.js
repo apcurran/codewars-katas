@@ -23,4 +23,4 @@ function add(arr) {
     return results;
 }
 
-console.log(add([1,2,3,4,5])); // [1, 3, 6, 10, 15]
+console.log(add([1, 2, 3, 4, 5])); // [1, 3, 6, 10, 15]

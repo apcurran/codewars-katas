@@ -21,7 +21,7 @@ function createSecretHolder(secret) {
 
     return {
         getSecret,
-        setSecret
+        setSecret,
     };
 }
 

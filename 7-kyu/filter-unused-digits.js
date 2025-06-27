@@ -10,8 +10,8 @@
  */
 function unusedDigits(...nums) {
     const numsDigitsArr = nums
-                            .join("")
-                            .split("");    
+        .join("")
+        .split("");    
     const allDigitsStr = "0123456789";
     let missingDigitsStr = "";
 

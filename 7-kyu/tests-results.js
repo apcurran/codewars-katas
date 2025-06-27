@@ -14,7 +14,7 @@ function testResult(grades) {
     let marks = {
         h: 0,
         a: 0,
-        l: 0
+        l: 0,
     };
 
     for (let grade of grades) {

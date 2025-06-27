@@ -24,9 +24,9 @@ function arrAdder(arr) {
     return res.trim();
 }
 
-const arr = [["J","L","L","M"]
-,["u","i","i","a"]
-,["s","v","f","n"]
-,["t","e","e",""]];
+const arr = [["J", "L", "L", "M"]
+    , ["u", "i", "i", "a"]
+    , ["s", "v", "f", "n"]
+    , ["t", "e", "e", ""]];
 
 console.log( arrAdder(arr) ); // "Just Live Life Man"

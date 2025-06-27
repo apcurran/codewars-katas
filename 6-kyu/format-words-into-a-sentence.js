@@ -23,9 +23,9 @@ function formatWords(words) {
     }
 
     return wordsEmptyStrsRemoved
-            .slice(0, -1)
-            .join(", ")
-            .concat(" and ", wordsEmptyStrsRemoved[wordsEmptyStrsRemoved.length - 1]);
+        .slice(0, -1)
+        .join(", ")
+        .concat(" and ", wordsEmptyStrsRemoved[wordsEmptyStrsRemoved.length - 1]);
 }
 
 console.log( formatWords(["one", "two", "three", "four"]) ); // 'one, two, three and four'

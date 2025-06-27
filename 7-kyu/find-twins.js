@@ -21,4 +21,4 @@ function elimination(arr) {
 }
 
 console.log(elimination([2, 3, 6, 34, 7, 8, 2])); // 2
-console.log(elimination([2,5,34,1,22])); // null
+console.log(elimination([2, 5, 34, 1, 22])); // null

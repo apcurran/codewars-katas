@@ -50,4 +50,4 @@ function spacey(words){
     return results;
 }
 
-console.log( spacey(["i", "have","no","space"]) ); // ['i','ihave','ihaveno','ihavenospace']
+console.log( spacey(["i", "have", "no", "space"]) ); // ['i','ihave','ihaveno','ihavenospace']

@@ -35,6 +35,6 @@ const matrix = [
     [2, 2, 2],
     [2, 2, 2],
     [1, 2, 3],
-    [2, 2, 1]
+    [2, 2, 1],
 ];
 console.log(differentSquares(matrix)); // 6

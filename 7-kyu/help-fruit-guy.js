@@ -13,8 +13,8 @@ function removeRotten(bagOfFruits) {
 
     const freshFruit = bagOfFruits.map((fruit) => {
         return fruit
-                .replace("rotten", "")
-                .toLowerCase();
+            .replace("rotten", "")
+            .toLowerCase();
     });
 
     return freshFruit;

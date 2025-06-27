@@ -21,8 +21,8 @@ function bingo(tickets, winAmount) {
         if (hasWinningNumber) miniWinsCount++;
     }
     // compare win total to mini-wins
-        // if >= return "Winner!"
-        // else return "Loser!"
+    // if >= return "Winner!"
+    // else return "Loser!"
     return miniWinsCount >= winAmount ? "Winner!" : "Loser!";
 }
 

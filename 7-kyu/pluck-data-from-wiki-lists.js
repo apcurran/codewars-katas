@@ -15,13 +15,13 @@ function pluck(data, property) {
 
 const gdpPerCapita = [{
     "name": "Luxembourg",
-    "dollars": 111716
+    "dollars": 111716,
 }, {
     "name": "Norway",
-    "dollars": 97013
+    "dollars": 97013,
 }, {
     "name": "Qatar",
-    "dollars": 93965
+    "dollars": 93965,
 }];
 
 console.log( pluck(gdpPerCapita, "name") ); // ["Luxembourg","Norway","Qatar"]

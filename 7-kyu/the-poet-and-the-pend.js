@@ -89,6 +89,6 @@ function pendulum(values) {
     return resultArr;
 }
 
-console.log( pendulum([4,10,9]) ); // [10,4,9]
-console.log( pendulum([8,7,10,3]) ); // [8,3,7,10]
-console.log( pendulum([6,6,8,5,10]) ); // [10,6,5,6,8]
+console.log( pendulum([4, 10, 9]) ); // [10,4,9]
+console.log( pendulum([8, 7, 10, 3]) ); // [8,3,7,10]
+console.log( pendulum([6, 6, 8, 5, 10]) ); // [10,6,5,6,8]

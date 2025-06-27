@@ -35,7 +35,7 @@ function getRow(n) {
         [23, "WWWWWWWWWWWWWWWWWWWWWWWXYZ"],
         [24, "XXXXXXXXXXXXXXXXXXXXXXXXYZ"],
         [25, "YYYYYYYYYYYYYYYYYYYYYYYYYZ"],
-        [26, "ZZZZZZZZZZZZZZZZZZZZZZZZZZ"]
+        [26, "ZZZZZZZZZZZZZZZZZZZZZZZZZZ"],
     ]);
 
     const index = n > 26 ? (n % 26) : n;

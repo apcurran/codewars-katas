@@ -22,4 +22,4 @@ function maxGap(numbers) {
     return largestDifference;
 }
 
-console.log( maxGap([13,10,2,9,5]) ); // 4
+console.log( maxGap([13, 10, 2, 9, 5]) ); // 4

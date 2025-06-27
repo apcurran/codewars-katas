@@ -42,4 +42,4 @@ function ìsZeroBalanced(nums) {
 }
 
 console.log(ìsZeroBalanced([3])); // false
-console.log(ìsZeroBalanced([0,0,0,0,0,0])); // true
+console.log(ìsZeroBalanced([0, 0, 0, 0, 0, 0])); // true

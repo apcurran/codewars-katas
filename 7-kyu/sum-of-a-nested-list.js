@@ -10,8 +10,8 @@
  */
 function sumNested(arr) {
     return arr
-            .flat(Infinity)
-            .reduce((sum, currentNum) => sum + currentNum, 0);
+        .flat(Infinity)
+        .reduce((sum, currentNum) => sum + currentNum, 0);
 }
 
 console.log(sumNested([1, [2, [3, [4]]]])); // 10

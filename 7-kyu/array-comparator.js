@@ -24,5 +24,5 @@ function matchArrays(arr1, arr2) {
     return sharedElementsCount;
 }
 
-console.log(matchArrays(["incapsulation","OOP","array"],
-["time", "propert","paralelism","OOP"])); // 1
+console.log(matchArrays(["incapsulation", "OOP", "array"],
+    ["time", "propert", "paralelism", "OOP"])); // 1

@@ -24,7 +24,7 @@ function finalAttackValue(playerAttackValue, monsterList) {
     return playerAttackValue;
 }
 
-console.log(finalAttackValue(50, [50,105,200])); // 110
+console.log(finalAttackValue(50, [50, 105, 200])); // 110
 
 /**
  * @param {number} a 

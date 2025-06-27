@@ -22,4 +22,4 @@ function makeParts(arr, chunkSize) {
     return results;
 }
 
-console.log(makeParts([1,2,3,4,5], 2)); // [[1,2],[3,4],[5]]
+console.log(makeParts([1, 2, 3, 4, 5], 2)); // [[1,2],[3,4],[5]]

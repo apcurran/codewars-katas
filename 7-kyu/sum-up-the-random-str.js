@@ -10,8 +10,8 @@
  */
 function sumFromString(str) {
     return str
-            .split(/[^0-9]/)
-            .reduce((sum, currStr) => sum + Number(currStr), 0);
+        .split(/[^0-9]/)
+        .reduce((sum, currStr) => sum + Number(currStr), 0);
 }
 
 console.log(sumFromString("In 2015, I want to know how much does iPhone 6+ cost?")); // 2021

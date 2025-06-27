@@ -30,7 +30,7 @@ function xMarksTheSpot(input) {
 
 console.log( xMarksTheSpot([
     ["x", "o"],
-    ["o", "o"]
+    ["o", "o"],
 ]) ); // [0, 0]
 
 console.log( xMarksTheSpot([
@@ -39,12 +39,12 @@ console.log( xMarksTheSpot([
     ["o", "o", "o", "o", "o", "o", "o", "o"],
     ["o", "o", "o", "o", "o", "o", "o", "o"],
     ["o", "o", "o", "o", "o", "o", "x", "o"],
-    ["o", "o", "o", "o", "o", "o", "o", "o"]
+    ["o", "o", "o", "o", "o", "o", "o", "o"],
 ]) ); // [4, 6]
 
 console.log( xMarksTheSpot([
     ["o", "o"],
-    ["o", "o"]
+    ["o", "o"],
 ]) ); // []
 
 

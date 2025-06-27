@@ -19,7 +19,7 @@ function boredom(staff) {
         IS: 8,
         retail: 5,
         cleaning: 4,
-        "pissing about": 25
+        "pissing about": 25,
     };
     let teamCumulativeScore = 0;
 
@@ -42,5 +42,5 @@ console.log(boredom({
     tim: "IS", jim: "finance",
     randy: "pissing about", sandy: "cleaning", andy: "cleaning",
     katie: "cleaning", laura: "pissing about", saajid: "regulation",
-    alex: "regulation", john: "accounts", mr: "canteen"
+    alex: "regulation", john: "accounts", mr: "canteen",
 })); // "i can handle this"

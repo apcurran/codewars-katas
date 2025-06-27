@@ -23,4 +23,4 @@ function reverse(arr) {
     }
 }
 
-console.log(reverse([1,2,3,4,5])); // arr = [5,4,3,2,1]
+console.log(reverse([1, 2, 3, 4, 5])); // arr = [5,4,3,2,1]

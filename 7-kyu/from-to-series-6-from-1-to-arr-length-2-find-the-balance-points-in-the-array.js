@@ -39,6 +39,6 @@ function findBalance(arr) {
     return balancePoints;
 }
 
-console.log(findBalance([1,2,3])); // []
-console.log(findBalance([1,2,3,2,1])); // [2]
-console.log(findBalance([1,1,1,1,1])); // [1, 2, 3]
+console.log(findBalance([1, 2, 3])); // []
+console.log(findBalance([1, 2, 3, 2, 1])); // [2]
+console.log(findBalance([1, 1, 1, 1, 1])); // [1, 2, 3]

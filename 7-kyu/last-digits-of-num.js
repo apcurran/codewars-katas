@@ -9,10 +9,10 @@ function lastDigit(num, digits) {
     if (digits <= 0) return [];
 
     return num
-            .toString()
-            .split("")
-            .map((num) => +num)
-            .slice(-digits);
+        .toString()
+        .split("")
+        .map((num) => +num)
+        .slice(-digits);
 }
 
-console.log( lastDigit(123767,4) ); // [3, 7, 6, 7]
+console.log( lastDigit(123767, 4) ); // [3, 7, 6, 7]

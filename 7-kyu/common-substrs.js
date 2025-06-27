@@ -34,5 +34,5 @@ function SubstringTest(str1, str2) {
     return false;
 }
 
-console.log( SubstringTest("Something","Home") ); // true
-console.log( SubstringTest("Something","Fun") ); // false
+console.log( SubstringTest("Something", "Home") ); // true
+console.log( SubstringTest("Something", "Fun") ); // false

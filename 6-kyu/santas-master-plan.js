@@ -37,6 +37,6 @@ console.log(getAttendees(
     [
         { name: "Easter Bunny", response: "declined" },
         { name: "Jack Frost", response: "declined" },
-        { name: "Tooth Fairy", response: "accepted" }
-    ]
+        { name: "Tooth Fairy", response: "accepted" },
+    ],
 )); // ["Tooth Fairy", "Frosty the Snowman"]

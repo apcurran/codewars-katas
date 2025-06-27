@@ -24,4 +24,4 @@ Array.prototype.sortReloaded = function(dir) {
     });
 };
 
-console.log([3,1,5,3,6,1,2].sortReloaded("asc")); // [1,1,2,3,3,5,6]
+console.log([3, 1, 5, 3, 6, 1, 2].sortReloaded("asc")); // [1,1,2,3,3,5,6]

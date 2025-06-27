@@ -42,7 +42,7 @@ const Calculator = (() => {
         add,
         subtract,
         multiply,
-        divide
+        divide,
     };
 })();
 

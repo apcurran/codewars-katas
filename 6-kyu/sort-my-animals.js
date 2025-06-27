@@ -48,7 +48,7 @@ const animals = [
     { name: "Dog", numberOfLegs: 4 },
     { name: "Pig", numberOfLegs: 4 },
     { name: "Human", numberOfLegs: 2 },
-    { name: "Bird", numberOfLegs: 2 }
+    { name: "Bird", numberOfLegs: 2 },
 ];
 console.log(sortAnimal(animals));
 // [

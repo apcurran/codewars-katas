@@ -12,12 +12,12 @@
  */
 function showMe(yourID) {
     return yourID
-            // if word does not have a dash,
-            // this will keep the word full (even keeping empty spaces)
-            .split("-")
-            .every(function isName(word) {
-                return /^[A-Z][a-z]+$/.test(word);
-            });
+    // if word does not have a dash,
+    // this will keep the word full (even keeping empty spaces)
+        .split("-")
+        .every(function isName(word) {
+            return /^[A-Z][a-z]+$/.test(word);
+        });
 }
 
 console.log(showMe("Francis")); // true

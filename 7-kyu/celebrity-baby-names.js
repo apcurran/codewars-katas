@@ -30,4 +30,4 @@ function validName(arr) {
 }
 
 console.log(validName(["Cruz", "Zuma"])); // "Congratulations, your baby names are compatible!"
-console.log(validName(["Buddy Bear","Romeo", "Olive"])); // "Congratulations, your baby names are compatible!"
+console.log(validName(["Buddy Bear", "Romeo", "Olive"])); // "Congratulations, your baby names are compatible!"

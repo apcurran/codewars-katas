@@ -28,7 +28,7 @@ function valAndUnits(str) {
 
     return {
         val: value,
-        units: unit
+        units: unit,
     };
 }
 

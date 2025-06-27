@@ -30,8 +30,8 @@ function binRota(matrix) {
 
 console.log(binRota(
     [["Stefan", "Raj", "Marie"],
-    ["Alexa", "Amy", "Edward"],
-    ["Liz", "Claire", "Juan"],
-    ["Dee", "Luke", "Katie"]]
+        ["Alexa", "Amy", "Edward"],
+        ["Liz", "Claire", "Juan"],
+        ["Dee", "Luke", "Katie"]],
 ));
 // ["Stefan", "Raj", "Marie", "Edward", "Amy", "Alexa", "Liz", "Claire", "Juan", "Katie", "Luke", "Dee"]

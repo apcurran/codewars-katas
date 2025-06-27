@@ -13,5 +13,5 @@ function exampleSort(arr, exampleArr) {
     return arr.sort((a, b) => exampleArr.indexOf(a) - exampleArr.indexOf(b));
 }
 
-console.log(exampleSort([1,3,4,4,4,4,5], [4,1,2,3,5]));
+console.log(exampleSort([1, 3, 4, 4, 4, 4, 5], [4, 1, 2, 3, 5]));
 // [4,4,4,4,1,3,5]

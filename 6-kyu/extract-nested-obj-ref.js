@@ -30,10 +30,10 @@ const obj = {
         history: {
             hometown: "bratislava",
             bio: {
-                funFact: "I like fishing."
-            }
-        }
-    }
+                funFact: "I like fishing.",
+            },
+        },
+    },
 };
 
 console.log(obj.hash("person.name")); // 'joe'

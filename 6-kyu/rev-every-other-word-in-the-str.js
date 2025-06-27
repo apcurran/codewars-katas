@@ -13,18 +13,18 @@
 function reverse(str) {
     // remove leading/trailing whitespace
     return str
-            .trim()
-            .split(" ")
-            .map((word, index) =>  {
-                // rev every other word
-                if (index % 2 !== 0) {
-                    return revStr(word);
-                }
+        .trim()
+        .split(" ")
+        .map((word, index) =>  {
+            // rev every other word
+            if (index % 2 !== 0) {
+                return revStr(word);
+            }
 
-                return word;
-            })
-            // one space between words
-            .join(" ");
+            return word;
+        })
+    // one space between words
+        .join(" ");
 }
 
 function revStr(str) {

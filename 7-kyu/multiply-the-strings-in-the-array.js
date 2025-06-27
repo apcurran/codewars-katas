@@ -16,4 +16,4 @@ function arrMultiply(arr) {
     return String(product);
 }
 
-console.log(arrMultiply(["9","6"])); // "54"
+console.log(arrMultiply(["9", "6"])); // "54"

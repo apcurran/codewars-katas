@@ -7,9 +7,9 @@
  */
 function calculate(str) {
     const result = str
-                    .replace(/plus/gi, "+")
-                    .replace(/minus/gi, "-")
-                    .toString();
+        .replace(/plus/gi, "+")
+        .replace(/minus/gi, "-")
+        .toString();
 
     console.log(result);
 }

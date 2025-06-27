@@ -10,17 +10,17 @@
  */
 function sevenAte9(str) {
     const mappedStr = str
-                        .split("")
-                        .map((currNum, index, currArr) => {
-                            const prevNum = currArr[index - 1];
-                            const nextNum = currArr[index + 1];
+        .split("")
+        .map((currNum, index, currArr) => {
+            const prevNum = currArr[index - 1];
+            const nextNum = currArr[index + 1];
 
-                            if (currNum === "9" && prevNum === "7" && nextNum === "7") {
-                                return "";
-                            }
+            if (currNum === "9" && prevNum === "7" && nextNum === "7") {
+                return "";
+            }
 
-                            return currNum;
-                        });
+            return currNum;
+        });
 
     return mappedStr.join("");                        
 }

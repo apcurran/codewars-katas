@@ -69,5 +69,5 @@ function common(a, b, c) {
     return sum;
 }
 
-console.log(common([1,2,3],[5,3,2],[7,3,2])); // 5 (2 + 3)
-console.log(common([1,2,2,3],[5,3,2,2],[7,3,2,2])); // 7 (2 + 2 + 3)
+console.log(common([1, 2, 3], [5, 3, 2], [7, 3, 2])); // 5 (2 + 3)
+console.log(common([1, 2, 2, 3], [5, 3, 2, 2], [7, 3, 2, 2])); // 7 (2 + 2 + 3)

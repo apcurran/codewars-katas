@@ -46,6 +46,6 @@ const list = [
     { "-2": "Vatsan" },
     { "5": "for" },
     { "6": "a" },
-    { "12": "spin" }
+    { "12": "spin" },
 ];
 console.log(sentence(list)); // "Vatsan took his dog for a spin"

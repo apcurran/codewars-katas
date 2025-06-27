@@ -24,7 +24,7 @@ function gridIndex(grid, indices) {
 
 console.log(gridIndex(
     [["m", "y", "e"],
-    ["x", "a", "m"],
-    ["p", "l", "e"]],
-    [1, 3, 5, 8]
+        ["x", "a", "m"],
+        ["p", "l", "e"]],
+    [1, 3, 5, 8],
 )); // "meal"

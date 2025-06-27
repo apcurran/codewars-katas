@@ -19,4 +19,4 @@ function same(aArr, bArr) {
     return String(aOrdered) === String(bOrdered);
 }
 
-console.log(same([[2,5], [3,6]], [[5,2], [3,6]])); //  same -> true
+console.log(same([[2, 5], [3, 6]], [[5, 2], [3, 6]])); //  same -> true

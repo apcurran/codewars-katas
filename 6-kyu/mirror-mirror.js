@@ -11,8 +11,8 @@ function evilTwin(obj) {
     // cannot create and return a new obj
     return Object.create(obj, {
         hasGoatee: {
-            value: true
-        }
+            value: true,
+        },
     });
 }
 

@@ -16,9 +16,9 @@ function shorter_reverse_longer(a, b) {
     }
 
     const reversedLongStr = longestStr
-                                .split("")
-                                .reverse()
-                                .join("");
+        .split("")
+        .reverse()
+        .join("");
 
     return `${shortestStr}${reversedLongStr}${shortestStr}`;
 }

@@ -51,8 +51,8 @@ const data1 = {
     id: 1,
     items: [
         { id: 2 },
-        { id: 3 }
-    ]
+        { id: 3 },
+    ],
 };
 const data2 = {
     id: 1,
@@ -61,10 +61,10 @@ const data2 = {
         {
             id: 3, items: [
                 { id: 4 },
-                { id: 5 }
-            ]
-        }
-    ]
+                { id: 5 },
+            ],
+        },
+    ],
 };
 const data3 = {
     id: 1,
@@ -74,13 +74,13 @@ const data3 = {
             id: 3,
             items: [
                 { id: 4 },
-                { id: 5 }
-            ]
+                { id: 5 },
+            ],
         }, {
             id: 6,
-            items: [{ id: 7 }]
-        }]
-    }]
+            items: [{ id: 7 }],
+        }],
+    }],
 };
 
 console.log( extractIds({}) ); // []

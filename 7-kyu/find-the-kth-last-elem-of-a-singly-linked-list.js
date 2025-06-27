@@ -2,8 +2,8 @@
 
 // Predefined object for list nodes
 function ListNode(data, next = null) {
-  this.data = data;
-  this.next = next;
+    this.data = data;
+    this.next = next;
 }
 
 /**

@@ -2,10 +2,10 @@
 
 function vaporcode(str) {
     return str
-            .toUpperCase()
-            .replace(/\s/g, "")
-            .split("")
-            .join("  ");
+        .toUpperCase()
+        .replace(/\s/g, "")
+        .split("")
+        .join("  ");
 }
 
 console.log(vaporcode("Lets go to the movies")); // "L  E  T  S  G  O  T  O  T  H  E  M  O  V  I  E  S"

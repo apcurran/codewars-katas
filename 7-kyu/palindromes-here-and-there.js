@@ -29,9 +29,9 @@ function convertPalindromes(nums) {
  */
 function isNumPalindrome(num) {
     const revvedNum = +String(num)
-                        .split("")
-                        .reverse()
-                        .join("");
+        .split("")
+        .reverse()
+        .join("");
 
     return num === revvedNum;
 }

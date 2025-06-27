@@ -10,6 +10,6 @@
  */
 function countDevelopers(list) {
     return list
-            .filter((dev) => dev.language === "JavaScript" && dev.continent === "Europe")
-            .length;
+        .filter((dev) => dev.language === "JavaScript" && dev.continent === "Europe")
+        .length;
 }

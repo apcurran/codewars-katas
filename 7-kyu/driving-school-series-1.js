@@ -18,4 +18,4 @@ function passed(list) {
     return Math.round(validScoresSum / validScores.length);
 }
 
-console.log(passed([10,10,10,18,20,20])); // 12
+console.log(passed([10, 10, 10, 18, 20, 20])); // 12

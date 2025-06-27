@@ -28,4 +28,4 @@ function determineTime(durations) {
 console.log( determineTime(["00:30:00", "02:30:00", "00:15:00"]) ); // true
 console.log( determineTime([]) ); // true
 console.log( determineTime(["12:00:00", "12:00:00"]) ); // true
-console.log( determineTime(["06:00:00","12:00:00","06:30:00"]) ); // false
+console.log( determineTime(["06:00:00", "12:00:00", "06:30:00"]) ); // false

@@ -21,6 +21,6 @@ function solve(arr) {
     return sum;
 }
 
-console.log(solve([1,2,8,7])); // 4
-console.log(solve([4,1,2,3,12])); // 11
-console.log(solve([2,3,2,3,4,2,12,3])); // 1
+console.log(solve([1, 2, 8, 7])); // 4
+console.log(solve([4, 1, 2, 3, 12])); // 11
+console.log(solve([2, 3, 2, 3, 4, 2, 12, 3])); // 1

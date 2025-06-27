@@ -10,11 +10,11 @@
  */
 function gordon(str){
     return str
-            .toUpperCase()
-            .replace(/[AEIOU]/g, (letter) => letter === "A" ? "@" : "*")
-            .split(" ")
-            .map((word) => `${word}!!!!`)
-            .join(" ");
+        .toUpperCase()
+        .replace(/[AEIOU]/g, (letter) => letter === "A" ? "@" : "*")
+        .split(" ")
+        .map((word) => `${word}!!!!`)
+        .join(" ");
 }
 
 console.log( gordon("i am a chef") ); // '*!!!! @M!!!! @!!!! CH*F!!!!'

@@ -19,4 +19,4 @@ function sumItUp(numbersWithBases) {
     return sum;
 }
 
-console.log(sumItUp([["101",16],["7640",8],["1",9]])); // 4258
+console.log(sumItUp([["101", 16], ["7640", 8], ["1", 9]])); // 4258

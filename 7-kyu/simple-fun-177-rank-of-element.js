@@ -30,5 +30,5 @@ function rankOfElement(arr, targetIndex) {
     return rank;
 }
 
-console.log(rankOfElement([2, 1, 2, 1, 2],2)); // 3
-console.log(rankOfElement([2, 1, 2, 2, 2],2)); // 2
+console.log(rankOfElement([2, 1, 2, 1, 2], 2)); // 3
+console.log(rankOfElement([2, 1, 2, 2, 2], 2)); // 2

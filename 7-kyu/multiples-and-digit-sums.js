@@ -16,12 +16,12 @@ function procedure(n) {
     }
 
     return multiplesOfN
-            .map((num) => {
-                return String(num)
-                        .split("")
-                        .reduce((sum, digit) => Number(sum) + Number(digit), 0);
-            })
-            .reduce((sum, num) => sum + num, 0);
+        .map((num) => {
+            return String(num)
+                .split("")
+                .reduce((sum, digit) => Number(sum) + Number(digit), 0);
+        })
+        .reduce((sum, num) => sum + num, 0);
 }
 
 console.log( procedure(30) ); // 18

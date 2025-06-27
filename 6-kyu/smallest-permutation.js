@@ -12,8 +12,8 @@
 function minPermutation(n) {
     // sort digits
     let digits = String(Math.abs(n))
-                    .split("")
-                    .sort();
+        .split("")
+        .sort();
     // check if first digit is a leading 0,
     // if so, swap with next non 0 digit
     let i = 0;

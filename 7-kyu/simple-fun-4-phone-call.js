@@ -44,8 +44,8 @@ function phoneCall(min1, min2_10, min11, centsLeft) {
     return totalMinutes;
 }
 
-console.log(phoneCall(3,1,2,20)); // 14
-console.log(phoneCall(2,2,1,2)); // 1
-console.log(phoneCall(10,1,2,22)); // 11
-console.log(phoneCall(2,2,1,24)); // 14
-console.log(phoneCall(1,2,1,6)); // 3
+console.log(phoneCall(3, 1, 2, 20)); // 14
+console.log(phoneCall(2, 2, 1, 2)); // 1
+console.log(phoneCall(10, 1, 2, 22)); // 11
+console.log(phoneCall(2, 2, 1, 24)); // 14
+console.log(phoneCall(1, 2, 1, 6)); // 3

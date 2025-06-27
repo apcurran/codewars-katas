@@ -15,7 +15,7 @@ const nato = (function () {
         "P": "Papa", "Q": "Quebec", "R": "Romeo",
         "S": "Sierra", "T": "Tango", "U": "Uniform",
         "V": "Victor", "W": "Whiskey", "X": "X-ray",
-        "Y": "Yankee", "Z": "Zulu"
+        "Y": "Yankee", "Z": "Zulu",
     };
 
     return function (/** @type {string} */ word) {

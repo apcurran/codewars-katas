@@ -28,8 +28,8 @@ function rotateMatrix(arr) {
 console.log( rotateMatrix(
     [
         [-1, 4, 5],
-        [2, 3, 4]
-    ]
+        [2, 3, 4],
+    ],
 ) ); 
 // [
 //     [5, 4],

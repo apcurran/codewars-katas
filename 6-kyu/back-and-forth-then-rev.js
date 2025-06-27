@@ -61,4 +61,4 @@ function arrange(sArr) {
     return resTArr;
 }
 
-console.log( arrange([1,2,3,4,5,6]) ); // [1,6,5,2,3,4]
+console.log( arrange([1, 2, 3, 4, 5, 6]) ); // [1,6,5,2,3,4]

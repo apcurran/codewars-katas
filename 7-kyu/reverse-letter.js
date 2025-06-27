@@ -6,9 +6,9 @@ function reverseLetter(str) {
     const alphabeticStrOnly = str.replace(/[^a-zA-Z]/g, "");
 
     return alphabeticStrOnly
-            .split("")
-            .reverse()
-            .join("");
+        .split("")
+        .reverse()
+        .join("");
 }
 
 // Method 2

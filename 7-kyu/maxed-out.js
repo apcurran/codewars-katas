@@ -17,5 +17,5 @@ function maxedOut(arr) {
     return "You've pushed me to the max!";
 }
 
-console.log(maxedOut([1,2])); // 9
-console.log(maxedOut([7600,32300,66700,22200,4554,323000,5555])); // 9
+console.log(maxedOut([1, 2])); // 9
+console.log(maxedOut([7600, 32300, 66700, 22200, 4554, 323000, 5555])); // 9

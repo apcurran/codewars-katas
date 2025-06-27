@@ -14,7 +14,7 @@ function numObj(nums) {
     for (let num of nums) {
         const numCharCodeValue = String.fromCharCode(num);
         const numObj = {
-            [num]: numCharCodeValue
+            [num]: numCharCodeValue,
         };
         results.push(numObj);
     }
@@ -22,4 +22,4 @@ function numObj(nums) {
     return results;
 }
 
-console.log(numObj([118,117,120])); // [{'118':'v'}, {'117':'u'}, {'120':'x'}]
+console.log(numObj([118, 117, 120])); // [{'118':'v'}, {'117':'u'}, {'120':'x'}]

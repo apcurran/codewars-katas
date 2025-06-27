@@ -13,12 +13,12 @@ function partlist(arr) {
 
     for (let i = 1; i < arr.length; i++) {
         const firstPartArr = arr
-                                .slice(0, i)
-                                .join(" ");
+            .slice(0, i)
+            .join(" ");
         
         const secondPartArr = arr
-                                .slice(i)
-                                .join(" ");
+            .slice(i)
+            .join(" ");
         const newArr = [firstPartArr, secondPartArr];
         resArr.push(newArr);
     }

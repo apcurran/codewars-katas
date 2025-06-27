@@ -12,9 +12,9 @@ function isNarcissistic(n) {
     // }
 
     const digits = n
-                    .toString()
-                    .split("")
-                    .reduce((total, currNum, index, arr) => total + Number(currNum) ** arr.length, 0);
+        .toString()
+        .split("")
+        .reduce((total, currNum, index, arr) => total + Number(currNum) ** arr.length, 0);
     
     return n === digits;                
 }

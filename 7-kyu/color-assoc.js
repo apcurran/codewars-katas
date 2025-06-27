@@ -13,10 +13,10 @@ function colourAssociation(colorsArr) {
         const [color, assoc] = colorTuple;
 
         return {
-            [color]: assoc
+            [color]: assoc,
         };
     });
 }
 
-console.log( colourAssociation([["red", "energy"],["yellow", "creativity"],["brown" , "friendly"],["green", "growth"]]) );
+console.log( colourAssociation([["red", "energy"], ["yellow", "creativity"], ["brown", "friendly"], ["green", "growth"]]) );
 // [{red: "energy"}, {yellow: "creativity"}, {brown: "friendly"}, {green: "growth"}]

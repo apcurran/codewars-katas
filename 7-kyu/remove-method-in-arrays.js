@@ -20,5 +20,5 @@ Array.prototype.remove = function (index) {
     return arr;
 };
 
-let myArr = [1,2,3];
+let myArr = [1, 2, 3];
 console.log(myArr.remove(1)); // [1,3]

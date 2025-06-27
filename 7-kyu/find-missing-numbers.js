@@ -22,4 +22,4 @@ function findMissingNumbers(arr) {
     return results;
 }
 
-console.log(findMissingNumbers([-3,-2,1,5])); // [-1,0,2,3,4]
+console.log(findMissingNumbers([-3, -2, 1, 5])); // [-1,0,2,3,4]

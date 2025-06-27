@@ -3,7 +3,7 @@ function gridMap(fn, arr) {
 }
 
 console.log(gridMap((x) => x + 1, [
-        [1, 2, 3],
-        [4, 5, 6]
-    ]
+    [1, 2, 3],
+    [4, 5, 6],
+],
 ));

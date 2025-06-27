@@ -10,9 +10,9 @@
  */
 function makeString(str) {
     return str
-            .split(" ")
-            .map((word) => word[0])
-            .join("");
+        .split(" ")
+        .map((word) => word[0])
+        .join("");
 }
 
 console.log( makeString("cars are very nice") ); // "cavn"

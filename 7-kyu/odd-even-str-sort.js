@@ -41,11 +41,11 @@
 function sortMyString(str) {
     const letterArr = str.split("");
     const evenGroup = letterArr
-                        .filter((letter, index) => index % 2 === 0)
-                        .join("");
+        .filter((letter, index) => index % 2 === 0)
+        .join("");
     const oddGroup = letterArr
-                        .filter((letter, index) => index % 2 !== 0)
-                        .join("");
+        .filter((letter, index) => index % 2 !== 0)
+        .join("");
 
     return `${evenGroup} ${oddGroup}`;
 }

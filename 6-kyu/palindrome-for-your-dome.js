@@ -12,8 +12,8 @@ function palindrome(str) {
     // disregard non-alphanumberic chars 
     // case insensitive
     const alphaNumLowerStr = str
-                                .replace(/[^\w]/g, "")
-                                .toLowerCase();
+        .replace(/[^\w]/g, "")
+        .toLowerCase();
     let revvedAlphaNumStr = "";
 
     for (let i = alphaNumLowerStr.length - 1; i >=0; i--) {

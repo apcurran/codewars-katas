@@ -32,8 +32,10 @@ console.log( returnSpecifics(
         b:"str",
         c:2,
         d:true,
-        e:function(a){return a;},
-        f:3
-    }
+        e:function(a){
+            return a;
+        },
+        f:3,
+    },
 ) ); // [1, 2, 3, "e"]
 console.log( returnSpecifics({}) ); // ['The Object is Empty']

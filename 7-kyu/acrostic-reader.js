@@ -10,8 +10,8 @@
  */
 function readOut(acrostic) {
     return acrostic
-            .map((word) => word[0])
-            .join("");
+        .map((word) => word[0])
+        .join("");
 }
 
 console.log(readOut(["Jolly", "Amazing", "Courteous", "Keen"])); // "JACK"

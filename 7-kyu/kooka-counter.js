@@ -12,8 +12,8 @@ function kookaCounter(laughing) {
     if (laughing === "") return 0;
 
     return laughing
-            .match(/(ha)+|(Ha)+/g)
-            .length;
+        .match(/(ha)+|(Ha)+/g)
+        .length;
 }
 
 console.log( kookaCounter("") ); // 0

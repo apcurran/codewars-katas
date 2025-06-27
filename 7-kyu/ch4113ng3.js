@@ -29,7 +29,7 @@ function nerdify(text) {
         ["A", "4"],
         ["e", "3"],
         ["E", "3"],
-        ["l", "1"]
+        ["l", "1"],
     ]);
     let updatedText = "";
 

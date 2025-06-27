@@ -15,7 +15,7 @@ function getTheVowels(word) {
         ["e", "i"],
         ["i", "o"],
         ["o", "u"],
-        ["u", "a"]
+        ["u", "a"],
     ]);
     let vowelCounter = 0;
     // keep track of prev vowel in var

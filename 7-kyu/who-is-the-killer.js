@@ -37,16 +37,16 @@ console.log(killer(
     {
         "James": ["Jacob", "Bill", "Lucas"],
         "Johnny": ["David", "Kyle", "Lucas"],
-        "Peter": ["Lucy", "Kyle"]
+        "Peter": ["Lucy", "Kyle"],
     },
-    ["Lucas", "Bill"]
+    ["Lucas", "Bill"],
 )); // "James"
 
 console.log(killer(
     {
         "Brad": [],
         "Megan": ["Ben", "Kevin"],
-        "Finn": []
+        "Finn": [],
     },
-    ["Ben"]
+    ["Ben"],
 )); // "Megan"

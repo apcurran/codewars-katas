@@ -21,5 +21,5 @@ Object.defineProperty(Array.prototype, "containsAll", {
         }
 
         return true;
-    }
+    },
 });

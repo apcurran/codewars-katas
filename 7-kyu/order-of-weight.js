@@ -33,5 +33,5 @@ function arrange(arr) {
     });
 }
 
-console.log(arrange(["200G","300G","150G","100KG"]));
+console.log(arrange(["200G", "300G", "150G", "100KG"]));
 // ["150G","200G","300G","100KG"]

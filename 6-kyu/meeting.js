@@ -10,8 +10,8 @@
  */
 function meeting(str) {
     const nameArr = str
-                        .toUpperCase()
-                        .split(";");
+        .toUpperCase()
+        .split(";");
     const orderedNames = nameArr.map((name) => {
         const [firstName, lastName] = name.split(":");
 

@@ -56,8 +56,8 @@ function isOpposite(s1, s2) {
     return true;
 }
 
-console.log(isOpposite("ab","AB")); // true
-console.log(isOpposite("aB","Ab")); // true
-console.log(isOpposite("aBcd","AbCD")); // true
-console.log(isOpposite("AB","Ab")); // false
-console.log(isOpposite("","")); // false
+console.log(isOpposite("ab", "AB")); // true
+console.log(isOpposite("aB", "Ab")); // true
+console.log(isOpposite("aBcd", "AbCD")); // true
+console.log(isOpposite("AB", "Ab")); // false
+console.log(isOpposite("", "")); // false

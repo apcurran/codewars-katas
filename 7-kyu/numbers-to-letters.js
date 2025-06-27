@@ -35,7 +35,7 @@ function switcher(nums){
         ["4", "w"],
         ["3", "x"],
         ["2", "y"],
-        ["1", "z"]
+        ["1", "z"],
     ]);
 
     let resultStr = "";

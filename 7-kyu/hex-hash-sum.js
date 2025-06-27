@@ -46,12 +46,12 @@ function hexHash(str) {
 
     for (let i = 0; i < str.length; i++) {
         const charHex = str[i]
-                            .charCodeAt(0)
-                            .toString(16);
+            .charCodeAt(0)
+            .toString(16);
         const charHexNumsArr = charHex.replace(/\D/g, ""); // remove non-digits
         const charHexArrSum = charHexNumsArr
-                                .split("")
-                                .reduce((sum, curr) => sum + Number(curr), 0);
+            .split("")
+            .reduce((sum, curr) => sum + Number(curr), 0);
         hexSum += charHexArrSum;
     }
 

@@ -94,7 +94,7 @@ function protein(rna) {
         // Stop codon
         ["UAA", "Stop"],
         ["UGA", "Stop"],
-        ["UAG", "Stop"]
+        ["UAG", "Stop"],
     ]);
 
     let translatedProteinSeq = "";

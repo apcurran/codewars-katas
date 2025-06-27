@@ -32,4 +32,4 @@ function solve(arr){
     return results;
 }
 
-console.log(solve(["abode","ABc","xyzD"])); // [4, 3, 1]
+console.log(solve(["abode", "ABc", "xyzD"])); // [4, 3, 1]
