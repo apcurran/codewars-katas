@@ -1,4 +1,4 @@
-function solution(val){
+function solution(val) {
     const valStr = String(val);
     const paddedStr = valStr.padStart(5, "0");
 

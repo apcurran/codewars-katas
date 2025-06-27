@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1) -- array sizes are fixed at 3
  * space: O(1)
- * 
- * @param {number[]} aliceScores 
- * @param {number[]} bobScores 
+ *
+ * @param {number[]} aliceScores
+ * @param {number[]} bobScores
  * @returns {string}
  */
 function solve(aliceScores, bobScores) {

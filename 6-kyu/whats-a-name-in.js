@@ -4,9 +4,9 @@
  * solution 1 -- pointer technique
  * time: O(n + m) -- name copies
  * space: O(n + m) -- str and name copies with lowercasing func
- * 
- * @param {string} str 
- * @param {string} name 
+ *
+ * @param {string} str
+ * @param {string} name
  * @returns {boolean}
  */
 function nameInStr(str, name) {

@@ -4,8 +4,8 @@
  * Solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function printerError(str) {
@@ -22,5 +22,5 @@ function printerError(str) {
     return `${errCounter}/${str.length}`;
 }
 
-console.log( printerError("aaabbbbhaijjjm") ); // "0/14"
-console.log( printerError("aaaxbbbbyyhwawiwjjjwwm") ); // "8/22"
+console.log(printerError("aaabbbbhaijjjm")); // "0/14"
+console.log(printerError("aaaxbbbbyyhwawiwjjjwwm")); // "8/22"

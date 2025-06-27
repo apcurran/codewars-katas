@@ -6,8 +6,8 @@
  * m = digits from 0 to digitNum
  * time: O(n * m)
  * space: O(n * m)
- * 
- * @param {string} hitCount 
+ *
+ * @param {string} hitCount
  * @returns {number[][]}
  */
 function counterEffect(hitCount) {

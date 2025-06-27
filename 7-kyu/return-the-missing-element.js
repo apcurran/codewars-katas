@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(1) -- always 8 elems in arr
 //  * space: O(1)
-//  * 
-//  * @param {number[]} importantNums 
+//  *
+//  * @param {number[]} importantNums
 //  * @returns {number} missing element
 //  */
 // function getMissingElement(importantNums) {
@@ -24,8 +24,8 @@
  * solution 2
  * time: O(1) -- always 8 elems in arr
  * space: O(1)
- * 
- * @param {number[]} importantNums 
+ *
+ * @param {number[]} importantNums
  * @returns {number} missing element
  */
 function getMissingElement(importantNums) {
@@ -38,4 +38,4 @@ function getMissingElement(importantNums) {
     return -1;
 }
 
-console.log( getMissingElement([0, 5, 1, 3, 2, 9, 7, 6, 4]) ); // 8
+console.log(getMissingElement([0, 5, 1, 3, 2, 9, 7, 6, 4])); // 8

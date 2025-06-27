@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * 
- * @param {string[]} durations 
+ *
+ * @param {string[]} durations
  * @returns {boolean}
  */
 function determineTime(durations) {
@@ -17,7 +17,8 @@ function determineTime(durations) {
         const hoursToSecondsTotal = Number(hoursStr) * 60 * 60;
         const minutesToSecondsTotal = Number(minutesStr) * 60;
         const secondsTotal = Number(secondsStr);
-        const giftTotalTime = hoursToSecondsTotal + minutesToSecondsTotal + secondsTotal;
+        const giftTotalTime =
+            hoursToSecondsTotal + minutesToSecondsTotal + secondsTotal;
 
         totalTime += giftTotalTime;
     }
@@ -25,7 +26,7 @@ function determineTime(durations) {
     return totalTime <= santaTimeLimit;
 }
 
-console.log( determineTime(["00:30:00", "02:30:00", "00:15:00"]) ); // true
-console.log( determineTime([]) ); // true
-console.log( determineTime(["12:00:00", "12:00:00"]) ); // true
-console.log( determineTime(["06:00:00", "12:00:00", "06:30:00"]) ); // false
+console.log(determineTime(["00:30:00", "02:30:00", "00:15:00"])); // true
+console.log(determineTime([])); // true
+console.log(determineTime(["12:00:00", "12:00:00"])); // true
+console.log(determineTime(["06:00:00", "12:00:00", "06:30:00"])); // false

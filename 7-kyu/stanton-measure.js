@@ -5,10 +5,10 @@
  * Count the number of 1s in the array.
  * Let this count be n.
  * The Stanton measure is the number of times that n appears in the array.
- * 
+ *
  * Time: O(n)
  * Space: O(n)
- * 
+ *
  * @param {number[]} arr
  * @returns {number} - stanton measure of arr
  */
@@ -34,5 +34,5 @@ function stantonMeasure(arr) {
     return 0;
 }
 
-console.log( stantonMeasure([1, 4, 3, 2, 1, 2, 3, 2]) ); // 3
-console.log( stantonMeasure([-13, 1]) ); // 1
+console.log(stantonMeasure([1, 4, 3, 2, 1, 2, 3, 2])); // 3
+console.log(stantonMeasure([-13, 1])); // 1

@@ -4,7 +4,7 @@
  * solution 1
  * time: O(n * m)
  * space: O(n)
- * 
+ *
  * @param {number[][]} wall
  * @return {number}
  */
@@ -26,18 +26,15 @@ function leastBricks(wall) {
     return wall.length - globalMax;
 }
 
-console.log( leastBricks([
-    [1, 2, 2, 1],
-    [3, 1, 2],
-    [1, 3, 2],
-    [2, 4],
-    [3, 1, 2],
-    [1, 3, 1, 1],
-]) ); // 2
+console.log(
+    leastBricks([
+        [1, 2, 2, 1],
+        [3, 1, 2],
+        [1, 3, 2],
+        [2, 4],
+        [3, 1, 2],
+        [1, 3, 1, 1],
+    ]),
+); // 2
 
-console.log( leastBricks([
-    [1],
-    [1],
-    [1],
-]) ); // 3
-
+console.log(leastBricks([[1], [1], [1]])); // 3

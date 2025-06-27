@@ -4,8 +4,8 @@
  * Solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function palindromeChainLength(n) {
@@ -19,12 +19,8 @@ function palindromeChainLength(n) {
 }
 
 function reverseDigits(num) {
-    return +num
-        .toString()
-        .split("")
-        .reverse()
-        .join("");
+    return +num.toString().split("").reverse().join("");
 }
 
-console.log( palindromeChainLength(87) ); // 4
-console.log( palindromeChainLength(89) ); // 24
+console.log(palindromeChainLength(87)); // 4
+console.log(palindromeChainLength(89)); // 24

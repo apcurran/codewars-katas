@@ -46,4 +46,4 @@ const Calculator = (() => {
     };
 })();
 
-console.log( Calculator.add(1, 4) ); // 5
+console.log(Calculator.add(1, 4)); // 5

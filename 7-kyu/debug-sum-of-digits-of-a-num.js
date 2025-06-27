@@ -5,8 +5,8 @@
  * n = num of digits in val
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} integer 
+ *
+ * @param {number} integer
  * @returns {number}
  */
 function getSumOfDigits(integer) {
@@ -21,4 +21,4 @@ function getSumOfDigits(integer) {
     return sum;
 }
 
-console.log( getSumOfDigits(223) ); // 7
+console.log(getSumOfDigits(223)); // 7

@@ -4,14 +4,16 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
+ *
  * @param {number[]} nums
  * @param {number} start
  * @param {number} [length] optional param
  * @returns {number[]} sorted array
  */
 function sectSort(nums, start, length) {
-    let numsPortion = length ? nums.slice(start, start + length) : nums.slice(start);
+    let numsPortion = length
+        ? nums.slice(start, start + length)
+        : nums.slice(start);
     numsPortion.sort((a, b) => a - b);
 
     if (length) {

@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
- * @param {string} x 
- * @param {string} y 
+ *
+ * @param {number} n
+ * @param {string} x
+ * @param {string} y
  */
 function middleMe(n, x, y) {
     // cannot place x in the middle of an odd repeated chunk

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number} - binary zeros count
  */
 function trailingZeros(n) {

@@ -4,7 +4,7 @@
 //  * solution 1 -- correct but TLE
 //  * time: O(n^2) -- using array.shift() inside of a loop
 //  * space: O(n)
-//  * 
+//  *
 //  * @param {number[]} sArr
 //  * @returns {number[]}
 //  */
@@ -31,7 +31,7 @@
  * solution 2
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {number[]} sArr
  * @returns {number[]}
  */
@@ -53,7 +53,7 @@ function arrange(sArr) {
         leftPointer++;
         rightPointer--;
     }
-    
+
     if (sArr.length % 2 !== 0) {
         resTArr.push(sArr[leftPointer]);
     }
@@ -61,4 +61,4 @@ function arrange(sArr) {
     return resTArr;
 }
 
-console.log( arrange([1, 2, 3, 4, 5, 6]) ); // [1,6,5,2,3,4]
+console.log(arrange([1, 2, 3, 4, 5, 6])); // [1,6,5,2,3,4]

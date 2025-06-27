@@ -4,9 +4,9 @@
  * solution 1 -- iterative
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {number[]} numbers 
- * @param {number} c 
+ *
+ * @param {number[]} numbers
+ * @param {number} c
  * @returns {[number, number]|null}
  */
 function findAB(numbers, c) {

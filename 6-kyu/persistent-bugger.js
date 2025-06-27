@@ -1,7 +1,7 @@
 /**
  * Function that takes in a positive parameter num and returns its multiplicative persistence,
  * which is the number of times you must multiply the digits in num until you reach a single digit.
- * @param {number} num 
+ * @param {number} num
  * @returns {number} - number for multiplicative persistence
  */
 function persistence(num) {
@@ -11,9 +11,11 @@ function persistence(num) {
     while (splitStrNum.length > 1) {
         multiplicativePersistence++;
 
-        const multipliedNum = splitStrNum.split("").reduce((prevNum, currNum) => {
-            return Number(prevNum) * Number(currNum);
-        });
+        const multipliedNum = splitStrNum
+            .split("")
+            .reduce((prevNum, currNum) => {
+                return Number(prevNum) * Number(currNum);
+            });
         splitStrNum = multipliedNum.toString();
     }
 

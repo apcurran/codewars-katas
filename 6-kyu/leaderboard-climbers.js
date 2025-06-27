@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2) -- splice is O(n) within an outer loop (changes)
  * space: O(n)
- * 
- * @param {string[]} leaderboard 
- * @param {string[]} changes 
+ *
+ * @param {string[]} leaderboard
+ * @param {string[]} changes
  * @returns {string[]}
  */
 function leaderboardSort(leaderboard, changes) {
@@ -26,10 +26,6 @@ function leaderboardSort(leaderboard, changes) {
     return results;
 }
 
-const people = ["John",
-    "Brian",
-    "Jim",
-    "Dave",
-    "Fred"];
+const people = ["John", "Brian", "Jim", "Dave", "Fred"];
 const newPositions = ["Dave +1", "Fred +4", "Brian -1"];
 console.log(leaderboardSort(people, newPositions));

@@ -4,7 +4,7 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- rest parameters copied into an array
- * 
+ *
  * @param {...number} diameters
  * @returns {string}
  */
@@ -13,7 +13,7 @@ function sumCircles(...diameters) {
 
     for (let diameter of diameters) {
         const radius = diameter / 2;
-        const area = Math.PI * (radius ** 2);
+        const area = Math.PI * radius ** 2;
         circleAreasSum += area;
     }
 

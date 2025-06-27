@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} date1 
- * @param {string} date2 
+ *
+ * @param {string} date1
+ * @param {string} date2
  * @returns {number}
  */
 function howManyYears(date1, date2) {

@@ -6,9 +6,9 @@
  * m = str2 length
  * time: O(n^2 * m)
  * space: O(n + m)
- * 
- * @param {string} str1 
- * @param {string} str2 
+ *
+ * @param {string} str1
+ * @param {string} str2
  * @returns {boolean}
  */
 function SubstringTest(str1, str2) {
@@ -16,7 +16,6 @@ function SubstringTest(str1, str2) {
     const lowerStr2 = str2.toLowerCase();
 
     for (let i = 0; i < lowerStr1.length; i++) {
-
         let subString = "";
 
         for (let j = i; j < lowerStr1.length; j++) {
@@ -34,5 +33,5 @@ function SubstringTest(str1, str2) {
     return false;
 }
 
-console.log( SubstringTest("Something", "Home") ); // true
-console.log( SubstringTest("Something", "Fun") ); // false
+console.log(SubstringTest("Something", "Home")); // true
+console.log(SubstringTest("Something", "Fun")); // false

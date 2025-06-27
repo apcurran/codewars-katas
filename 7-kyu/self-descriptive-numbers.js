@@ -4,8 +4,8 @@
  * solution 1 -- hashmap
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {boolean}
  */
 function selfDescriptive(num) {

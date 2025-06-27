@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^3)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function longestPalindrome(str) {
@@ -18,8 +18,11 @@ function longestPalindrome(str) {
     for (let i = 0; i < str.length; i++) {
         for (let j = i + 1; j <= str.length; j++) {
             const miniStr = str.slice(i, j);
-            
-            if (isPalindrome(miniStr) && miniStr.length > longestPalindromeLength) {
+
+            if (
+                isPalindrome(miniStr) &&
+                miniStr.length > longestPalindromeLength
+            ) {
                 longestPalindromeLength = miniStr.length;
             }
         }
@@ -29,7 +32,7 @@ function longestPalindrome(str) {
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {boolean}
  */
 function isPalindrome(str) {
@@ -42,7 +45,7 @@ function isPalindrome(str) {
     return str === reversedStr;
 }
 
-console.log( longestPalindrome("a") ); // 1
-console.log( longestPalindrome("aab") ); // 2
-console.log( longestPalindrome("zzbaabcd") ); // 4
-console.log( longestPalindrome("") ); // 0
+console.log(longestPalindrome("a")); // 1
+console.log(longestPalindrome("aab")); // 2
+console.log(longestPalindrome("zzbaabcd")); // 4
+console.log(longestPalindrome("")); // 0

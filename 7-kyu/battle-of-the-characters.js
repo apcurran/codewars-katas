@@ -4,9 +4,9 @@
  * solution 1
  * time: O(x + y)
  * space: O(1)
- * 
- * @param {string} x 
- * @param {string} y 
+ *
+ * @param {string} x
+ * @param {string} y
  * @returns {string}
  */
 function battle(x, y) {
@@ -16,7 +16,7 @@ function battle(x, y) {
         const charPower = char.charCodeAt(0) - 64;
         xStrPower += charPower;
     }
-    
+
     let yStrPower = 0;
 
     for (let char of y) {

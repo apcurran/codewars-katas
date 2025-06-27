@@ -6,8 +6,8 @@
  * m = row length in matrix
  * time: O(n * m)
  * space: O(n * m)
- * 
- * @param {string[][]} matrix 
+ *
+ * @param {string[][]} matrix
  * @returns {string[]}
  */
 function binRota(matrix) {
@@ -28,10 +28,12 @@ function binRota(matrix) {
     return results;
 }
 
-console.log(binRota(
-    [["Stefan", "Raj", "Marie"],
+console.log(
+    binRota([
+        ["Stefan", "Raj", "Marie"],
         ["Alexa", "Amy", "Edward"],
         ["Liz", "Claire", "Juan"],
-        ["Dee", "Luke", "Katie"]],
-));
+        ["Dee", "Luke", "Katie"],
+    ]),
+);
 // ["Stefan", "Raj", "Marie", "Edward", "Amy", "Alexa", "Liz", "Claire", "Juan", "Katie", "Luke", "Dee"]

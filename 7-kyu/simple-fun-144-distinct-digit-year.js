@@ -4,8 +4,8 @@
  * solution 1 -- hashset
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {number} year 
+ *
+ * @param {number} year
  * @returns {number}
  */
 function distinctDigitYear(year) {

@@ -4,10 +4,10 @@
  * solution 1 -- hashmap
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
-*/
+ */
 function encode(str) {
     const encodeMap = new Map([
         ["a", "1"],
@@ -41,10 +41,10 @@ function encode(str) {
 console.log(encode("hello")); // "h2ll4"
 
 /**
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
-*/
+ */
 function decode(str) {
     const decodeMap = new Map([
         ["1", "a"],
@@ -76,4 +76,3 @@ function decode(str) {
 }
 
 console.log(decode("h3 th2r2")); // "hi there"
-

@@ -4,8 +4,8 @@
  * solution 1 -- direct simulation
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string} maze 
+ *
+ * @param {string} maze
  * @returns {boolean}
  */
 function bulbMaze(maze) {
@@ -16,13 +16,16 @@ function bulbMaze(maze) {
         // ensure no "o" on light bulbs
         if (maze[index] === "o") return false;
         // replace string with swapped "x" and "o" chars
-        const updatedStr = maze.replace(/[xo]/g, function swapChar(matchedChar) {
-            if (matchedChar === "x") {
-                return "o";
-            } else {
-                return "x";
-            }
-        });
+        const updatedStr = maze.replace(
+            /[xo]/g,
+            function swapChar(matchedChar) {
+                if (matchedChar === "x") {
+                    return "o";
+                } else {
+                    return "x";
+                }
+            },
+        );
         maze = updatedStr;
         // move pointer
         index++;

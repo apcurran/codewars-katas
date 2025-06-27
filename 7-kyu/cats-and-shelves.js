@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} start 
- * @param {number} finish 
+ *
+ * @param {number} start
+ * @param {number} finish
  * @returns {number}
  */
 function solution(start, finish) {

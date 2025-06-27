@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s1 
- * @param {string} s2 
+ *
+ * @param {string} s1
+ * @param {string} s2
  * @returns {number[]}
  */
 function spot(s1, s2) {

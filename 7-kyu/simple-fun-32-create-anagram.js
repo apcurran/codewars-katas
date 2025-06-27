@@ -4,9 +4,9 @@
  * solution 1
  * time: O(s * t)
  * space: O(t)
- * 
- * @param {string} s 
- * @param {string} t 
+ *
+ * @param {string} s
+ * @param {string} t
  * @returns {number}
  */
 function createAnagram(s, t) {

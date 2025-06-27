@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {string}
 //  */
 // function remove(str) {
@@ -19,15 +19,15 @@
  * solution 2 -- slight optimizations, same time/space complexities
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function remove(str) {
     return str.replace(/\b!+/g, "");
 }
 
-console.log( remove("Hi!") ); // "Hi"
-console.log( remove("Hi!!!") ); // "Hi"
-console.log( remove("!Hi!") ); // "!Hi"
-console.log( remove("Hi! Hi!") ); // "Hi Hi"
+console.log(remove("Hi!")); // "Hi"
+console.log(remove("Hi!!!")); // "Hi"
+console.log(remove("!Hi!")); // "!Hi"
+console.log(remove("Hi! Hi!")); // "Hi Hi"

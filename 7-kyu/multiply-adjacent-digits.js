@@ -6,15 +6,15 @@
  * m = numStr length
  * time: O(n * m)
  * space: O(n + m)
- * 
- * @param {string} expr 
+ *
+ * @param {string} expr
  * @returns {number}
  */
 function digitMultiplication(expr) {
     const numStrs = expr.split(/(?=[+-])/);
     const firstNumDigitsProduct = getDigitsProduct(numStrs[0]);
     let result = firstNumDigitsProduct;
-    
+
     // multiply adjacent digits of each num
     for (let i = 1; i < numStrs.length; i++) {
         const num = numStrs[i];
@@ -34,7 +34,7 @@ function digitMultiplication(expr) {
 }
 
 /**
- * @param {string} numStr 
+ * @param {string} numStr
  * @returns {number}
  */
 function getDigitsProduct(numStr) {

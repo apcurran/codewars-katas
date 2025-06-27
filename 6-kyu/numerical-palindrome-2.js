@@ -6,8 +6,8 @@
  * m = digitsChunk length
  * time: O(n^2 * m)
  * space: O(n + m)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {boolean|"Not valid"}
  */
 function palindrome(num) {
@@ -25,7 +25,7 @@ function palindrome(num) {
     for (let i = 0; i < digitsStr.length; i++) {
         for (let j = i; j < digitsStr.length; j++) {
             const digitsChunk = digitsStr.slice(i, j + 1);
-            
+
             if (isPalindrome(digitsChunk)) {
                 return true;
             }
@@ -42,7 +42,7 @@ console.log(palindrome(1215)); // true
 console.log(palindrome(1294)); // false
 
 /**
- * @param {string[]} digits 
+ * @param {string[]} digits
  * @returns {boolean}
  */
 function isPalindrome(digits) {

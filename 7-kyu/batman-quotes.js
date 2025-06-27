@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
+ *
  * @param {string[]} quotes
- * @param {string} hero 
+ * @param {string} hero
  * @returns {string}
  */
 function getQuote(quotes, hero) {
@@ -27,7 +27,7 @@ function getQuote(quotes, hero) {
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {number}
  */
 function getIndexFromStr(str) {
@@ -37,8 +37,17 @@ function getIndexFromStr(str) {
         if (NUMS.test(char)) {
             return Number(char);
         }
-    }    
+    }
 }
 
-console.log(getQuote(["I am vengeance. I am the night. I am Batman!", "Holy haberdashery, Batman!", "Let's put a smile on that faaaceee!"], "Rob1n"));
+console.log(
+    getQuote(
+        [
+            "I am vengeance. I am the night. I am Batman!",
+            "Holy haberdashery, Batman!",
+            "Let's put a smile on that faaaceee!",
+        ],
+        "Rob1n",
+    ),
+);
 // "Robin: Holy haberdashery, Batman!

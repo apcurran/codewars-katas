@@ -4,8 +4,8 @@
  * solution 1
  * time: O(sqrt(n))
  * space: O(1)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {boolean}
  */
 function isPrime(num) {

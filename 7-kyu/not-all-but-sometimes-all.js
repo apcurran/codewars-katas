@@ -7,9 +7,9 @@
  * x = str length
  * time: O(x * (n * m))
  * space: O(x)
- * 
- * @param {string} str 
- * @param {object} what 
+ *
+ * @param {string} str
+ * @param {object} what
  * @returns {string}
  */
 function remove(str, what) {
@@ -26,5 +26,5 @@ function remove(str, what) {
     return result;
 }
 
-console.log(remove("this is a string", { "t": 1, "i": 2 })); // 'hs s a string'
-console.log(remove("apples and bananas", { "a": 50, "n": 1 })); // 'pples d bnns'
+console.log(remove("this is a string", { t: 1, i: 2 })); // 'hs s a string'
+console.log(remove("apples and bananas", { a: 50, n: 1 })); // 'pples d bnns'

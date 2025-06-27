@@ -4,7 +4,7 @@
  * solution 1 -- cache
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {any[]} arr
  * @returns {any[]}
  */
@@ -27,6 +27,5 @@ function duplicates(arr) {
     return results;
 }
 
-console.log( duplicates([1, 2, 4, 4, 3, 3, 1, 5, 3, "5"]) ); // [4, 3, 1]
-console.log( duplicates([0, 1, 2, 3, 4, 5]) ); // []
-
+console.log(duplicates([1, 2, 4, 4, 3, 3, 1, 5, 3, "5"])); // [4, 3, 1]
+console.log(duplicates([0, 1, 2, 3, 4, 5])); // []

@@ -5,8 +5,8 @@
  * n = words str length
  * time: O(n)
  * space: O(1)
- * 
- * @param {any} words 
+ *
+ * @param {any} words
  * @returns {{ vowels: number, consonants: number }}
  */
 function getCount(words) {

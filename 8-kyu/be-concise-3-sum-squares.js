@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} nums 
+ *
+ * @param {number[]} nums
  * @returns {number}
  */
 function sumSquares(nums) {

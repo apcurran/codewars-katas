@@ -19,6 +19,6 @@ function countInversions(arr) {
     return numOfInversions;
 }
 
-console.log( countInversions([1, 2, 3, 4]) ); // 0 inversions
-console.log( countInversions([1, 3, 2, 4]) ); // 1 inversion: 2 and 3
-console.log( countInversions([4, 1, 2, 3]) ); // 3 inversions: 4 and 1, 4 and 2, 4 and 3
+console.log(countInversions([1, 2, 3, 4])); // 0 inversions
+console.log(countInversions([1, 3, 2, 4])); // 1 inversion: 2 and 3
+console.log(countInversions([4, 1, 2, 3])); // 3 inversions: 4 and 1, 4 and 2, 4 and 3

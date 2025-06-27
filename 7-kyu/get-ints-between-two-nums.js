@@ -1,9 +1,9 @@
 "use strict";
 
 /**
- * 
- * @param {number} startNum 
- * @param {number} endNum 
+ *
+ * @param {number} startNum
+ * @param {number} endNum
  * @returns {number[]}
  */
 function range(startNum, endNum) {
@@ -18,5 +18,4 @@ function range(startNum, endNum) {
     return resultArr;
 }
 
-console.log( range(2, 9) ); // [ 3, 4, 5, 6, 7, 8 ]
-
+console.log(range(2, 9)); // [ 3, 4, 5, 6, 7, 8 ]

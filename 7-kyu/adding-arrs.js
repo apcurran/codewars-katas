@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * m)
  * space: O(n * m)
- * 
- * @param {string[][]} arr 
+ *
+ * @param {string[][]} arr
  * @returns {string}
  */
 function arrAdder(arr) {
@@ -24,9 +24,11 @@ function arrAdder(arr) {
     return res.trim();
 }
 
-const arr = [["J", "L", "L", "M"]
-    , ["u", "i", "i", "a"]
-    , ["s", "v", "f", "n"]
-    , ["t", "e", "e", ""]];
+const arr = [
+    ["J", "L", "L", "M"],
+    ["u", "i", "i", "a"],
+    ["s", "v", "f", "n"],
+    ["t", "e", "e", ""],
+];
 
-console.log( arrAdder(arr) ); // "Just Live Life Man"
+console.log(arrAdder(arr)); // "Just Live Life Man"

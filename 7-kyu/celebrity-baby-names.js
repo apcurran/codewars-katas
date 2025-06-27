@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string[]} arr 
+ *
+ * @param {string[]} arr
  * @returns {string}
  */
 function validName(arr) {

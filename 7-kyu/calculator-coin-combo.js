@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} cents 
+ *
+ * @param {number} cents
  * @returns {[number, number, number, number]} [pennies, nickels, dimes, quarters]
  */
 function coinCombo(cents) {

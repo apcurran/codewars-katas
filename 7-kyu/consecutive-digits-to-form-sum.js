@@ -4,8 +4,8 @@
 //  * solution 1 -- brute force
 //  * time: O(n^2)
 //  * space: O(1)
-//  * 
-//  * @param {number} num 
+//  *
+//  * @param {number} num
 //  * @returns {boolean}
 //  */
 // function consecutiveDucks(num) {
@@ -32,8 +32,8 @@
 //  * solution 2 -- math (check for power of 2)
 //  * time: O(log n)
 //  * space: O(1)
-//  * 
-//  * @param {number} num 
+//  *
+//  * @param {number} num
 //  * @returns {boolean}
 //  */
 // function consecutiveDucks(num) {
@@ -51,8 +51,8 @@
  * solution 3 -- math (check for power of 2)
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {boolean}
  */
 function consecutiveDucks(num) {

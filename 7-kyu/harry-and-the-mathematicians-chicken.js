@@ -4,8 +4,8 @@
  * solution 1 -- hashset
  * time: O(n)
  * space: O(n) -- Set
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number[]}
  */
 function chickenOptions(n) {
@@ -19,11 +19,7 @@ function chickenOptions(n) {
     // we know that anything less than 3
     // cannot sub 3, 6, or 9
     for (let i = 3; i <= n; i++) {
-        if (
-            results.has(i - 3) ||
-            results.has(i - 6) ||
-            results.has(i - 10)
-        ) {
+        if (results.has(i - 3) || results.has(i - 6) || results.has(i - 10)) {
             results.add(i);
         }
     }
@@ -32,4 +28,3 @@ function chickenOptions(n) {
 }
 
 console.log(chickenOptions(13)); // [0, 3, 6, 9, 10, 12, 13]
-

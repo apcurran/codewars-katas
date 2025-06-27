@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} prob1 
- * @param {string} prob2 
+ *
+ * @param {string} prob1
+ * @param {string} prob2
  * @returns {boolean}
  */
 function mostLikely(prob1, prob2) {
@@ -19,4 +19,4 @@ function mostLikely(prob1, prob2) {
     return probability1Value > probability2Value;
 }
 
-console.log( mostLikely("1:3", "1:2") ); // false (1/3 is less likely than 1/2)
+console.log(mostLikely("1:3", "1:2")); // false (1/3 is less likely than 1/2)

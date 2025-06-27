@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {object[]}
  */
-function allNonConsecutive (arr) {
+function allNonConsecutive(arr) {
     if (arr.length === 1) return [];
 
     let nonConsecutiveNums = [];
@@ -27,5 +27,5 @@ function allNonConsecutive (arr) {
     return nonConsecutiveNums;
 }
 
-console.log( allNonConsecutive([1, 2, 3, 4, 6, 7, 8, 10]) );
+console.log(allNonConsecutive([1, 2, 3, 4, 6, 7, 8, 10]));
 // [{i: 4, n:6}, {i: 7, n:10}]

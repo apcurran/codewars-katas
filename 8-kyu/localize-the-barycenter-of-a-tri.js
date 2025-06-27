@@ -4,10 +4,10 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number[]} p1 
- * @param {number[]} p2 
- * @param {number[]} p3 
+ *
+ * @param {number[]} p1
+ * @param {number[]} p2
+ * @param {number[]} p3
  * @returns {number[]}
  */
 function barTriang(p1, p2, p3) {
@@ -19,4 +19,4 @@ function barTriang(p1, p2, p3) {
     return [barcenterXRounded, barcenterYRounded];
 }
 
-console.log( barTriang([4, 6], [12, 4], [10, 10]) ); // [8.6667, 6.6667]
+console.log(barTriang([4, 6], [12, 4], [10, 10])); // [8.6667, 6.6667]

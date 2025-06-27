@@ -6,17 +6,17 @@
  * m = str length
  * time: O(n * m)
  * space: O(n + m)
- * 
- * @param {string[]} arr 
+ *
+ * @param {string[]} arr
  * @returns {number[]}
  */
-function solve(arr){
+function solve(arr) {
     let results = [];
 
     for (let str of arr) {
         const loweredStr = str.toLowerCase();
         let alphabetPositionsCount = 0;
-        
+
         for (let i = 0; i < loweredStr.length; i++) {
             const char = loweredStr[i];
             const charCodeAdjusted = char.charCodeAt(0) - 97;

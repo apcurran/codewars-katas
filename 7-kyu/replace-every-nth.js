@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} text 
- * @param {number} n 
- * @param {string} oldValue 
- * @param {string} newValue 
+ *
+ * @param {string} text
+ * @param {number} n
+ * @param {string} oldValue
+ * @param {string} newValue
  */
 function replaceNth(text, n, oldValue, newValue) {
     let counter = 0;
@@ -30,4 +30,4 @@ function replaceNth(text, n, oldValue, newValue) {
     return resStr;
 }
 
-console.log( replaceNth("Vader said: No, I am your father!", 2, "a", "o") ); // "Vader soid: No, I am your fother!"
+console.log(replaceNth("Vader said: No, I am your father!", 2, "a", "o")); // "Vader soid: No, I am your fother!"

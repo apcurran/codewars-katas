@@ -4,8 +4,8 @@
 //  * solution 1 -- sort arr
 //  * time: O(n * log n)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} arr 
+//  *
+//  * @param {number[]} arr
 //  * @returns {number}
 //  */
 // function findDup(arr) {
@@ -25,8 +25,8 @@
  * solution 2 -- Set obj
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function findDup(arr) {
@@ -45,25 +45,25 @@ function findDup(arr) {
 //  * solution 3 -- Set obj
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} arr 
+//  *
+//  * @param {number[]} arr
 //  * @returns {number}
 //  */
 // function findDup(arr) {
 //     let arrSum = 0;
-    
+
 //     for (let num of arr) {
 //         arrSum += num;
 //     }
-    
+
 //     let uniqueValues = new Set(arr);
 //     let uniqueValuesSum = 0;
 
 //     for (let num of uniqueValues) {
 //         uniqueValuesSum += num;
-//     }   
-    
+//     }
+
 //     return arrSum - uniqueValuesSum;
 // }
 
-console.log( findDup([1, 3, 2, 5, 4, 5, 7, 6]) ); // 5
+console.log(findDup([1, 3, 2, 5, 4, 5, 7, 6])); // 5

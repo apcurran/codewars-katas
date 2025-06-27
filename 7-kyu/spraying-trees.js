@@ -9,7 +9,7 @@ const workers = new Map([
 ]);
 
 /**
- * @param {string} weekday 
+ * @param {string} weekday
  * @param {number} numTrees
  * @param {number} costOfOneLitre
  * @returns {string} - Formatted sentence

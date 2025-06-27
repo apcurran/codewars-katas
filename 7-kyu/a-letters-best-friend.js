@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} text 
- * @param {string} a 
- * @param {string} b 
+ *
+ * @param {string} text
+ * @param {string} a
+ * @param {string} b
  * @returns {boolean}
  */
 function bestFriend(text, a, b) {

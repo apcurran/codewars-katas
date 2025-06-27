@@ -4,8 +4,8 @@
  * solution 1 -- nested loops
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {number[]} lights 
+ *
+ * @param {number[]} lights
  * @returns {number[]}
  */
 function switchLights(lights) {
@@ -14,7 +14,7 @@ function switchLights(lights) {
         // for the current light -- if lit (1), then check all prior light statuses
         for (let j = 0; j <= i; j++) {
             // flip status
-            lights[j] === 1 ? lights[j] = 0 : lights[j] = 1;
+            lights[j] === 1 ? (lights[j] = 0) : (lights[j] = 1);
         }
     }
 

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} recycleItems 
+ *
+ * @param {number[]} recycleItems
  * @returns {[number, number, number]}
  */
 function recycleMe(recycleItems) {

@@ -11,8 +11,8 @@ class ListNode {
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {ListNode|null}
  */
 function parse(str) {
@@ -42,9 +42,9 @@ function parse(str) {
         head.next = currentNode;
         head = head.next;
     }
-    
+
     return headRef;
 }
 
-console.log( parse("1 -> 2 -> 3 -> null") ); // Node(1) -> Node(2) -> Node(3) -> null
-console.log( parse("1 -> null") ); // Node(1) -> null
+console.log(parse("1 -> 2 -> 3 -> null")); // Node(1) -> Node(2) -> Node(3) -> null
+console.log(parse("1 -> null")); // Node(1) -> null

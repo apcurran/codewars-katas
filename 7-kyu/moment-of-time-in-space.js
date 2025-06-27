@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} moment 
+ *
+ * @param {string} moment
  * @returns {boolean[]}
  */
 function momentOfTimeInSpace(moment) {
@@ -15,7 +15,7 @@ function momentOfTimeInSpace(moment) {
     for (let char of moment) {
         // for each char, check if converted to num >= 1 and num <= 9
         const possibleNumChar = Number(char);
-        
+
         if (possibleNumChar >= 1 && possibleNumChar <= 9) {
             // if yes, then add char to sum total (time total)
             timeSum += possibleNumChar;
@@ -34,4 +34,4 @@ function momentOfTimeInSpace(moment) {
     }
 }
 
-console.log( momentOfTimeInSpace("12:30 am") ); // [false, false, true]
+console.log(momentOfTimeInSpace("12:30 am")); // [false, false, true]

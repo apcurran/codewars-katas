@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {string}
 //  */
 // function sortMyString(str) {
@@ -34,8 +34,8 @@
  * solution 2
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function sortMyString(str) {
@@ -50,4 +50,4 @@ function sortMyString(str) {
     return `${evenGroup} ${oddGroup}`;
 }
 
-console.log( sortMyString("CodeWars") ); // "CdWr oeas"
+console.log(sortMyString("CodeWars")); // "CdWr oeas"

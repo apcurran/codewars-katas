@@ -6,8 +6,8 @@
  * m = sentence length
  * time: O(n * m)
  * space: O(n + m)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function proofread(str) {
@@ -21,5 +21,9 @@ function proofread(str) {
         .join(". ");
 }
 
-console.log(proofread("THe neIghBour's ceiLing FEll on His Head. The WiEght of It crusHed him To thE gROuNd."));
+console.log(
+    proofread(
+        "THe neIghBour's ceiLing FEll on His Head. The WiEght of It crusHed him To thE gROuNd.",
+    ),
+);
 // "The neighbour's ceiling fell on his head. The weight of it crushed him to the ground."

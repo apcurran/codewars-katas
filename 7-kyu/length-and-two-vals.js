@@ -4,10 +4,10 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
- * @param {any} firstValue 
- * @param {any} secondValue 
+ *
+ * @param {number} n
+ * @param {any} firstValue
+ * @param {any} secondValue
  * @returns {array}
  */
 function alternate(n, firstValue, secondValue) {
@@ -24,5 +24,5 @@ function alternate(n, firstValue, secondValue) {
     return resArr;
 }
 
-console.log( alternate(5, true, false) ); // [true, false, true, false, true]
-console.log( alternate(20, "blue", "red") ); // ['blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red']
+console.log(alternate(5, true, false)); // [true, false, true, false, true]
+console.log(alternate(20, "blue", "red")); // ['blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red', 'blue', 'red']

@@ -4,7 +4,7 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
+//  *
 //  * @param {string[]} letters
 //  * @param {string} target
 //  * @return {string}
@@ -29,7 +29,7 @@
 //  * solution 2 -- more concise
 //  * time: O(n)
 //  * space: O(1)
-//  * 
+//  *
 //  * @param {string[]} letters
 //  * @param {string} target
 //  * @return {string}
@@ -45,7 +45,7 @@
  * solution 3 -- binary search
  * time: O(log n)
  * space: O(1)
- * 
+ *
  * @param {string[]} letters
  * @param {string} target
  * @return {string}
@@ -69,6 +69,6 @@ function nextGreatestLetter(letters, target) {
     return letters[left];
 }
 
-console.log( nextGreatestLetter(["c", "f", "j"], "a") ); // "c"
-console.log( nextGreatestLetter(["c", "f", "j"], "c") ); // "f"
-console.log( nextGreatestLetter(["x", "x", "y", "y"], "z") ); // "x"
+console.log(nextGreatestLetter(["c", "f", "j"], "a")); // "c"
+console.log(nextGreatestLetter(["c", "f", "j"], "c")); // "f"
+console.log(nextGreatestLetter(["x", "x", "y", "y"], "z")); // "x"

@@ -4,9 +4,9 @@
  * solution 1 -- recursion
  * time: O(n^2) -- loops inside of call stack
  * space: O(n)
- * 
- * @param {string} n 
- * @param {number} positionCounter 
+ *
+ * @param {string} n
+ * @param {number} positionCounter
  * @returns {string}
  */
 function flipNumber(n, positionCounter = 0) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} peepsArr 
+ *
+ * @param {number[]} peepsArr
  * @returns {number[]}
  */
 function rowWeights(peepsArr) {
@@ -23,5 +23,5 @@ function rowWeights(peepsArr) {
     return [team1, team2];
 }
 
-console.log( rowWeights([13, 27, 49]) ); // [62, 27]
-console.log( rowWeights([50, 60, 70, 80]) ); // [120, 140]
+console.log(rowWeights([13, 27, 49])); // [62, 27]
+console.log(rowWeights([50, 60, 70, 80])); // [120, 140]

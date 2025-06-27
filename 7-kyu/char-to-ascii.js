@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {object|null}
  */
-function charToAscii(str){
+function charToAscii(str) {
     if (str === "") return null;
 
     let cache = {};
@@ -28,12 +28,15 @@ function charToAscii(str){
 }
 
 /**
- * 
- * @param {number} charCode 
+ *
+ * @param {number} charCode
  * @returns {boolean}
  */
 function isAlphaChar(charCode) {
-    return (charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122);
+    return (
+        (charCode >= 65 && charCode <= 90) ||
+        (charCode >= 97 && charCode <= 122)
+    );
 }
 
-console.log( charToAscii("ABaa ^") ); // {"A":65, "B":66, "a":97}
+console.log(charToAscii("ABaa ^")); // {"A":65, "B":66, "a":97}

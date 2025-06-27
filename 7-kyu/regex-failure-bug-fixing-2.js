@@ -4,8 +4,8 @@
  * solution 1 -- regex replace
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} phrase 
+ *
+ * @param {string} phrase
  * @returns {string}
  */
 function filterWords(phrase) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string[]}
  */
 function rotate(str) {
@@ -26,4 +26,4 @@ function rotate(str) {
     return results;
 }
 
-console.log( rotate("Hello") ); // ["elloH", "lloHe", "loHel", "oHell", "Hello"]
+console.log(rotate("Hello")); // ["elloH", "lloHe", "loHel", "oHell", "Hello"]

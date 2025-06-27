@@ -4,9 +4,9 @@
  * solution 1 -- iterative
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string[]} strArr 
- * @param {number} k 
+ *
+ * @param {string[]} strArr
+ * @param {number} k
  * @returns {string}
  */
 function longestConsec(strArr, k) {
@@ -28,5 +28,18 @@ function longestConsec(strArr, k) {
     return longestStr;
 }
 
-console.log( longestConsec(["zone", "abigail", "theta", "form", "libe", "zas"], 2) ); // "abigailtheta"
-console.log( longestConsec(["ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"], 1) ); // "oocccffuucccjjjkkkjyyyeehh"
+console.log(
+    longestConsec(["zone", "abigail", "theta", "form", "libe", "zas"], 2),
+); // "abigailtheta"
+console.log(
+    longestConsec(
+        [
+            "ejjjjmmtthh",
+            "zxxuueeg",
+            "aanlljrrrxx",
+            "dqqqaaabbb",
+            "oocccffuucccjjjkkkjyyyeehh",
+        ],
+        1,
+    ),
+); // "oocccffuucccjjjkkkjyyyeehh"

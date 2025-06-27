@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} candlesTotal 
+ *
+ * @param {number} candlesTotal
  * @param {string} debris
  * @returns {string}
  */
@@ -25,7 +25,7 @@ function cake(candlesTotal, debris) {
         }
     }
 
-    const willCarpetCatchFire = debrisSum > (candlesTotal * FIRE_PERCENTAGE);
+    const willCarpetCatchFire = debrisSum > candlesTotal * FIRE_PERCENTAGE;
 
     if (willCarpetCatchFire) {
         return "Fire!";

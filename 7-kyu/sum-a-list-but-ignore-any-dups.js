@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} numList 
+ *
+ * @param {number[]} numList
  * @returns {number}
  */
 function sumNoDuplicates(numList) {
@@ -17,7 +17,7 @@ function sumNoDuplicates(numList) {
     }
 
     let sum = 0;
-    
+
     for (let [value, count] of uniqueValues) {
         if (count > 1) continue;
 
@@ -27,5 +27,5 @@ function sumNoDuplicates(numList) {
     return sum;
 }
 
-console.log( sumNoDuplicates([1, 1, 2, 3]) ); // 5
-console.log( sumNoDuplicates([3, 4, 3, 6]) ); // 10
+console.log(sumNoDuplicates([1, 1, 2, 3])); // 5
+console.log(sumNoDuplicates([3, 4, 3, 6])); // 10

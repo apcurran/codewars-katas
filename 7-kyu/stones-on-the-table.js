@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} stones 
+ *
+ * @param {string} stones
  * @returns {number}
  */
 function solve(stones) {
@@ -21,5 +21,5 @@ function solve(stones) {
     return stoneRemovalCount;
 }
 
-console.log( solve("RGGRGBBRGRR") ); // 3
-console.log( solve("RRRRGGGGBBBB") ); // 9
+console.log(solve("RGGRGBBRGRR")); // 3
+console.log(solve("RRRRGGGGBBBB")); // 9

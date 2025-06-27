@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} x 
+ *
+ * @param {string} x
  * @returns {string}
  */
 function randomCase(x) {
@@ -14,8 +14,8 @@ function randomCase(x) {
     for (let char of x) {
         if (char !== " ") {
             const randomChance = Math.random();
-        
-            if (randomChance < .5) {
+
+            if (randomChance < 0.5) {
                 result += char.toLowerCase();
             } else {
                 result += char.toUpperCase();
@@ -29,4 +29,6 @@ function randomCase(x) {
     return result;
 }
 
-console.log(randomCase("Lorem ipsum dolor sit amet, consectetur adipiscing elit"));
+console.log(
+    randomCase("Lorem ipsum dolor sit amet, consectetur adipiscing elit"),
+);

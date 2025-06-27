@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function evil(n) {
@@ -13,7 +13,7 @@ function evil(n) {
     const onesDigitCount = binaryStr.match(/1/g)?.length;
     const isEvenOnesDigitCount = onesDigitCount % 2 === 0;
 
-    return isEvenOnesDigitCount ? "It's Evil!" : "It's Odious!"; 
+    return isEvenOnesDigitCount ? "It's Evil!" : "It's Odious!";
 }
 
-console.log( evil(1) ); // "It's Odious!"
+console.log(evil(1)); // "It's Odious!"

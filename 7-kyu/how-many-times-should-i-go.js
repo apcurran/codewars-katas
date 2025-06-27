@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} annualPrice 
- * @param {number} individualPrice 
+ *
+ * @param {number} annualPrice
+ * @param {number} individualPrice
  * @returns {number}
  */
 function howManyTimes(annualPrice, individualPrice) {

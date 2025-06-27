@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} data 
+ *
+ * @param {number[]} data
  * @returns {number[]}
  */
 function cleanedCounts(data) {
@@ -24,8 +24,8 @@ function cleanedCounts(data) {
     return updatedCounts;
 }
 
-console.log( cleanedCounts([1, 1, 2, 2, 1, 2, 2, 2, 2]) );
+console.log(cleanedCounts([1, 1, 2, 2, 1, 2, 2, 2, 2]));
 // [1, 1, 2, 2, 2, 2, 2, 2, 2]
 
-console.log( cleanedCounts([5, 5, 6, 5, 5, 5, 5, 6]) );
+console.log(cleanedCounts([5, 5, 6, 5, 5, 5, 5, 6]));
 // [5, 5, 6, 6, 6, 6, 6, 6]

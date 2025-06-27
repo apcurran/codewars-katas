@@ -6,8 +6,8 @@
  * m = num digits length
  * time: O(n * log n * m)
  * space: O(n + m)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function digitDifferenceSort(arr) {
@@ -31,7 +31,7 @@ function digitDifferenceSort(arr) {
  */
 function getDigitMinAndMax(num) {
     const strNum = String(num);
-    let min = Infinity;    
+    let min = Infinity;
     let max = -Infinity;
 
     for (let strDigit of strNum) {

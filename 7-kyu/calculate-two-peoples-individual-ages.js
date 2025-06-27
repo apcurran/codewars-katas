@@ -4,9 +4,9 @@
  * solution 1 -- math
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} sum 
- * @param {number} difference 
+ *
+ * @param {number} sum
+ * @param {number} difference
  * @returns {[number, number]|null}
  */
 function getAges(sum, difference) {

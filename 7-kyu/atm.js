@@ -2,8 +2,8 @@
 
 /**
  * solution 1 -- iterative
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function solve(n) {
@@ -36,5 +36,5 @@ function solve(n) {
     return notesCount;
 }
 
-console.log( solve(770) ); // 4
-console.log( solve(550) ); // 2
+console.log(solve(770)); // 4
+console.log(solve(550)); // 2

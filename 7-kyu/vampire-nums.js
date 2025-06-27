@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number} a
+ * @param {number} b
  * @returns {boolean}
  */
 function vampire_test(a, b) {
@@ -15,7 +15,7 @@ function vampire_test(a, b) {
 
     const aStrDigits = String(a).split("");
     const bStrDigits = String(b).split("");
-    let aAndBStrDigitsCache = new Map(); 
+    let aAndBStrDigitsCache = new Map();
 
     // add digits and counts to cache
     for (let strDigit of aStrDigits) {
@@ -37,7 +37,7 @@ function vampire_test(a, b) {
         const previousStrDigitCount = productStrDigitsCache.get(strDigit) || 0;
         productStrDigitsCache.set(strDigit, previousStrDigitCount + 1);
     }
-    
+
     // iterate product digits cache
     // check for the digits matching the first cache
     for (let [strDigit, productCacheDigitCount] of productStrDigitsCache) {
@@ -52,7 +52,7 @@ function vampire_test(a, b) {
     return true;
 }
 
-console.log( vampire_test(21, 6) ); // true
-console.log( vampire_test(204, 615) ); // true
-console.log( vampire_test(-246, -510) ); // false
-console.log( vampire_test(2947051, 8469153) ); // false
+console.log(vampire_test(21, 6)); // true
+console.log(vampire_test(204, 615)); // true
+console.log(vampire_test(-246, -510)); // false
+console.log(vampire_test(2947051, 8469153)); // false

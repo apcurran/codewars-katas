@@ -4,16 +4,16 @@
  * solution 1 -- sliding window
  * time: O(n * k)
  * space: O(1) -- excluding the necessary results array, no extra data structures
- * 
- * @param {number[]} nums 
- * @param {number} k 
+ *
+ * @param {number[]} nums
+ * @param {number} k
  * @returns {number[]}
  */
 function sliding(nums, k) {
     let results = [];
     let left = 0;
     let right = k;
-    
+
     while (right <= nums.length) {
         let currentWindowMax = -Infinity;
 

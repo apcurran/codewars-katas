@@ -1,5 +1,5 @@
 /**
- * 
+ *
  * @param {number} seconds - Total time in number of seconds
  * @returns {string} - contains hours and minutes as a formatted string
  */
@@ -7,7 +7,7 @@ function toTime(seconds) {
     "use strict";
 
     const hours = Math.floor(seconds / 3600);
-    const mins = Math.floor(seconds % 3600 / 60);
+    const mins = Math.floor((seconds % 3600) / 60);
 
     return `${hours} hour(s) and ${mins} minute(s)`;
 }

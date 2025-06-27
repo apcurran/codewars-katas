@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function camelize(str) {
@@ -17,6 +17,6 @@ function camelize(str) {
         .join("");
 }
 
-console.log( camelize("example name") ); // "ExampleName"
-console.log( camelize("your-NaMe-here") ); // "YourNameHere"
-console.log( camelize("testing ABC") ); // "TestingAbc"
+console.log(camelize("example name")); // "ExampleName"
+console.log(camelize("your-NaMe-here")); // "YourNameHere"
+console.log(camelize("testing ABC")); // "TestingAbc"

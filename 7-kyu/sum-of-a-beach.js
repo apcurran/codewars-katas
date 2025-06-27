@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} beach 
+ *
+ * @param {string} beach
  * @returns {number}
  */
 function sumOfABeach(beach) {

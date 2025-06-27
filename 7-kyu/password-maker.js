@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- array copy with string.split() call
- * 
- * @param {string} phrase 
+ *
+ * @param {string} phrase
  * @returns {string}
  */
 function makePassword(phrase) {

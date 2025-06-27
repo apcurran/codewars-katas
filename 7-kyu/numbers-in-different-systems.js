@@ -4,9 +4,9 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
- * @param {number} sys 
+ *
+ * @param {number} n
+ * @param {number} sys
  * @returns {number|string}
  */
 function sysNums(n, sys) {

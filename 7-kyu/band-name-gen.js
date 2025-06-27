@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function bandNameGenerator(str) {
@@ -24,5 +24,5 @@ function bandNameGenerator(str) {
     return `The ${titleCasedNoun}`;
 }
 
-console.log( bandNameGenerator("dolphin") ); // "The Dolphin"
-console.log( bandNameGenerator("alaska") ); // "Alaskalaska"
+console.log(bandNameGenerator("dolphin")); // "The Dolphin"
+console.log(bandNameGenerator("alaska")); // "Alaskalaska"

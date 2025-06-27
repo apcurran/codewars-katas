@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {string} stringOne 
- * @param {string} stringTwo 
+ *
+ * @param {string} stringOne
+ * @param {string} stringTwo
  * @returns {string}
  */
 function mutateMyStrings(stringOne, stringTwo) {

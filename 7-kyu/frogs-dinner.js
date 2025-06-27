@@ -4,8 +4,8 @@
  * solution 1 -- Gauss summation formula
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string} "Chris ate {number} flies, Tom ate {number} flies and Cat ate {number} flies"
  */
 function frogContest(n) {
@@ -19,7 +19,7 @@ function frogContest(n) {
 }
 
 /**
- * @param {number} n 
+ * @param {number} n
  * @returns {number}
  */
 function getSummation(n) {

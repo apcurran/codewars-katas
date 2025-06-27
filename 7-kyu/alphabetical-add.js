@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param  {...string} letters 
+ *
+ * @param  {...string} letters
  * @returns {string}
  */
 function addLetters(...letters) {
@@ -26,19 +26,21 @@ function addLetters(...letters) {
         sumOfAlphabeticalPositions += alphabeticalPosition;
     }
     // use modulo operator with 26 on sum to resolve overflow
-    const resolvedOverflowSumOfAlphabeticalPositions = sumOfAlphabeticalPositions % totalLetterInAlphabet;
+    const resolvedOverflowSumOfAlphabeticalPositions =
+        sumOfAlphabeticalPositions % totalLetterInAlphabet;
     // add 96 to final number to get back to charCode for JS
-    const finalLetterCharCode = resolvedOverflowSumOfAlphabeticalPositions + charCodeConversionAmount;
-    
+    const finalLetterCharCode =
+        resolvedOverflowSumOfAlphabeticalPositions + charCodeConversionAmount;
+
     // edge case
     if (finalLetterCharCode === 96) return "z";
     // convert charCode to string char
     return String.fromCharCode(finalLetterCharCode);
 }
 
-console.log( addLetters("a", "b", "c") ); // "f"
-console.log( addLetters("a", "b") ); // "c"
-console.log( addLetters("z") ); // "z"
-console.log( addLetters() ); // "z"
-console.log( addLetters("y", "c", "b") ); // "d"
-console.log( addLetters("i", "h", "s", "g", "x", "f", "w", "h") ); // "z"
+console.log(addLetters("a", "b", "c")); // "f"
+console.log(addLetters("a", "b")); // "c"
+console.log(addLetters("z")); // "z"
+console.log(addLetters()); // "z"
+console.log(addLetters("y", "c", "b")); // "d"
+console.log(addLetters("i", "h", "s", "g", "x", "f", "w", "h")); // "z"

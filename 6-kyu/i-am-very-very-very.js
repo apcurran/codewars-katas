@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} input 
+ *
+ * @param {string} input
  * @returns {string|function}
  */
 function iam(input, veryWordCounter = 0) {
@@ -21,6 +21,6 @@ function iam(input, veryWordCounter = 0) {
     };
 }
 
-console.log( iam("happy") ); // "I am happy"
-console.log( iam("excited") ); // "I am excited"
-console.log( iam()("scared") ); // "I am very scared"
+console.log(iam("happy")); // "I am happy"
+console.log(iam("excited")); // "I am excited"
+console.log(iam()("scared")); // "I am very scared"

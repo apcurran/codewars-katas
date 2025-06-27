@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} permutation 
+ *
+ * @param {number[]} permutation
  * @returns {number} max and min diff
  */
 function permutationShift(permutation) {

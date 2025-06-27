@@ -4,9 +4,9 @@
  * solution 1
  * time: O(b + (a * b))
  * space: O(1)
- * 
- * @param {any[]} a 
- * @param {any[]} b 
+ *
+ * @param {any[]} a
+ * @param {any[]} b
  * @returns {void}
  */
 function exchangeWith(a, b) {

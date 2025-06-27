@@ -6,10 +6,10 @@
  * b = bArr length
  * time: O((a * log n) + (b * log b))
  * space: O(a + b)
- * 
- * @param {number[][]} aArr 
- * @param {number[][]} bArr 
- * @returns 
+ *
+ * @param {number[][]} aArr
+ * @param {number[][]} bArr
+ * @returns
  */
 function same(aArr, bArr) {
     // sort inner subarrays, then sort outer arrays holding subarrays
@@ -19,4 +19,15 @@ function same(aArr, bArr) {
     return String(aOrdered) === String(bOrdered);
 }
 
-console.log(same([[2, 5], [3, 6]], [[5, 2], [3, 6]])); //  same -> true
+console.log(
+    same(
+        [
+            [2, 5],
+            [3, 6],
+        ],
+        [
+            [5, 2],
+            [3, 6],
+        ],
+    ),
+); //  same -> true

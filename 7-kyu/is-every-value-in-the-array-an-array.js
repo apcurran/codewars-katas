@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {any[]} arr 
+ *
+ * @param {any[]} arr
  * @returns {boolean}
  */
 function arrCheck(arr) {
@@ -15,4 +15,4 @@ function arrCheck(arr) {
 }
 
 console.log(arrCheck([[1], [2]])); // true
-console.log(arrCheck([{1:1}, {2:2}])); // false
+console.log(arrCheck([{ 1: 1 }, { 2: 2 }])); // false

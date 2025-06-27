@@ -3,7 +3,7 @@ function numOfDivisions(n, divisor) {
     // Calc the next division and possible remainder
     let nDivided = 0;
     let nRemainder = 0;
-    
+
     while (nRemainder === 0) {
         // Increment divisions by one
         totalDivisions++;
@@ -13,7 +13,7 @@ function numOfDivisions(n, divisor) {
         if (!Number.isInteger(nDivided)) {
             totalDivisions++;
         }
-        
+
         nRemainder = nDivided % divisor; // 3 % 2 REMAINDER!!! STOP HERE
     }
 

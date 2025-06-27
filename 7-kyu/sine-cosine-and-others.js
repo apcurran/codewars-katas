@@ -5,8 +5,8 @@
 //  * n = numbers
 //  * time: O(max(n)) -- stringification dependent upon largest num
 //  * space: O(max(n))
-//  * 
-//  * @param {number} sine 
+//  *
+//  * @param {number} sine
 //  * @returns {number[]}
 //  */
 // function sctc(sine) {
@@ -27,17 +27,19 @@
  * n = numbers
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} sine 
+ *
+ * @param {number} sine
  * @returns {number[]}
  */
 function sctc(sine) {
     const cosine = Math.sqrt(1 - sine ** 2);
     const tangent = sine / cosine;
     const cotangent = 1 / tangent;
-    const validValues = [sine, cosine, tangent, cotangent].filter(function removeInvalidValues(value) {
-        return Number.isFinite(value);
-    });
+    const validValues = [sine, cosine, tangent, cotangent].filter(
+        function removeInvalidValues(value) {
+            return Number.isFinite(value);
+        },
+    );
 
     return validValues.map(function roundToTwoDecimalPlaces(num) {
         return Math.round(num * 100) / 100;

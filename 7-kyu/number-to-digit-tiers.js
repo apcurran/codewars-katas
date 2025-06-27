@@ -5,8 +5,8 @@
  * n = strNum length
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {string[]}
  */
 function createArrayOfTiers(num) {

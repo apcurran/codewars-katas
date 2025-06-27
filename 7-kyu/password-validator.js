@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {boolean}
 //  */
 // function password(str) {
@@ -45,17 +45,17 @@
  * solution 2 -- regex
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {boolean}
  */
 function password(str) {
     if (str.length < 8) {
         return false;
     }
-    
+
     if (!/[A-Z]/.test(str)) return false;
-    
+
     if (!/[a-z]/.test(str)) return false;
 
     if (!/[0-9]/.test(str)) return false;

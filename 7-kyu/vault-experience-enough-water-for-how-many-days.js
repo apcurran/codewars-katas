@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} waterInLiters 
- * @param {number[]} dwellerAges 
+ *
+ * @param {number} waterInLiters
+ * @param {number[]} dwellerAges
  * @returns {number}
  */
 function thirstyIn(waterInLiters, dwellerAges) {

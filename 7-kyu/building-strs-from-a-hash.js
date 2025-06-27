@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {object} pairs 
+ *
+ * @param {object} pairs
  * @returns {string}
  */
 function solution(pairs) {
@@ -18,4 +18,4 @@ function solution(pairs) {
     return keyValStrs.join(",");
 }
 
-console.log( solution({a: 1, b: "2"}) ); // "a = 1,b = 2"
+console.log(solution({ a: 1, b: "2" })); // "a = 1,b = 2"

@@ -1,10 +1,10 @@
 "use strict";
 
 /**
- * 
- * @param {array} arr 
- * @param {string} direction 
- * @param {number} steps 
+ *
+ * @param {array} arr
+ * @param {string} direction
+ * @param {number} steps
  */
 function loopArr(arr, direction, steps) {
     if (direction === "left") {

@@ -4,9 +4,9 @@
  * solution 1 -- hashset
  * time: O(a + b)
  * space: O(a + b)
- * 
- * @param {string[]} a 
- * @param {string[]} b 
+ *
+ * @param {string[]} a
+ * @param {string[]} b
  * @returns {string[]}
  */
 function diff(a, b) {

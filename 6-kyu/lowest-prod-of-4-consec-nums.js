@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} strNumber 
+ *
+ * @param {string} strNumber
  * @returns {number|string}
  */
-function lowestProduct(strNumber) { 
+function lowestProduct(strNumber) {
     if (strNumber.length < 4) return "Number is too small";
 
     let smallestProduct = Infinity;
@@ -28,5 +28,5 @@ function lowestProduct(strNumber) {
     return smallestProduct;
 }
 
-console.log( lowestProduct("123456789") ); // 24
-console.log( lowestProduct("35") ); // "Number is too small"
+console.log(lowestProduct("123456789")); // 24
+console.log(lowestProduct("35")); // "Number is too small"

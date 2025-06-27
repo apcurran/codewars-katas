@@ -4,8 +4,8 @@
  * solution 1 -- brute force
  * time: O(n^3)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {boolean}
  */
 function isMagicThree(arr) {

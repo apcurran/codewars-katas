@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function lastManStanding(n) {
@@ -28,4 +28,4 @@ function lastManStanding(n) {
     return numArr[0];
 }
 
-console.log( lastManStanding(9) ); // 6
+console.log(lastManStanding(9)); // 6

@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * 
- * @param {string} functionName 
+ *
+ * @param {string} functionName
  * @returns {string}
  */
 function zebulansNightmare(functionName) {
@@ -25,5 +25,5 @@ function titleCaseString(str) {
     return str[0].toUpperCase() + str.slice(1);
 }
 
-console.log( zebulansNightmare("camel_case") ); // 'camelCase'
-console.log( zebulansNightmare("main") ); // 'main'
+console.log(zebulansNightmare("camel_case")); // 'camelCase'
+console.log(zebulansNightmare("main")); // 'main'

@@ -6,8 +6,8 @@
  * v = lotto ticket value
  * time: O(n * v) -- stringify value
  * space: O(v)
- * 
- * @param {string[]} lottery 
+ *
+ * @param {string[]} lottery
  */
 function scratch(lottery) {
     let total = 0;
@@ -23,11 +23,13 @@ function scratch(lottery) {
     return total;
 }
 
-console.log(scratch([
-    "tiger tiger tiger 100",
-    "rabbit dragon snake 100",
-    "rat ox pig 1000",
-    "dog cock sheep 10",
-    "horse monkey rat 5",
-    "dog dog dog 1000",
-]));
+console.log(
+    scratch([
+        "tiger tiger tiger 100",
+        "rabbit dragon snake 100",
+        "rat ox pig 1000",
+        "dog cock sheep 10",
+        "horse monkey rat 5",
+        "dog dog dog 1000",
+    ]),
+);

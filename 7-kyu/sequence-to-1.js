@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1) -- not including results array
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number[]}
  */
 function seqToOne(n) {

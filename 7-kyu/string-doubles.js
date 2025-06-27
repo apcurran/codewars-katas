@@ -4,8 +4,8 @@
  * solution 1 -- recursion
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function doubles(str) {

@@ -4,8 +4,8 @@
  * Solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function doors(n) {
@@ -17,9 +17,7 @@ function doors(n) {
         }
     }
 
-    return doorsArr
-        .filter((num) => num > 0)
-        .length;
+    return doorsArr.filter((num) => num > 0).length;
 }
 
-console.log( doors(5) ); // 2
+console.log(doors(5)); // 2

@@ -4,15 +4,15 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
-function solve(arr){
+function solve(arr) {
     const sortedDescNums = [...arr].sort((a, b) => b - a);
     let lastIndex = 0;
     let results = [];
-    
+
     while (sortedDescNums.length > 0) {
         if (lastIndex % 2 === 0) {
             const nextMax = sortedDescNums.shift();
@@ -28,4 +28,4 @@ function solve(arr){
     return results;
 }
 
-console.log( solve([15, 11, 10, 7, 12]) ); // [15,7,12,10,11]
+console.log(solve([15, 11, 10, 7, 12])); // [15,7,12,10,11]

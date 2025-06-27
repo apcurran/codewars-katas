@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
- * @param {string} toReturn 
+ *
+ * @param {number[]} arr
+ * @param {string} toReturn
  * @returns {number}
  */
 function min(arr, toReturn) {
@@ -18,5 +18,5 @@ function min(arr, toReturn) {
     return arr.indexOf(smallestNum);
 }
 
-console.log( min([1, 2, 3, 4, 5], "value") ); // 1
-console.log( min([1, 2, 3, 4, 5], "index") ); // 0
+console.log(min([1, 2, 3, 4, 5], "value")); // 1
+console.log(min([1, 2, 3, 4, 5], "index")); // 0

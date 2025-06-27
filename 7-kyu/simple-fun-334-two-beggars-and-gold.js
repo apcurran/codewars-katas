@@ -4,8 +4,8 @@
  * solution 1 -- two pointers technique
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} golds 
+ *
+ * @param {number[]} golds
  * @returns {[number, number]}
  */
 function distributionOf(golds) {

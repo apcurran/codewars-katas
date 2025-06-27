@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {any[]} arr 
+ *
+ * @param {any[]} arr
  * @returns {object}
  */
 function separateTypes(arr) {
@@ -27,7 +27,7 @@ function separateTypes(arr) {
     return typesObject;
 }
 
-console.log( separateTypes(["a", 1, 2, false, "b"]) );
+console.log(separateTypes(["a", 1, 2, false, "b"]));
 // {
 //   number: [1, 2],
 //   string: ['a', 'b'],

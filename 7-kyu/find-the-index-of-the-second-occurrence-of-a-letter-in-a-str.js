@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
- * @param {string} symbol 
+ *
+ * @param {string} str
+ * @param {string} symbol
  * @returns {number} index of the 2nd occurerence of symbol in the string OR -1 (does not exist)
  */
 function secondSymbol(str, symbol) {
@@ -28,5 +28,5 @@ function secondSymbol(str, symbol) {
     return -1;
 }
 
-console.log( secondSymbol("Hello world!!!", "l") ); // 3
-console.log( secondSymbol("Hello world!!!", "A") ); // -1
+console.log(secondSymbol("Hello world!!!", "l")); // 3
+console.log(secondSymbol("Hello world!!!", "A")); // -1

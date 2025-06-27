@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1) -- without counting result space
- * 
- * @param {string} lettersRange 
+ *
+ * @param {string} lettersRange
  * @returns {string}
  */
 function gimmeTheLetters(lettersRange) {

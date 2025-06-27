@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {"asc"|"desc"} dir 
+ *
+ * @param {"asc"|"desc"} dir
  * @returns {number[]|false}
  */
-Array.prototype.sortReloaded = function(dir) {
+Array.prototype.sortReloaded = function (dir) {
     const currentArr = this;
 
     if (dir && dir !== "asc" && dir !== "desc") {

@@ -4,8 +4,8 @@
  * solution 1 -- hashmap
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function missingValues(arr) {
@@ -28,7 +28,7 @@ function missingValues(arr) {
             y = value;
         }
     }
-    
+
     return x * x * y;
 }
 

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function covfefe(str) {
@@ -16,5 +16,5 @@ function covfefe(str) {
     return str.replace(/coverage/gi, "covfefe");
 }
 
-console.log( covfefe("coverage coverage") ); // "covfefe covfefe"
-console.log( covfefe("nothing") ); // "nothing covfefe"
+console.log(covfefe("coverage coverage")); // "covfefe covfefe"
+console.log(covfefe("nothing")); // "nothing covfefe"

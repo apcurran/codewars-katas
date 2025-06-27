@@ -5,8 +5,8 @@
  * n = arr length
  * time: O(n)
  * space: O(1) -- only "a", "b", and "c" chars
- * 
- * @param {string[]} arr 
+ *
+ * @param {string[]} arr
  * @returns {boolean}
  */
 function checkThreeAndTwo(arr) {
@@ -33,5 +33,5 @@ function checkThreeAndTwo(arr) {
     return isThreeOfAKind && isTwoOfAKind;
 }
 
-console.log( checkThreeAndTwo(["a", "a", "a", "b", "b"]) ); // true
-console.log( checkThreeAndTwo(["a", "b", "c", "b", "c"]) ); // false
+console.log(checkThreeAndTwo(["a", "a", "a", "b", "b"])); // true
+console.log(checkThreeAndTwo(["a", "b", "c", "b", "c"])); // false

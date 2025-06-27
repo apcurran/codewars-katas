@@ -4,8 +4,8 @@
  * solution 1 - correct but times out
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function score(n) {
@@ -19,7 +19,7 @@ function score(n) {
     return maxScore;
 }
 
-console.log( score(0) ); // 0
-console.log( score(1) ); // 1
-console.log( score(49) ); // 63
-console.log( score(1000000) ); // 1048575
+console.log(score(0)); // 0
+console.log(score(1)); // 1
+console.log(score(49)); // 63
+console.log(score(1000000)); // 1048575

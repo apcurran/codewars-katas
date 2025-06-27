@@ -6,8 +6,8 @@
  * m = str2 length
  * time: O(n + m)
  * space: O(n)
- * 
- * @param {[string, string]} arr 
+ *
+ * @param {[string, string]} arr
  * @returns {boolean}
  */
 function letterCheck([str1, str2]) {

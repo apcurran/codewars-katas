@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- if result object is counted
- * 
- * @param {object} dict 
+ *
+ * @param {object} dict
  * @returns {object}
  */
 function switchDict(dict) {
@@ -24,5 +24,7 @@ function switchDict(dict) {
     return result;
 }
 
-console.log(switchDict({"Ice": "Cream", "Age": "21", "Light": "Cream", "Double": "Cream"}));
+console.log(
+    switchDict({ Ice: "Cream", Age: "21", Light: "Cream", Double: "Cream" }),
+);
 // {'Cream': ['Ice', 'Double', 'Light'], '21': ['Age']}

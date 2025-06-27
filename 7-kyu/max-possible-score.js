@@ -6,9 +6,9 @@
  * m = newQuestions array
  * time: O(n * m)
  * space: O(1)
- * 
- * @param {object} questions 
- * @param {string[]} newQuestions 
+ *
+ * @param {object} questions
+ * @param {string[]} newQuestions
  * @returns {number}
  */
 function maxPossibleScore(questions, newQuestions) {
@@ -28,4 +28,4 @@ function maxPossibleScore(questions, newQuestions) {
     return total;
 }
 
-console.log(maxPossibleScore({"a": 1, "b": 2, "c": 3}, ["a", "c"])); // 10
+console.log(maxPossibleScore({ a: 1, b: 2, c: 3 }, ["a", "c"])); // 10

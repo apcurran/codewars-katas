@@ -6,8 +6,8 @@
  * m = len of chars in each word
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {string[]} wordsArr 
+ *
+ * @param {string[]} wordsArr
  * @returns {number[]}
  */
 function wordValue(wordsArr) {
@@ -23,7 +23,7 @@ function wordValue(wordsArr) {
             const charVal = char.charCodeAt(0) - 96;
             wordCharsVal += charVal;
         }
-        
+
         // with wordValTotal, mult by (index + 1)
         const wordProd = wordCharsVal * (index + 1);
         // add new total val to resArr
@@ -33,4 +33,4 @@ function wordValue(wordsArr) {
     return resArr;
 }
 
-console.log( wordValue(["codewars", "abc", "xyz"]) ); // [88, 12, 225]
+console.log(wordValue(["codewars", "abc", "xyz"])); // [88, 12, 225]

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
- * @param {number} targetIndex 
+ *
+ * @param {number[]} arr
+ * @param {number} targetIndex
  * @returns {number}
  */
 function rankOfElement(arr, targetIndex) {
@@ -23,7 +23,7 @@ function rankOfElement(arr, targetIndex) {
 
         // after elements
         if (i > targetIndex && currentElemValue < targetValue) {
-            rank++; 
+            rank++;
         }
     }
 

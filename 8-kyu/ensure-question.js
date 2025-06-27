@@ -1,14 +1,14 @@
 "use strict";
 
 /**
- * 
+ *
  * @param {string} str
- * @returns {string} - string with ? appended if not existing, otherwise return original str 
+ * @returns {string} - string with ? appended if not existing, otherwise return original str
  */
 function ensureQuestion(str) {
     const myRegex = /\?$/g;
     const isQEnding = myRegex.test(str);
-    
+
     if (isQEnding) return str;
 
     return `${str}?`;

@@ -2,8 +2,8 @@
 
 class Animal {
     /**
-     * @param {string} name 
-     * @param {string} type 
+     * @param {string} name
+     * @param {string} type
      */
     constructor(name, type) {
         this.name = name;
@@ -21,4 +21,3 @@ console.log(dog.type);
 console.log(dog.name);
 dog.name = "Lassie";
 console.log(dog.name);
-

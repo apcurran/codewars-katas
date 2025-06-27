@@ -2,7 +2,7 @@
 
 /**
  * O(n)
- * @param {number[]} numbers 
+ * @param {number[]} numbers
  * @returns {number[]}
  */
 function pipeFix(numbers) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * m)
  * space: O(1)
- * 
- * @param {number[][]} matrix 
+ *
+ * @param {number[][]} matrix
  * @returns {number}
  */
 function matrixElementsSum(matrix) {
@@ -28,10 +28,10 @@ function matrixElementsSum(matrix) {
     return sum;
 }
 
-console.log(matrixElementsSum(
-    [
+console.log(
+    matrixElementsSum([
         [0, 1, 1, 2],
         [0, 5, 0, 0],
         [2, 0, 3, 3],
-    ],
-));
+    ]),
+);

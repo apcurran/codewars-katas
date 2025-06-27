@@ -6,8 +6,8 @@
  * m = num binary length
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {number[]} numbers 
+ *
+ * @param {number[]} numbers
  * @returns {'odds win'|'evens win'|'tie'}
  */
 function bitsBattle(numbers) {
@@ -16,7 +16,7 @@ function bitsBattle(numbers) {
 
     for (let num of numbers) {
         if (num === 0) continue;
-        
+
         const binaryNum = num.toString(2);
         let zeroBitsCount = 0;
         let oneBitsCount = 0;

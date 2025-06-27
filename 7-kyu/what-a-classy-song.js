@@ -2,8 +2,8 @@
 
 class Song {
     /**
-     * @param {string} title 
-     * @param {string} artist 
+     * @param {string} title
+     * @param {string} artist
      */
     constructor(title, artist) {
         this.title = title;
@@ -12,7 +12,7 @@ class Song {
     }
 
     /**
-     * @param {string[]} people 
+     * @param {string[]} people
      * @returns {number} count of new people added
      */
     howMany(people) {

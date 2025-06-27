@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number} a 
-//  * @param {number} x 
+//  *
+//  * @param {number} a
+//  * @param {number} x
 //  * @returns {number}
 //  */
 // function minimum(a, x) {
@@ -19,7 +19,7 @@
 //         addToAmount++;
 //         addACopy++;
 //     }
-    
+
 //     let subtractACopy = a;
 
 //     while (subtractACopy % x !== 0) {
@@ -34,9 +34,9 @@
  * solution 2
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} a 
- * @param {number} x 
+ *
+ * @param {number} a
+ * @param {number} x
  * @returns {number}
  */
 function minimum(a, x) {

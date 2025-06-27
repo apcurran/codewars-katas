@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function SeriesSum(n) {
@@ -19,4 +19,4 @@ function SeriesSum(n) {
     return sum.toFixed(2);
 }
 
-console.log( SeriesSum(2) ); // "1.25"
+console.log(SeriesSum(2)); // "1.25"

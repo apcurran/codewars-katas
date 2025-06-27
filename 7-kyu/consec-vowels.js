@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} word 
+ *
+ * @param {string} word
  * @returns {number}
  */
 function getTheVowels(word) {
@@ -22,12 +22,13 @@ function getTheVowels(word) {
     let prevVowel = "";
 
     for (let letter of word) {
-        if (letter === "a" ||
+        if (
+            letter === "a" ||
             letter === "e" ||
             letter === "i" ||
             letter === "o" ||
-            letter === "u") {
-
+            letter === "u"
+        ) {
             // letter is a vowel
             // get necessary next vowel in order
             // fallback vowel is "a" if result is undefined

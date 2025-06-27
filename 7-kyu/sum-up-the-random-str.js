@@ -2,10 +2,10 @@
 
 /**
  * solution 1 -- iterative
- * time: O(n) 
+ * time: O(n)
  * space: O(n) -- split copy arr
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function sumFromString(str) {
@@ -14,4 +14,6 @@ function sumFromString(str) {
         .reduce((sum, currStr) => sum + Number(currStr), 0);
 }
 
-console.log(sumFromString("In 2015, I want to know how much does iPhone 6+ cost?")); // 2021
+console.log(
+    sumFromString("In 2015, I want to know how much does iPhone 6+ cost?"),
+); // 2021

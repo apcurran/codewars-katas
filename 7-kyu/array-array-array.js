@@ -5,13 +5,13 @@
  * score = n
  * time: O(n)
  * space: O(n)
- * 
- * @param {Array} x 
+ *
+ * @param {Array} x
  * @returns {Array|"Void!"}
  */
 function explode(x) {
     const [firstValue, secondValue] = x;
-    
+
     if (typeof firstValue !== "number" && typeof secondValue !== "number") {
         return "Void!";
     }

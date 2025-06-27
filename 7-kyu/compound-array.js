@@ -4,9 +4,9 @@
  * solution 1
  * time: O(max(n, m))
  * space: O(n + m)
- * 
- * @param {number[]} arrA 
- * @param {number[]} arrB 
+ *
+ * @param {number[]} arrA
+ * @param {number[]} arrB
  * @returns {number[]} shuffled arrA and arrB values into a single array
  */
 function compoundArray(arrA, arrB) {
@@ -29,4 +29,4 @@ function compoundArray(arrA, arrB) {
     return combinedShuffledValues;
 }
 
-console.log( compoundArray([1, 2, 3, 4, 5, 6], [9, 8, 7, 6]) ); // [1,9,2,8,3,7,4,6,5,6]
+console.log(compoundArray([1, 2, 3, 4, 5, 6], [9, 8, 7, 6])); // [1,9,2,8,3,7,4,6,5,6]

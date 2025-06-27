@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function nextLetter(str) {
@@ -15,8 +15,10 @@ function nextLetter(str) {
         // for each character, convert to charCode
         const characterCode = char.charCodeAt(0);
         // check if charcode is a letter
-        if (characterCode >= 65 && characterCode <= 90 ||
-            characterCode >= 97 && characterCode <= 122) {
+        if (
+            (characterCode >= 65 && characterCode <= 90) ||
+            (characterCode >= 97 && characterCode <= 122)
+        ) {
             // if yes, increment by one
             const updatedCharacterCode = characterCode + 1;
 
@@ -47,6 +49,6 @@ function nextLetter(str) {
     return results.join("");
 }
 
-console.log( nextLetter("Hello") ); // "Ifmmp"
-console.log( nextLetter("zzZAaa") ); // "aaABbb"
-console.log( nextLetter("My Name Is Zoo") ); // "Nz Obnf Jt App"
+console.log(nextLetter("Hello")); // "Ifmmp"
+console.log(nextLetter("zzZAaa")); // "aaABbb"
+console.log(nextLetter("My Name Is Zoo")); // "Nz Obnf Jt App"

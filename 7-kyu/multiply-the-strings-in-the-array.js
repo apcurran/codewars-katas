@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {[string, string]} arr 
+ *
+ * @param {[string, string]} arr
  * @returns {string} str num
  */
 function arrMultiply(arr) {

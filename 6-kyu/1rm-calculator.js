@@ -1,4 +1,4 @@
-function calculate1RM(weight, reps){
+function calculate1RM(weight, reps) {
     if (reps === 0) {
         return 0;
     } else if (reps === 1) {
@@ -7,7 +7,7 @@ function calculate1RM(weight, reps){
 
     const epley1RM = Math.round(weight * (1 + reps / 30));
     const mcglothin1RM = Math.round((100 * weight) / (101.3 - 2.67123 * reps));
-    const lombardi1RM = Math.round(weight * reps ** 0.10);
+    const lombardi1RM = Math.round(weight * reps ** 0.1);
 
     return Math.max(epley1RM, mcglothin1RM, lombardi1RM);
 }

@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} a 
- * @param {number} d 
- * @param {number} n 
+ *
+ * @param {number} a
+ * @param {number} d
+ * @param {number} n
  * @returns {string}
  */
 function arithmeticSequenceElements(a, d, n) {
@@ -21,4 +21,4 @@ function arithmeticSequenceElements(a, d, n) {
     return resStr.join(", ");
 }
 
-console.log( arithmeticSequenceElements(1, 2, 5) ); // "1, 3, 5, 7, 9"
+console.log(arithmeticSequenceElements(1, 2, 5)); // "1, 3, 5, 7, 9"

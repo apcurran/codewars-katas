@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n * log n)
 //  * space: O(log n)
-//  * 
-//  * @param {number[]} arr 
+//  *
+//  * @param {number[]} arr
 //  * @returns {number}
 //  */
 // function arrayConversion(arr) {
@@ -40,8 +40,8 @@
  * solution 2 -- recursion
  * time: O(n * log n)
  * space: O(log n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function arrayConversion(arr, turnCount = 0) {

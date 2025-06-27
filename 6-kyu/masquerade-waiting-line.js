@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string[]} masks 
+ *
+ * @param {string[]} masks
  * @returns {number}
  */
 function friendFind(masks) {
@@ -17,9 +17,11 @@ function friendFind(masks) {
         // possible friend located
         if (currentMask === "red") {
             // check for two blue masked friends nearby
-            if (masks[i - 1] === "blue" && masks[i - 2] === "blue" ||
-                masks[i - 1] === "blue" && masks[i + 1] === "blue" ||
-                masks[i + 1] === "blue" && masks[i + 2] === "blue") {
+            if (
+                (masks[i - 1] === "blue" && masks[i - 2] === "blue") ||
+                (masks[i - 1] === "blue" && masks[i + 1] === "blue") ||
+                (masks[i + 1] === "blue" && masks[i + 2] === "blue")
+            ) {
                 possibleFriendCount++;
             }
         }

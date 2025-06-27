@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} start 
- * @param {number} count 
+ *
+ * @param {number} start
+ * @param {number} count
  * @returns {any[]}
  */
 Array.range = function (start, count) {
@@ -20,13 +20,13 @@ Array.range = function (start, count) {
     return result;
 };
 
-console.log( Array.range(1, 3) ); // [1, 2, 3]
-console.log( Array.range(-3, 5) ); // [-3,-2,-1,0,1]
+console.log(Array.range(1, 3)); // [1, 2, 3]
+console.log(Array.range(-3, 5)); // [-3,-2,-1,0,1]
 
 /**
  * time: O(n)
  * space: O(1)
- * 
+ *
  * @returns {number}
  */
 Array.prototype.sum = function () {
@@ -34,5 +34,4 @@ Array.prototype.sum = function () {
 };
 
 const myArr = [1, 2, 3, 4];
-console.log( myArr.sum() ); // 10
-
+console.log(myArr.sum()); // 10

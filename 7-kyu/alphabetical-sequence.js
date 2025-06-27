@@ -4,15 +4,12 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function alphaSeq(str) {
-    let alphabeticalStrList = str
-        .toLowerCase()
-        .split("")
-        .sort();
+    let alphabeticalStrList = str.toLowerCase().split("").sort();
     let result = [];
 
     for (let char of alphabeticalStrList) {

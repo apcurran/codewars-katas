@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * spaces: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {boolean} true if -0, otherwise false
  */
 function isNegativeZero(n) {

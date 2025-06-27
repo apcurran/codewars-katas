@@ -4,20 +4,20 @@
  * solution 1 -- math
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function projectPartners(n) {
-    return n * (n - 1) / 2;
+    return (n * (n - 1)) / 2;
 }
 
 // /**
 //  * solution 2 -- iterative
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {number}
 //  */
 // function projectPartners(n) {

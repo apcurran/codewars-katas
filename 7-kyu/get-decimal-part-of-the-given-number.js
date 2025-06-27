@@ -4,8 +4,8 @@
 //  * solution 1 -- string to decimal num conversion
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {number} decimal portion of number
 //  */
 // function getDecimal(n) {
@@ -20,8 +20,8 @@
  * solution 2 -- math version (not quite as accurate)
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number} decimal portion of number
  */
 function getDecimal(n) {

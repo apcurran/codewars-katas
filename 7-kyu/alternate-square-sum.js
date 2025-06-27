@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function alternateSqSum(arr) {
@@ -29,4 +29,4 @@ function alternateSqSum(arr) {
     return sumOfEvenPositionsSquared + sumOfOddPositions;
 }
 
-console.log( alternateSqSum([11, 12, 13, 14, 15]) ); // 379
+console.log(alternateSqSum([11, 12, 13, 14, 15])); // 379

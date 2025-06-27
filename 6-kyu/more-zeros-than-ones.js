@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n * m)
  * space: O(n + m)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string[]}
  */
-function moreZeros(str){
+function moreZeros(str) {
     // create a Set to remove duplicate strings
     const uniqueChars = new Set([...str]);
     let charsWithMoreBinaryZeros = [];
@@ -19,8 +19,8 @@ function moreZeros(str){
         // convert ASCII value to binary
         const charBinary = charCode.toString(2);
         // remove all leading zeros with unary or Number constructor
-        const charBinaryWithoutLeadingZeros = String( Number(charBinary) );
-        
+        const charBinaryWithoutLeadingZeros = String(Number(charBinary));
+
         let binaryCharZerosCount = 0;
         let binaryCharOnesCount = 0;
         // iterate binary string
@@ -44,5 +44,5 @@ function moreZeros(str){
     return charsWithMoreBinaryZeros;
 }
 
-console.log( moreZeros("abcde") ); // ['a','b','d']
-console.log( moreZeros("DIGEST") ); // ['D','I','E','T']
+console.log(moreZeros("abcde")); // ['a','b','d']
+console.log(moreZeros("DIGEST")); // ['D','I','E','T']

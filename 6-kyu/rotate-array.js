@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {Array} arr 
- * @param {number} n 
+ *
+ * @param {Array} arr
+ * @param {number} n
  * @returns {Array}
  */
 function rotate(arr, n) {

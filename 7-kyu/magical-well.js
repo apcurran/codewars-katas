@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * 
- * @param {number} a 
+ *
+ * @param {number} a
  * @param {number} b
  * @param {number} n
  * @returns {number}
@@ -15,7 +15,7 @@ function magicalWell(a, b, n) {
     for (let i = 0; i < n; i++) {
         const currMarbleAmt = aCopy * bCopy;
         total += currMarbleAmt;
-        
+
         aCopy++;
         bCopy++;
     }

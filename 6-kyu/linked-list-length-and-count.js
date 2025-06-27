@@ -8,7 +8,7 @@ function ListNode(data) {
 /**
  * Time: O(n)
  * Space: O(1)
- * 
+ *
  * @param {ListNode} head
  * @returns {number}
  */
@@ -29,8 +29,8 @@ function length(head) {
 /**
  * Time: O(n)
  * Space: O(1)
- * 
- * @param {ListNode} head 
+ *
+ * @param {ListNode} head
  * @param {number} dataTarget
  * @returns {number}
  */
@@ -57,6 +57,5 @@ const c = new ListNode(3);
 a.next = b;
 b.next = c;
 
-
-console.log( length(a, 1) ); // 3
-console.log( count(a, 1) ); // 1
+console.log(length(a, 1)); // 3
+console.log(count(a, 1)); // 1

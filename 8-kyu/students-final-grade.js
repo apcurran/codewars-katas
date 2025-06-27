@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} exam 
- * @param {number} projects 
+ *
+ * @param {number} exam
+ * @param {number} projects
  * @returns {number}
  */
 function finalGrade(exam, projects) {

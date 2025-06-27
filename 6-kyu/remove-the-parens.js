@@ -1,9 +1,8 @@
-
-function removeParentheses(str){
+function removeParentheses(str) {
     const regex = /\(([^)]+)\)+/;
     const match = regex.exec(str)[0];
     const replacedStr = str.replace(match, "");
-    
+
     return replacedStr;
 }
 

@@ -5,8 +5,8 @@ const Spectrometer = {
      * solution 1
      * time: O(n)
      * space: O(1)
-     * 
-     * @param {number[]} atomicMasses 
+     *
+     * @param {number[]} atomicMasses
      * @returns {number}
      */
     getHeaviest(atomicMasses) {

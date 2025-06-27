@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function isItANum(str) {
@@ -17,5 +17,5 @@ function isItANum(str) {
     return isPhoneNum ? justNumsStr : invalidMsg;
 }
 
-console.log( isItANum("S:)0207ERGQREG88349F82!efRF)") ); // "02078834982"
-console.log( isItANum("sjfniebienvr12312312312ehfWh") ); // "Not a phone number"
+console.log(isItANum("S:)0207ERGQREG88349F82!efRF)")); // "02078834982"
+console.log(isItANum("sjfniebienvr12312312312ehfWh")); // "Not a phone number"

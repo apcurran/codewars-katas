@@ -6,9 +6,9 @@
  * m = digits in each num
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {number} start 
- * @param {number} end 
+ *
+ * @param {number} start
+ * @param {number} end
  * @returns {number[]} frequencies of digits involving all nums from start to end
  */
 function paintLetterboxes(start, end) {

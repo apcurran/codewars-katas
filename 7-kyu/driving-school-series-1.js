@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} list 
+ *
+ * @param {number[]} list
  * @returns {number|"No pass scores registered."}
  */
 function passed(list) {

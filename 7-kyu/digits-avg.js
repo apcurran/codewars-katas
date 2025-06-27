@@ -4,8 +4,8 @@
  * solution 1
  * time: O(log n)
  * space: O(log n)
- * 
- * @param {number} input 
+ *
+ * @param {number} input
  * @returns {number}
  */
 function digitsAverage(input) {

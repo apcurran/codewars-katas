@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} stringOfWords 
+ *
+ * @param {string} stringOfWords
  * @returns {string}
  */
 function longestWord(stringOfWords) {
@@ -23,5 +23,5 @@ function longestWord(stringOfWords) {
     return longest;
 }
 
-console.log( longestWord("one two three") ); // "three"
-console.log( longestWord("red blue grey") ); // "grey"
+console.log(longestWord("one two three")); // "three"
+console.log(longestWord("red blue grey")); // "grey"

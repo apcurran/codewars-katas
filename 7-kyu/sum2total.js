@@ -4,8 +4,8 @@
  * solution 1 -- recursion
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function total(arr) {

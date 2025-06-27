@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {number}
  */
 function manipulate(num) {

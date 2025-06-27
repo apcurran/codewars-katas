@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} s 
- * @param {number[]} distArr 
+ *
+ * @param {number} s
+ * @param {number[]} distArr
  * @returns {number}
  */
 function gps(s, distArr) {
@@ -27,4 +27,4 @@ function gps(s, distArr) {
     return Math.floor(maxSpeed);
 }
 
-console.log( gps(15, [0.0, 0.19, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25]) ); // 74
+console.log(gps(15, [0.0, 0.19, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25])); // 74

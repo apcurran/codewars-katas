@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} correctWord 
- * @param {string} guess 
+ *
+ * @param {string} correctWord
+ * @param {string} guess
  * @returns {number}
  */
 function countCorrectCharacters(correctWord, guess) {

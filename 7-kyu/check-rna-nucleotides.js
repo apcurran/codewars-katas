@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} sequence 
+ *
+ * @param {string} sequence
  * @returns {string}
  */
 function checkNucleotides(sequence) {
@@ -23,5 +23,5 @@ function checkNucleotides(sequence) {
     return `Valid Sequence: ${sequence}`;
 }
 
-console.log( checkNucleotides("AUAUA") ); // "Valid Sequence: AUAUA"
-console.log( checkNucleotides("GAUAB") ); // "There is an invalid letter: B. At position: 5"
+console.log(checkNucleotides("AUAUA")); // "Valid Sequence: AUAUA"
+console.log(checkNucleotides("GAUAB")); // "There is an invalid letter: B. At position: 5"

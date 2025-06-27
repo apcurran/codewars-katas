@@ -6,9 +6,9 @@
  * nums sorting does not affect time, since it is always 3 numbers long
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} nums 
- * @param {string} str 
+ *
+ * @param {number[]} nums
+ * @param {string} str
  * @returns {string}
  */
 function missingWord(nums, str) {
@@ -27,5 +27,5 @@ function missingWord(nums, str) {
     return resultWord.toLowerCase();
 }
 
-console.log( missingWord([5, 0, 3], "I love you") ); // "ivy"
-console.log( missingWord([12, 4, 6], "Good Morning") ); // "No mission today"
+console.log(missingWord([5, 0, 3], "I love you")); // "ivy"
+console.log(missingWord([12, 4, 6], "Good Morning")); // "No mission today"

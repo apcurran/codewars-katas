@@ -4,14 +4,12 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} x 
+ *
+ * @param {number} x
  * @returns {number[]|-1}
  */
-function factors(x){
-    if (typeof x !== "number" ||
-        !Number.isInteger(x)  ||
-        x < 1) {
+function factors(x) {
+    if (typeof x !== "number" || !Number.isInteger(x) || x < 1) {
         return -1;
     }
 
@@ -26,4 +24,4 @@ function factors(x){
     return factorsOfNum;
 }
 
-console.log( factors(54) ); // [54, 27, 18, 9, 6, 3, 2, 1]
+console.log(factors(54)); // [54, 27, 18, 9, 6, 3, 2, 1]

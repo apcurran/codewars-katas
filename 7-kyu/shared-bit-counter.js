@@ -5,9 +5,9 @@
  * n = sharedOneBits lengths
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number} a
+ * @param {number} b
  * @returns {boolean}
  */
 function sharedBits(a, b) {

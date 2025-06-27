@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} radii 
+ *
+ * @param {number[]} radii
  * @returns {number}
  */
 function scoreThrows(radii) {

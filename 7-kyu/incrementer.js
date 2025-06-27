@@ -4,8 +4,8 @@
 //  * solution 1 -- for loop
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} nums 
+//  *
+//  * @param {number[]} nums
 //  * @returns {number[]}
 //  */
 // function incrementer(nums) {
@@ -25,8 +25,8 @@
  * solution 2 -- array.map() method
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} nums 
+ *
+ * @param {number[]} nums
  * @returns {number[]}
  */
 function incrementer(nums) {
@@ -37,5 +37,5 @@ function incrementer(nums) {
     });
 }
 
-console.log( incrementer([1, 2, 3]) ); // [2, 4, 6]
-console.log( incrementer([4, 6, 9, 1, 3]) ); // [5, 8, 2, 5, 8]
+console.log(incrementer([1, 2, 3])); // [2, 4, 6]
+console.log(incrementer([4, 6, 9, 1, 3])); // [5, 8, 2, 5, 8]

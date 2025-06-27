@@ -5,9 +5,9 @@
  * n = str length
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
- * @param {string} letter 
+ *
+ * @param {string} str
+ * @param {string} letter
  * @returns {string}
  */
 function replaceCommon(str, letter) {

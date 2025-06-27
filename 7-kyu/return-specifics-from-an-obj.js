@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * 
- * @param {object} obj 
+ *
+ * @param {object} obj
  * @returns {any[]}
  */
 function returnSpecifics(obj) {
@@ -26,16 +26,16 @@ function returnSpecifics(obj) {
     return [...numberValues, ...functionValues];
 }
 
-console.log( returnSpecifics(
-    {
-        a:1,
-        b:"str",
-        c:2,
-        d:true,
-        e:function(a){
+console.log(
+    returnSpecifics({
+        a: 1,
+        b: "str",
+        c: 2,
+        d: true,
+        e: function (a) {
             return a;
         },
-        f:3,
-    },
-) ); // [1, 2, 3, "e"]
-console.log( returnSpecifics({}) ); // ['The Object is Empty']
+        f: 3,
+    }),
+); // [1, 2, 3, "e"]
+console.log(returnSpecifics({})); // ['The Object is Empty']

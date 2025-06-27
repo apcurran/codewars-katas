@@ -2,8 +2,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function minMinMax(arr) {
@@ -22,4 +22,4 @@ function minMinMax(arr) {
     return [smallest, minimumAbsent, largest];
 }
 
-console.log( minMinMax([-1, 4, 5, -23, 24]) ); // [-23, -22, 24]
+console.log(minMinMax([-1, 4, 5, -23, 24])); // [-23, -22, 24]

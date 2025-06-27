@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n) -- worst-case / O(log n) best-case
  * space: O(1)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {number}
  */
 function shortestStepsToNum(num) {
@@ -25,7 +25,7 @@ function shortestStepsToNum(num) {
     return stepsCounter;
 }
 
-console.log( shortestStepsToNum(1) ); // 0
-console.log( shortestStepsToNum(12) ); // 4
-console.log( shortestStepsToNum(16) ); // 4
-console.log( shortestStepsToNum(71) ); // 9
+console.log(shortestStepsToNum(1)); // 0
+console.log(shortestStepsToNum(12)); // 4
+console.log(shortestStepsToNum(16)); // 4
+console.log(shortestStepsToNum(71)); // 9

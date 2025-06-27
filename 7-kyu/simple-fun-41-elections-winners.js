@@ -5,9 +5,9 @@
  * n = votes length
  * time: O(n)
  * space: O(n) -- copy votes array in maxValue operation
- * 
- * @param {number[]} votes 
- * @param {number} k 
+ *
+ * @param {number[]} votes
+ * @param {number} k
  * @returns {number}
  */
 function electionsWinners(votes, k) {

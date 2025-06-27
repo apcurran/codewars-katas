@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {function}
  */
 function makeLooper(str) {
@@ -25,7 +25,7 @@ function makeLooper(str) {
 }
 
 const abc = makeLooper("abc");
-console.log( abc() ); // "a"
-console.log( abc() ); // "b"
-console.log( abc() ); // "c"
-console.log( abc() ); // "a"
+console.log(abc()); // "a"
+console.log(abc()); // "b"
+console.log(abc()); // "c"
+console.log(abc()); // "a"

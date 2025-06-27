@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {"Disarium !!"|"Not !!"}
  */
 function disariumNumber(num) {
@@ -22,4 +22,4 @@ function disariumNumber(num) {
     return digitsPoweredSum === num ? "Disarium !!" : "Not !!";
 }
 
-console.log( disariumNumber(89) ); // "Disarium !!"
+console.log(disariumNumber(89)); // "Disarium !!"

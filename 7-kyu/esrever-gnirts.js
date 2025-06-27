@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @returns {string}
  */
-String.prototype.reverse = function() {
+String.prototype.reverse = function () {
     const word = this;
     let reversedWord = "";
 

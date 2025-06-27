@@ -12,6 +12,6 @@ function zombie_shootout(zeds, range, ammo) {
     }
 }
 
-console.log( zombie_shootout(3, 10, 10) ); // "You shot all 3 zombies."
-console.log( zombie_shootout(100, 8, 200) ); // "You shot 16 zombies before being eaten: overwhelmed."
-console.log( zombie_shootout(50, 10, 8) ); // "You shot 8 zombies before being eaten: ran out of ammo."
+console.log(zombie_shootout(3, 10, 10)); // "You shot all 3 zombies."
+console.log(zombie_shootout(100, 8, 200)); // "You shot 16 zombies before being eaten: overwhelmed."
+console.log(zombie_shootout(50, 10, 8)); // "You shot 8 zombies before being eaten: ran out of ammo."

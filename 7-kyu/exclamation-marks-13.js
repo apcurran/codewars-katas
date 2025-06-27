@@ -4,8 +4,8 @@
 //  * solution 1 -- regex
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} string 
+//  *
+//  * @param {string} string
 //  * @returns {number}
 //  */
 // function product(string) {
@@ -13,7 +13,7 @@
 //     const exclamationMarks = string.match(/!/g);
 
 //     if (!questionMarks || !exclamationMarks) return 0;
-    
+
 //     return questionMarks.length * exclamationMarks.length;
 // }
 
@@ -21,8 +21,8 @@
  * solution 2 -- optimized
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} string 
+ *
+ * @param {string} string
  * @returns {number}
  */
 function product(string) {

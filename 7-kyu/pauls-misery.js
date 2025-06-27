@@ -1,4 +1,4 @@
-function paul(arr){
+function paul(arr) {
     const valsMap = new Map([
         ["kata", 5],
         ["Petes kata", 10],
@@ -6,8 +6,7 @@ function paul(arr){
         ["eating", 1],
     ]);
 
-    const numArrSum = arr
-        .reduce((total, curr) => total + valsMap.get(curr), 0);
+    const numArrSum = arr.reduce((total, curr) => total + valsMap.get(curr), 0);
 
     if (numArrSum >= 100) {
         return "Miserable!";
@@ -22,5 +21,43 @@ function paul(arr){
 
 console.log(paul(["life", "eating", "life"])); // "Super happy!"
 console.log(paul(["life", "Petes kata", "Petes kata", "Petes kata", "eating"])); // "Super happy!"
-console.log(paul(["Petes kata", "Petes kata", "eating", "Petes kata", "Petes kata", "eating"])); // "Happy!"
-console.log(paul(["eating", "kata", "life", "eating", "eating", "kata", "life", "Petes kata", "Petes kata", "kata", "life", "eating", "life", "eating", "life", "kata", "eating", "kata", "kata", "Petes kata", "kata", "kata", "kata", "life", "eating", "kata"])); // "Happy!"
+console.log(
+    paul([
+        "Petes kata",
+        "Petes kata",
+        "eating",
+        "Petes kata",
+        "Petes kata",
+        "eating",
+    ]),
+); // "Happy!"
+console.log(
+    paul([
+        "eating",
+        "kata",
+        "life",
+        "eating",
+        "eating",
+        "kata",
+        "life",
+        "Petes kata",
+        "Petes kata",
+        "kata",
+        "life",
+        "eating",
+        "life",
+        "eating",
+        "life",
+        "kata",
+        "eating",
+        "kata",
+        "kata",
+        "Petes kata",
+        "kata",
+        "kata",
+        "kata",
+        "life",
+        "eating",
+        "kata",
+    ]),
+); // "Happy!"

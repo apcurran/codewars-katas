@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * @param {number} num 
- * @param {number} digits 
+ * @param {number} num
+ * @param {number} digits
  * @returns {number[]}
  */
 function lastDigit(num, digits) {
@@ -15,4 +15,4 @@ function lastDigit(num, digits) {
         .slice(-digits);
 }
 
-console.log( lastDigit(123767, 4) ); // [3, 7, 6, 7]
+console.log(lastDigit(123767, 4)); // [3, 7, 6, 7]

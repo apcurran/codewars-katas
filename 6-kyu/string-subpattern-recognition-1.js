@@ -6,8 +6,8 @@
  * m = subPattern length
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {boolean}
  */
 function hasSubpattern(str) {

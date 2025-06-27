@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) with results arr
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function findMissingNumbers(arr) {

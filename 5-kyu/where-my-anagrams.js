@@ -6,9 +6,9 @@
 //  * n = words arr
 //  * time: O(m + n)
 //  * space: O(m + n)
-//  * 
-//  * @param {string} word 
-//  * @param {string[]} words 
+//  *
+//  * @param {string} word
+//  * @param {string[]} words
 //  * @returns {array}
 //  */
 // function anagrams(word, words) {
@@ -55,27 +55,26 @@
  * n = words arr
  * time: O(n^2 * log n)
  * space: O(n)
- * 
- * @param {string} targetWord 
- * @param {string[]} words 
+ *
+ * @param {string} targetWord
+ * @param {string[]} words
  * @returns {array}
  */
 function anagrams(targetWord, words) {
-    return words.filter((currWord) => reorderWord(currWord) === reorderWord(targetWord));
+    return words.filter(
+        (currWord) => reorderWord(currWord) === reorderWord(targetWord),
+    );
 }
 
 /**
- * 
- * @param {string} word 
+ *
+ * @param {string} word
  * @returns {string}
  */
 function reorderWord(word) {
-    return word
-        .split("")
-        .sort()
-        .join("");
+    return word.split("").sort().join("");
 }
 
 console.log(anagrams("abba", ["aabb", "abcd", "bbaa", "dada"])); // ['aabb', 'bbaa']
 console.log(anagrams("racer", ["crazer", "carer", "racar", "caers", "racer"])); // ['carer', 'racer']
-console.log(anagrams("laser", ["lazing", "lazy",  "lacer"])); // []
+console.log(anagrams("laser", ["lazing", "lazy", "lacer"])); // []

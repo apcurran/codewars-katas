@@ -4,9 +4,9 @@
  * solution 1
  * time: O(m * n)
  * space: O(1) -- not including results
- * 
- * @param {number} m 
- * @param {number} n 
+ *
+ * @param {number} m
+ * @param {number} n
  * @returns {number[][]}
  */
 function generatePairs(m, n) {

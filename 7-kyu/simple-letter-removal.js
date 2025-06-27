@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(k * n)
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
-//  * @param {number} lettersToRemoveCount 
+//  *
+//  * @param {string} str
+//  * @param {number} lettersToRemoveCount
 //  * @returns {string}
 //  */
 // function solve(str, lettersToRemoveCount) {
@@ -43,9 +43,9 @@
  * solution 2 -- slight optimization
  * time: O(k * n)
  * space: O(n)
- * 
- * @param {string} str 
- * @param {number} lettersToRemoveCount 
+ *
+ * @param {string} str
+ * @param {number} lettersToRemoveCount
  * @returns {string}
  */
 function solve(str, lettersToRemoveCount) {

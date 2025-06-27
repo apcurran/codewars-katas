@@ -4,9 +4,9 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
- * @param {number} littleChouSum 
+ *
+ * @param {number} n
+ * @param {number} littleChouSum
  * @returns {number}
  */
 function missingTerm(n, littleChouSum) {

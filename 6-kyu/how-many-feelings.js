@@ -4,9 +4,9 @@
  * solution 1 -- hashmap
  * time: O(f * s)
  * space: O(s + f)
- * 
- * @param {string} string 
- * @param {string[]} array 
+ *
+ * @param {string} string
+ * @param {string[]} array
  * @returns {string} feelings count
  */
 function countFeelings(string, array) {
@@ -42,8 +42,12 @@ function countFeelings(string, array) {
     return `${feelingsCount} feeling${feelingsCount === 1 ? "" : "s"}.`;
 }
 
-console.log(countFeelings("yliausoenvjw", ["anger", "awe", "joy", "love", "grief"]));
+console.log(
+    countFeelings("yliausoenvjw", ["anger", "awe", "joy", "love", "grief"]),
+);
 // '3 feelings.'
 
-console.log(countFeelings("griefgriefgrief", ["anger", "awe", "joy", "love", "grief"]));
+console.log(
+    countFeelings("griefgriefgrief", ["anger", "awe", "joy", "love", "grief"]),
+);
 // '1 feeling.'

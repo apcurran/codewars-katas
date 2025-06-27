@@ -15,4 +15,4 @@ function checkExam(answerArr, studentAnswersArr) {
 }
 
 console.log(checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"])); // 6
-console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""])); // 7
+console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b", ""])); // 7

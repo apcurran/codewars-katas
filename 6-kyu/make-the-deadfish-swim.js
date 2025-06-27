@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} data 
+ *
+ * @param {string} data
  * @returns {number[]}
  */
 function parse(data) {
@@ -27,4 +27,4 @@ function parse(data) {
     return resArr;
 }
 
-console.log( parse("iiisdoso") ); // [8, 64]
+console.log(parse("iiisdoso")); // [8, 64]

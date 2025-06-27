@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {array} arr 
+ *
+ * @param {array} arr
  * @returns {number}
  */
 function solve(arr) {

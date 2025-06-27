@@ -4,8 +4,8 @@
  * solution 1 -- recursion
  * time: O(n * m)
  * space: O(m) -- due to recursive call stack
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function sumFactorial(arr) {
@@ -20,7 +20,7 @@ function sumFactorial(arr) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @param {Map} cache
  * @returns {number}
  */
@@ -30,5 +30,5 @@ function calcFactorial(num) {
     return num * calcFactorial(num - 1);
 }
 
-console.log( sumFactorial([4, 6]) ); // 744
-console.log( sumFactorial([5, 4, 1]) ); // 145
+console.log(sumFactorial([4, 6])); // 744
+console.log(sumFactorial([5, 4, 1])); // 145

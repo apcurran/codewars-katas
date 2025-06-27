@@ -1,7 +1,7 @@
-function toWeirdCase(str){
+function toWeirdCase(str) {
     const wordsArr = str.split(" ");
     let casedWordsArr = [];
-    
+
     for (let word of wordsArr) {
         const casedWord = word
             .split("")
@@ -14,12 +14,12 @@ function toWeirdCase(str){
                 }
             })
             .join("");
-        
+
         casedWordsArr.push(casedWord);
     }
 
     return casedWordsArr.join(" ");
 }
 
-console.log(toWeirdCase("String"));//=> returns "StRiNg")
-console.log((toWeirdCase("This is a test"))); // 'ThIs Is A TeSt'
+console.log(toWeirdCase("String")); //=> returns "StRiNg")
+console.log(toWeirdCase("This is a test")); // 'ThIs Is A TeSt'

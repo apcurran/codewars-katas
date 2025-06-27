@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} chromosome1 
- * @param {string} chromosome2 
- * @param {number} index 
+ *
+ * @param {string} chromosome1
+ * @param {string} chromosome2
+ * @param {number} index
  * @returns {[string, string]}
  */
 function crossover(chromosome1, chromosome2, index) {

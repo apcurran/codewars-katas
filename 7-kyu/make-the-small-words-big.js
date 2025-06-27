@@ -6,8 +6,8 @@
  * m = word length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {string} sentence 
+ *
+ * @param {string} sentence
  * @returns {string}
  */
 function smallWordHelper(sentence) {

@@ -1,7 +1,7 @@
 /**
- * 
- * @param {string[]} arr - Array of elements 
- * @param {number} n - Number of elements to include in a returned sequence 
+ *
+ * @param {string[]} arr - Array of elements
+ * @param {number} n - Number of elements to include in a returned sequence
  * @returns {string[]} - Returned sequence
  */
 function first(arr, n = 1) {

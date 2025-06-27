@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {boolean[]}
  */
 function divisibleByLast(n) {
@@ -19,7 +19,7 @@ function divisibleByLast(n) {
         if (previousDigit === 0) {
             // cannot divide by zero
             areDigitsDivisible.push(false);
-            
+
             continue;
         }
 

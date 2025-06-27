@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n + m)
- * 
- * @param {string} memories 
+ *
+ * @param {string} memories
  * @returns {string}
  */
 function select(memories) {
@@ -31,5 +31,9 @@ function select(memories) {
     return updatedMemories.join(", ");
 }
 
-console.log(select("Albert Einstein, !Sarah Connor, Marilyn Monroe, Abraham Lincoln, Sarah Connor, Sean Connery, Marilyn Monroe, Bjarne Stroustrup, Manson Marilyn, Monroe Mary"));
+console.log(
+    select(
+        "Albert Einstein, !Sarah Connor, Marilyn Monroe, Abraham Lincoln, Sarah Connor, Sean Connery, Marilyn Monroe, Bjarne Stroustrup, Manson Marilyn, Monroe Mary",
+    ),
+);
 // "Albert Einstein, Abraham Lincoln, Sean Connery, Bjarne Stroustrup, Manson Marilyn, Monroe Mary"

@@ -6,9 +6,9 @@
  * n = group arr length
  * time: O(m * n)
  * time: O(m + n)
- * 
- * @param {number[]} arr 
- * @param {number} n 
+ *
+ * @param {number[]} arr
+ * @param {number} n
  * @returns {number[]}
  */
 function minValue(arr, n) {

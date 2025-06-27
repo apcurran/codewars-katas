@@ -4,7 +4,7 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
+ *
  * @returns {function}
  */
 function counter() {
@@ -17,5 +17,5 @@ function counter() {
 }
 
 const newCounter = counter();
-console.log( newCounter() ); // 1
-console.log( newCounter() ); // 2
+console.log(newCounter()); // 1
+console.log(newCounter()); // 2

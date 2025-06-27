@@ -4,9 +4,9 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {object} head 
- * @param {number} value 
+ *
+ * @param {object} head
+ * @param {number} value
  * @returns {number}
  */
 function lastIndexOf(head, value) {
@@ -18,7 +18,7 @@ function lastIndexOf(head, value) {
         if (current.data === value) {
             lastValIndex = index;
         }
-        
+
         index++;
         current = current.next;
     }

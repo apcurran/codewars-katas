@@ -5,8 +5,8 @@
  * n = length of wordsList
  * m = length of characters in currentWord
  * time: O(n * m)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function stringTransformer(str) {
@@ -31,4 +31,4 @@ function stringTransformer(str) {
     return result.join(" ");
 }
 
-console.log( stringTransformer("Example Input") ); // "iNPUT eXAMPLE"
+console.log(stringTransformer("Example Input")); // "iNPUT eXAMPLE"

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n + m)
  * space: O(n + m)
- * 
- * @param {string} s1 
- * @param {string} s2 
+ *
+ * @param {string} s1
+ * @param {string} s2
  * @returns {boolean}
  */
 function compare(s1, s2) {
@@ -17,7 +17,7 @@ function compare(s1, s2) {
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {number}
  */
 function sumCharCodes(str) {

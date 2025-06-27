@@ -6,9 +6,9 @@
 //  * m = w2
 //  * time: O(n * m^2)
 //  * space: O(m)
-//  * 
-//  * @param {string} w1 
-//  * @param {string} w2 
+//  *
+//  * @param {string} w1
+//  * @param {string} w2
 //  * @returns {number}
 //  */
 // function anagramDifference(w1, w2) {
@@ -32,9 +32,9 @@
  * m = w2
  * time: O(n * m)
  * space: O(1) getFrequencyList does not scale with inputs
- * 
- * @param {string} w1 
- * @param {string} w2 
+ *
+ * @param {string} w1
+ * @param {string} w2
  * @returns {number}
  */
 function anagramDifference(w1, w2) {
@@ -43,7 +43,9 @@ function anagramDifference(w1, w2) {
     let counter = 0;
 
     for (let i = 0; i < 26; i++) {
-        const letterFrequencyDiff = Math.abs(word1LetterFrequencies[i] - word2LetterFrequencies[i]);
+        const letterFrequencyDiff = Math.abs(
+            word1LetterFrequencies[i] - word2LetterFrequencies[i],
+        );
         counter += letterFrequencyDiff;
     }
 
@@ -51,7 +53,7 @@ function anagramDifference(w1, w2) {
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {number[]}
  */
 function getFrequencyList(str) {
@@ -66,4 +68,3 @@ function getFrequencyList(str) {
 }
 
 console.log(anagramDifference("codewars", "hackerrank")); // 10
-

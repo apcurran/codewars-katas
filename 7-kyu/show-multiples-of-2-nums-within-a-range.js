@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(1) -- not including results
- * 
- * @param {number} a 
- * @param {number} b 
- * @param {number} upperLimit 
+ *
+ * @param {number} a
+ * @param {number} b
+ * @param {number} upperLimit
  * @returns {number[]}
  */
 function multiples(a, b, upperLimit) {

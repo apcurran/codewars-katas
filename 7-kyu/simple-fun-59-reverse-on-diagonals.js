@@ -4,14 +4,15 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[][]} matrix 
+ *
+ * @param {number[][]} matrix
  * @returns {number[][]}
  */
 function reverseOnDiagonals(matrix) {
     for (let row = 0; row < matrix.length / 2; row++) {
         const cellA1 = matrix[row][row];
-        const cellA2 = matrix[matrix.length - 1 - row][matrix[0].length - 1 - row];
+        const cellA2 =
+            matrix[matrix.length - 1 - row][matrix[0].length - 1 - row];
         const cellB1 = matrix[row][matrix.length - 1 - row];
         const cellB2 = matrix[matrix.length - 1 - row][row];
         // A cells swap
@@ -25,10 +26,10 @@ function reverseOnDiagonals(matrix) {
     return matrix;
 }
 
-console.log(reverseOnDiagonals(
-    [
+console.log(
+    reverseOnDiagonals([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9],
-    ],
-)); // [[9,2,7], [4,5,6],  [3,8,1]]
+    ]),
+); // [[9,2,7], [4,5,6],  [3,8,1]]

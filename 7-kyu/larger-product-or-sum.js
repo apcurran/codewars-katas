@@ -1,10 +1,10 @@
 "use strict";
 
 /**
- * 
+ *
  * @param {number[]} arr
  * @param {number} n
- * @returns {string} 
+ * @returns {string}
  */
 function sumOrProduct(arr, n) {
     const sortedArr = arr.sort((a, b) => a - b);
@@ -24,4 +24,4 @@ function sumOrProduct(arr, n) {
     }
 }
 
-console.log( sumOrProduct([10, 41, 8, 16, 20, 36, 9, 13, 20], 3) ); // => "product"
+console.log(sumOrProduct([10, 41, 8, 16, 20, 36, 9, 13, 20], 3)); // => "product"

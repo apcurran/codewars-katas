@@ -6,9 +6,9 @@
 //  * m = arr length
 //  * time: O((n^2) + (n * m))
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
-//  * @param {string[]} arr 
+//  *
+//  * @param {string} str
+//  * @param {string[]} arr
 //  * @returns {boolean}
 //  */
 // function containAllRots(str, arr) {
@@ -33,9 +33,9 @@
  * m = arr length
  * time: O((n^2) + (n * m))
  * space: O(n)
- * 
- * @param {string} str 
- * @param {string[]} arr 
+ *
+ * @param {string} str
+ * @param {string[]} arr
  * @returns {boolean}
  */
 function containAllRots(str, arr) {
@@ -48,5 +48,17 @@ function containAllRots(str, arr) {
     return true;
 }
 
-console.log( containAllRots("bsjq", ["bsjq", "qbsj", "sjqb", "twZNsslC", "jqbs"]) ); // true
-console.log( containAllRots("Ajylvpy", ["Ajylvpy", "ylvpyAj", "jylvpyA", "lvpyAjy", "pyAjylv", "vpyAjyl", "ipywee"]) ); // false
+console.log(
+    containAllRots("bsjq", ["bsjq", "qbsj", "sjqb", "twZNsslC", "jqbs"]),
+); // true
+console.log(
+    containAllRots("Ajylvpy", [
+        "Ajylvpy",
+        "ylvpyAj",
+        "jylvpyA",
+        "lvpyAjy",
+        "pyAjylv",
+        "vpyAjyl",
+        "ipywee",
+    ]),
+); // false

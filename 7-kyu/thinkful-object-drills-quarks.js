@@ -2,8 +2,8 @@
 
 class Quark {
     /**
-     * @param {string} color 
-     * @param {string} flavor 
+     * @param {string} color
+     * @param {string} flavor
      */
     constructor(color, flavor) {
         this.color = color;
@@ -27,4 +27,3 @@ const q2 = new Quark("blue", "strange");
 q1.interact(q2);
 console.log(q1.color);
 console.log(q2.color);
-

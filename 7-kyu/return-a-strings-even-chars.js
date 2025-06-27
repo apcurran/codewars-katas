@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1) -- not including results
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string[]|"invalid string"}
  */
 function evenChars(str) {

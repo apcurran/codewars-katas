@@ -2,8 +2,8 @@
 
 // /**
 //  * Solution 1 -- O(n) -> Too slow
-//  * @param {number} n 
-//  * @param {number} m 
+//  * @param {number} n
+//  * @param {number} m
 //  * @returns {number}
 //  */
 // function f(n, m) {
@@ -19,8 +19,8 @@
 
 /**
  * Solution 2 -- O(1)
- * @param {number} n 
- * @param {number} m 
+ * @param {number} n
+ * @param {number} m
  * @returns {number}
  */
 function f(n, m) {
@@ -30,6 +30,6 @@ function f(n, m) {
     return sumToTotal * 2;
 }
 
-console.log( f(10, 5) ); // 20
-console.log( f(20, 20) ); // 190
-console.log( f(15, 10) ); // 60
+console.log(f(10, 5)); // 20
+console.log(f(20, 20)); // 190
+console.log(f(15, 10)); // 60

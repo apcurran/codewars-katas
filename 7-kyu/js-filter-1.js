@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[][]} logins 
+ *
+ * @param {string[][]} logins
  * @returns {string[][]}
  */
 function searchNames(logins) {
@@ -17,5 +17,10 @@ function searchNames(logins) {
     });
 }
 
-console.log( searchNames([[ "foo", "foo@foo.com" ], [ "bar_", "bar@bar.com" ]]) );
+console.log(
+    searchNames([
+        ["foo", "foo@foo.com"],
+        ["bar_", "bar@bar.com"],
+    ]),
+);
 // [[ "bar_", "bar@bar.com" ]]

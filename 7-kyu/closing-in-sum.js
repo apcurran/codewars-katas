@@ -4,8 +4,8 @@
  * solution 1 -- two pointers
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function closingInSum(n) {
@@ -19,7 +19,7 @@ function closingInSum(n) {
         const rightStrNum = strNum[rightPointer];
         const formedNum = Number(`${leftStrNum}${rightStrNum}`);
         sum += formedNum;
-        
+
         leftPointer++;
         rightPointer--;
     }
@@ -29,7 +29,7 @@ function closingInSum(n) {
         // add single value
         sum += Number(strNum[leftPointer]);
     }
-    
+
     return sum;
 }
 

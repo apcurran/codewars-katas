@@ -6,8 +6,8 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {Animal[]} animals 
+ *
+ * @param {Animal[]} animals
  * @returns {Array}
  */
 function sortAnimal(animals) {
@@ -21,8 +21,8 @@ function sortAnimal(animals) {
 }
 
 /**
- * @param {Animal} objA 
- * @param {Animal} objB 
+ * @param {Animal} objA
+ * @param {Animal} objB
  */
 function comparisonFunc(objA, objB) {
     // compare num of legs

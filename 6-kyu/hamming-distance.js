@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} a 
- * @param {string} b 
+ *
+ * @param {string} a
+ * @param {string} b
  * @returns {number}
  */
 function hamming(a, b) {

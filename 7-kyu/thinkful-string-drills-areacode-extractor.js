@@ -4,14 +4,14 @@
 //  * solution 1 -- regex
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} text 
+//  *
+//  * @param {string} text
 //  * @returns {string}
 //  */
 // function areaCode(text) {
 //     // regex
 //     const areaCodeRegex = /\((\d+)\)/g;
-    
+
 //     return [...text.matchAll(areaCodeRegex)][0][1];
 // }
 
@@ -19,8 +19,8 @@
  * solution 2 -- regex 2 (only match 3-digit area codes)
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} text 
+ *
+ * @param {string} text
  * @returns {string}
  */
 function areaCode(text) {

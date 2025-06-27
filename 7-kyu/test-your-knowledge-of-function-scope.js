@@ -4,8 +4,8 @@
  * solution 1 -- closure
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} a 
+ *
+ * @param {number} a
  * @returns {function}
  */
 function add(a) {

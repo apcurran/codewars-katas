@@ -4,7 +4,7 @@
  * solution 1 -- brute force
  * time: O(n) -- bounded by n (cannot be greater than 40)
  * space: O(1)
- * @param {number} n 
+ * @param {number} n
  * @returns {number}
  */
 function smallest(n) {

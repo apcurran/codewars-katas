@@ -4,9 +4,9 @@
 //  * solution 1 -- regex
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {string} str 
-//  * @param {number} position 
+//  *
+//  * @param {string} str
+//  * @param {number} position
 //  * @returns {boolean}
 //  */
 // function checkVowel(str, position) {
@@ -23,9 +23,9 @@
  * solution 2 -- string.includes() prototype method
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
- * @param {number} position 
+ *
+ * @param {string} str
+ * @param {number} position
  * @returns {boolean}
  */
 function checkVowel(str, position) {

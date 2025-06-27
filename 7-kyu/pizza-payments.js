@@ -4,23 +4,23 @@
  * solution 1
  * time: O(n) -- string converion
  * space: O(n) -- string conversion
- * 
- * @param {number} pizzaCost 
+ *
+ * @param {number} pizzaCost
  * @returns {number}
  */
 function michaelPays(pizzaCost) {
     let michaelsCost = 0;
-    
+
     if (pizzaCost < 5) {
         michaelsCost += pizzaCost;
     } else if (pizzaCost <= 30) {
         const katesPortion = pizzaCost * (1 / 3);
-        
-        michaelsCost += (pizzaCost - katesPortion);
+
+        michaelsCost += pizzaCost - katesPortion;
     } else {
         const katesMaxPortion = 10;
 
-        michaelsCost += (pizzaCost - katesMaxPortion);
+        michaelsCost += pizzaCost - katesMaxPortion;
     }
 
     return Number(michaelsCost.toFixed(2));

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} text 
+ *
+ * @param {string} text
  * @returns {string[][]}
  */
 function orderedCount(text) {
@@ -19,4 +19,4 @@ function orderedCount(text) {
     return [...charMap.entries()];
 }
 
-console.log( orderedCount("abracadabra") ); // [['a', 5], ['b', 2], ['r', 2], ['c', 1], ['d', 1]]
+console.log(orderedCount("abracadabra")); // [['a', 5], ['b', 2], ['r', 2], ['c', 1], ['d', 1]]

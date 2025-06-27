@@ -1,11 +1,11 @@
 "use strict";
 
 /**
- * 
+ *
  * @param {string[]} nums - Array of string form nums that map to letter values.
- * @returns {string} - Answer should return a string from the composed mapped nums to letters. 
+ * @returns {string} - Answer should return a string from the composed mapped nums to letters.
  */
-function switcher(nums){
+function switcher(nums) {
     const mappedLetters = new Map([
         ["29", " "],
         ["28", "?"],

@@ -5,13 +5,13 @@
  * n = str length
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {string} str
  * @returns {string}
  */
 function createMessage(str) {
     /**
-     * @param {string} [phrase] 
+     * @param {string} [phrase]
      * @returns {string}
      */
     return function passIn(phrase) {

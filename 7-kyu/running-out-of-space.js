@@ -6,8 +6,8 @@
 //  * m = chunk length
 //  * time: O(n^2 * m)
 //  * space: O(n + m)
-//  * 
-//  * @param {string[]} words 
+//  *
+//  * @param {string[]} words
 //  * @returns {string[]}
 //  */
 // function spacey(words){
@@ -34,11 +34,11 @@
  * m = partial length
  * time: O(n * m)
  * space: O(n + m)
- * 
- * @param {string[]} words 
+ *
+ * @param {string[]} words
  * @returns {string[]}
  */
-function spacey(words){
+function spacey(words) {
     let results = [];
     let partial = "";
 
@@ -50,4 +50,4 @@ function spacey(words){
     return results;
 }
 
-console.log( spacey(["i", "have", "no", "space"]) ); // ['i','ihave','ihaveno','ihavenospace']
+console.log(spacey(["i", "have", "no", "space"])); // ['i','ihave','ihaveno','ihavenospace']

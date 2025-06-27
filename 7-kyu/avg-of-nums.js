@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} numbers 
+ *
+ * @param {number[]} numbers
  * @returns {number[]}
  */
 function averages(numbers) {
@@ -23,4 +23,4 @@ function averages(numbers) {
     return avgsArr;
 }
 
-console.log( averages([1, 3, 5, 1, -10]) ); // [2, 4, 3, -4.5]
+console.log(averages([1, 3, 5, 1, -10])); // [2, 4, 3, -4.5]

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {number[]} numbers 
+ *
+ * @param {number[]} numbers
  * @returns {number}
  */
 function maxGap(numbers) {
@@ -22,4 +22,4 @@ function maxGap(numbers) {
     return largestDifference;
 }
 
-console.log( maxGap([13, 10, 2, 9, 5]) ); // 4
+console.log(maxGap([13, 10, 2, 9, 5])); // 4

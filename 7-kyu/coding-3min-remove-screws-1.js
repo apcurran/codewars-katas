@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} screws 
+ *
+ * @param {string} screws
  * @returns {number}
  */
 function sc(screws) {

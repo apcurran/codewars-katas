@@ -2,7 +2,7 @@
 
 class Cat extends Animal {
     /**
-     * @param {string} name 
+     * @param {string} name
      */
     constructor(name) {
         super(name);

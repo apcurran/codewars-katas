@@ -4,8 +4,8 @@
  * solution 1 -- Map cache
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function duplicates(arr) {
@@ -29,5 +29,5 @@ function duplicates(arr) {
     return totalPairCount;
 }
 
-console.log( duplicates([1, 2, 5, 6, 5, 2]) ); // 2
-console.log( duplicates([1, 2, 2, 20, 6, 20, 2, 6, 2]) ); // 4
+console.log(duplicates([1, 2, 5, 6, 5, 2])); // 2
+console.log(duplicates([1, 2, 2, 20, 6, 20, 2, 6, 2])); // 4

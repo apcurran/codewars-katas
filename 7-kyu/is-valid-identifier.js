@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} identifier 
+ *
+ * @param {string} identifier
  * @returns {boolean}
  */
 function isValid(identifier) {

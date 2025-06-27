@@ -4,12 +4,12 @@
  * Each exclamation mark's weight is 2;
  * each question mark's weight is 3.
  * Putting two strings left and right on the balance - are they balanced?
- * 
+ *
  * Time: O(n)
  * Space: O(n)
- * 
- * @param {string} left 
- * @param {string} right 
+ *
+ * @param {string} left
+ * @param {string} right
  * @returns {string} - "Left", "Right", or "Balance"
  */
 function balance(left, right) {
@@ -33,7 +33,7 @@ function balance(left, right) {
             rightStrScore += 3;
         }
     }
-    
+
     if (leftStrScore > rightStrScore) {
         return "Left";
     } else if (rightStrScore > leftStrScore) {
@@ -43,6 +43,6 @@ function balance(left, right) {
     }
 }
 
-console.log( balance("!!", "??") ); // 4 < 6 -> "Right"
-console.log( balance("!??", "?!!") ); // "Left"
-console.log( balance("!?!!", "?!?") ); // "Left"
+console.log(balance("!!", "??")); // 4 < 6 -> "Right"
+console.log(balance("!??", "?!!")); // "Left"
+console.log(balance("!?!!", "?!?")); // "Left"

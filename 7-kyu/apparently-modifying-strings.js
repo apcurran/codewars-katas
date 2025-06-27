@@ -4,8 +4,8 @@
 //  * solution 1 -- iterative
 //  * time: O(n^2)
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {string}
 //  */
 // function apparently(str) {
@@ -37,12 +37,16 @@
  * solution 2 -- regex
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function apparently(str) {
     return str.replace(/\b(and|but)\b( apparently\b)?/g, "$1 apparently");
 }
 
-console.log(apparently("It was great and I've never been on live television before but sometimes I don't watch this."));
+console.log(
+    apparently(
+        "It was great and I've never been on live television before but sometimes I don't watch this.",
+    ),
+);

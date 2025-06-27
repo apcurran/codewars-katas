@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function median(arr) {

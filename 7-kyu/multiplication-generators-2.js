@@ -4,8 +4,8 @@
  * solution 1 -- iteration
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} a 
+ *
+ * @param {number} a
  * @returns {Generator} "a x b = c" format
  */
 function* generator(a) {

@@ -10,7 +10,7 @@ function evenLast(nums) {
             evenIndexedNumsTotal += nums[i];
         }
     }
-    
+
     return evenIndexedNumsTotal * nums[nums.length - 1];
 }
 

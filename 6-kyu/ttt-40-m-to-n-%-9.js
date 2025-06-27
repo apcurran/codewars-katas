@@ -4,9 +4,9 @@
 //  * solution 1 -- BigInt conversion
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number} m 
-//  * @param {number} n 
+//  *
+//  * @param {number} m
+//  * @param {number} n
 //  * @returns {number}
 //  */
 // function nMod9(m, n) {
@@ -25,9 +25,9 @@
  * solution 2 -- mod each num
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} m 
- * @param {number} n 
+ *
+ * @param {number} m
+ * @param {number} n
  * @returns {number}
  */
 function nMod9(m, n) {

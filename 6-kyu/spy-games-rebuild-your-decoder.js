@@ -6,8 +6,8 @@
  * m = section length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {string} code 
+ *
+ * @param {string} code
  * @returns {string}
  */
 function decrypt(code) {
@@ -55,10 +55,10 @@ function decrypt(code) {
     ]);
 
     let secretMessage = "";
-    
+
     for (let value of sectionValues) {
         // if the num goes over 26
-        const myValue = value > 26 ? (value % 27) : value;
+        const myValue = value > 26 ? value % 27 : value;
         const char = charsMap.get(myValue);
         secretMessage += char;
     }

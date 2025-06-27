@@ -31,7 +31,7 @@ function partsSums(arr) {
     arrOfSums.push(firstSum);
 
     for (let num of arr) {
-        arrOfSums.push(firstSum -= num);
+        arrOfSums.push((firstSum -= num));
     }
 
     return arrOfSums;

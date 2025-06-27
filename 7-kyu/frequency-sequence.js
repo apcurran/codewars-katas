@@ -4,9 +4,9 @@
  * Solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
- * @param {string} sep 
+ *
+ * @param {string} str
+ * @param {string} sep
  * @returns {string}
  */
 function freqSeq(str, sep) {
@@ -34,5 +34,4 @@ function freqSeq(str, sep) {
     return resStrArr.join(sep);
 }
 
-console.log( freqSeq("hello world", "-") ); // => "1-1-3-3-2-1-1-2-1-3-1"
-
+console.log(freqSeq("hello world", "-")); // => "1-1-3-3-2-1-1-2-1-3-1"

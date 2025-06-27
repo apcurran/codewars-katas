@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {object} data 
+ *
+ * @param {object} data
  * @returns {any[][]}
  */
 function keysAndValues(data) {
@@ -15,4 +15,4 @@ function keysAndValues(data) {
     return [keysArr, valsArr];
 }
 
-console.log( keysAndValues({a: 1, b: 2, c: 3}) ); // [['a', 'b', 'c'], [1, 2, 3]]
+console.log(keysAndValues({ a: 1, b: 2, c: 3 })); // [['a', 'b', 'c'], [1, 2, 3]]

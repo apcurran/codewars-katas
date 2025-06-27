@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * 
- * @param {string} str - String of text with formula to be added or subtracted 
+ *
+ * @param {string} str - String of text with formula to be added or subtracted
  * @returns {string} - Return a string version of the final result
  */
 function calculate(str) {

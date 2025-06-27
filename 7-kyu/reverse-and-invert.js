@@ -6,8 +6,8 @@
  * m = current num digits length
  * time: O(n * m)
  * space: O(n + m)
- * 
- * @param {any[]} nums 
+ *
+ * @param {any[]} nums
  * @returns {number[]}
  */
 function reverseInvert(nums) {
@@ -19,7 +19,9 @@ function reverseInvert(nums) {
         // we have an int
         const isNegativeInt = num < 0 ? true : false;
         const intAbsValue = Math.abs(num);
-        const reversedDigitsNum = Number(String(intAbsValue).split("").reverse().join(""));
+        const reversedDigitsNum = Number(
+            String(intAbsValue).split("").reverse().join(""),
+        );
 
         if (isNegativeInt) {
             results.push(Math.abs(reversedDigitsNum));

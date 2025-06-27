@@ -10,8 +10,8 @@ var TreeNode = function (value, left, right) {
  * solution 1 -- recursive
  * time: O(n)
  * space: O(n)
- * 
- * @param {TreeNode} root 
+ *
+ * @param {TreeNode} root
  * @returns {number}
  */
 function maxSum(root) {

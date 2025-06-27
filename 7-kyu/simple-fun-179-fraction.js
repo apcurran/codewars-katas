@@ -4,9 +4,9 @@
  * solution 1
  * time: O(log min(a, b))
  * space: O(log min(a, b)) -- recursive callstack for getGCD func
- * 
- * @param {number} numerator 
- * @param {number} denominator 
+ *
+ * @param {number} numerator
+ * @param {number} denominator
  * @returns {number}
  */
 function fraction(numerator, denominator) {
@@ -20,8 +20,8 @@ function fraction(numerator, denominator) {
 console.log(fraction(2, 4)); // 1 + 2 -> 3
 
 /**
- * @param {number} a 
- * @param {number} b 
+ * @param {number} a
+ * @param {number} b
  * @returns {number}
  */
 function getGCD(a, b) {

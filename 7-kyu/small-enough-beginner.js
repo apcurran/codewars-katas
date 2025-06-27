@@ -1,10 +1,10 @@
 /**
  * Check that all values in the array are below or equal to the limit value.
  * @param {number[]} arr - Array of numbers
- * @param {number} limit - Limit that all numbers must be lower than or equal to 
+ * @param {number} limit - Limit that all numbers must be lower than or equal to
  * @returns {boolean} - true or false if the array numbers are all below or equal to the limit value.
  */
-function smallEnough(arr, limit){
+function smallEnough(arr, limit) {
     for (let val of arr) {
         if (val > limit) return false;
     }

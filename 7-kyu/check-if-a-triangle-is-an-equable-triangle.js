@@ -4,10 +4,10 @@
  * solution 1 -- heron's formula
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} a 
- * @param {number} b 
- * @param {number} c 
+ *
+ * @param {number} a
+ * @param {number} b
+ * @param {number} c
  * @returns {boolean}
  */
 function equableTriangle(a, b, c) {

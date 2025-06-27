@@ -4,9 +4,9 @@
 //  * solution 1 -- brute force (TLE)
 //  * time: O(n^2)
 //  * space: O(1)
-//  * 
-//  * @param {number} n 
-//  * @param {number} targetX 
+//  *
+//  * @param {number} n
+//  * @param {number} targetX
 //  * @returns {number}
 //  */
 // function countNumber(n, targetX) {
@@ -29,9 +29,9 @@
  * solution 2
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
- * @param {number} targetX 
+ *
+ * @param {number} n
+ * @param {number} targetX
  * @returns {number}
  */
 function countNumber(n, targetX) {

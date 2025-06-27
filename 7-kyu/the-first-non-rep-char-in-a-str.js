@@ -4,15 +4,15 @@
  * solution 1 -- Set cache
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string|null}
  */
 function firstNonRepeated(str) {
     const uniqueCharsStr = [...new Set(str)].join("");
 
     if (uniqueCharsStr === str) return str[0];
-    
+
     let charCounts = new Map();
 
     for (let char of str) {
@@ -27,6 +27,6 @@ function firstNonRepeated(str) {
     return null;
 }
 
-console.log( firstNonRepeated("test") ); // "e"
-console.log( firstNonRepeated("trend") ); // "t"
-console.log( firstNonRepeated("aabbcc") ); // null
+console.log(firstNonRepeated("test")); // "e"
+console.log(firstNonRepeated("trend")); // "t"
+console.log(firstNonRepeated("aabbcc")); // null

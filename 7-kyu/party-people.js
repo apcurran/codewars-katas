@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n) -- sort
  * space: O(n) -- sort
- * 
- * @param {number[]} party 
+ *
+ * @param {number[]} party
  * @returns {number}
  */
 function partyPeople(party) {

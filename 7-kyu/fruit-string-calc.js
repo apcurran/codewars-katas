@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} string 
+ *
+ * @param {string} string
  * @returns {number}
  */
 function calculate(string) {
@@ -35,7 +35,7 @@ function calculate(string) {
     }
 
     if (isAddition) {
-        return firstNum + secondNum; 
+        return firstNum + secondNum;
     } else {
         return firstNum - secondNum;
     }

@@ -1,9 +1,7 @@
 "use strict";
 
 function iqTest(numsArr) {
-    const nums = numsArr
-        .split(" ")
-        .map((numStr) => Number(numStr));
+    const nums = numsArr.split(" ").map((numStr) => Number(numStr));
 
     let evens = [];
     let odds = [];

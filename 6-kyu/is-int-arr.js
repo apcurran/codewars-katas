@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n * m)
 //  * space: O(m)
-//  * 
-//  * @param {array} arr 
+//  *
+//  * @param {array} arr
 //  * @returns {boolean}
 //  */
 // function isIntArray(arr) {
@@ -34,8 +34,8 @@
  * solution 2
  * time: O(n)
  * space: O(1)
- * 
- * @param {array} arr 
+ *
+ * @param {array} arr
  * @returns {boolean}
  */
 function isIntArray(arr) {
@@ -46,6 +46,6 @@ function isIntArray(arr) {
     });
 }
 
-console.log( isIntArray([]) ); // true
-console.log( isIntArray([1, 2, 3, 4]) ); // true
-console.log( isIntArray([1, 2, 3, NaN]) ); // false
+console.log(isIntArray([])); // true
+console.log(isIntArray([1, 2, 3, 4])); // true
+console.log(isIntArray([1, 2, 3, NaN])); // false

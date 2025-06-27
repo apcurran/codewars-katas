@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function highestRank(arr) {
@@ -28,5 +28,5 @@ function highestRank(arr) {
     return maxValWithHighestFrequency;
 }
 
-console.log( highestRank([12, 10, 8, 12, 7, 6, 4, 10, 12]) ); // 12
-console.log( highestRank([12, 10, 8, 12, 7, 6, 4, 10, 12, 10]) ); // 12
+console.log(highestRank([12, 10, 8, 12, 7, 6, 4, 10, 12])); // 12
+console.log(highestRank([12, 10, 8, 12, 7, 6, 4, 10, 12, 10])); // 12

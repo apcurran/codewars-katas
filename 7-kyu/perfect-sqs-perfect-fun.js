@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n + sqrt(n))
- * 
- * @param {number} int 
+ *
+ * @param {number} int
  * @returns {string}
  */
 function squareIt(int) {
@@ -26,7 +26,7 @@ function squareIt(int) {
     return res.trim();
 }
 
-console.log( squareIt(123123123) );
+console.log(squareIt(123123123));
 // "123
 //  123
 //  123"

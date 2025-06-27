@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} input 
- * @param {function[]} fsArr 
+ *
+ * @param {number} input
+ * @param {function[]} fsArr
  * @returns {number}
  */
 function chain(input, fsArr) {
@@ -21,4 +21,4 @@ function mult(num) {
     return num * 30;
 }
 
-console.log( chain(2, [add, mult]) ); // 90
+console.log(chain(2, [add, mult])); // 90

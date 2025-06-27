@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} newspapers 
+ *
+ * @param {number} newspapers
  * @returns {number}
  */
 function cheapestQuote(newspapers) {
@@ -40,7 +40,7 @@ function cheapestQuote(newspapers) {
             newspapersCount = newspapersCount % 5;
         } else {
             const bundlesOf1 = Math.floor(newspapersCount / 1);
-            const bundlesOf1Cost = bundlesOf1 * 0.10;
+            const bundlesOf1Cost = bundlesOf1 * 0.1;
             totalPrice += bundlesOf1Cost;
 
             newspapersCount = newspapersCount % 1;
@@ -56,4 +56,3 @@ console.log(cheapestQuote(10)); // 0.97
 console.log(cheapestQuote(5)); // 0.49
 console.log(cheapestQuote(1)); // 0.10
 console.log(cheapestQuote(41)); // 3.95
-

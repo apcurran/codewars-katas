@@ -4,8 +4,8 @@
  * solution 1 -- regex with group and capture
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} word 
+ *
+ * @param {string} word
  * @returns {string}
  */
 function heggeleggleggo(word) {

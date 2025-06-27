@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * @param {number[]} arr 
+ * @param {number[]} arr
  * @returns {number}
  */
 function multi(arr) {
@@ -11,7 +11,7 @@ function multi(arr) {
 }
 
 /**
- * @param {number[]} arr 
+ * @param {number[]} arr
  * @returns {number}
  */
 function add(arr) {
@@ -21,7 +21,7 @@ function add(arr) {
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {string}
  */
 function reverse(str) {

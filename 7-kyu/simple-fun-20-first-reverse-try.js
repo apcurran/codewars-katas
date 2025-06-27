@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
- * @returns {number[]} 
+ *
+ * @param {number[]} arr
+ * @returns {number[]}
  */
 function firstReverseTry(arr) {
     if (arr.length === 0) return arr;

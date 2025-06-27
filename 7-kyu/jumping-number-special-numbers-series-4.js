@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- stringify n
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {"Jumping!!"|"Not!!"}
  */
 function jumpingNumber(n) {

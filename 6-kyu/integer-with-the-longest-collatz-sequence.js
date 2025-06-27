@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n) linear time for iteration of nums, log time for getCollatzLength() func
  * space: O(1) -- constant amount of variables used, no external data structures
- * 
- * @param {number[]} nums 
+ *
+ * @param {number[]} nums
  * @returns {number} num with longest collatz sequence (that comes first if equal to another)
  */
 function longestCollatz(nums) {
@@ -31,12 +31,12 @@ console.log(longestCollatz([340, 113, 226, 75])); // 75
 console.log(longestCollatz([75, 113, 226, 75])); // 75
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {number}
  */
 function getCollatzLength(num) {
     let counter = 0;
-    
+
     while (num !== 1) {
         if (num % 2 === 0) {
             // even num

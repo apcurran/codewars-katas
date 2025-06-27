@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {number}
  */
 function trickyDoubles(num) {
@@ -17,12 +17,12 @@ function trickyDoubles(num) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {boolean}
  */
 function isTrickyDoubleNum(num) {
     const strNum = String(num);
-    
+
     if (strNum.length % 2 === 1) {
         // odd can never be a ticky double
         return false;

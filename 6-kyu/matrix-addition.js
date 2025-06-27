@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {number[][]} matrixA 
- * @param {number[][]} matrixB 
+ *
+ * @param {number[][]} matrixA
+ * @param {number[][]} matrixB
  * @returns {number[][]}
  */
 function matrixAddition(matrixA, matrixB) {
@@ -28,15 +28,21 @@ function matrixAddition(matrixA, matrixB) {
     return result;
 }
 
-console.log(matrixAddition(
-    [[1, 2, 3],
-        [3, 2, 1],
-        [1, 1, 1]],
+console.log(
+    matrixAddition(
+        [
+            [1, 2, 3],
+            [3, 2, 1],
+            [1, 1, 1],
+        ],
 
-    [[2, 2, 1],
-        [3, 2, 3],
-        [1, 1, 3]],
-));
+        [
+            [2, 2, 1],
+            [3, 2, 3],
+            [1, 1, 3],
+        ],
+    ),
+);
 
 // returns:
 // [[3, 4, 4],

@@ -5,8 +5,8 @@
  * n = total regex chars identified
  * time: O(n) -- loop is constant time, but regex.test() is dependent upon regex chars identified
  * space: O(1) -- not including result space
- * 
- * @param {RegExp} regex 
+ *
+ * @param {RegExp} regex
  * @returns {string}
  */
 function createSequence(regex) {

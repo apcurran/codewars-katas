@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} strA 
- * @param {string} strB 
+ *
+ * @param {string} strA
+ * @param {string} strB
  * @returns {string}
  */
 function highestValue(strA, strB) {

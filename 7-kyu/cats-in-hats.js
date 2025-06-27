@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function height(n) {
@@ -21,5 +21,5 @@ function height(n) {
     return totalHeight.toFixed(3);
 }
 
-console.log( height(7) ); // "3331148.800"
-console.log( height(0) ); // "2000000.000"
+console.log(height(7)); // "3331148.800"
+console.log(height(0)); // "2000000.000"

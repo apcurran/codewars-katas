@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} plaintext 
+ *
+ * @param {string} plaintext
  * @returns {string}
  */
 function encode(plaintext) {
@@ -23,7 +23,7 @@ function encode(plaintext) {
             continue;
         }
 
-        // otherwise, check if charCode - 97 
+        // otherwise, check if charCode - 97
         if (isCharUppercaseLetter) {
             const alphabetBasedCharCode = charCode - 65;
 
@@ -52,4 +52,4 @@ function encode(plaintext) {
     return result;
 }
 
-console.log( encode("Hello World!") ); // "10110 00111!"
+console.log(encode("Hello World!")); // "10110 00111!"

@@ -4,7 +4,7 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @returns {number|null}
  */
 String.prototype.toCents = function () {

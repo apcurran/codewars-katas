@@ -9,9 +9,9 @@ function ListNode(data) {
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {*} listA 
- * @param {*} listB 
+ *
+ * @param {*} listA
+ * @param {*} listB
  */
 function append(listARoot, listBRoot) {
     if (listARoot === null && listBRoot === null) return null;

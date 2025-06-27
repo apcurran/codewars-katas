@@ -4,8 +4,8 @@
  * solution 1 -- Map obj
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {object}
  */
 function count(str) {
@@ -21,5 +21,5 @@ function count(str) {
     return Object.fromEntries(charMap);
 }
 
-console.log( count("aba") ); // { a: 2, b: 1 }
-console.log( count("") ); // {}
+console.log(count("aba")); // { a: 2, b: 1 }
+console.log(count("")); // {}

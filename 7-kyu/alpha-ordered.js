@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {boolean}
 //  */
 // function alphabetic(str) {
@@ -21,8 +21,8 @@
  * solution 2
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {boolean}
  */
 function alphabetic(str) {
@@ -36,5 +36,5 @@ function alphabetic(str) {
     return true;
 }
 
-console.log( alphabetic("door") ); // true
-console.log( alphabetic("codewars") ); // false
+console.log(alphabetic("door")); // true
+console.log(alphabetic("codewars")); // false

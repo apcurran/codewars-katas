@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- regex match returning a new arr
- * 
- * @param {string} word 
+ *
+ * @param {string} word
  * @returns {string}
  */
 function i(word) {
@@ -26,8 +26,8 @@ function i(word) {
     if (firstLetter === firstLetter.toLowerCase()) {
         return invalidMsg;
     }
-    
-    if (vowelCount >= (letterCount / 2)) {
+
+    if (vowelCount >= letterCount / 2) {
         return invalidMsg;
     }
 

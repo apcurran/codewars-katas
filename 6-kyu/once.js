@@ -4,8 +4,8 @@
  * solution 1 -- closure
  * time: O(1)
  * space: O(1)
- * 
- * @param {function} fn 
+ *
+ * @param {function} fn
  * @returns {function}
  */
 function once(fn) {

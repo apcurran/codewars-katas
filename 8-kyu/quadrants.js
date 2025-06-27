@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} x 
- * @param {number} y 
+ *
+ * @param {number} x
+ * @param {number} y
  * @returns {number}
  */
 function quadrant(x, y) {

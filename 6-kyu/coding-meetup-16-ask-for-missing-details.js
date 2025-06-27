@@ -9,7 +9,7 @@
  *   age: Number,
  *   language: String,
  * }} Person
-*/
+ */
 
 // /**
 //  * solution 1
@@ -17,8 +17,8 @@
 //  * m = Person properties
 //  * time: O(n * m)
 //  * space: O(n)
-//  * 
-//  * @param {Person[]} list 
+//  *
+//  * @param {Person[]} list
 //  * @returns {{
 //  *  firstName: String,
 //  *   lastName: String,
@@ -70,8 +70,8 @@
  * m = Person properties
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {Person[]} list 
+ *
+ * @param {Person[]} list
  * @returns {{
  *  firstName: String,
  *   lastName: String,
@@ -104,9 +104,30 @@ function askForMissingDetails(list) {
 }
 
 const list1 = [
-    { firstName: null, lastName: "I.", country: "Argentina", continent: "Americas", age: 35, language: "Java" },
-    { firstName: "Lukas", lastName: "X.", country: "Croatia", continent: "Europe", age: 35, language: null },
-    { firstName: "Madison", lastName: "U.", country: "United States", continent: "Americas", age: 32, language: "Ruby" },
+    {
+        firstName: null,
+        lastName: "I.",
+        country: "Argentina",
+        continent: "Americas",
+        age: 35,
+        language: "Java",
+    },
+    {
+        firstName: "Lukas",
+        lastName: "X.",
+        country: "Croatia",
+        continent: "Europe",
+        age: 35,
+        language: null,
+    },
+    {
+        firstName: "Madison",
+        lastName: "U.",
+        country: "United States",
+        continent: "Americas",
+        age: 32,
+        language: "Ruby",
+    },
 ];
 
 console.log(askForMissingDetails(list1));

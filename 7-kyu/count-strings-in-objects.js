@@ -4,15 +4,15 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {object} obj 
+//  *
+//  * @param {object} obj
 //  * @returns {number}
 //  */
 // function strCount(obj) {
 //     let stringsCount = 0;
 
 //     /**
-//      * @param {object} obj 
+//      * @param {object} obj
 //      * @returns {void}
 //      */
 //     function recurse(obj) {
@@ -36,8 +36,8 @@
  * solution 2 -- remove helper func
  * time: O(n)
  * space: O(n)
- * 
- * @param {object} obj 
+ *
+ * @param {object} obj
  * @returns {number}
  */
 function strCount(obj) {
@@ -55,12 +55,12 @@ function strCount(obj) {
     return stringsCount;
 }
 
-console.log(strCount(
-    {
+console.log(
+    strCount({
         first: "1",
         second: "2",
         third: false,
         fourth: ["anytime", 2, 3, 4],
         fifth: null,
-    },
-));
+    }),
+);

@@ -4,10 +4,10 @@
 //  * solution 1 -- brute-force TLE
 //  * time: O((a * b) + (a * c))
 //  * space: O(1)
-//  * 
-//  * @param {number[]} a 
-//  * @param {number[]} b 
-//  * @param {number[]} c 
+//  *
+//  * @param {number[]} a
+//  * @param {number[]} b
+//  * @param {number[]} c
 //  * @returns {number} sum of elements common to all three arrs
 //  */
 // function common(a, b, c) {
@@ -34,10 +34,10 @@
  * solution 2 -- brute-force TLE
  * time: O((a * log a) + (b * log b) + (c * log c))
  * space: O(a + b + c) -- sort method is O(n)
- * 
- * @param {number[]} a 
- * @param {number[]} b 
- * @param {number[]} c 
+ *
+ * @param {number[]} a
+ * @param {number[]} b
+ * @param {number[]} c
  * @returns {number} sum of elements common to all three arrs
  */
 function common(a, b, c) {

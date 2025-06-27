@@ -6,8 +6,8 @@
  * m = numCouple length
  * time: O(n)
  * space: O(m)
- * 
- * @param {string[]} str 
+ *
+ * @param {string[]} str
  * @returns {string|false}
  */
 function diff(str) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number} val 
+ *
+ * @param {number} val
  * @returns {number}
  */
 function nextPal(val) {
@@ -20,7 +20,7 @@ function nextPal(val) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {boolean}
  */
 function isPalindrome(num) {

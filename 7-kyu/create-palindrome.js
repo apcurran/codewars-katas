@@ -4,14 +4,14 @@
  * solution 1 -- two pointers
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {boolean}
  */
 function solve(str) {
     let left = 0;
     let right = str.length - 1;
-    
+
     while (left < right) {
         const leftCharCode = str.charCodeAt(left);
         const rightCharCode = str.charCodeAt(right);
@@ -39,4 +39,8 @@ console.log(solve("ae")); // false
 console.log(solve("abzy")); // false
 console.log(solve("ababbaba")); // true
 console.log(solve("sq")); // true
-console.log(solve("kxbkwgyydkcbtjcosgikfdyhuuprubpwthgflucpyylbofvqxkkvqthmdnywpaunfihvupbwpruwfybdmgeuocltdaidyyewmbzm")); // true
+console.log(
+    solve(
+        "kxbkwgyydkcbtjcosgikfdyhuuprubpwthgflucpyylbofvqxkkvqthmdnywpaunfihvupbwpruwfybdmgeuocltdaidyyewmbzm",
+    ),
+); // true

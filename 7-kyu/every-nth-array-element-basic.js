@@ -4,10 +4,10 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} arr 
-//  * @param {number} interval 
-//  * @param {number} start 
+//  *
+//  * @param {number[]} arr
+//  * @param {number} interval
+//  * @param {number} start
 //  * @returns {number[]}
 //  */
 // function every(arr, interval, start) {
@@ -41,10 +41,10 @@
  * solution 2 -- refactor (using es6 default args)
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
- * @param {number} interval 
- * @param {number} start 
+ *
+ * @param {number[]} arr
+ * @param {number} interval
+ * @param {number} start
  * @returns {number[]}
  */
 function every(arr, interval = 1, start = 0) {
@@ -60,4 +60,3 @@ function every(arr, interval = 1, start = 0) {
 console.log(every([0, 1, 2, 3, 4])); // [0,1,2,3,4]
 console.log(every([0, 1, 2, 3, 4], 2)); // [0,2,4]
 console.log(every([0, 1, 2, 3, 4], 3, 1)); // [1,4]
-

@@ -6,14 +6,14 @@
  * n = n beggars
  * time: O(n + v)
  * space: O(n)
- * 
- * @param {number[]} values 
- * @param {number} n 
+ *
+ * @param {number[]} values
+ * @param {number} n
  * @returns {number[]}
  */
 function beggars(values, n) {
     // account for 0 beggars
-    if (n <= 0) return []; 
+    if (n <= 0) return [];
 
     let beggarsTotals = new Array(n).fill(0);
     let beggarsIndex = 0;

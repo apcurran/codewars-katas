@@ -1,10 +1,10 @@
 "use strict";
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {boolean}
  */
-function solve(str){
+function solve(str) {
     const duplicatesRemoved = [...new Set(str)].join("");
 
     if (str !== duplicatesRemoved) return false;

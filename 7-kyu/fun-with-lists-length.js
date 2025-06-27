@@ -1,8 +1,8 @@
 "use strict";
 
 /**
- * 
- * @param {object} head 
+ *
+ * @param {object} head
  * @returns {number}
  */
 function length(head) {

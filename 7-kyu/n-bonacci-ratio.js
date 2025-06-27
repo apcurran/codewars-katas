@@ -1,8 +1,8 @@
 /**
- * 
- * @param {number} n 
- * @returns 
+ *
+ * @param {number} n
+ * @returns
  */
-function nBonacciRatio(n){
+function nBonacciRatio(n) {
     return; // n-bonacci ratio
 }

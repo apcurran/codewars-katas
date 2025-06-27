@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} eanCode 
+ *
+ * @param {string} eanCode
  * @returns {boolean}
  */
 function validateEAN(eanCode) {

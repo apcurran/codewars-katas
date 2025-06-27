@@ -2,12 +2,12 @@
 
 /**
  * swap first letters of each word
- * 
+ *
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} words 
+ *
+ * @param {string} words
  * @returns {string}
  */
 function spoonerize(words) {
@@ -17,7 +17,7 @@ function spoonerize(words) {
     const word2FirstLetter = word2[0];
     const word2Rest = word2.slice(1);
 
-    return `${word2FirstLetter}${word1Rest} ${word1FirstLetter}${word2Rest}`;    
+    return `${word2FirstLetter}${word1Rest} ${word1FirstLetter}${word2Rest}`;
 }
 
-console.log( spoonerize("nit picking") ); // "pit nicking"
+console.log(spoonerize("nit picking")); // "pit nicking"

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(log base m of n)
  * space: O(1)
- * 
- * @param {number} candlesNumber 
- * @param {number} makeNew 
+ *
+ * @param {number} candlesNumber
+ * @param {number} makeNew
  * @returns {number}
  */
 function candles(candlesNumber, makeNew) {

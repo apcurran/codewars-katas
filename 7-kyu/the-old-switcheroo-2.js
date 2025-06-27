@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n) -- lowerAlpha iteration is fixed at 26 characters
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function encode(str) {

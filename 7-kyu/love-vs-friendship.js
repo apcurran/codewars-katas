@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function wordsToMarks(str) {
@@ -19,5 +19,5 @@ function wordsToMarks(str) {
     return totalVal;
 }
 
-console.log( wordsToMarks("attitude") ); // 100
-console.log( wordsToMarks("friends") ); // 75
+console.log(wordsToMarks("attitude")); // 100
+console.log(wordsToMarks("friends")); // 75

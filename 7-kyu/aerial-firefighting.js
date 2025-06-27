@@ -4,9 +4,9 @@
  * Solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} fire 
- * @param {number} w 
+ *
+ * @param {string} fire
+ * @param {number} w
  * @returns {number}
  */
 function waterbombs(fire, w) {
@@ -25,5 +25,5 @@ function waterbombs(fire, w) {
     return waterbombCount;
 }
 
-console.log( waterbombs("xxYxx", 3) ); // 2
-console.log( waterbombs("xxYxx", 1) ); // 4
+console.log(waterbombs("xxYxx", 3)); // 2
+console.log(waterbombs("xxYxx", 1)); // 4

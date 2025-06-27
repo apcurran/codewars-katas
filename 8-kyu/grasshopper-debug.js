@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} temp 
+ *
+ * @param {number} temp
  * @returns {string}
  */
 function weatherInfo(temp) {
@@ -19,7 +19,7 @@ function weatherInfo(temp) {
 }
 
 /**
- * @param {number} fahrenheitTemp 
+ * @param {number} fahrenheitTemp
  * @returns {number}
  */
 function convertToCelsius(fahrenheitTemp) {

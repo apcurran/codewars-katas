@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function pairZeros(arr) {
@@ -22,4 +22,4 @@ function pairZeros(arr) {
     });
 }
 
-console.log( pairZeros([1, 0, 1, 0, 2, 0, 0, 3, 0]) ); // [1,0,1,2,0,3,0]
+console.log(pairZeros([1, 0, 1, 0, 2, 0, 0, 3, 0])); // [1,0,1,2,0,3,0]

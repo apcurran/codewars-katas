@@ -4,8 +4,8 @@
  * solution 1
  * time: O(sqrt(n))
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {[boolean, boolean, boolean]}
  */
 function numberProperty(n) {
@@ -19,7 +19,7 @@ function numberProperty(n) {
 console.log(numberProperty(7)); // [true, false, false]
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {boolean}
  */
 function isPrime(num) {
@@ -35,7 +35,7 @@ function isPrime(num) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {boolean}
  */
 function isEven(num) {
@@ -43,7 +43,7 @@ function isEven(num) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {boolean}
  */
 function isMultipleOf10(num) {

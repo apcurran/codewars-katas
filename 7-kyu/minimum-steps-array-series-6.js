@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {number[]} numbers 
- * @param {number} threshold 
+ *
+ * @param {number[]} numbers
+ * @param {number} threshold
  * @returns {number}
  */
 function minimumSteps(numbers, threshold) {

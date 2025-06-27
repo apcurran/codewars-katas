@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} word 
+ *
+ * @param {string} word
  * @returns {boolean}
  */
 function isAlt(word) {

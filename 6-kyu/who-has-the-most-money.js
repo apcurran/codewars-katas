@@ -13,8 +13,8 @@ class Student {
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {Student[]} students 
+ *
+ * @param {Student[]} students
  * @returns {string} student name with max dollar amount
  */
 function mostMoney(students) {
@@ -22,19 +22,26 @@ function mostMoney(students) {
         return students[0].name;
     }
 
-    const studentDollarAmounts = students.map(function getStudentDollarAmount(student) {
-        return (student.fives * 5) + (student.tens * 10) + (student.twenties * 20);
-    });
-    const allStudentsHaveEqualDollarAmounts = studentDollarAmounts.every(function checkStudentDollarAmountsEqual(dollarAmount) {
-        return dollarAmount === studentDollarAmounts[0];
-    });
+    const studentDollarAmounts = students.map(
+        function getStudentDollarAmount(student) {
+            return (
+                student.fives * 5 + student.tens * 10 + student.twenties * 20
+            );
+        },
+    );
+    const allStudentsHaveEqualDollarAmounts = studentDollarAmounts.every(
+        function checkStudentDollarAmountsEqual(dollarAmount) {
+            return dollarAmount === studentDollarAmounts[0];
+        },
+    );
 
     if (allStudentsHaveEqualDollarAmounts) {
         return "all";
     }
 
     const maxDollarAmount = Math.max(...studentDollarAmounts);
-    const maxDollarAmountStudentIndex = studentDollarAmounts.indexOf(maxDollarAmount);
+    const maxDollarAmountStudentIndex =
+        studentDollarAmounts.indexOf(maxDollarAmount);
 
     return students[maxDollarAmountStudentIndex].name;
 }

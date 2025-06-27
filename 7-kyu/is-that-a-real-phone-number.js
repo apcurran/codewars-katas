@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n) -- string.replaceAll() creates a new string
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {"In with a chance"|"Plenty more fish in the sea"}
  */
 function validateNumber(str) {
@@ -14,7 +14,9 @@ function validateNumber(str) {
     // this improves performance by not memorizing a capture group ref that I do not need for regex.test() to work
     const validPhoneNumberRegex = /^(?:07\d{9}|\+447\d{9})$/;
 
-    return validPhoneNumberRegex.test(noDashes) ? "In with a chance" : "Plenty more fish in the sea";
+    return validPhoneNumberRegex.test(noDashes)
+        ? "In with a chance"
+        : "Plenty more fish in the sea";
 }
 
 console.log(validateNumber("07454876120")); // 'In with a chance'

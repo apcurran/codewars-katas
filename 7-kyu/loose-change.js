@@ -3,17 +3,17 @@
 const CHANGE = {
     penny: 0.01,
     nickel: 0.05,
-    dime: 0.10,
+    dime: 0.1,
     quarter: 0.25,
-    dollar: 1.00,
+    dollar: 1.0,
 };
 
 /**
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} change 
+ *
+ * @param {string} change
  * @returns {string}
  */
 function changeCount(change) {
@@ -29,4 +29,3 @@ function changeCount(change) {
 }
 
 console.log(changeCount("dime penny dollar")); // "$1.11"
-

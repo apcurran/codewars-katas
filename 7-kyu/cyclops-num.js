@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {boolean}
  */
 function cyclops(n) {
@@ -36,12 +36,12 @@ function cyclops(n) {
     return true;
 }
 
-console.log( cyclops(1) ); // false
-console.log( cyclops(5) ); // true
-console.log( cyclops(3) ); // false
-console.log( cyclops(13) ); // false
-console.log( cyclops(23) ); // false
-console.log( cyclops(27) ); // true
-console.log( cyclops(2015) ); // true
-console.log( cyclops(666) ); // false
-console.log( cyclops(42) ); // false
+console.log(cyclops(1)); // false
+console.log(cyclops(5)); // true
+console.log(cyclops(3)); // false
+console.log(cyclops(13)); // false
+console.log(cyclops(23)); // false
+console.log(cyclops(27)); // true
+console.log(cyclops(2015)); // true
+console.log(cyclops(666)); // false
+console.log(cyclops(42)); // false

@@ -7,10 +7,10 @@
  * t = total matrix cells
  * time: O(n * m)
  * space: O(t)
- * 
- * @param {number[][]} matrix 
- * @param {number[]} rowsToDelete 
- * @param {number[]} columnsToDelete 
+ *
+ * @param {number[][]} matrix
+ * @param {number[]} rowsToDelete
+ * @param {number[]} columnsToDelete
  * @returns {number[][]}
  */
 function constructSubmatrix(matrix, rowsToDelete, columnsToDelete) {
@@ -39,15 +39,17 @@ function constructSubmatrix(matrix, rowsToDelete, columnsToDelete) {
     return results;
 }
 
-console.log(constructSubmatrix(
-    [
-        [1, 0, 0, 2],
-        [0, 5, 0, 1],
-        [0, 0, 3, 5],
-    ],
-    [1],
-    [0, 2],
-));
+console.log(
+    constructSubmatrix(
+        [
+            [1, 0, 0, 2],
+            [0, 5, 0, 1],
+            [0, 0, 3, 5],
+        ],
+        [1],
+        [0, 2],
+    ),
+);
 // [
 //     [0, 2],
 //     [0, 5]

@@ -5,8 +5,8 @@
  * m = length of binary num str
  * time: O(n * m)
  * space: O(m) -- not including results array
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number[]|"No pernicious numbers"}
  */
 function pernicious(n) {
@@ -19,7 +19,7 @@ function pernicious(n) {
     for (let i = 3; i <= n; i++) {
         const numHammingWeight = getHammingWeight(i);
         const isNumHammingWeightPrime = isPrime(numHammingWeight);
-        
+
         if (isNumHammingWeightPrime) {
             results.push(i);
         }
@@ -33,7 +33,7 @@ function pernicious(n) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {number} binary sum
  */
 function getHammingWeight(num) {
@@ -48,7 +48,7 @@ function getHammingWeight(num) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {boolean}
  */
 function isPrime(num) {

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number} n 
- * @param {number[]} arr 
+ *
+ * @param {number} n
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function removeSmallest(n, arr) {
@@ -32,7 +32,7 @@ console.log(removeSmallest(2, [5, 3, 2, 1, 4])); // [5,3,4]
 console.log(removeSmallest(2, [1, 2, 1, 2, 1])); // [2,2,1]
 
 /**
- * @param {number[]} nums 
+ * @param {number[]} nums
  * @returns {number}
  */
 function getMin(nums) {

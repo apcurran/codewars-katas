@@ -4,8 +4,8 @@
 //  * solution 1 -- recursion
 //  * time: O(log n)
 //  * space: O(log n)
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {number} len of collatz arr
 //  */
 // function collatz(n, lenCounter = 1) {
@@ -26,13 +26,13 @@
  * solution 2 -- iterative
  * time: O(log n)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number} len of collatz arr
  */
 function collatz(n) {
     let counter = 1;
-    
+
     while (n > 1) {
         counter++;
 
@@ -46,7 +46,7 @@ function collatz(n) {
             n = newVal;
         }
     }
-    
+
     return counter;
 }
 

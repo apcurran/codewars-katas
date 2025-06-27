@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n) -- stringify num
  * space: O(n) -- stringify num
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function groupByCommas(n) {

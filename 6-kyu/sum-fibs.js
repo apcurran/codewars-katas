@@ -13,8 +13,6 @@
 
 //     const fibNum = fib(num);
 
-
-
 // }
 
 function fib(n) {

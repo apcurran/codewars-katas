@@ -1,12 +1,12 @@
 "use strict";
 
 // /**
-//  * solution 1 
+//  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} infected 
-//  * @param {string} discovered 
+//  *
+//  * @param {string} infected
+//  * @param {string} discovered
 //  * @returns {string}
 //  */
 // function uncensor(infected, discovered) {
@@ -27,23 +27,23 @@
 //         discoveredStrIndex++;
 //     }
 
-//     return resStr; 
+//     return resStr;
 // }
 
 /**
  * solution 2 -- slightly optimized
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} infected 
- * @param {string} discovered 
+ *
+ * @param {string} infected
+ * @param {string} discovered
  * @returns {string}
  */
 function uncensor(infected, discovered) {
     let discoveredStrIndex = 0;
-    
+
     return infected.replace(/\*/g, () => discovered[discoveredStrIndex++]);
 }
 
-console.log( uncensor("*h*s *s v*ry *tr*ng*", "Tiiesae") ); // "This is very strange"
-console.log( uncensor("A**Z*N*", "MAIG") ); // "AMAZING"
+console.log(uncensor("*h*s *s v*ry *tr*ng*", "Tiiesae")); // "This is very strange"
+console.log(uncensor("A**Z*N*", "MAIG")); // "AMAZING"

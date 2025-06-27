@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function caffeineBuzz(n) {
@@ -21,7 +21,10 @@ function caffeineBuzz(n) {
         result += "Java";
     }
 
-    if ((n % 3 === 0 && n % 2 === 0) || (n % 3 === 0 && n % 4 === 0 && n % 2 === 0)) {
+    if (
+        (n % 3 === 0 && n % 2 === 0) ||
+        (n % 3 === 0 && n % 4 === 0 && n % 2 === 0)
+    ) {
         result += "Script";
     }
 

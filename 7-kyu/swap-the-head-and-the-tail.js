@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function swapHeadAndTail(arr) {
@@ -22,9 +22,9 @@ function swapHeadAndTail(arr) {
         const startingHalf = arr.slice(0, arr.length / 2);
         const endingHalf = arr.slice(arr.length / 2);
 
-        return [...endingHalf, ...startingHalf]; 
+        return [...endingHalf, ...startingHalf];
     }
 }
 
-console.log(swapHeadAndTail([ 1, 2, 3, 4, 5 ])); // [ 4, 5, 3, 1, 2 ]
-console.log(swapHeadAndTail([ 1, 2, -3, 4, 5, 6, -7, 8 ])); // [ 5, 6, -7, 8, 1, 2, -3, 4 ]
+console.log(swapHeadAndTail([1, 2, 3, 4, 5])); // [ 4, 5, 3, 1, 2 ]
+console.log(swapHeadAndTail([1, 2, -3, 4, 5, 6, -7, 8])); // [ 5, 6, -7, 8, 1, 2, -3, 4 ]

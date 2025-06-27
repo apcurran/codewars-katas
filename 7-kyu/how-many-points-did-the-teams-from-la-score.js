@@ -7,14 +7,13 @@
  * m = teamScore length
  * time: O(n * (x + m))
  * space: O(m)
- * 
- * @param {array[]} teams 
+ *
+ * @param {array[]} teams
  * @returns {number}
  */
 function getLosAngelesPoints(teams) {
     const laIdentifier = /^Los Angeles [A-Za-z]+/;
     let laScore = 0;
-
 
     for (let [teamName, teamScore] of teams) {
         if (laIdentifier.test(teamName)) {

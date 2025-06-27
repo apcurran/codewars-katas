@@ -1,9 +1,9 @@
 "use strict";
 
 function twoHighest(arr) {
-    const uniqueArr = [ ...(new Set(arr)) ];
+    const uniqueArr = [...new Set(arr)];
     const sortedArr = uniqueArr.sort((a, b) => b - a);
-    
+
     if (sortedArr.length > 1) {
         return sortedArr.slice(0, 2);
     }

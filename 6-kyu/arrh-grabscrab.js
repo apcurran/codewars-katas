@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2 * log n)
  * space: O(n^2)
- * 
- * @param {string} anagram 
- * @param {string[]} arr 
+ *
+ * @param {string} anagram
+ * @param {string[]} arr
  * @returns {string[]}
  */
 function grabscrab(anagram, arr) {
@@ -40,4 +40,4 @@ function grabscrab(anagram, arr) {
     });
 }
 
-console.log( grabscrab("ortsp", ["sport", "parrot", "ports", "matey"]) ); // ["sport", "ports"]
+console.log(grabscrab("ortsp", ["sport", "parrot", "ports", "matey"])); // ["sport", "ports"]

@@ -4,11 +4,11 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} totalTime 
- * @param {number} runTime 
- * @param {number} restTime 
- * @param {number} speed 
+ *
+ * @param {number} totalTime
+ * @param {number} runTime
+ * @param {number} restTime
+ * @param {number} speed
  * @returns {number} total distance traveled
  */
 function travel(totalTime, runTime, restTime, speed) {

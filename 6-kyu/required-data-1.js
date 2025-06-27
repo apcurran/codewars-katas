@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n) -- due to sorting at the end
  * space: O(n)
- * 
- * @param {number[]} list 
+ *
+ * @param {number[]} list
  * @returns {array}
  */
 function countSel(list) {
@@ -18,14 +18,14 @@ function countSel(list) {
         valsCache.set(val, previousFrequency + 1);
     }
 
-    // 1. get list length 
+    // 1. get list length
     const totalInts = list.length;
     // 2. get map.keys() length
     const totalUniqueVals = [...valsCache.keys()].length;
     let valsWithFrequency1Counter = 0;
     let maxFrequencies = [];
     let maxValOccurrence = 0;
-    
+
     for (let [, frequency] of valsCache) {
         // 3. get vals that have a frequency of 1
         if (frequency === 1) valsWithFrequency1Counter++;
@@ -41,7 +41,12 @@ function countSel(list) {
     // sort ASC
     maxFrequencies.sort((a, b) => a - b);
     //           1.           2.                     3.            4.                       5.
-    return [totalInts, totalUniqueVals, valsWithFrequency1Counter, [maxFrequencies, maxValOccurrence]];
+    return [
+        totalInts,
+        totalUniqueVals,
+        valsWithFrequency1Counter,
+        [maxFrequencies, maxValOccurrence],
+    ];
 }
 
-console.log( countSel([-3, -2, -1, 3, 4, -5, -5, 5, -1, -5]) ); // [10, 7, 5, [[-5], 3]]
+console.log(countSel([-3, -2, -1, 3, 4, -5, -5, 5, -1, -5])); // [10, 7, 5, [[-5], 3]]

@@ -7,7 +7,7 @@ class Vector {
     }
 
     /**
-     * @param {Vector} vectorObj 
+     * @param {Vector} vectorObj
      * @returns {Vector}
      */
     add(vectorObj) {

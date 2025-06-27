@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} num 
- * @param {number} power 
+ *
+ * @param {number} num
+ * @param {number} power
  * @returns {number}
  */
 function danspower(num, power) {

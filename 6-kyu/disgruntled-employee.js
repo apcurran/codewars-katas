@@ -3,8 +3,8 @@
 /**
  * Solution 1
  * Time: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number[]}
  */
 function off(n) {
@@ -19,4 +19,4 @@ function off(n) {
     return offSwitches;
 }
 
-console.log( off(4) ); // [1, 4]
+console.log(off(4)); // [1, 4]

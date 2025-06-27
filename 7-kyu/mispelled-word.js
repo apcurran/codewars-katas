@@ -6,9 +6,9 @@
  * m = word2 length
  * time: O(n + m)
  * space: O(1)
- * 
- * @param {string} word1 
- * @param {string} word2 
+ *
+ * @param {string} word1
+ * @param {string} word2
  * @returns {boolean}
  */
 function mispelled(word1, word2) {

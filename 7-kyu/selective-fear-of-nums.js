@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} day 
- * @param {number} num 
+ *
+ * @param {string} day
+ * @param {number} num
  * @returns {boolean}
  */
 function AmIAfraid(day, num) {

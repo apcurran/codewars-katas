@@ -4,15 +4,15 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n) -- array.match() returns a new array
- * 
- * @param {string} message 
+ *
+ * @param {string} message
  * @returns {boolean}
  */
 function isAValidMessage(message) {
     if (message === "") return true;
 
     const splitArr = message.match(/\d+|[a-zA-Z]+/gi) || [];
-    
+
     for (let i = 0; i < splitArr.length; i++) {
         const currentElem = Number(splitArr[i]);
         const nextElem = splitArr[i + 1];

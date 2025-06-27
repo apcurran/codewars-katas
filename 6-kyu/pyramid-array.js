@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {any[][]}
  */
 function pyramid(n) {

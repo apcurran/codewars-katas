@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number[]} arr 
+//  *
+//  * @param {number[]} arr
 //  * @returns {number}
 //  */
 // function diffBig2(arr) {
@@ -30,8 +30,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function diffBig2(arr) {
@@ -41,7 +41,7 @@ function diffBig2(arr) {
 }
 
 /**
- * @param {number[]} nums 
+ * @param {number[]} nums
  * @returns {number[]}
  */
 function bubbleSort(nums) {
@@ -55,7 +55,7 @@ function bubbleSort(nums) {
             }
         }
     }
-    
+
     return nums;
 }
 

@@ -7,9 +7,9 @@
  * b = monsterDefenseValue
  * time: O(n * log(min(a, b)))
  * space: O(1) -- no extra data structures or recursive calls used
- * 
- * @param {number} playerAttackValue 
- * @param {number[]} monsterList 
+ *
+ * @param {number} playerAttackValue
+ * @param {number[]} monsterList
  * @returns {number}
  */
 function finalAttackValue(playerAttackValue, monsterList) {
@@ -27,8 +27,8 @@ function finalAttackValue(playerAttackValue, monsterList) {
 console.log(finalAttackValue(50, [50, 105, 200])); // 110
 
 /**
- * @param {number} a 
- * @param {number} b 
+ * @param {number} a
+ * @param {number} b
  * @returns {number}
  */
 function getGCD(a, b) {

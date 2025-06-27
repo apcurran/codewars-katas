@@ -11,4 +11,6 @@ function dup(strArr) {
     });
 }
 
-console.log(dup(["ccooddddddewwwaaaaarrrrsssss", "piccaninny", "hubbubbubboo"]));
+console.log(
+    dup(["ccooddddddewwwaaaaarrrrsssss", "piccaninny", "hubbubbubboo"]),
+);

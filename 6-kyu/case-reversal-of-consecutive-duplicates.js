@@ -4,7 +4,7 @@
 //  * solution 1 -- basic, iterative
 //  * time: O(n)
 //  * space: O(n)
-//  * 
+//  *
 //  * @param {string} str
 //  * @returns {string}
 //  */
@@ -47,7 +47,7 @@
 //  * solution 2 -- iterative (simplified)
 //  * time: O(n)
 //  * space: O(1)
-//  * 
+//  *
 //  * @param {string} str
 //  * @returns {string}
 //  */
@@ -73,13 +73,15 @@
  * solution 3 -- regex (capture group and backreference)
  * time: O(n)
  * space: O(1) -- not including results
- * 
+ *
  * @param {string} str
  * @returns {string}
  */
 function reverseCase(str) {
     return str.replace(/([a-zA-Z])\1+/g, function invertCharCasing(letter) {
-        return letter.toLowerCase() === letter ? letter.toUpperCase() : letter.toLowerCase();
+        return letter.toLowerCase() === letter
+            ? letter.toUpperCase()
+            : letter.toLowerCase();
     });
 }
 

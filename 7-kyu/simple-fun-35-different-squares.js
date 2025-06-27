@@ -6,8 +6,8 @@
  * m = uniqueSquares size
  * time: O(n^2)
  * space: O(m)
- * 
- * @param {number[][]} matrix 
+ *
+ * @param {number[][]} matrix
  * @returns {number} count of different 2x2 squares
  */
 function differentSquares(matrix) {

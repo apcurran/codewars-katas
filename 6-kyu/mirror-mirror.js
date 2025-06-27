@@ -2,8 +2,8 @@
 
 /**
  * solution 1
- * 
- * @param {object} obj 
+ *
+ * @param {object} obj
  * @returns {object}
  */
 function evilTwin(obj) {
@@ -19,4 +19,4 @@ function evilTwin(obj) {
 const orig = { x: 5 };
 const twin = evilTwin(orig);
 console.log(twin.x); // -> 5
-console.log(twin.hasGoatee); 
+console.log(twin.hasGoatee);

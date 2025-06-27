@@ -11,14 +11,14 @@ class Node {
  * Solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {Node} list 
+ *
+ * @param {Node} list
  * @returns {string}
  */
 function stringify(list) {
     let current = list;
     let resStr = "";
-    
+
     while (current !== null) {
         resStr += `${current.data} -> `;
         current = current.next;
@@ -32,5 +32,4 @@ function stringify(list) {
 
 const myList = new Node(1, new Node(2, new Node(3)));
 console.log(myList);
-console.log( stringify(myList) ); // "1 -> 2 -> 3 -> null"
-
+console.log(stringify(myList)); // "1 -> 2 -> 3 -> null"

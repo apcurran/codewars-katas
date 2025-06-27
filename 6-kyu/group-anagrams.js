@@ -5,8 +5,8 @@
  * m = word length
  * time: O(n * (m * log m))
  * space: O(n + m)
- * 
- * @param {string[]} words 
+ *
+ * @param {string[]} words
  * @returns {string[][]}
  */
 function groupAnagrams(words) {

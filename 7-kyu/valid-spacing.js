@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * 
+ *
  * @param {string} str - Given string to test for word followed by a space, then another word (no leading or trailing spaces).
  * @returns {boolean}
  */

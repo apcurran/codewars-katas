@@ -1,6 +1,6 @@
 "use strict";
 
-function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+function checkCoupon(enteredCode, correctCode, currentDate, expirationDate) {
     const currDateObj = new Date(currentDate);
     const exprDateObj = new Date(expirationDate);
 

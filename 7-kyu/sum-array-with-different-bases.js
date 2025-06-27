@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {[string, number][]} numbersWithBases 
+ *
+ * @param {[string, number][]} numbersWithBases
  * @returns {number}
  */
 function sumItUp(numbersWithBases) {
@@ -19,4 +19,10 @@ function sumItUp(numbersWithBases) {
     return sum;
 }
 
-console.log(sumItUp([["101", 16], ["7640", 8], ["1", 9]])); // 4258
+console.log(
+    sumItUp([
+        ["101", 16],
+        ["7640", 8],
+        ["1", 9],
+    ]),
+); // 4258

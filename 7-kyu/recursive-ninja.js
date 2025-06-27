@@ -4,9 +4,9 @@
  * no join or repeat methods
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
- * @param {string} chirps 
+ *
+ * @param {number} n
+ * @param {string} chirps
  * @returns {string}
  */
 function chirp(n, chirps = "") {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function esrever(str) {

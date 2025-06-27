@@ -4,8 +4,8 @@
  * solution 1 -- regex match
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {string[]|null}
  */
 function cleverSplit(s) {

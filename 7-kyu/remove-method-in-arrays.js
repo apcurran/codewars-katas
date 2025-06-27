@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} index 
+ *
+ * @param {number} index
  * @returns {number[]}
  */
 Array.prototype.remove = function (index) {

@@ -6,18 +6,20 @@
  * m = word length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {string} yourID 
+ *
+ * @param {string} yourID
  * @returns {boolean}
  */
 function showMe(yourID) {
-    return yourID
-    // if word does not have a dash,
-    // this will keep the word full (even keeping empty spaces)
-        .split("-")
-        .every(function isName(word) {
-            return /^[A-Z][a-z]+$/.test(word);
-        });
+    return (
+        yourID
+            // if word does not have a dash,
+            // this will keep the word full (even keeping empty spaces)
+            .split("-")
+            .every(function isName(word) {
+                return /^[A-Z][a-z]+$/.test(word);
+            })
+    );
 }
 
 console.log(showMe("Francis")); // true

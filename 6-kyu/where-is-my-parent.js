@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2 * log n) -- O(n) operation within n * log n sort func
  * space: O(n)
- * 
- * @param {string} dancingBrigade 
+ *
+ * @param {string} dancingBrigade
  * @returns {string}
  */
 function findChildren(dancingBrigade) {
@@ -17,4 +17,4 @@ function findChildren(dancingBrigade) {
         .join("");
 }
 
-console.log( findChildren("beeeEBb") ); // "BbbEeee"
+console.log(findChildren("beeeEBb")); // "BbbEeee"

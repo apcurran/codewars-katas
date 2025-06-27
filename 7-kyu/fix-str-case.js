@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function solve(str) {
@@ -19,6 +19,6 @@ function solve(str) {
     return str.toLowerCase();
 }
 
-console.log( solve("coDe") ); // "code"
-console.log( solve("CODe") ); // "CODE"
-console.log( solve("coDE") ); // "code"
+console.log(solve("coDe")); // "code"
+console.log(solve("CODe")); // "CODE"
+console.log(solve("coDE")); // "code"

@@ -4,8 +4,8 @@
  * solution 1 -- math
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} totalEggs 
+ *
+ * @param {number} totalEggs
  * @returns {number} time to boil all eggs
  */
 function cookingTime(totalEggs) {
@@ -16,6 +16,6 @@ function cookingTime(totalEggs) {
     return Math.ceil(totalEggs / EGGS_PER_BATCH) * TIME_TO_BOIL_EGG;
 }
 
-console.log( cookingTime(0) ); // 0
-console.log( cookingTime(5) ); // 5
-console.log( cookingTime(10) ); // 10
+console.log(cookingTime(0)); // 0
+console.log(cookingTime(5)); // 5
+console.log(cookingTime(10)); // 10

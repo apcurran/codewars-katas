@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[][]} trainingData 
+ *
+ * @param {number[][]} trainingData
  * @returns {number} average of correct
  */
 function companyBotStrategy(trainingData) {
@@ -27,26 +27,26 @@ function companyBotStrategy(trainingData) {
     return sum / correctCount;
 }
 
-console.log(companyBotStrategy(
-    [
+console.log(
+    companyBotStrategy([
         [3, 1],
         [6, 1],
         [4, 1],
         [5, 1],
-    ],
-)); // 4.5
-console.log(companyBotStrategy(
-    [
+    ]),
+); // 4.5
+console.log(
+    companyBotStrategy([
         [4, 1],
         [4, -1],
         [0, 0],
         [6, 1],
-    ],
-)); // 5.0
-console.log(companyBotStrategy(
-    [
+    ]),
+); // 5.0
+console.log(
+    companyBotStrategy([
         [4, -1],
         [0, 0],
         [5, -1],
-    ],
-));
+    ]),
+);

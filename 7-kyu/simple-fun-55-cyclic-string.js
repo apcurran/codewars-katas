@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {number}
  */
 function cyclicString(s) {

@@ -6,9 +6,9 @@
  * m = arr2 length
  * time: O(n + m)
  * space: O(n)
- * 
- * @param {any[]} arr1 
- * @param {any[]} arr2 
+ *
+ * @param {any[]} arr1
+ * @param {any[]} arr2
  * @returns {number}
  */
 function matchArrays(arr1, arr2) {
@@ -24,5 +24,9 @@ function matchArrays(arr1, arr2) {
     return sharedElementsCount;
 }
 
-console.log(matchArrays(["incapsulation", "OOP", "array"],
-    ["time", "propert", "paralelism", "OOP"])); // 1
+console.log(
+    matchArrays(
+        ["incapsulation", "OOP", "array"],
+        ["time", "propert", "paralelism", "OOP"],
+    ),
+); // 1

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} message 
+ *
+ * @param {string} message
  * @returns {boolean}
  */
 function validate(message) {

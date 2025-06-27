@@ -4,8 +4,8 @@
  * solution 1
  * time: O((n * log n) * max(a, b))
  * space: O(n)
- * 
- * @param {number[][]} nums 
+ *
+ * @param {number[][]} nums
  * @returns {number[]}
  */
 function cantBeatSoJoin(nums) {
@@ -16,7 +16,7 @@ function cantBeatSoJoin(nums) {
 
         return arrBSum - arrASum;
     });
-    
+
     // flatten to 1-d return array
     return nums.flat(Infinity);
 }

@@ -5,8 +5,8 @@
 //  * n = num digits length
 //  * time: O(n^2)
 //  * space: O(n) -- recursive call stack
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {number|null}
 //  */
 // function prevMultOfThree(n) {
@@ -28,8 +28,8 @@
  * n = num digits length
  * time: O(n)
  * space: O(1) -- recursive call stack
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number|null}
  */
 function prevMultOfThree(n) {
@@ -45,7 +45,7 @@ function prevMultOfThree(n) {
     return n;
 }
 
-console.log( prevMultOfThree(25) ); // null
-console.log( prevMultOfThree(1244) ); // 12
-console.log( prevMultOfThree(36) ); // 36
-console.log( prevMultOfThree(952406) ); // 9
+console.log(prevMultOfThree(25)); // null
+console.log(prevMultOfThree(1244)); // 12
+console.log(prevMultOfThree(36)); // 36
+console.log(prevMultOfThree(952406)); // 9

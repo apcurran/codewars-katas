@@ -5,10 +5,10 @@
  * n = name length
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[]} name 
- * @param {number[]} age 
- * @param {number[]} height 
+ *
+ * @param {string[]} name
+ * @param {number[]} age
+ * @param {number[]} height
  * @returns {number}
  */
 function countDuplicates(name, age, height) {
@@ -16,7 +16,7 @@ function countDuplicates(name, age, height) {
 
     for (let i = 0; i < name.length; i++) {
         const person = `${name[i]}${age[i]}${height[i]}`;
-        uniquePeople.add(person);            
+        uniquePeople.add(person);
     }
 
     return name.length - uniquePeople.size;

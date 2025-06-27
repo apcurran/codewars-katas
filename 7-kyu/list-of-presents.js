@@ -4,9 +4,9 @@
  * solution 1 -- iterative
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {number} maxBudget 
- * @param {number[]} gifts 
+ *
+ * @param {number} maxBudget
+ * @param {number[]} gifts
  * @returns {number}
  */
 function howManyGifts(maxBudget, gifts) {
@@ -19,7 +19,7 @@ function howManyGifts(maxBudget, gifts) {
 
     for (let gift of lowToHighGiftsArr) {
         giftsCost += gift;
-        
+
         if (giftsCost > maxBudget) break;
 
         giftsCount++;
@@ -28,5 +28,5 @@ function howManyGifts(maxBudget, gifts) {
     return giftsCount;
 }
 
-console.log( howManyGifts(20, [13, 2, 4, 6, 1]) ); // 4
-console.log( howManyGifts(0, [1]) ); // 0
+console.log(howManyGifts(20, [13, 2, 4, 6, 1])); // 4
+console.log(howManyGifts(0, [1])); // 0

@@ -16,7 +16,6 @@ function twistedSum(num) {
             continue;
         }
 
-
         sumTotal += i;
     }
 
@@ -32,7 +31,7 @@ function addNumDigits(currNum) {
     const digitsSum = splitDigitsStr.reduce((sum, currDigit) => {
         return sum + Number(currDigit);
     }, 0);
-    
+
     return digitsSum;
 }
 

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {string[][]} matrix 
+ *
+ * @param {string[][]} matrix
  * @returns {boolean}
  */
 function solution(matrix) {
@@ -41,20 +41,20 @@ function solution(matrix) {
     return false;
 }
 
-console.log(solution(
-    [
+console.log(
+    solution([
         [" ", " ", " ", " "],
         [" ", " ", " ", " "],
         [" ", ">", " ", "x"],
         [" ", " ", " ", " "],
-    ],
-)); // true
+    ]),
+); // true
 
-console.log(solution(
-    [
+console.log(
+    solution([
         [" ", " ", " ", " "],
         [" ", ">", " ", " "],
         [" ", " ", " ", "x"],
         [" ", " ", " ", " "],
-    ],
-)); // false
+    ]),
+); // false

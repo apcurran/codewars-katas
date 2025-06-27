@@ -4,8 +4,8 @@
  * solution 1 -- map cache
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} data 
+ *
+ * @param {number[]} data
  * @returns {number}
  */
 function greatestDistance(data) {
@@ -30,10 +30,10 @@ function greatestDistance(data) {
         const firstIndex = indices[0];
         const lastIndex = indices[indices.length - 1];
         const indicesDistance = lastIndex - firstIndex;
-        maxDistance = Math.max(maxDistance, indicesDistance);        
+        maxDistance = Math.max(maxDistance, indicesDistance);
     }
 
     return maxDistance;
 }
 //                             0  1  2  3  4  5
-console.log( greatestDistance([0, 2, 1, 2, 4, 1]) ); // 3
+console.log(greatestDistance([0, 2, 1, 2, 4, 1])); // 3

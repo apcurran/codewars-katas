@@ -4,8 +4,8 @@
 //  * solution 1 -- hashmap (correct, but TLE)
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} nums 
+//  *
+//  * @param {number[]} nums
 //  * @returns {number}
 //  */
 // function findUnique(nums) {
@@ -27,8 +27,8 @@
  * solution 2 -- Bitwise XOR
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} nums 
+ *
+ * @param {number[]} nums
  * @returns {number}
  */
 function findUnique(nums) {

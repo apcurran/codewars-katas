@@ -1,7 +1,7 @@
 "use strict";
 
 class ListNode {
-    /** 
+    /**
      * @param {number} val
      * @param {ListNode|null} leftNode
      * @param {ListNode|null} rightNode
@@ -14,9 +14,9 @@ class ListNode {
 }
 
 /**
- * 
- * @param {ListNode} a 
- * @param {ListNode} b 
+ *
+ * @param {ListNode} a
+ * @param {ListNode} b
  * @returns {boolean}
  */
 function compare(a, b) {

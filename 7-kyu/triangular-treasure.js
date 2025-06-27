@@ -4,8 +4,8 @@
 //  * solution 1 -- iterative
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {number}
 //  */
 // function triangular(n) {
@@ -22,8 +22,8 @@
  * solution 2 -- math formula
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function triangular(n) {
@@ -32,6 +32,6 @@ function triangular(n) {
     return (n * n + n) / 2;
 }
 
-console.log( triangular(2) ); // 3
-console.log( triangular(4) ); // 10
-console.log( triangular(-10) ); // 0
+console.log(triangular(2)); // 3
+console.log(triangular(4)); // 10
+console.log(triangular(-10)); // 0

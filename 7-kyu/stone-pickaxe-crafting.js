@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string[]} chestItems 
+ *
+ * @param {string[]} chestItems
  * @returns {number} total stone pickaxes that can be crafted from materials
  */
 function stonePick(chestItems) {
@@ -26,14 +26,27 @@ function stonePick(chestItems) {
         }
     }
 
-    const cobblestonePickaxes = Math.floor(cobblestonesCount / COBBLESTONES_PER_PICKAXE);
+    const cobblestonePickaxes = Math.floor(
+        cobblestonesCount / COBBLESTONES_PER_PICKAXE,
+    );
     const sticksPickaxes = Math.floor(sticksCount / STICKS_PER_PICKAXE);
-    const totalPickaxesCraftable = Math.min(cobblestonePickaxes, sticksPickaxes);
+    const totalPickaxesCraftable = Math.min(
+        cobblestonePickaxes,
+        sticksPickaxes,
+    );
 
     return totalPickaxesCraftable;
 }
 
-console.log(stonePick(["Sticks", "Sticks", "Cobblestone", "Cobblestone", "Cobblestone"]));
+console.log(
+    stonePick([
+        "Sticks",
+        "Sticks",
+        "Cobblestone",
+        "Cobblestone",
+        "Cobblestone",
+    ]),
+);
 // 1
 
 console.log(stonePick(["Wood", "Cobblestone", "Cobblestone", "Cobblestone"]));

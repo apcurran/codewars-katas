@@ -4,8 +4,8 @@
  * solution 1 -- Date time methods
  * time: O(n)
  * space: O(n)
- * 
- * @param {Date} time 
+ *
+ * @param {Date} time
  * @returns {string} "HH:MM:SS:MS"
  */
 function convert(time) {

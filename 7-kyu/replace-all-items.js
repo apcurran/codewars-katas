@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {array|string} seq 
- * @param {number} find 
- * @param {number} replace 
+ *
+ * @param {array|string} seq
+ * @param {number} find
+ * @param {number} replace
  * @returns {array|string}
  */
 function replaceAll(seq, find, replace) {

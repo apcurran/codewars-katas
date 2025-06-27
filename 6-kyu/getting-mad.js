@@ -4,8 +4,8 @@
 //  * solution 1 -- brute force
 //  * time: O(n^2)
 //  * space: O(1)
-//  * 
-//  * @param {number[]} arr 
+//  *
+//  * @param {number[]} arr
 //  * @returns {number} min abs diff
 //  */
 // function getting_mad(arr) {
@@ -30,15 +30,15 @@
  * solution 2 -- sort
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number} min abs diff
  */
 function getting_mad(arr) {
     arr.sort(function sortDesc(a, b) {
         return b - a;
     });
-    
+
     let minAbsDiff = Infinity;
 
     for (let i = 0; i < arr.length - 1; i++) {

@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {string} s1 
-//  * @param {string} s2 
+//  *
+//  * @param {string} s1
+//  * @param {string} s2
 //  * @returns {boolean}
 //  */
 // function isOpposite(s1, s2) {
@@ -36,9 +36,9 @@
  * solution 2
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s1 
- * @param {string} s2 
+ *
+ * @param {string} s1
+ * @param {string} s2
  * @returns {boolean}
  */
 function isOpposite(s1, s2) {

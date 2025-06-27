@@ -4,8 +4,8 @@
  * solution 1
  * time O(n^2)
  * space: O(n) -- array.flat() returns a new array copy
- * 
- * @param {number[][]} matrix 
+ *
+ * @param {number[][]} matrix
  * @returns {number}
  */
 function smallestInteger(matrix) {
@@ -19,4 +19,9 @@ function smallestInteger(matrix) {
     return counter;
 }
 
-console.log(smallestInteger([[0, 2], [5, 1]])); // 3
+console.log(
+    smallestInteger([
+        [0, 2],
+        [5, 1],
+    ]),
+); // 3

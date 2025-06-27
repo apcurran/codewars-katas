@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number[]} arr 
+//  *
+//  * @param {number[]} arr
 //  * @returns {number}
 //  */
 // function findMagic(arr){
@@ -22,13 +22,13 @@
  * solution 2
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
-function findMagic(arr){
+function findMagic(arr) {
     return arr.findIndex((value, i) => value === i);
 }
 
-console.log( findMagic([-20, -10, 2, 10, 20]) ); // 2
-console.log( findMagic([6, 5, 83, 5, 3, 18]) ); // -1
+console.log(findMagic([-20, -10, 2, 10, 20])); // 2
+console.log(findMagic([6, 5, 83, 5, 3, 18])); // -1

@@ -4,7 +4,7 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
+ *
  * @returns {number}
  */
 Date.prototype.getDate = function getGrinchDate() {
@@ -15,5 +15,5 @@ Date.prototype.getDate = function getGrinchDate() {
 };
 
 const firstDate = new Date("1907-10-25");
-console.log(firstDate.getMonth()); // 9 
-console.log(firstDate.getDate()); // 25 
+console.log(firstDate.getMonth()); // 9
+console.log(firstDate.getDate()); // 25

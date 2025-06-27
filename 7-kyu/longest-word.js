@@ -1,6 +1,8 @@
 function longest(words) {
-    const sortedWords = words.sort((wordA, wordB) => wordB.length - wordA.length);
-    
+    const sortedWords = words.sort(
+        (wordA, wordB) => wordB.length - wordA.length,
+    );
+
     return sortedWords[0].length;
 }
 

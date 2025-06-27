@@ -4,11 +4,11 @@
  * solution 1 -- math
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} kanga1 
- * @param {number} rate1 
- * @param {number} kanga2 
- * @param {number} rate2 
+ *
+ * @param {number} kanga1
+ * @param {number} rate1
+ * @param {number} kanga2
+ * @param {number} rate2
  * @returns {boolean}
  */
 function kangaroo(kanga1, rate1, kanga2, rate2) {

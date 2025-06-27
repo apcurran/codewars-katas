@@ -4,8 +4,8 @@
  * solution 1 -- recursive
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function factorial(n) {
@@ -14,4 +14,4 @@ function factorial(n) {
     return n * factorial(n - 1);
 }
 
-console.log( factorial(5) ); // 120
+console.log(factorial(5)); // 120

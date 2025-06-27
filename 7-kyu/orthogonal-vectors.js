@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} u 
- * @param {number[]} v 
+ *
+ * @param {number[]} u
+ * @param {number[]} v
  * @returns {boolean}
  */
 function isOrthogonal(u, v) {

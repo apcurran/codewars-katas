@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param  {...number} nums 
+ *
+ * @param  {...number} nums
  * @returns {number}
  */
 function add(...nums) {
@@ -22,4 +22,4 @@ function add(...nums) {
     return Math.round(total);
 }
 
-console.log( add(3, 4, 6) ); // 7
+console.log(add(3, 4, 6)); // 7

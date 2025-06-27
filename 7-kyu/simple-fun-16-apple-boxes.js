@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} k 
+ *
+ * @param {number} k
  * @returns {number}
  */
 function appleBoxes(k) {

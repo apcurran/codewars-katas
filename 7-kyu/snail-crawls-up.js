@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} columnTotalHeight 
- * @param {number} dayCrawlUpHeight 
- * @param {number} nightSlideDownHeight 
+ *
+ * @param {number} columnTotalHeight
+ * @param {number} dayCrawlUpHeight
+ * @param {number} nightSlideDownHeight
  * @returns {number}
  */
 function snail(columnTotalHeight, dayCrawlUpHeight, nightSlideDownHeight) {
@@ -27,5 +27,5 @@ function snail(columnTotalHeight, dayCrawlUpHeight, nightSlideDownHeight) {
     return daysCount;
 }
 
-console.log( snail(3, 2, 1) ); // 2
-console.log( snail(10, 3, 1) ); // 5
+console.log(snail(3, 2, 1)); // 2
+console.log(snail(10, 3, 1)); // 5

@@ -6,8 +6,8 @@
  * m = row str length
  * time: O(n * m)
  * space: O(1)
- * 
- * @param {string[]} locker 
+ *
+ * @param {string[]} locker
  * @returns {number}
  */
 function diamondBurglar(locker) {
@@ -29,11 +29,6 @@ function diamondBurglar(locker) {
     return totalRepsToStealDiamonds;
 }
 
-console.log(diamondBurglar(
-    [
-        "*.*.*.*.*.",
-        "...*..**..",
-        "**.**...*.",
-        "**..**..**",
-    ],
-)); // 13
+console.log(
+    diamondBurglar(["*.*.*.*.*.", "...*..**..", "**.**...*.", "**..**..**"]),
+); // 13

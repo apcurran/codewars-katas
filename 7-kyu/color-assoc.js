@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[][]} colorsArr 
+ *
+ * @param {string[][]} colorsArr
  * @returns {object[]}
  */
 function colourAssociation(colorsArr) {
@@ -18,5 +18,12 @@ function colourAssociation(colorsArr) {
     });
 }
 
-console.log( colourAssociation([["red", "energy"], ["yellow", "creativity"], ["brown", "friendly"], ["green", "growth"]]) );
+console.log(
+    colourAssociation([
+        ["red", "energy"],
+        ["yellow", "creativity"],
+        ["brown", "friendly"],
+        ["green", "growth"],
+    ]),
+);
 // [{red: "energy"}, {yellow: "creativity"}, {brown: "friendly"}, {green: "growth"}]

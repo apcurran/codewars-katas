@@ -6,8 +6,8 @@
  * m = columns length
  * time: O(m * n)
  * space: O(m)
- * 
- * @param {number[][]} arr 
+ *
+ * @param {number[][]} arr
  * @returns {number[]}
  */
 function avgArray(arr) {
@@ -17,7 +17,7 @@ function avgArray(arr) {
 
     for (let col = 0; col < COLS; col++) {
         let rowsSum = 0;
-        
+
         for (let row = 0; row < ROWS; row++) {
             const value = arr[row][col];
             rowsSum += value;
@@ -30,4 +30,9 @@ function avgArray(arr) {
     return averages;
 }
 
-console.log(avgArray([ [1, 2, 3, 4], [5, 6, 7, 8] ])); // [3, 4, 5, 6]
+console.log(
+    avgArray([
+        [1, 2, 3, 4],
+        [5, 6, 7, 8],
+    ]),
+); // [3, 4, 5, 6]

@@ -7,9 +7,9 @@
  * x = highest frequency count digit of str2
  * time: O(m * x)
  * space: O(n + m) -- not including results array
- * 
- * @param {string} str1 
- * @param {string} str2 
+ *
+ * @param {string} str1
+ * @param {string} str2
  * @returns {string}
  */
 function findAdded(str1, str2) {
@@ -28,12 +28,12 @@ function findAdded(str1, str2) {
     }
 
     let results = [];
-    
+
     for (let [digitStr, digitStr2Count] of str2Map) {
         // check numstr freq of str2 and if greater than or not in str1 add to results
         const digitStr1Count = str1Map.get(digitStr) || 0;
         const digitStrDifference = digitStr2Count - digitStr1Count;
-        
+
         if (digitStrDifference > 0) {
             // add to results for each count
             for (let i = 0; i < digitStrDifference; i++) {

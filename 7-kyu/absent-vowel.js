@@ -4,11 +4,11 @@
  * solution 1 -- hashset
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
-function absentVowel(str){
+function absentVowel(str) {
     const allVowels = "aeiou";
     let seenVowels = new Set();
 
@@ -29,5 +29,5 @@ function absentVowel(str){
     }
 }
 
-console.log( absentVowel("John Doe hs seven red pples under his bsket") ); // 0
-console.log( absentVowel("Bb Smith sent us six neatly arranged range bicycles") ); // 3
+console.log(absentVowel("John Doe hs seven red pples under his bsket")); // 0
+console.log(absentVowel("Bb Smith sent us six neatly arranged range bicycles")); // 3

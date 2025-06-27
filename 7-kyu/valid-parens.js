@@ -4,8 +4,8 @@
  * solution 1 -- stack
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} parensStr 
+ *
+ * @param {string} parensStr
  * @returns {boolean}
  */
 function validParentheses(parensStr) {
@@ -35,6 +35,6 @@ function validParentheses(parensStr) {
     return true;
 }
 
-console.log( validParentheses("()") ); // true
-console.log( validParentheses(")(()))") ); // false
-console.log( validParentheses("()()(") ); // false
+console.log(validParentheses("()")); // true
+console.log(validParentheses(")(()))")); // false
+console.log(validParentheses("()()(")); // false

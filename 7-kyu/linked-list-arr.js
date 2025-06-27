@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(n)
- * 
- * @param {object} list 
+ *
+ * @param {object} list
  * @returns {number[]}
  */
 function listToArray(list) {

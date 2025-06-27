@@ -4,7 +4,7 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {number[]} nums
  * @returns {number[]}
  */
@@ -25,4 +25,4 @@ function bubblesortOnce(nums) {
     return numsCopy;
 }
 
-console.log( bubblesortOnce([9, 7, 5, 3, 1, 2, 4, 6, 8]) ); // [7, 5, 3, 1, 2, 4, 6, 8, 9]
+console.log(bubblesortOnce([9, 7, 5, 3, 1, 2, 4, 6, 8])); // [7, 5, 3, 1, 2, 4, 6, 8, 9]

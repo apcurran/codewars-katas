@@ -4,9 +4,9 @@
  * solution 1 -- every method
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} nums 
- * @param {number} limit 
+ *
+ * @param {number[]} nums
+ * @param {number} limit
  * @returns {boolean}
  */
 function smallEnough(nums, limit) {

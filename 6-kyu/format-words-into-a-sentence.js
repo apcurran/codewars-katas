@@ -4,8 +4,8 @@
  * Solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[]} words 
+ *
+ * @param {string[]} words
  * @returns {string}
  */
 function formatWords(words) {
@@ -25,11 +25,14 @@ function formatWords(words) {
     return wordsEmptyStrsRemoved
         .slice(0, -1)
         .join(", ")
-        .concat(" and ", wordsEmptyStrsRemoved[wordsEmptyStrsRemoved.length - 1]);
+        .concat(
+            " and ",
+            wordsEmptyStrsRemoved[wordsEmptyStrsRemoved.length - 1],
+        );
 }
 
-console.log( formatWords(["one", "two", "three", "four"]) ); // 'one, two, three and four'
-console.log( formatWords(["one", "two", ""]) ); // 'one and two'
-console.log( formatWords(["one"]) ); // 'one'
-console.log( formatWords(null) ); // ''
-console.log( formatWords([""]) ); // ''
+console.log(formatWords(["one", "two", "three", "four"])); // 'one, two, three and four'
+console.log(formatWords(["one", "two", ""])); // 'one and two'
+console.log(formatWords(["one"])); // 'one'
+console.log(formatWords(null)); // ''
+console.log(formatWords([""])); // ''

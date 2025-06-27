@@ -10,8 +10,8 @@ function ListNode(data, next = null) {
  * solution 1 -- iterative
  * time: O(n)
  * space: O(n)
- * 
- * @param {ListNode} head 
+ *
+ * @param {ListNode} head
  * @param {number} k index from the end of the list
  * @returns {ListNode} node's data at the specified end index
  */
@@ -27,6 +27,6 @@ function getKthLastElement(head, k) {
 }
 
 const list = new ListNode(1, new ListNode(2, new ListNode(3)));
-console.log( getKthLastElement(list, 0).data ); // 3
-console.log( getKthLastElement(list, 1).data ); // 2
-console.log( getKthLastElement(list, 2).data ); // 1
+console.log(getKthLastElement(list, 0).data); // 3
+console.log(getKthLastElement(list, 1).data); // 2
+console.log(getKthLastElement(list, 2).data); // 1

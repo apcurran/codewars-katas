@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string[]}
  */
 function reverseSlice(str) {
@@ -18,7 +18,7 @@ function reverseSlice(str) {
             chunk += str[j];
         }
 
-        results.push(chunk);   
+        results.push(chunk);
     }
 
     return results;

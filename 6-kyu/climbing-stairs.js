@@ -4,8 +4,8 @@
 //  * solution 1 -- dynamic programming (with mutation of input)
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number[]} cost 
+//  *
+//  * @param {number[]} cost
 //  * @returns {number}
 //  */
 // function climbingStairs(cost) {
@@ -22,8 +22,8 @@
  * solution 2 -- dynamic programming (no mutation of input)
  * time: O(n)
  * space: O(n) -- dp cache
- * 
- * @param {number[]} cost 
+ *
+ * @param {number[]} cost
  * @returns {number}
  */
 function climbingStairs(cost) {

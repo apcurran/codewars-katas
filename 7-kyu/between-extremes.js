@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} numbers 
+//  *
+//  * @param {number[]} numbers
 //  * @returns {number}
 //  */
 // function betweenExtremes(numbers) {
@@ -19,8 +19,8 @@
  * solution 2
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} numbers 
+ *
+ * @param {number[]} numbers
  * @returns {number}
  */
 function betweenExtremes(numbers) {
@@ -40,4 +40,4 @@ function betweenExtremes(numbers) {
     return max - min;
 }
 
-console.log( betweenExtremes([23, 3, 19, 21, 16]) ); // 23 - 3 -> 20
+console.log(betweenExtremes([23, 3, 19, 21, 16])); // 23 - 3 -> 20

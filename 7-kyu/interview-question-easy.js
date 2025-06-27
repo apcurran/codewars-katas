@@ -4,12 +4,39 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} city 
+ *
+ * @param {string} city
  * @returns {string}
  */
 function getStrings(city) {
-    const alphabet = new Set(["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]);
+    const alphabet = new Set([
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z",
+    ]);
     let lettersCache = new Map();
 
     for (let char of city) {
@@ -32,4 +59,4 @@ function getStrings(city) {
     return letterSegments.join(",");
 }
 
-console.log( getStrings("Las Vegas") ); // "l:*,a:**,s:**,v:*,e:*,g:*"
+console.log(getStrings("Las Vegas")); // "l:*,a:**,s:**,v:*,e:*,g:*"

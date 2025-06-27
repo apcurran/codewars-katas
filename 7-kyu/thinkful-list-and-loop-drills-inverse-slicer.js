@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} items 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number[]} items
+ * @param {number} a
+ * @param {number} b
  * @returns {number[]}
  */
 function inverseSlice(items, a, b) {

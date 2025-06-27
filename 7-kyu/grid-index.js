@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {string[][]} grid 
- * @param {number[]} indices 
+ *
+ * @param {string[][]} grid
+ * @param {number[]} indices
  * @returns {string}
  */
 function gridIndex(grid, indices) {
@@ -22,9 +22,13 @@ function gridIndex(grid, indices) {
     return result;
 }
 
-console.log(gridIndex(
-    [["m", "y", "e"],
-        ["x", "a", "m"],
-        ["p", "l", "e"]],
-    [1, 3, 5, 8],
-)); // "meal"
+console.log(
+    gridIndex(
+        [
+            ["m", "y", "e"],
+            ["x", "a", "m"],
+            ["p", "l", "e"],
+        ],
+        [1, 3, 5, 8],
+    ),
+); // "meal"

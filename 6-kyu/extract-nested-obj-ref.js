@@ -7,8 +7,8 @@
  * n = object properties in str
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {object}
  */
 Object.prototype.hash = function (str) {

@@ -20,9 +20,9 @@ c.next = d;
 //  * solution 1 -- iterative
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {ListNode} linkedList 
-//  * @param {number} k 
+//  *
+//  * @param {ListNode} linkedList
+//  * @param {number} k
 //  */
 // function searchKFromEnd(linkedList, k) {
 //     let nodes = [];
@@ -45,13 +45,13 @@ c.next = d;
  * solution 1 -- recursive
  * time: O(n)
  * space: O(n)
- * 
- * @param {ListNode} linkedList 
- * @param {number} k 
+ *
+ * @param {ListNode} linkedList
+ * @param {number} k
  */
 function searchKFromEnd(linkedList, k) {
     const nodeValues = recurse(linkedList, []);
-    
+
     if (k > nodeValues.length) return null;
 
     // pick kth to last node elem of array to return
@@ -59,8 +59,8 @@ function searchKFromEnd(linkedList, k) {
 }
 
 /**
- * 
- * @param {ListNode} head 
+ *
+ * @param {ListNode} head
  * @param {string[]} nodeValues
  * @returns {string[]}
  */
@@ -73,4 +73,4 @@ function recurse(head, nodeValues) {
     return recurse(head.next, nodeValues);
 }
 
-console.log( searchKFromEnd(a, 1) ); // "d"
+console.log(searchKFromEnd(a, 1)); // "d"

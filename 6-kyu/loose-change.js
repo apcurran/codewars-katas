@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} cents 
+ *
+ * @param {number} cents
  * @returns {{
  *  "Nickels": number,
  *  "Pennies": number,
@@ -15,10 +15,10 @@
  */
 function looseChange(cents) {
     let change = {
-        "Nickels": 0,
-        "Pennies": 0,
-        "Dimes": 0,
-        "Quarters": 0,
+        Nickels: 0,
+        Pennies: 0,
+        Dimes: 0,
+        Quarters: 0,
     };
 
     if (cents <= 0) {

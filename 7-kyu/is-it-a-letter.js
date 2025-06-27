@@ -4,8 +4,8 @@
 //  * solution 1 -- charCodeAt method
 //  * time: O(1)
 //  * space: O(1)
-//  * 
-//  * @param {string} character 
+//  *
+//  * @param {string} character
 //  * @returns {boolean}
 //  */
 // function isItLetter(character) {
@@ -20,8 +20,8 @@
  * solution 2 -- regex
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} character 
+ *
+ * @param {string} character
  * @returns {boolean}
  */
 function isItLetter(character) {

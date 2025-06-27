@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- stringify num for binary digits
- * 
- * @param {number} x 
+ *
+ * @param {number} x
  * @returns {0|1}
  */
 function anyOdd(x) {

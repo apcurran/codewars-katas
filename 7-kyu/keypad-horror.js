@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {string} numbers 
-//  * @returns {string}  
+//  *
+//  * @param {string} numbers
+//  * @returns {string}
 //  */
 // function computerToPhone(numbers){
 //     const COMPUTER_NUMS = "7894561230";
@@ -26,11 +26,11 @@
  * solution 2 -- hashmap
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} numbers 
- * @returns {string}  
+ *
+ * @param {string} numbers
+ * @returns {string}
  */
-function computerToPhone(numbers){
+function computerToPhone(numbers) {
     const COMPUTER_TO_CELL_MAPPING = new Map([
         [7, 1],
         [8, 2],

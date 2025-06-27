@@ -4,17 +4,19 @@
  * solution 1 -- math formula
  * time: O(n) -- stringify num with .toFixed()
  * space: O(n) -- stringify num with .toFixed()
- * 
- * @param {number} d1 
- * @param {number} d2 
- * @param {number} height 
+ *
+ * @param {number} d1
+ * @param {number} d2
+ * @param {number} height
  * @returns {number}
  */
 function cupVolume(d1, d2, height) {
     const r1 = d1 / 2;
     const r2 = d2 / 2;
     // volume of a conical frustum -- rounded to 2 decimal places
-    return Number((1 / 3 * Math.PI * height * (r1 ** 2 + r1 * r2 + r2 ** 2)).toFixed(2)); 
+    return Number(
+        ((1 / 3) * Math.PI * height * (r1 ** 2 + r1 * r2 + r2 ** 2)).toFixed(2),
+    );
 }
 
 console.log(cupVolume(1, 1, 1)); // 0.79

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * time: O(1)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {number}
  */
 function countzero(s) {
@@ -16,7 +16,10 @@ function countzero(s) {
     for (let i = 0; i < s.length; i++) {
         const currentChar = s[i];
 
-        if (currentChar === "(" && s[i + 1] === ")" || oneZeroChars.includes(currentChar)) {
+        if (
+            (currentChar === "(" && s[i + 1] === ")") ||
+            oneZeroChars.includes(currentChar)
+        ) {
             totalZeros += 1;
         } else if (twoZerosChars.includes(currentChar)) {
             totalZeros += 2;

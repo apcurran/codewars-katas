@@ -4,7 +4,7 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
+ *
  * @param {object} env
  * @returns {string}
  */
@@ -33,5 +33,5 @@ function totalLicks(env) {
 
 console.log(totalLicks({ "freezing temps": 10, "clear skies": -2 }));
 // "It took 260 licks to get to the tootsie roll center of a tootsie pop. The toughest challenge was freezing temps."
-console.log(totalLicks({ "happiness": -5, "clear skies": -2 }));
+console.log(totalLicks({ happiness: -5, "clear skies": -2 }));
 // "It took 245 licks to get to the tootsie roll center of a tootsie pop."

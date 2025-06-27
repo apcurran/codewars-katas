@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {number} score sum
  */
 function lettersToNumbers(s) {

@@ -6,8 +6,8 @@
  * m = word length
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {string[]} words 
+ *
+ * @param {string[]} words
  * @returns {string}
  */
 function letterPattern(words) {

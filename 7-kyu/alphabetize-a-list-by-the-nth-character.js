@@ -4,9 +4,9 @@
  * solution 1 -- custom sort comparator func
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {string} list 
- * @param {number} n 
+ *
+ * @param {string} list
+ * @param {number} n
  * @returns {string}
  */
 function sortIt(list, n) {

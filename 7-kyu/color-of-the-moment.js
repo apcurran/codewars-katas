@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} hexCode 
+ *
+ * @param {string} hexCode
  * @returns {string} "hh:mm:ss"
  */
 function hexToTime(hexCode) {
@@ -13,7 +13,7 @@ function hexToTime(hexCode) {
     const hours = parseInt(hexCode.slice(1, 3), HEX_BASE);
     const minutes = parseInt(hexCode.slice(3, 5), HEX_BASE);
     const seconds = parseInt(hexCode.slice(5, 7), HEX_BASE);
-    
+
     if (hours > 23 || minutes > 59 || seconds > 59) {
         throw new Error("Incorrect time provided");
     }

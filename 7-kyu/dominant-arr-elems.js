@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n^2)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} arr 
+//  *
+//  * @param {number[]} arr
 //  * @returns {number[]}
 //  */
 // function solve(arr) {
@@ -17,7 +17,7 @@
 
 //         for (let j = i + 1; j < arr.length; j++) {
 //             const rightNum = arr[j];
-            
+
 //             if (rightNum > currNum) isLarger = false;
 //         }
 
@@ -33,16 +33,14 @@
  * solution 2
  * time: O(n^2)
  * space: O(n + m)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function solve(arr) {
     return arr.filter((elem, i) => {
-        return arr
-            .slice(i + 1)
-            .every((val) => val < elem);
+        return arr.slice(i + 1).every((val) => val < elem);
     });
 }
 
-console.log( solve([1, 21, 4, 7, 5]) ); // [21,7,5]
+console.log(solve([1, 21, 4, 7, 5])); // [21,7,5]

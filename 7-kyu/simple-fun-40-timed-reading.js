@@ -6,9 +6,9 @@
  * m = word length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {number} maxReadableWordLength 
- * @param {string} text 
+ *
+ * @param {number} maxReadableWordLength
+ * @param {string} text
  * @returns {number}
  */
 function timedReading(maxReadableWordLength, text) {

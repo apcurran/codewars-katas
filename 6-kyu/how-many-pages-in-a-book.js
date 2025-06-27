@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} summary 
+ *
+ * @param {number} summary
  * @returns {number}
  */
 function amountOfPages(summary) {
@@ -21,4 +21,4 @@ function amountOfPages(summary) {
     return pagesCounter;
 }
 
-console.log( amountOfPages(25) ); // n = 17
+console.log(amountOfPages(25)); // n = 17

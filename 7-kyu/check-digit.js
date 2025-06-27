@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
- * @param {number} index1 
- * @param {number} index2 
- * @param {number} targetDigit 
+ *
+ * @param {number} num
+ * @param {number} index1
+ * @param {number} index2
+ * @param {number} targetDigit
  * @returns {boolean}
  */
 function checkDigit(num, index1, index2, targetDigit) {
@@ -28,5 +28,5 @@ function checkDigit(num, index1, index2, targetDigit) {
     return false;
 }
 
-console.log( checkDigit(1234567, 1, 0, 1) ); // true
-console.log( checkDigit(9999999999, 2, 5, 1) ); // false
+console.log(checkDigit(1234567, 1, 0, 1)); // true
+console.log(checkDigit(9999999999, 2, 5, 1)); // false

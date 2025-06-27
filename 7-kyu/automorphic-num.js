@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {"Automorphic"|"Not!!"}
  */
 function automorphic(n) {
@@ -16,5 +16,5 @@ function automorphic(n) {
     return numEnding === strNum ? "Automorphic" : "Not!!";
 }
 
-console.log( automorphic(25) ); // "Automorphic"
-console.log( automorphic(9) ); // "Not!!"
+console.log(automorphic(25)); // "Automorphic"
+console.log(automorphic(9)); // "Not!!"

@@ -4,8 +4,8 @@
  * solution 1 -- array methods
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {number[]}
  */
 function stringToIntArray(s) {

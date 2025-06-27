@@ -6,9 +6,9 @@
 //  * m = children list length
 //  * time: O(m * n)
 //  * space: O(m)
-//  * 
-//  * @param {string[]} santasList 
-//  * @param {string[]} children 
+//  *
+//  * @param {string[]} santasList
+//  * @param {string[]} children
 //  * @returns {string[]}
 //  */
 // function findChildren(santasList, children) {
@@ -31,9 +31,9 @@
  * m = children list length
  * time: O(m^2 * n)
  * space: O(m)
- * 
- * @param {string[]} santasList 
- * @param {string[]} children 
+ *
+ * @param {string[]} santasList
+ * @param {string[]} children
  * @returns {string[]}
  */
 function findChildren(santasList, children) {
@@ -48,6 +48,10 @@ function findChildren(santasList, children) {
     return naughtyChildren.sort();
 }
 
-console.log(findChildren(["Jason", "Jackson", "Jordan", "Johnny"], ["Jason", "Jordan", "Jennifer"]));
+console.log(
+    findChildren(
+        ["Jason", "Jackson", "Jordan", "Johnny"],
+        ["Jason", "Jordan", "Jennifer"],
+    ),
+);
 // ["Jason", "Jordan"]
-

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {"even"|"odd"} parity 
- * @param {string} binValue 
+ *
+ * @param {"even"|"odd"} parity
+ * @param {string} binValue
  * @returns {number}
  */
 function checkParity(parity, binValue) {

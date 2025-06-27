@@ -5,9 +5,9 @@
 //  * solution 1 -- recursion
 //  * time: O(n^2)
 //  * space: O(n^2)
-//  * 
-//  * @param {number} n 
-//  * @param {string} resStr 
+//  *
+//  * @param {number} n
+//  * @param {string} resStr
 //  * @returns {string}
 //  */
 // function collatz(n, resStr = `${n}`) {
@@ -33,9 +33,9 @@
  * solution 2 -- iterative
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {number} n 
- * @param {string} resStr 
+ *
+ * @param {number} n
+ * @param {string} resStr
  * @returns {string}
  */
 function collatz(n) {
@@ -55,5 +55,5 @@ function collatz(n) {
     return resArr.join("->");
 }
 
-console.log( collatz(3) ); // "3->10->5->16->8->4->2->1"
-console.log( collatz(4) ); // "4->2->1"
+console.log(collatz(3)); // "3->10->5->16->8->4->2->1"
+console.log(collatz(4)); // "4->2->1"

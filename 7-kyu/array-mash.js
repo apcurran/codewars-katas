@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {Array} array1 
- * @param {Array} array2 
+ *
+ * @param {Array} array1
+ * @param {Array} array2
  * @returns {Array}
  */
 function arrayMash(array1, array2) {
@@ -21,4 +21,4 @@ function arrayMash(array1, array2) {
     return results;
 }
 
-console.log(arrayMash( [1, 2, 3], ["a", "b", "c"])); // [1, 'a', 2, 'b', 3, 'c']
+console.log(arrayMash([1, 2, 3], ["a", "b", "c"])); // [1, 'a', 2, 'b', 3, 'c']

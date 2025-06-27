@@ -4,8 +4,8 @@
 //  * Solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {boolean}
 //  */
 // function tripleX(str){
@@ -35,11 +35,11 @@
  * Solution 2
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {boolean}
  */
-function tripleX(str){
+function tripleX(str) {
     const firstXIndex = str.indexOf("x");
     const isSecondX = str[firstXIndex + 1] === "x";
     const isThirdX = str[firstXIndex + 2] === "x";
@@ -47,4 +47,4 @@ function tripleX(str){
     return isSecondX && isThirdX;
 }
 
-console.log( tripleX("abraxxxas") ); // true
+console.log(tripleX("abraxxxas")); // true

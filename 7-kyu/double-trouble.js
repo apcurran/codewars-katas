@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(n^2) -- splice causes O(n) shifting of elems in the front/middle of arr
 //  * space: O(1)
-//  * 
-//  * @param {number[]} x 
-//  * @param {number} t 
+//  *
+//  * @param {number[]} x
+//  * @param {number} t
 //  * @returns {number[]}
 //  */
 // function trouble(x, t) {
@@ -30,9 +30,9 @@
  * solution 2
  * time: O(n) -- no splicing of arr
  * space: O(n)
- * 
- * @param {number[]} x 
- * @param {number} t 
+ *
+ * @param {number[]} x
+ * @param {number} t
  * @returns {number[]}
  */
 function trouble(x, t) {
@@ -52,6 +52,6 @@ function trouble(x, t) {
     return res;
 }
 
-console.log( trouble([1, 2, 3, 4, 5], 3) ); // [1, 3, 4, 5]
-console.log( trouble([4, 1, 1, 1, 4], 2) ); // [4, 1, 4]
-console.log( trouble([1, 2, 3, 4, 5], 3) ); // [1, 3, 4, 5]
+console.log(trouble([1, 2, 3, 4, 5], 3)); // [1, 3, 4, 5]
+console.log(trouble([4, 1, 1, 1, 4], 2)); // [4, 1, 4]
+console.log(trouble([1, 2, 3, 4, 5], 3)); // [1, 3, 4, 5]

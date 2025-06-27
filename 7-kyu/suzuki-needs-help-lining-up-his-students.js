@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {string} students 
+ *
+ * @param {string} students
  * @returns {string[]}
  */
 function lineupStudents(students) {
@@ -23,7 +23,11 @@ function lineupStudents(students) {
         });
 }
 
-console.log(lineupStudents("Tadashi Takahiro Takao Takashi Takayuki Takehiko Takeo Takeshi Takeshi"));
+console.log(
+    lineupStudents(
+        "Tadashi Takahiro Takao Takashi Takayuki Takehiko Takeo Takeshi Takeshi",
+    ),
+);
 // [
 //     "Takehiko",
 //     "Takayuki",

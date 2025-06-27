@@ -7,7 +7,7 @@ function reverseNumber(num) {
         .split("")
         .reverse()
         .join("");
-    const finalReversedNum = numSign * (Number(reversedNumStr));
+    const finalReversedNum = numSign * Number(reversedNumStr);
 
     return finalReversedNum;
 }

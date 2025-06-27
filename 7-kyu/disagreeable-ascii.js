@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} name 
+ *
+ * @param {string} name
  * @returns {number}
  */
 function getWeight(name) {
@@ -13,7 +13,7 @@ function getWeight(name) {
 
     for (let char of name) {
         const charCode = char.charCodeAt(0);
-        
+
         if (charCode >= 65 && charCode <= 90) {
             const adjustedCharCodeValue = charCode + 32;
             totalWeight += adjustedCharCodeValue;

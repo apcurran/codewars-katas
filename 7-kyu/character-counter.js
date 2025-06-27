@@ -4,8 +4,8 @@
  * Solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {boolean}
  */
 function validateWord(str) {
@@ -28,9 +28,9 @@ function validateWord(str) {
     return charValsArr.every((val) => val === charValsArr[0]);
 }
 
-console.log( validateWord("abcabc") ); // true
-console.log( validateWord("Abcabc") ); // true
-console.log( validateWord("abc123") ); // true
-console.log( validateWord("abcabcd") ); // false
-console.log( validateWord("abc!abc!") ); // true
-console.log( validateWord("abc:abc") ); // false
+console.log(validateWord("abcabc")); // true
+console.log(validateWord("Abcabc")); // true
+console.log(validateWord("abc123")); // true
+console.log(validateWord("abcabcd")); // false
+console.log(validateWord("abc!abc!")); // true
+console.log(validateWord("abc:abc")); // false

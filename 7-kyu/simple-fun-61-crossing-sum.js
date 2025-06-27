@@ -6,10 +6,10 @@
  * m = matrix cols
  * time: O(n + m)
  * space: O(1)
- * 
- * @param {number[][]} matrix 
- * @param {number} aRow 
- * @param {number} bCol 
+ *
+ * @param {number[][]} matrix
+ * @param {number} aRow
+ * @param {number} bCol
  * @returns {number} sum of union of elements
  */
 function crossingSum(matrix, aRow, bCol) {
@@ -26,4 +26,14 @@ function crossingSum(matrix, aRow, bCol) {
     return sum;
 }
 
-console.log(crossingSum([[1, 1, 1, 1], [2, 2, 2, 2], [3, 3, 3, 3]], 1, 3)); // 12
+console.log(
+    crossingSum(
+        [
+            [1, 1, 1, 1],
+            [2, 2, 2, 2],
+            [3, 3, 3, 3],
+        ],
+        1,
+        3,
+    ),
+); // 12

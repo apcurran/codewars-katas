@@ -7,8 +7,8 @@ Object.defineProperty(Array.prototype, "containsAll", {
      * m = neededElements array
      * time: O(n * m)
      * space: O(1)
-     * 
-     * @param {number[]} neededElements 
+     *
+     * @param {number[]} neededElements
      * @returns {boolean}
      */
     value: function containsAll(neededElements) {

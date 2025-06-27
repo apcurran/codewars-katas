@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} emojiString 
+ *
+ * @param {string} emojiString
  * @returns {string}
  */
 function deEmojify(emojiString) {

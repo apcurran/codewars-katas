@@ -4,8 +4,8 @@
 //  * solution 1 -- correct, but TLE
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {number}
 //  */
 // function sxore(n) {
@@ -22,8 +22,8 @@
  * solution 2
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function sxore(n) {

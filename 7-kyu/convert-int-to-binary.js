@@ -4,13 +4,13 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function toBinary(n) {
     if (n < 0) {
-        n += (2 ** 32);
+        n += 2 ** 32;
     }
 
     return n.toString(2);

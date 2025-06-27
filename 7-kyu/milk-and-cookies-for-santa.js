@@ -4,8 +4,8 @@
  * solution 1 -- Date object methods
  * time: O(1)
  * space: O(1)
- * 
- * @param {Date} date 
+ *
+ * @param {Date} date
  * @returns {boolean}
  */
 function timeForMilkAndCookies(date) {

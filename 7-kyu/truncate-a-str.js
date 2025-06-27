@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
- * @param {number} num 
+ *
+ * @param {string} str
+ * @param {number} num
  * @returns {string}
  */
 function truncateString(str, num) {
@@ -17,6 +17,6 @@ function truncateString(str, num) {
     return str.slice(0, num - 3) + "...";
 }
 
-console.log( truncateString("codewars", 9) ); // 'codewars'
-console.log( truncateString("codewars", 7) ); // 'code...'
-console.log( truncateString("codewars", 2) ); // "co..."
+console.log(truncateString("codewars", 9)); // 'codewars'
+console.log(truncateString("codewars", 7)); // 'code...'
+console.log(truncateString("codewars", 2)); // "co..."

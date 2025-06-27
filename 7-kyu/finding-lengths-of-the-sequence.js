@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
- * @param {number} specialNum 
+ *
+ * @param {number[]} arr
+ * @param {number} specialNum
  * @returns {number}
  */
 function lengthOfSequence(arr, specialNum) {

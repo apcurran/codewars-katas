@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string} n 
+ *
+ * @param {string} n
  * @returns {string[]}
  */
 function splitExp(n) {

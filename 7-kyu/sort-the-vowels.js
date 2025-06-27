@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {string}
  */
 function sortVowels(s) {
@@ -28,4 +28,3 @@ function sortVowels(s) {
 }
 
 console.log(sortVowels("CODEWARS"));
-

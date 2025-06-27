@@ -4,8 +4,8 @@
  * solution 1 -- map
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} rna 
+ *
+ * @param {string} rna
  * @returns {string}
  */
 function protein(rna) {
@@ -105,7 +105,7 @@ function protein(rna) {
         const thirdLetter = rna[i + 2];
         const RNAChunk = firstLetter + secondLetter + thirdLetter;
         const proteinLetter = aminoAcidMap.get(RNAChunk);
-        
+
         if (proteinLetter === "Stop") {
             // halt further translation of protein seq
             break;
@@ -117,6 +117,6 @@ function protein(rna) {
     return translatedProteinSeq;
 }
 
-console.log( protein("AUG") ); // "M"
-console.log( protein("AUGUGA") ); // "M"
-console.log( protein("AUGGUUAGUUGA") ); // "MVS"
+console.log(protein("AUG")); // "M"
+console.log(protein("AUGUGA")); // "M"
+console.log(protein("AUGGUUAGUUGA")); // "MVS"

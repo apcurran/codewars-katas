@@ -4,12 +4,14 @@
  * solution 1 -- two pointers approach for helper func isPalindromeTest
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {"both"|"vowel"|"consonant"|"neither"}
  */
 function palindrome(str) {
-    const strConsonants = str.toLowerCase().replace(/[^bcdfghjklmnpqrstvwxyz]/g, "");
+    const strConsonants = str
+        .toLowerCase()
+        .replace(/[^bcdfghjklmnpqrstvwxyz]/g, "");
     const strVowels = str.toLowerCase().replace(/[^aeiou]/g, "");
     const isConsonantChunkPalindrome = isPalindromeTest(strConsonants);
     const isVowelChunkPalindrome = isPalindromeTest(strVowels);
@@ -26,13 +28,13 @@ function palindrome(str) {
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {boolean}
  */
 function isPalindromeTest(str) {
     let left = 0;
     let right = str.length - 1;
-    
+
     while (left < right) {
         const leftChar = str[left];
         const rightChar = str[right];

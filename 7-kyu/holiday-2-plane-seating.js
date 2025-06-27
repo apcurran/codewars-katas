@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1) -- technically bounded (letters can't be more than VALID_LETTERS nums <= 60)
  * space: O(1)
- * 
- * @param {string} a 
+ *
+ * @param {string} a
  * @returns {string}
  */
 function planeSeat(a) {
@@ -15,14 +15,14 @@ function planeSeat(a) {
     const CLUSTER_RIGHT = "GHK";
     const matchNumbersAndLetters = /[a-zA-Z]+|[0-9]+/g;
     const [num, letter] = a.match(matchNumbersAndLetters);
-    
+
     // no valid numbers less than 0 or greater than 60
     if (!VALID_LETTERS.includes(letter) || num < 0 || num > 60) {
         return "No Seat!!";
     }
 
     let section = "";
-    
+
     if (num >= 1 && num <= 20) {
         section = "Front";
     } else if (num > 20 && num <= 40) {
@@ -30,7 +30,7 @@ function planeSeat(a) {
     } else if (num >= 40 && num <= 60) {
         section = "Back";
     }
-    
+
     let cluster = "";
 
     if (CLUSTER_LEFT.includes(letter)) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2) -- string.startsWith() call inside a filter loop
  * space: O(n)
- * 
- * @param {array} arr 
+ *
+ * @param {array} arr
  * @returns {array}
  */
 function clean(arr) {
@@ -18,5 +18,5 @@ function clean(arr) {
     });
 }
 
-console.log( clean([1, 2,,,3, 4]) ); // [1, 2, 3, 4]
-console.log( clean([1, 2, "<2 empty items>", 3, 4]) ); // [1, 2, 3, 4]
+console.log(clean([1, 2, , , 3, 4])); // [1, 2, 3, 4]
+console.log(clean([1, 2, "<2 empty items>", 3, 4])); // [1, 2, 3, 4]

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} string 
- * @param {any} value 
+ *
+ * @param {string} string
+ * @param {any} value
  * @returns {boolean}
  */
 function negationValue(string, value) {

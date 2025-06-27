@@ -9,8 +9,8 @@ let fruitsName = ["apple", "pear", "banana"];
  * x = current fruit length
  * time: O(n * m)
  * space: O(x) -- slice copy of curr fruit (not including results array)
- * 
- * @param {string[]} fruits 
+ *
+ * @param {string[]} fruits
  * @returns {string[]}
  */
 function cutFruits(fruits) {

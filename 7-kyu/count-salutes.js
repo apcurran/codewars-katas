@@ -4,8 +4,8 @@
  * solution 1 -- simulation
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} hallway 
+ *
+ * @param {string} hallway
  * @returns {number}
  */
 function countSalutes(hallway) {

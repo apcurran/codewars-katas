@@ -6,9 +6,9 @@
  * m = citiesVisited
  * time: O(n * m)
  * space: O(1)
- * 
- * @param {string[]} citiesVisited 
- * @param {string[]} citiesOffered 
+ *
+ * @param {string[]} citiesVisited
+ * @param {string[]} citiesOffered
  * @returns {string}
  */
 function conferencePicker(citiesVisited, citiesOffered) {
@@ -21,5 +21,31 @@ function conferencePicker(citiesVisited, citiesOffered) {
     return "No worthwhile conferences this year!";
 }
 
-console.log(conferencePicker(["Mexico City", "Johannesburg", "Stockholm", "Osaka", "Saint Petersburg", "London"], ["Stockholm", "Paris", "Melbourne"])); // "Paris"
-console.log(conferencePicker(["London", "Berlin", "Mexico City", "Melbourne", "Buenos Aires", "Hong Kong", "Madrid", "Paris"], ["Berlin", "Melbourne"])); // "No worthwhile conferences this year!"
+console.log(
+    conferencePicker(
+        [
+            "Mexico City",
+            "Johannesburg",
+            "Stockholm",
+            "Osaka",
+            "Saint Petersburg",
+            "London",
+        ],
+        ["Stockholm", "Paris", "Melbourne"],
+    ),
+); // "Paris"
+console.log(
+    conferencePicker(
+        [
+            "London",
+            "Berlin",
+            "Mexico City",
+            "Melbourne",
+            "Buenos Aires",
+            "Hong Kong",
+            "Madrid",
+            "Paris",
+        ],
+        ["Berlin", "Melbourne"],
+    ),
+); // "No worthwhile conferences this year!"

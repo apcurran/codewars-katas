@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n^2) -- array.unshift() is O(n) op within an O(n) loop
 //  * space: O(n)
-//  * 
-//  * @param {number[]} values 
+//  *
+//  * @param {number[]} values
 //  * @returns {number[]}
 //  */
 // function pendulum(values) {
@@ -32,8 +32,8 @@
 //  * solution 2
 //  * time: O(n * log n) -- pre-sorting values arr
 //  * space: O(n)
-//  * 
-//  * @param {number[]} values 
+//  *
+//  * @param {number[]} values
 //  * @returns {number[]}
 //  */
 // function pendulum(values) {
@@ -62,8 +62,8 @@
  * solution 3
  * time: O(n * log n) -- slight variation without array.reverse()
  * space: O(n)
- * 
- * @param {number[]} values 
+ *
+ * @param {number[]} values
  * @returns {number[]}
  */
 function pendulum(values) {
@@ -74,7 +74,7 @@ function pendulum(values) {
     // iterate in reverse for leftHalf vals
     for (let i = sortedValsCopy.length - 1; i >= 0; i--) {
         const currNum = sortedValsCopy[i];
-        
+
         // is even index
         if (i % 2 === 0) resultArr.push(currNum);
     }
@@ -89,6 +89,6 @@ function pendulum(values) {
     return resultArr;
 }
 
-console.log( pendulum([4, 10, 9]) ); // [10,4,9]
-console.log( pendulum([8, 7, 10, 3]) ); // [8,3,7,10]
-console.log( pendulum([6, 6, 8, 5, 10]) ); // [10,6,5,6,8]
+console.log(pendulum([4, 10, 9])); // [10,4,9]
+console.log(pendulum([8, 7, 10, 3])); // [8,3,7,10]
+console.log(pendulum([6, 6, 8, 5, 10])); // [10,6,5,6,8]

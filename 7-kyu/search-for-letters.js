@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function change(str) {
@@ -20,7 +20,7 @@ function change(str) {
             results[charAlphaPosition] = 1;
         }
     }
-    
+
     return results.join("");
 }
 

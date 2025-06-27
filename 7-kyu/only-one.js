@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param  {...boolean} args 
+//  *
+//  * @param  {...boolean} args
 //  * @returns {boolean} return true if and only if one of them is true while others are false
 //  */
 // function onlyOne(...args) {
@@ -30,8 +30,8 @@
  * solution 2 -- slightly optimized
  * time: O(n)
  * space: O(1)
- * 
- * @param  {...boolean} args 
+ *
+ * @param  {...boolean} args
  * @returns {boolean} return true if and only if one of them is true while others are false
  */
 function onlyOne(...args) {

@@ -4,8 +4,8 @@
 //  * solution 1 -- keeping filter method
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {string} str without numbers
 //  */
 // function FilterNumbers(str) {
@@ -23,8 +23,8 @@
  * solution 2
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string} str without numbers
  */
 function FilterNumbers(str) {

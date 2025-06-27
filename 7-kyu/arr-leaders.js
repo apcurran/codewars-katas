@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number[]} numbers 
+ *
+ * @param {number[]} numbers
  * @returns {number[]}
  */
 function arrayLeaders(numbers) {
@@ -28,5 +28,5 @@ function arrayLeaders(numbers) {
     return leaders;
 }
 
-console.log( arrayLeaders([1, 2, 3, 4, 0]) ); // [4]
-console.log( arrayLeaders([16, 17, 4, 3, 5, 2]) ); // [17, 5, 2]
+console.log(arrayLeaders([1, 2, 3, 4, 0])); // [4]
+console.log(arrayLeaders([16, 17, 4, 3, 5, 2])); // [17, 5, 2]

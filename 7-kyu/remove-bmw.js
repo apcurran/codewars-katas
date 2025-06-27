@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {Error|string}
  */
 function removeBMW(str) {
@@ -17,4 +17,3 @@ function removeBMW(str) {
 }
 
 console.log(removeBMW("bmwvolvoBMW")); // "volvo"
-

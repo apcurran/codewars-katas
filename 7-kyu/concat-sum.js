@@ -5,9 +5,9 @@
 //  * m = originalNum length
 //  * time: O(m * n)
 //  * space: O(m)
-//  * 
-//  * @param {number} originalNum 
-//  * @param {number} n 
+//  *
+//  * @param {number} originalNum
+//  * @param {number} n
 //  * @returns {boolean}
 //  */
 // function checkConcatenatedSum(originalNum, n) {
@@ -28,9 +28,9 @@
  * m = originalNum length
  * time: O(m * n)
  * space: O(m)
- * 
- * @param {number} originalNum 
- * @param {number} n 
+ *
+ * @param {number} originalNum
+ * @param {number} n
  * @returns {boolean}
  */
 function checkConcatenatedSum(originalNum, n) {

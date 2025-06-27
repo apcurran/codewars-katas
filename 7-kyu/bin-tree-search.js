@@ -12,7 +12,7 @@ class ListNode {
 //  * solution 1 -- breadth-first traversal
 //  * time: O(n^2) -- due to array.shift() being O(n) time
 //  * space: O(1) -- no more than two nodes in queue at a time
-//  * 
+//  *
 //  * @param {number} target
 //  * @param {Node} root
 //  * @returns {boolean}
@@ -40,7 +40,7 @@ class ListNode {
 //  * solution 2 -- depth-first recursion
 //  * time: O(n)
 //  * space: O(n)
-//  * 
+//  *
 //  * @param {number} target
 //  * @param {Node} root
 //  * @returns {boolean}
@@ -50,7 +50,7 @@ class ListNode {
 //     if (root == null) return false;
 
 //     if (root.value === target) return true;
-    
+
 //     // recursive calls will return either true or false
 //     const leftVals = search(target, root.left);
 //     const rightVals = search(target, root.right);
@@ -62,7 +62,7 @@ class ListNode {
  * solution 2 -- iterative depth-first traversal
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {number} target
  * @param {ListNode} root
  * @returns {boolean}

@@ -1,15 +1,14 @@
 "use strict";
 
-
 /**
  * Solution 1
  * Time: O(n^3)
- * 
+ *
  * Given two arrays of strings a1 and a2
  * return a sorted array r in lexicographical order of the strings of
  * a1 which are substrings of strings of a2.
- * @param {string[]} array1 
- * @param {string[]} array2 
+ * @param {string[]} array1
+ * @param {string[]} array2
  * @returns {string[]}
  */
 // function inArray(array1, array2) {
@@ -27,13 +26,13 @@
 //     }
 
 //     let resArr = [];
-    
+
 //     for (let [key, val] of myA1Map) {
 //         if (val === true) {
 //             resArr.push(key);
 //         }
 //     }
-    
+
 //     // Sort arr of strs for result
 //     return resArr.sort();
 // }
@@ -68,13 +67,21 @@
 // Time: O(n^2)
 function inArray(array1, array2) {
     const resArr = array1.filter((str) => {
-        return array2
-            .join(" ")
-            .includes(str);
+        return array2.join(" ").includes(str);
     });
 
     return resArr.sort();
 }
 
-console.log( inArray(["arp", "live", "strong"], ["lively", "alive", "harp", "sharp", "armstrong"]) ); // ["arp", "live", "strong"]
-console.log( inArray(["tarp", "mice", "bull"], ["lively", "alive", "harp", "sharp", "armstrong"]) ); // []
+console.log(
+    inArray(
+        ["arp", "live", "strong"],
+        ["lively", "alive", "harp", "sharp", "armstrong"],
+    ),
+); // ["arp", "live", "strong"]
+console.log(
+    inArray(
+        ["tarp", "mice", "bull"],
+        ["lively", "alive", "harp", "sharp", "armstrong"],
+    ),
+); // []

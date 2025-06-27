@@ -2,7 +2,7 @@
 
 function array_diff_very_fast(arrA, arrB) {
     const setB = new Set(arrB);
-    
+
     return arrA.filter((num) => !setB.has(num));
 }
 

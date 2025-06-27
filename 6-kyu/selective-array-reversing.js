@@ -6,9 +6,9 @@
 //  * m = length
 //  * time: O(n * m)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} array 
-//  * @param {number} length 
+//  *
+//  * @param {number[]} array
+//  * @param {number} length
 //  */
 // function selReverse(array, length) {
 //     if (length === 0) return array;
@@ -31,9 +31,9 @@
  * m = length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {number[]} array 
- * @param {number} length 
+ *
+ * @param {number[]} array
+ * @param {number} length
  */
 function selReverse(array, length) {
     if (length === 0) return array;

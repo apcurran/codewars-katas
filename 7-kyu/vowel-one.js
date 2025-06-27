@@ -4,8 +4,8 @@
 //  * solution 1 -- regex
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} s 
+//  *
+//  * @param {string} s
 //  * @returns {string}
 //  */
 // function vowelOne(s) {
@@ -18,8 +18,8 @@
 //  * solution 2
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} s 
+//  *
+//  * @param {string} s
 //  * @returns {string}
 //  */
 // function vowelOne(s) {
@@ -45,12 +45,23 @@
  * solution 3 -- single pass
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {string}
  */
 function vowelOne(s) {
-    const vowelSet = new Set(["a", "A", "e", "E", "i", "I", "o", "O", "u", "U"]);
+    const vowelSet = new Set([
+        "a",
+        "A",
+        "e",
+        "E",
+        "i",
+        "I",
+        "o",
+        "O",
+        "u",
+        "U",
+    ]);
     let resStr = "";
 
     for (let char of s) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} nums 
+ *
+ * @param {number[]} nums
  * @returns {object[]}
  */
 function numObj(nums) {

@@ -4,8 +4,8 @@
  * solution 1 -- new Proxy() constructor
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {"Even"|"Odd"}
  */
 function target(n) {

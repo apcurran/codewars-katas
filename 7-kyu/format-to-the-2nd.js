@@ -6,8 +6,8 @@
  * m = num digits length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param  {...any} args 
+ *
+ * @param  {...any} args
  */
 function printNums(...args) {
     let largestNumDigitsCount = 0;
@@ -23,7 +23,10 @@ function printNums(...args) {
 
         // now we have digits count
         // possible update to max digits num
-        largestNumDigitsCount = Math.max(largestNumDigitsCount, currentNumDigitsCount);
+        largestNumDigitsCount = Math.max(
+            largestNumDigitsCount,
+            currentNumDigitsCount,
+        );
     }
 
     // max available now

@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number} num 
+//  *
+//  * @param {number} num
 //  * @returns {string}
 //  */
 // function balancedNum(num) {
@@ -24,7 +24,7 @@
 //             const rightDigit = Number(strNum[right]);
 //             leftDigitsSum += leftDigit;
 //             rightDigitsSum += rightDigit;
-    
+
 //             left++;
 //             right--;
 //         }
@@ -34,7 +34,7 @@
 //             const rightDigit = Number(strNum[right]);
 //             leftDigitsSum += leftDigit;
 //             rightDigitsSum += rightDigit;
-    
+
 //             left++;
 //             right--;
 //         }
@@ -47,8 +47,8 @@
  * solution 2 -- simplified
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {string}
  */
 function balancedNum(num) {
@@ -56,7 +56,7 @@ function balancedNum(num) {
     let leftDigitsSum = 0;
     let rightDigitsSum = 0;
 
-    for (let i = 0; i < (strNum.length / 2) - 1; i++) {
+    for (let i = 0; i < strNum.length / 2 - 1; i++) {
         const leftDigit = Number(strNum[i]);
         const rightDigit = Number(strNum[strNum.length - 1 - i]);
 

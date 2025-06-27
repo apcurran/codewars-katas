@@ -4,13 +4,13 @@
  * solution 1 -- hashset
  * time: O(n)
  * space: O(n) -- str.toLowerCase() call
- * 
- * @param {string} s 
- * @param {number} val 
- * @param {number} happiness 
+ *
+ * @param {string} s
+ * @param {number} val
+ * @param {number} happiness
  * @returns {string}
  */
-function sabb(s, val, happiness){
+function sabb(s, val, happiness) {
     const sabbaticalLetters = new Set("sabbatical");
     const loweredStr = s.toLowerCase();
     let lettersFromSInSabbaticalCount = 0;
@@ -22,7 +22,7 @@ function sabb(s, val, happiness){
     }
 
     const sum = lettersFromSInSabbaticalCount + val + happiness;
-    
+
     if (sum > 22) {
         return "Sabbatical! Boom!";
     } else {

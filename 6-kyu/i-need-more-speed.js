@@ -4,8 +4,8 @@
  * solution 1 -- two pointer technique
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {void}
  */
 function reverse(arr) {

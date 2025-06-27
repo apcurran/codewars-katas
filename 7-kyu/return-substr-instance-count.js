@@ -6,12 +6,12 @@
  * m = seachText length
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {string} fullText 
- * @param {string} searchText 
+ *
+ * @param {string} fullText
+ * @param {string} searchText
  * @returns {number}
  */
-function solution(fullText, searchText){
+function solution(fullText, searchText) {
     let substrInstanceCount = 0;
 
     for (let i = 0; i < fullText.length; i++) {
@@ -23,5 +23,5 @@ function solution(fullText, searchText){
     return substrInstanceCount;
 }
 
-console.log( solution("aa_bb_cc_dd_bb_e", "bb") ); // 2
-console.log( solution("aaabbbcccc", "bbb") ); // 1
+console.log(solution("aa_bb_cc_dd_bb_e", "bb")); // 2
+console.log(solution("aaabbbcccc", "bbb")); // 1

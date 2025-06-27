@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function consonantCount(str) {
@@ -14,7 +14,11 @@ function consonantCount(str) {
     return consonants.length;
 }
 
-console.log( consonantCount("XaeiouX") ); // 2
-console.log( consonantCount("") ); // 0
-console.log( consonantCount("helLo world") ); // 7
-console.log( consonantCount("iiuoiouiuieauoeeesybknhlsrfyrbvhghbdjkxmybmsnqxvdvzvxxcqffzpfvztctfgbxbhqlftrcscrlddywcbhhbmzrtjyywsnrzybyz") ); // 90
+console.log(consonantCount("XaeiouX")); // 2
+console.log(consonantCount("")); // 0
+console.log(consonantCount("helLo world")); // 7
+console.log(
+    consonantCount(
+        "iiuoiouiuieauoeeesybknhlsrfyrbvhghbdjkxmybmsnqxvdvzvxxcqffzpfvztctfgbxbhqlftrcscrlddywcbhhbmzrtjyywsnrzybyz",
+    ),
+); // 90

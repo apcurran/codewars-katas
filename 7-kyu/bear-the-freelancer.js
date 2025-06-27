@@ -6,8 +6,8 @@
  * m = friend status phrase length
  * time: O(n)
  * space: O(m) -- copy of friend status phrase with string.toLowerCase() call
- * 
- * @param {[number, string][]} arr 
+ *
+ * @param {[number, string][]} arr
  * @returns {number}
  */
 function bearDollars(arr) {
@@ -33,5 +33,13 @@ function bearDollars(arr) {
     return total;
 }
 
-console.log(bearDollars([[10, "Close Friend"], [3, "Acquaintance"], [7, "Lead from web"], [6, "Friend"], [2, "From advertisements"]]));
+console.log(
+    bearDollars([
+        [10, "Close Friend"],
+        [3, "Acquaintance"],
+        [7, "Lead from web"],
+        [6, "Friend"],
+        [2, "From advertisements"],
+    ]),
+);
 // 1975

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} numbers 
+ *
+ * @param {number[]} numbers
  * @returns {number[]}
  */
 function roundToFive(numbers) {

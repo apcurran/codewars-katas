@@ -4,8 +4,8 @@
  * solution 1 -- hashmap
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {string|undefined}
  */
 function firstDup(s) {

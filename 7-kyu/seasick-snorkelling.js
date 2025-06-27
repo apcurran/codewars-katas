@@ -4,14 +4,14 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {"Throw Up"|"No Problem"}
  */
 function seaSick(str) {
     if (str.length <= 1) return "No Problem";
 
-    const SICKNESS_AMOUNT = .2 * str.length;
+    const SICKNESS_AMOUNT = 0.2 * str.length;
     let changesCount = 0;
 
     for (let i = 1; i < str.length; i++) {

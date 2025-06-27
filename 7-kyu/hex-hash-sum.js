@@ -6,9 +6,9 @@
 //  * m = char hex len
 //  * time: O(n + m)
 //  * space: O(m)
-//  * 
-//  * @param {string} str 
-//  * @returns {number} sum of the nums in the converted hex strings 
+//  *
+//  * @param {string} str
+//  * @returns {number} sum of the nums in the converted hex strings
 //  */
 // function hexHash(str) {
 //     let hexSum = 0;
@@ -37,17 +37,15 @@
  * m = char hex len
  * time: O(n + m)
  * space: O(m)
- * 
- * @param {string} str 
- * @returns {number} sum of the nums in the converted hex strings 
+ *
+ * @param {string} str
+ * @returns {number} sum of the nums in the converted hex strings
  */
 function hexHash(str) {
     let hexSum = 0;
 
     for (let i = 0; i < str.length; i++) {
-        const charHex = str[i]
-            .charCodeAt(0)
-            .toString(16);
+        const charHex = str[i].charCodeAt(0).toString(16);
         const charHexNumsArr = charHex.replace(/\D/g, ""); // remove non-digits
         const charHexArrSum = charHexNumsArr
             .split("")
@@ -58,5 +56,5 @@ function hexHash(str) {
     return hexSum;
 }
 
-console.log( hexHash("Yo") ); // 20
-console.log( hexHash("Hello, World!") ); // 91
+console.log(hexHash("Yo")); // 20
+console.log(hexHash("Hello, World!")); // 91

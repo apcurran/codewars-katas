@@ -5,10 +5,10 @@
  * n = moves len
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[][]} fighters 
- * @param {number[]} startingPos 
- * @param {string[]} moves 
+ *
+ * @param {string[][]} fighters
+ * @param {number[]} startingPos
+ * @param {string[]} moves
  * @returns {string[]}
  */
 function streetFighterSelection(fighters, startingPos, moves) {
@@ -42,4 +42,4 @@ const fighters = [
 const startingPosition = [0, 0];
 const moves = ["up", "left", "right", "left", "left"];
 
-console.log( streetFighterSelection(fighters, startingPosition, moves) ); // ['Ryu', 'Vega', 'Ryu', 'Vega', 'Balrog']
+console.log(streetFighterSelection(fighters, startingPosition, moves)); // ['Ryu', 'Vega', 'Ryu', 'Vega', 'Balrog']

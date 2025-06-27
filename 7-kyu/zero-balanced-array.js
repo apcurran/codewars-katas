@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n^2) array.includes() call within loop
 //  * space: O(1)
-//  * 
-//  * @param {number[]} nums 
+//  *
+//  * @param {number[]} nums
 //  * @returns {boolean}
 //  */
 // function ìsZeroBalanced(nums) {
@@ -31,14 +31,16 @@
  * solution 2 -- cleaner implementation
  * time: O(n^2) array.includes() call within loop
  * space: O(1)
- * 
- * @param {number[]} nums 
+ *
+ * @param {number[]} nums
  * @returns {boolean}
  */
 function ìsZeroBalanced(nums) {
-    return nums.length > 0 &&
-           nums.reduce((sum, current) => sum + current, 0) === 0 &&
-           nums.every((num) => nums.includes(-num));
+    return (
+        nums.length > 0 &&
+        nums.reduce((sum, current) => sum + current, 0) === 0 &&
+        nums.every((num) => nums.includes(-num))
+    );
 }
 
 console.log(ìsZeroBalanced([3])); // false

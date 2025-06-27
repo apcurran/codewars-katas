@@ -4,7 +4,7 @@
  * Solution 1
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {string} n - str version of bin num
  * @returns {string} - str version of bin num with switched digits
  */
@@ -22,4 +22,4 @@ function onesComplement(n) {
     return resStr;
 }
 
-console.log( onesComplement("1101") ); // "0010"
+console.log(onesComplement("1101")); // "0010"

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n + m)
  * space: O(n + m)
- * 
- * @param {string} str1 
- * @param {string} str2 
+ *
+ * @param {string} str1
+ * @param {string} str2
  * @returns {boolean}
  */
 function scramble(str1, str2) {
@@ -35,7 +35,6 @@ function scramble(str1, str2) {
     return true;
 }
 
-console.log( scramble("rkqodlw", "world") ); // true
-console.log( scramble("cedewaraaossoqqyt", "codewars") ); // true
-console.log( scramble("katas", "steak") ); // false
-
+console.log(scramble("rkqodlw", "world")); // true
+console.log(scramble("cedewaraaossoqqyt", "codewars")); // true
+console.log(scramble("katas", "steak")); // false

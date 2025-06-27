@@ -2,13 +2,13 @@
 
 // /**
 //  * solution 1 -- dynamic programming
-//  * @param {string} target 
-//  * @param {string[]} strBank 
+//  * @param {string} target
+//  * @param {string[]} strBank
 //  * @returns {number}
 //  */
 // function getOptionsCount(target, strBank) {
 //     /**
-//      * @param {string} target 
+//      * @param {string} target
 //      * @returns {number}
 //     */
 //     function getWays(target) {
@@ -36,17 +36,17 @@
  * n = strBank length
  * time: O(n^m)
  * space: O(m) -- callstack height with recursion
- * 
- * @param {string} target 
- * @param {string[]} strBank 
+ *
+ * @param {string} target
+ * @param {string[]} strBank
  * @returns {number}
  */
 function getOptionsCount(target, strBank) {
     let hashMap = new Map();
     /**
-     * @param {string} target 
+     * @param {string} target
      * @returns {number}
-    */
+     */
     function getWays(target) {
         if (target === "") return 1;
 

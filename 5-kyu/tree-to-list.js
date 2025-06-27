@@ -1,6 +1,6 @@
 // preloaded Node definition :
 class TreeNode {
-    constructor (data, children = []) {
+    constructor(data, children = []) {
         this.data = data;
         this.children = children;
     }
@@ -11,8 +11,8 @@ class TreeNode {
  * n = nodes
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {TreeNode} root 
+ *
+ * @param {TreeNode} root
  * @returns {number[]}
  */
 function treeToArray(root) {
@@ -33,5 +33,16 @@ function treeToArray(root) {
     return results;
 }
 
-console.log(treeToArray(new TreeNode(1, [new TreeNode(2, [new TreeNode(3), new TreeNode(4), new TreeNode(5)]), new TreeNode(3, [new TreeNode(7)])])));
+console.log(
+    treeToArray(
+        new TreeNode(1, [
+            new TreeNode(2, [
+                new TreeNode(3),
+                new TreeNode(4),
+                new TreeNode(5),
+            ]),
+            new TreeNode(3, [new TreeNode(7)]),
+        ]),
+    ),
+);
 // [1, 2, 3, 3, 4, 5, 7]

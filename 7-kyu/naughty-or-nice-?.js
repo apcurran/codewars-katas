@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string[]} actions 
+ *
+ * @param {string[]} actions
  * @returns {string}
  */
 function whatListAmIOn(actions) {
@@ -15,15 +15,19 @@ function whatListAmIOn(actions) {
     for (let action of actions) {
         const beginningLetter = action[0];
 
-        if (beginningLetter === "b" ||
+        if (
+            beginningLetter === "b" ||
             beginningLetter === "f" ||
-            beginningLetter === "k") {
+            beginningLetter === "k"
+        ) {
             naughtyCount++;
         }
 
-        if (beginningLetter === "g" ||
+        if (
+            beginningLetter === "g" ||
             beginningLetter === "s" ||
-            beginningLetter === "n") {
+            beginningLetter === "n"
+        ) {
             niceCount++;
         }
     }
@@ -31,9 +35,27 @@ function whatListAmIOn(actions) {
     return naughtyCount >= niceCount ? "naughty" : "nice";
 }
 
-console.log(whatListAmIOn(["broke someone's window", "fought over a toaster", "killed a bug"]));
+console.log(
+    whatListAmIOn([
+        "broke someone's window",
+        "fought over a toaster",
+        "killed a bug",
+    ]),
+);
 // "naughty"
-console.log(whatListAmIOn(["got someone a new car", "saved a man from drowning", "never got into a fight"]));
+console.log(
+    whatListAmIOn([
+        "got someone a new car",
+        "saved a man from drowning",
+        "never got into a fight",
+    ]),
+);
 // "nice"
-console.log(whatListAmIOn(["broke a vending machine", "never got into a fight", "tied someone's shoes"]));
+console.log(
+    whatListAmIOn([
+        "broke a vending machine",
+        "never got into a fight",
+        "tied someone's shoes",
+    ]),
+);
 // "naughty"

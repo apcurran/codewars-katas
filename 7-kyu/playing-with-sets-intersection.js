@@ -4,9 +4,9 @@
  * solution 1 -- manual method (without built-in Set.prototype.intersection())
  * time: O(s1)
  * space: O(1) -- not including result space
- * 
- * @param {Set} s1 
- * @param {Set} s2 
+ *
+ * @param {Set} s1
+ * @param {Set} s2
  * @returns {Set}
  */
 function inter(s1, s2) {

@@ -4,8 +4,8 @@
  * solution 1 -- correct, but TLE
  * time: O(m * x)
  * space: O(m)
- * 
- * @param {bigint} x 
+ *
+ * @param {bigint} x
  * @returns {bigint}
  */
 function allNines(x) {
@@ -28,12 +28,12 @@ console.log(allNines(12n)); // -1n
 console.log(allNines(13n)); // 76923n
 
 /**
- * @param {bigint} num 
+ * @param {bigint} num
  * @returns {boolean}
  */
 function areDigitsNines(num) {
     const strNum = String(num);
-    
+
     for (let i = 0; i < strNum.length; i++) {
         if (strNum[i] !== "9") {
             return false;

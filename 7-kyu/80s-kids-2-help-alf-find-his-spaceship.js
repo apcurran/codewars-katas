@@ -1,13 +1,12 @@
 "use strict";
 
-
 /**
  * solution 1
  * n = myMap rows
  * m = myMap cols
  * time: O(n * m)
  * space: O(n * m)
- * 
+ *
  * @param {string} myMap starts from [0, 0] bottom left corner
  * @returns {[number, number]|"Spaceship lost forever."}
  */
@@ -21,7 +20,7 @@ function findSpaceship(myMap) {
 
         for (let j = 0; j < currentRow.length; j++) {
             const currentColumn = mapList[i][j];
-            
+
             if (currentColumn === "X") {
                 const adjustedXCoord = j;
                 const adjustedYCoord = mapList.length - i - 1;
@@ -34,5 +33,6 @@ function findSpaceship(myMap) {
     return "Spaceship lost forever.";
 }
 
-const myMap = "..........\n..........\n..........\n.......X..\n..........\n..........";
+const myMap =
+    "..........\n..........\n..........\n.......X..\n..........\n..........";
 console.log(findSpaceship(myMap)); // [7, 2]

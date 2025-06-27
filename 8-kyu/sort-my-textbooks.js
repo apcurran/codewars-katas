@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n) -- sort method
- * 
- * @param {string[]} textbooks 
+ *
+ * @param {string[]} textbooks
  * @returns {string[]}
  */
 function sorter(textbooks) {

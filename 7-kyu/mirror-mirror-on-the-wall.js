@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n^2) -- array.unshift() within loop
 //  * space: O(n)
-//  * 
-//  * @param {number[]} data 
+//  *
+//  * @param {number[]} data
 //  * @returns {number[]}
 //  */
 // function mirror(data) {
@@ -32,16 +32,14 @@
  * solution 2
  * time: O(n * log n) -- sort
  * space: O(n)
- * 
- * @param {number[]} data 
+ *
+ * @param {number[]} data
  * @returns {number[]}
  */
 function mirror(data) {
-    const sortedData = data
-        .slice()
-        .sort(function sortAsc(a, b) {
-            return a - b;
-        });
+    const sortedData = data.slice().sort(function sortAsc(a, b) {
+        return a - b;
+    });
 
     return [...sortedData, ...sortedData.reverse().slice(1)];
 }

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} name 
+ *
+ * @param {string} name
  * @returns {string}
  */
 function initializeNames(name) {
@@ -30,6 +30,6 @@ function initializeNames(name) {
     return `${firstName} ${middleInitialsString} ${lastName}`;
 }
 
-console.log( initializeNames("Lois Mary Lane") ); // 'Lois M. Lane'
-console.log( initializeNames("Dimitri") ); // 'Dimitri'
-console.log( initializeNames("Alice Betty Catherine Davis") ); // 'Alice B. C. Davis'
+console.log(initializeNames("Lois Mary Lane")); // 'Lois M. Lane'
+console.log(initializeNames("Dimitri")); // 'Dimitri'
+console.log(initializeNames("Alice Betty Catherine Davis")); // 'Alice B. C. Davis'

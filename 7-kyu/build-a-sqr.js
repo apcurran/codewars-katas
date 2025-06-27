@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {string}
  */
 function generateShape(num) {
@@ -24,7 +24,7 @@ function generateShape(num) {
 //  * time: O(n^2)
 //  * space: O(n^2)
 //  *
-//  * @param {number} num 
+//  * @param {number} num
 //  * @returns {string}
 //  */
 // function generateShape(num) {
@@ -45,4 +45,4 @@ function generateShape(num) {
 //     return resStr;
 // }
 
-console.log( generateShape(3) );
+console.log(generateShape(3));

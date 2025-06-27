@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number} index of first occurrence or -1
  */
 function wheresWally(str) {

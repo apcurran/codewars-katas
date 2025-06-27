@@ -4,15 +4,15 @@
  * solution 1 -- iterative
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function minSum(arr) {
     // sort list small -> large
     const smallToLargeArr = [...arr].sort((a, b) => a - b);
     let minimalSum = 0;
-    
+
     // iterate through first half of list
     for (let i = 0; i < smallToLargeArr.length / 2; i++) {
         const smallerNum = smallToLargeArr[i];
@@ -26,5 +26,5 @@ function minSum(arr) {
     return minimalSum;
 }
 
-console.log( minSum([5, 4, 2, 3]) ); // 22
-console.log( minSum([12, 6, 10, 26, 3, 24]) ); // 342
+console.log(minSum([5, 4, 2, 3])); // 22
+console.log(minSum([12, 6, 10, 26, 3, 24])); // 342

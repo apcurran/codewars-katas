@@ -4,8 +4,8 @@
 //  * solution 1 -- hashset
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param  {...any} args 
+//  *
+//  * @param  {...any} args
 //  * @returns {boolean}
 //  */
 // function solution(...args) {
@@ -26,8 +26,8 @@
  * solution 2 -- hashset alternate
  * time: O(n)
  * space: O(n)
- * 
- * @param  {...any} args 
+ *
+ * @param  {...any} args
  * @returns {boolean}
  */
 function solution() {

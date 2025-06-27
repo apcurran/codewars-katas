@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * log n * m)
  * space: O(n)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {string} sorted words by length ASC
  */
 function longer(s) {

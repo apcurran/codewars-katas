@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} temp 
+ *
+ * @param {string} temp
  * @returns {number|null}
  */
 function lowestTemp(temp) {

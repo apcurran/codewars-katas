@@ -5,8 +5,8 @@
  * n = nestedList rows
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[][]} nestedList 
+ *
+ * @param {number[][]} nestedList
  * @returns {number[]}
  */
 function cantor(nestedList) {
@@ -23,8 +23,10 @@ function cantor(nestedList) {
     return results;
 }
 
-console.log(cantor([
-    [0, 0, 0],
-    [1, 1, 1],
-    [0, 1, 0],
-])); // [1, 0, 1]
+console.log(
+    cantor([
+        [0, 0, 0],
+        [1, 1, 1],
+        [0, 1, 0],
+    ]),
+); // [1, 0, 1]

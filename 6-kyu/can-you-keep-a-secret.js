@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} secret 
+ *
+ * @param {number} secret
  * @returns {object}
  */
 function createSecretHolder(secret) {
@@ -26,6 +26,6 @@ function createSecretHolder(secret) {
 }
 
 const obj = createSecretHolder(5);
-console.log( obj.getSecret() ); // 5
+console.log(obj.getSecret()); // 5
 obj.setSecret(2);
-console.log( obj.getSecret() ); // 2
+console.log(obj.getSecret()); // 2

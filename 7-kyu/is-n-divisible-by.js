@@ -4,9 +4,9 @@
  * Solution 1
  * time: O(n)
  * space: O(n) -- rest param in arr format
- * 
- * @param {number} n 
- * @param  {...number} otherArgs 
+ *
+ * @param {number} n
+ * @param  {...number} otherArgs
  * @returns {boolean}
  */
 function isDivisible(n, ...otherArgs) {
@@ -17,6 +17,6 @@ function isDivisible(n, ...otherArgs) {
     return true;
 }
 
-console.log( isDivisible(100, 5, 4, 10, 25, 20) ); // true
-console.log( isDivisible(12, 7) ); // false
-console.log( isDivisible(7) ); // true
+console.log(isDivisible(100, 5, 4, 10, 25, 20)); // true
+console.log(isDivisible(12, 7)); // false
+console.log(isDivisible(7)); // true

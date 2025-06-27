@@ -4,8 +4,8 @@
  * solution 1 -- regex and hashset
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} sequence 
+ *
+ * @param {string} sequence
  * @returns {number}
  */
 function findMissingNumber(sequence) {
@@ -19,9 +19,7 @@ function findMissingNumber(sequence) {
         return 1;
     }
 
-    const nums = sequence
-        .split(" ")
-        .map(Number);
+    const nums = sequence.split(" ").map(Number);
     const seenValues = new Set(nums);
 
     for (let i = 1; i <= nums.length; i++) {

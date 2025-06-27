@@ -9,9 +9,9 @@ function ListNode(data, next = null) {
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {ListNode} head 
- * @param {function} func 
+ *
+ * @param {ListNode} head
+ * @param {function} func
  * @returns {boolean}
  */
 function anyMatch(head, func) {
@@ -32,11 +32,11 @@ function anyMatch(head, func) {
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {ListNode} head 
- * @param {function} func 
+ *
+ * @param {ListNode} head
+ * @param {function} func
  * @returns {boolean}
-*/
+ */
 function allMatch(head, func) {
     while (head !== null) {
         // compare values and return true if both are equal

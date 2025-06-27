@@ -6,14 +6,14 @@
  * n = arr length
  * time: O(n * max(l))
  * space: O(max(l)) -- callstack size for max level
- * 
- * @param {Array} arr 
+ *
+ * @param {Array} arr
  * @returns {number} sum
  */
 function sumNestedNumbers(arr) {
     /**
-     * @param {Array} arr 
-     * @param {number} level 
+     * @param {Array} arr
+     * @param {number} level
      * @returns {void}
      */
     function getNestedLevel(arr, level) {
@@ -33,6 +33,5 @@ function sumNestedNumbers(arr) {
 
     return total;
 }
-
 
 console.log(sumNestedNumbers([1, [2], 3, [4, [5]]])); // 149

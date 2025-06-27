@@ -4,9 +4,9 @@
  * solution 1
  * time: O(log n)
  * space: O(1)
- * 
- * @param {number} numberOfKata 
- * @param {number} timeLimit 
+ *
+ * @param {number} numberOfKata
+ * @param {number} timeLimit
  * @returns {number}
  */
 function alexMistakes(numberOfKata, timeLimit) {
@@ -25,6 +25,6 @@ function alexMistakes(numberOfKata, timeLimit) {
     return mistakesCounter;
 }
 
-console.log( alexMistakes(10, 120) ); // 3
-console.log( alexMistakes(11, 120) ); // 3
-console.log( alexMistakes(3, 45) ); // 2
+console.log(alexMistakes(10, 120)); // 3
+console.log(alexMistakes(11, 120)); // 3
+console.log(alexMistakes(3, 45)); // 2

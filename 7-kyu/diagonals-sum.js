@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[][]} matrix 
+ *
+ * @param {number[][]} matrix
  * @returns {number}
  */
 function sum(matrix) {
@@ -21,10 +21,10 @@ function sum(matrix) {
     return sumOfDiagonals;
 }
 
-console.log(sum(
-    [
+console.log(
+    sum([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9],
-    ],
-)); // 30 // 1 + 5 + 9 + 3 + 5 + 7
+    ]),
+); // 30 // 1 + 5 + 9 + 3 + 5 + 7

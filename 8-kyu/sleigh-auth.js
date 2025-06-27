@@ -9,9 +9,9 @@ function Sleigh() {
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} name 
- * @param {string} password 
+ *
+ * @param {string} name
+ * @param {string} password
  * @returns {boolean}
  */
 Sleigh.prototype.authenticate = function (name, password) {

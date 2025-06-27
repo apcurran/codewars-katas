@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[][]} matrix 
+ *
+ * @param {number[][]} matrix
  * @returns {"Principal Diagonal win!"|"Secondary Diagonal win!"|"Draw!"}
  */
 function diagonal(matrix) {
@@ -31,10 +31,9 @@ function diagonal(matrix) {
     }
 }
 
-const matrix =
-    [
-        [1, 2, 3],
-        [4, 5, 6],
-        [7, 8, 9],
-    ];
+const matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+];
 console.log(diagonal(matrix)); // "Draw!"

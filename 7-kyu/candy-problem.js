@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} kidsCandies 
+ *
+ * @param {number[]} kidsCandies
  */
 function candies(kidsCandies) {
     if (kidsCandies.length <= 1) return -1;
@@ -21,4 +21,4 @@ function candies(kidsCandies) {
     return candyCounter;
 }
 
-console.log( candies([5, 8, 6, 4]) ); // 9
+console.log(candies([5, 8, 6, 4])); // 9

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} text 
+ *
+ * @param {string} text
  * @returns {string}
  */
 function reOrdering(text) {

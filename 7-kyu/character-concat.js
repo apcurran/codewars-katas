@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function charConcat(str) {
@@ -26,5 +26,5 @@ function charConcat(str) {
     return results.join("");
 }
 
-console.log( charConcat("abcdef") ); // 'af1be2cd3'
-console.log( charConcat("abc!def") ); // 'af1be2cd3'
+console.log(charConcat("abcdef")); // 'af1be2cd3'
+console.log(charConcat("abc!def")); // 'af1be2cd3'

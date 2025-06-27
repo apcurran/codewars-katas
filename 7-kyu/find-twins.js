@@ -4,8 +4,8 @@
  * solution 1 -- hashset
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number|null}
  */
 function elimination(arr) {

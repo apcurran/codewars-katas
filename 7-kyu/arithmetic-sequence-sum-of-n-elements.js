@@ -4,10 +4,10 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} a 
- * @param {number} r 
- * @param {number} n 
+ *
+ * @param {number} a
+ * @param {number} r
+ * @param {number} n
  * @returns {number}
  */
 function ArithmeticSequenceSum(a, r, n) {

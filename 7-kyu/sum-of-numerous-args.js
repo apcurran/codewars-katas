@@ -4,7 +4,7 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
+ *
  * @param {...number} args
  * @returns {number}
  */
@@ -21,6 +21,6 @@ function findSum(...args) {
     return argsSum;
 }
 
-console.log( findSum(1, 2, 3, 4) ); // 10
-console.log( findSum(1, -2) ); // -1
-console.log( findSum(1, -2, 4) ); // -1
+console.log(findSum(1, 2, 3, 4)); // 10
+console.log(findSum(1, -2)); // -1
+console.log(findSum(1, -2, 4)); // -1

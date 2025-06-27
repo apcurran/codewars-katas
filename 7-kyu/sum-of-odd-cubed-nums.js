@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function cubeOdd(arr) {
@@ -25,6 +25,6 @@ function cubeOdd(arr) {
     return sum;
 }
 
-console.log( cubeOdd([1, 2, 3, 4]) ); // 28
-console.log( cubeOdd([-3, -2, 2, 3]) ); // 0
-console.log( cubeOdd(["a", 12, 9, "z", 42]) ); // undefined
+console.log(cubeOdd([1, 2, 3, 4])); // 28
+console.log(cubeOdd([-3, -2, 2, 3])); // 0
+console.log(cubeOdd(["a", 12, 9, "z", 42])); // undefined

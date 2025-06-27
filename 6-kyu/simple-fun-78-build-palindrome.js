@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function buildPalindrome(str) {
@@ -31,7 +31,7 @@ function buildPalindrome(str) {
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {boolean}
  */
 function isPalindrome(str) {

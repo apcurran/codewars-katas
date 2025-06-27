@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function maxSequence(arr) {
@@ -26,5 +26,5 @@ function maxSequence(arr) {
     return maxSum;
 }
 
-console.log( maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]) ); // [4, -1, 2, 1] -> 6
-console.log( maxSequence([0]) ); // [] -> 0
+console.log(maxSequence([-2, 1, -3, 4, -1, 2, 1, -5, 4])); // [4, -1, 2, 1] -> 6
+console.log(maxSequence([0])); // [] -> 0

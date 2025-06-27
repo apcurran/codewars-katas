@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} input 
+ *
+ * @param {string} input
  * @returns {string}
  */
 function moveVowel(input) {
@@ -16,7 +16,7 @@ function moveVowel(input) {
     for (let char of input) {
         if (vowels.includes(char)) {
             // add vowel to list
-            seenVowels += (char);
+            seenVowels += char;
         } else {
             // add to result
             result += char;

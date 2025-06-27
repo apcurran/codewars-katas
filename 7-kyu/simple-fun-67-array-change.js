@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n * m)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function arrayChange(arr) {

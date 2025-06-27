@@ -4,9 +4,9 @@
  * solution 1 -- map cache
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s1 
- * @param {string} s2 
+ *
+ * @param {string} s1
+ * @param {string} s2
  * @returns {boolean}
  */
 function merryChristmas(s1, s2) {
@@ -19,7 +19,7 @@ function merryChristmas(s1, s2) {
     }
 
     let s1Map = new Map();
-    
+
     for (let char of s1) {
         const prevFreq = s1Map.get(char) || 0;
         s1Map.set(char, prevFreq + 1);
@@ -29,7 +29,7 @@ function merryChristmas(s1, s2) {
         if (s1Map.has(char)) {
             const letterFreq = s1Map.get(char);
             const updatedFreq = letterFreq - 1;
-            
+
             if (updatedFreq === 0) {
                 // remove from map
                 s1Map.delete(char);
@@ -55,6 +55,6 @@ function merryChristmas(s1, s2) {
     return true;
 }
 
-console.log( merryChristmas("abcMerry Christmas!", "abc") ); // true
-console.log( merryChristmas("abcerry hristmas!", "abcMC") ); // true
-console.log( merryChristmas("abcMerry Christmas!", "bad") ); // false
+console.log(merryChristmas("abcMerry Christmas!", "abc")); // true
+console.log(merryChristmas("abcerry hristmas!", "abcMC")); // true
+console.log(merryChristmas("abcMerry Christmas!", "bad")); // false

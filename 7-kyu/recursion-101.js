@@ -4,9 +4,9 @@
  * solution 1
  * time: O(log a + log b)
  * space: O(log a + log b)
- * 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number} a
+ * @param {number} b
  * @returns {[number, number]}
  */
 function solve(a, b) {

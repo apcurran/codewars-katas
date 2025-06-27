@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} name 
+ *
+ * @param {string} name
  * @returns {string}
  */
 function nicknameGenerator(name) {
@@ -13,7 +13,8 @@ function nicknameGenerator(name) {
 
     const thirdLetter = name[2];
 
-    if (thirdLetter === "a" ||
+    if (
+        thirdLetter === "a" ||
         thirdLetter === "e" ||
         thirdLetter === "i" ||
         thirdLetter === "o" ||
@@ -25,5 +26,5 @@ function nicknameGenerator(name) {
     return name.slice(0, 3);
 }
 
-console.log( nicknameGenerator("Robert") ); // "Rob"
-console.log( nicknameGenerator("Jeannie") ); // "Jean"
+console.log(nicknameGenerator("Robert")); // "Rob"
+console.log(nicknameGenerator("Jeannie")); // "Jean"

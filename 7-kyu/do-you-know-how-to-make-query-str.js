@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n + m)
  * space: O(n + m)
- * 
- * @param {object} obj 
+ *
+ * @param {object} obj
  * @returns {string}
  */
 function toQueryString(obj) {
@@ -30,13 +30,17 @@ function toQueryString(obj) {
     return strs.join("&");
 }
 
-console.log( toQueryString({
-    "username": "warrior",
-    "kyu": 1,
-    "age": 28,
-}) ); // username=warrior&kyu=1&age=28
+console.log(
+    toQueryString({
+        username: "warrior",
+        kyu: 1,
+        age: 28,
+    }),
+); // username=warrior&kyu=1&age=28
 
-console.log( toQueryString({
-    "name": "shirt",
-    "colors": [ "white", "black" ],
-}) ); // name=shirt&colors=white&colors=black
+console.log(
+    toQueryString({
+        name: "shirt",
+        colors: ["white", "black"],
+    }),
+); // name=shirt&colors=white&colors=black

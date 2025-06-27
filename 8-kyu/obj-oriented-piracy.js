@@ -2,9 +2,9 @@
 
 class Ship {
     /**
-     * 
-     * @param {number} draft 
-     * @param {number} crew 
+     *
+     * @param {number} draft
+     * @param {number} crew
      */
     constructor(draft, crew) {
         this.draft = draft;
@@ -15,7 +15,7 @@ class Ship {
      * solution 1
      * time: O(1)
      * space: O(1)
-     * 
+     *
      * @returns {boolean}
      */
     isWorthIt() {

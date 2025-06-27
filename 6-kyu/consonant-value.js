@@ -6,16 +6,14 @@
  * m = str chunk length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function solve(str) {
     // break up string into pieces split on vowels (aeiou)
     // remove empty strings from splitStrArr
-    const strChunks = str
-        .split(/[aeiou]/g)
-        .filter((chunk) => chunk !== "");
+    const strChunks = str.split(/[aeiou]/g).filter((chunk) => chunk !== "");
     let maxConsonantChunkValue = -Infinity;
     // for each chunk in splitStrArr
     for (let chunk of strChunks) {
@@ -30,12 +28,15 @@ function solve(str) {
         }
 
         // after summing chunk values, check against global max value
-        maxConsonantChunkValue = Math.max(maxConsonantChunkValue, chunkValuesSum);
+        maxConsonantChunkValue = Math.max(
+            maxConsonantChunkValue,
+            chunkValuesSum,
+        );
     }
-        
+
     // return global max value
     return maxConsonantChunkValue;
 }
 
-console.log( solve("zodiacs") ); // 26
-console.log( solve("strength") ); // 57
+console.log(solve("zodiacs")); // 26
+console.log(solve("strength")); // 57

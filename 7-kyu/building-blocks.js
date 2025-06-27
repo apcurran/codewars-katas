@@ -38,8 +38,8 @@ class Block {
 }
 
 let b = new Block([2, 4, 6]);
-console.log( b.getWidth() ); // 2
-console.log( b.getLength() ); // 4
-console.log( b.getHeight() ); // 6
-console.log( b.getVolume() ); // 48
-console.log( b.getSurfaceArea() ); // 88
+console.log(b.getWidth()); // 2
+console.log(b.getLength()); // 4
+console.log(b.getHeight()); // 6
+console.log(b.getVolume()); // 48
+console.log(b.getSurfaceArea()); // 88

@@ -4,14 +4,14 @@
  * solution 1
  * time: O(n) -- copy of number into a string
  * space: O(n)
- * 
- * @param {number} number 
+ *
+ * @param {number} number
  * @returns {number}
  */
 function multiply(number) {
     const numDigitsCount = String(Math.abs(number)).length;
 
-    return number * (5 ** numDigitsCount);
+    return number * 5 ** numDigitsCount;
 }
 
 console.log(multiply(10)); // 250

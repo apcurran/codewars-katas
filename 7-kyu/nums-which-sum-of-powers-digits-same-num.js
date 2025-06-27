@@ -7,9 +7,9 @@
  * r = output resNums arr len
  * time: O(n * m)
  * space: O(m + r)
- * 
- * @param {number} hMax 
- * @param {number} exp 
+ *
+ * @param {number} hMax
+ * @param {number} exp
  * @returns {number[]}
  */
 function eqSumPowdig(hMax, exp) {
@@ -27,7 +27,7 @@ function eqSumPowdig(hMax, exp) {
 
                 return raisedDigit;
             })
-        // sum digit power results
+            // sum digit power results
             .reduce((sum, currNum) => {
                 return sum + currNum;
             }, 0);
@@ -41,4 +41,4 @@ function eqSumPowdig(hMax, exp) {
     return resNums;
 }
 
-console.log( eqSumPowdig(370, 3) ); // [153, 370]
+console.log(eqSumPowdig(370, 3)); // [153, 370]

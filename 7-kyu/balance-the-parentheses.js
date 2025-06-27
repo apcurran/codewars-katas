@@ -4,14 +4,14 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function fixParentheses(str) {
     let openParenCount = 0;
     let closingParenCount = 0;
-    
+
     // count unmatched closing parens
     for (let paren of str) {
         if (paren === "(") {

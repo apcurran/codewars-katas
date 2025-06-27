@@ -2,8 +2,8 @@
 
 // /**
 //  * Time: O(n^2)
-//  * @param {number} n 
-//  * @param {number} d 
+//  * @param {number} n
+//  * @param {number} d
 //  * @returns {number}
 //  */
 // function nbDig(n, d) {
@@ -31,8 +31,8 @@
 
 /**
  * Time: O(n)
- * @param {number} n 
- * @param {number} d 
+ * @param {number} n
+ * @param {number} d
  * @returns {number}
  */
 function nbDig(n, d) {
@@ -46,4 +46,4 @@ function nbDig(n, d) {
     return squaresCount.match(myRegexCounter).length;
 }
 
-console.log( nbDig(10, 1) ); // 4
+console.log(nbDig(10, 1)); // 4

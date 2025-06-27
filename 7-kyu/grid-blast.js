@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(1)
 //  * space: O(1)
-//  * 
-//  * @param {number} x 
-//  * @param {number} y 
+//  *
+//  * @param {number} x
+//  * @param {number} y
 //  * @returns {string}
 //  */
 // function fire(x, y) {
@@ -23,14 +23,14 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} x 
- * @param {number} y 
+ *
+ * @param {number} x
+ * @param {number} y
  * @returns {string}
  */
 function fire(x, y) {
-    return grid[x + (3 * y)];
+    return grid[x + 3 * y];
 }
 
-console.log( fire(0, 0) ); // "top left"
-console.log( fire(1, 2) ); // "bottom middle"
+console.log(fire(0, 0)); // "top left"
+console.log(fire(1, 2)); // "bottom middle"

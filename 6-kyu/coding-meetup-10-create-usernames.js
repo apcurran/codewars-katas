@@ -6,7 +6,7 @@
  * m = person's first and last names
  * time: O(n * m)
  * space: O(n + m)
- * 
+ *
  * @param {{
  *  firstName: String,
  *  lastName: String,
@@ -30,7 +30,10 @@ function addUsername(list) {
 
     return list.map(function updateWithUsername(person) {
         const birthYear = CURRENT_YEAR - person.age;
-        const username = person.firstName.toLowerCase() + person.lastName[0].toLowerCase() + birthYear;
+        const username =
+            person.firstName.toLowerCase() +
+            person.lastName[0].toLowerCase() +
+            birthYear;
 
         return {
             ...person,
@@ -40,8 +43,22 @@ function addUsername(list) {
 }
 
 const list1 = [
-    { firstName: "Emily", lastName: "N.", country: "Ireland", continent: "Europe", age: 30, language: "Ruby" },
-    { firstName: "Nor", lastName: "E.", country: "Malaysia", continent: "Asia", age: 20, language: "Clojure" },
+    {
+        firstName: "Emily",
+        lastName: "N.",
+        country: "Ireland",
+        continent: "Europe",
+        age: 30,
+        language: "Ruby",
+    },
+    {
+        firstName: "Nor",
+        lastName: "E.",
+        country: "Malaysia",
+        continent: "Asia",
+        age: 20,
+        language: "Clojure",
+    },
 ];
 console.log(addUsername(list1));
 // [

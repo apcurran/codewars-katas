@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} packet 
+ *
+ * @param {string} packet
  * @returns {number}
  */
 function quicksum(packet) {
@@ -23,7 +23,10 @@ function quicksum(packet) {
             continue;
         }
 
-        if (charCode < UPPERCASE_CHARCODE_START || charCode > UPPERCASE_CHARCODE_END) {
+        if (
+            charCode < UPPERCASE_CHARCODE_START ||
+            charCode > UPPERCASE_CHARCODE_END
+        ) {
             // invalid packet data
             return 0;
         }
@@ -36,5 +39,5 @@ function quicksum(packet) {
     return quickSumTotal;
 }
 
-console.log( quicksum("ACM") ); // 46
-console.log( quicksum("axg ") ); // 0
+console.log(quicksum("ACM")); // 46
+console.log(quicksum("axg ")); // 0

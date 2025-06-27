@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} archers 
+ *
+ * @param {number[]} archers
  * @returns {boolean}
  */
 function archersReady(archers) {

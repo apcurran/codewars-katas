@@ -4,8 +4,8 @@
  * Solution 1
  * Time: O(n^2)
  * Space: O(n^2)
- * 
- * @param {number} depth 
+ *
+ * @param {number} depth
  * @returns {number[][]}
  */
 function pascal(depth) {
@@ -36,4 +36,4 @@ function pascal(depth) {
     return resultArr;
 }
 
-console.log( pascal(5) ); // [ [1], [1,1], [1,2,1], [1,3,3,1], [1,4,6,4,1] ]
+console.log(pascal(5)); // [ [1], [1,1], [1,2,1], [1,3,3,1], [1,4,6,4,1] ]

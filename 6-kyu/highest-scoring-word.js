@@ -1,4 +1,4 @@
-function high(str){
+function high(str) {
     const alphabetMap = new Map([
         ["a", 1],
         ["b", 2],
@@ -27,11 +27,11 @@ function high(str){
         ["y", 25],
         ["z", 26],
     ]);
-    
+
     const wordsArr = str.split(" ");
     const wordMap = new Map();
     let highestWordPts = 0;
-    
+
     for (let word of wordsArr) {
         const splitWordArr = word.split("");
 

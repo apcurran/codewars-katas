@@ -4,19 +4,19 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s1 
- * @param {string} s2 
+ *
+ * @param {string} s1
+ * @param {string} s2
  * @returns {string}
  */
 function interweave(s1, s2) {
     const digits = "0123456789";
     let result = "";
-    
+
     for (let i = 0; i < s1.length; i++) {
         let s1Char = "";
         let s2Char = "";
-        
+
         // remove digits and undefined
         if (s1[i] && !digits.includes(s1[i])) {
             s1Char = s1[i];
@@ -25,8 +25,8 @@ function interweave(s1, s2) {
         if (s2[i] && !digits.includes(s2[i])) {
             s2Char = s2[i];
         }
-        
-        result += (s1Char + s2Char);
+
+        result += s1Char + s2Char;
     }
 
     return result;

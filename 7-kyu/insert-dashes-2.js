@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {string}
  */
 function insertDashII(num) {
@@ -28,16 +28,14 @@ function insertDashII(num) {
             continue;
         }
 
-        if (Number(currentNumStr) % 2 === 0 &&
-            Number(nextNumStr) % 2 === 0) {
+        if (Number(currentNumStr) % 2 === 0 && Number(nextNumStr) % 2 === 0) {
             // adjacent even nums have "*" between them
             results.push(currentNumStr, "*");
 
             continue;
         }
 
-        if (Number(currentNumStr) % 2 !== 0 &&
-            Number(nextNumStr) % 2 !== 0) {
+        if (Number(currentNumStr) % 2 !== 0 && Number(nextNumStr) % 2 !== 0) {
             // adjacent odd nums have "-" between them
             results.push(currentNumStr, "-");
 
@@ -50,5 +48,5 @@ function insertDashII(num) {
     return results.join("");
 }
 
-console.log( insertDashII(454793) ); // 4547-9-3
-console.log( insertDashII(1012356895) ); // 10123-56*89-5
+console.log(insertDashII(454793)); // 4547-9-3
+console.log(insertDashII(1012356895)); // 10123-56*89-5

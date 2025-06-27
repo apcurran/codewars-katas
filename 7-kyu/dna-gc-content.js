@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- dna str copy
- * 
- * @param {string} dna 
+ *
+ * @param {string} dna
  * @returns {number}
  */
 function gcContent(dna) {
@@ -24,10 +24,10 @@ function gcContent(dna) {
 }
 
 console.log(gcContent("G")); // 100
-console.log( gcContent("C") ); // 100
-console.log( gcContent("A") ); // 0
-console.log( gcContent("T") ); // 0
-console.log( gcContent("AAA") ); // 0.0
-console.log( gcContent("AAACCCGGGTTT") ); // 50
-console.log( gcContent("") ); // 0.0
-console.log( gcContent("aaacccgggttt") ); // 50
+console.log(gcContent("C")); // 100
+console.log(gcContent("A")); // 0
+console.log(gcContent("T")); // 0
+console.log(gcContent("AAA")); // 0.0
+console.log(gcContent("AAACCCGGGTTT")); // 50
+console.log(gcContent("")); // 0.0
+console.log(gcContent("aaacccgggttt")); // 50

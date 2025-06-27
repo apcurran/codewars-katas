@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function solve(str) {
@@ -20,16 +20,22 @@ function solve(str) {
             currentVowelSubstrCount++;
         } else {
             // record max
-            maxVowelSubstrCount = Math.max(maxVowelSubstrCount, currentVowelSubstrCount);
+            maxVowelSubstrCount = Math.max(
+                maxVowelSubstrCount,
+                currentVowelSubstrCount,
+            );
             // reset current counter
             currentVowelSubstrCount = 0;
         }
     }
 
-    maxVowelSubstrCount = Math.max(maxVowelSubstrCount, currentVowelSubstrCount);
+    maxVowelSubstrCount = Math.max(
+        maxVowelSubstrCount,
+        currentVowelSubstrCount,
+    );
 
     return maxVowelSubstrCount;
 }
 
-console.log( solve("codewarriors") ); // 2
-console.log( solve("suoidea") ); // 3
+console.log(solve("codewarriors")); // 2
+console.log(solve("suoidea")); // 3

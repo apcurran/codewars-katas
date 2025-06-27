@@ -4,9 +4,9 @@
  * solution 1
  * time: O(sqrt(n))
  * space: O(sqrt(n))
- * 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number} a
+ * @param {number} b
  * @returns {number[]}
  */
 function evenDigitSquares(a, b) {
@@ -23,7 +23,7 @@ function evenDigitSquares(a, b) {
 
         for (let strDigit of strDigits) {
             const isEvenDigit = Number(strDigit) % 2 === 0;
-            
+
             if (!isEvenDigit) continue numsLoop;
         }
 
@@ -33,4 +33,4 @@ function evenDigitSquares(a, b) {
     return results;
 }
 
-console.log( evenDigitSquares(100, 1000) ); // [400, 484]
+console.log(evenDigitSquares(100, 1000)); // [400, 484]

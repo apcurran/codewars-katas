@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1) -- st length 6
  * space: O(1) -- str length 6
- * 
- * @param {string} ticket 
+ *
+ * @param {string} ticket
  * @returns {boolean}
  */
 function isLucky(ticket) {
@@ -15,8 +15,10 @@ function isLucky(ticket) {
     // must not include letters
     if (ticket.match(/[a-z]/g)) return false;
 
-    const firstThreeDigitsSum = Number(ticket[0]) + Number(ticket[1]) + Number(ticket[2]);
-    const lastThreeDigitsSum = Number(ticket[3]) + Number(ticket[4]) + Number(ticket[5]);
+    const firstThreeDigitsSum =
+        Number(ticket[0]) + Number(ticket[1]) + Number(ticket[2]);
+    const lastThreeDigitsSum =
+        Number(ticket[3]) + Number(ticket[4]) + Number(ticket[5]);
 
     return firstThreeDigitsSum === lastThreeDigitsSum;
 }

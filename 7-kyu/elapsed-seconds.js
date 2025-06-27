@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {Date} startDate 
- * @param {Date} endDate 
+ *
+ * @param {Date} startDate
+ * @param {Date} endDate
  * @returns {number} elapsed time in seconds
  */
 function elapsedSeconds(startDate, endDate) {

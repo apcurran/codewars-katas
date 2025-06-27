@@ -6,8 +6,8 @@
  * m = subarray
  * time: O(n * m)
  * space: O(n * m)
- * 
- * @param {array[]} arrays 
+ *
+ * @param {array[]} arrays
  * @returns {array[]}
  */
 function filterHomogenous(arrays) {
@@ -28,4 +28,4 @@ function filterHomogenous(arrays) {
     });
 }
 
-console.log( filterHomogenous( [[1, 5, 4], ["a", 3, 5], ["b"], [], ["1", 2, 3]]) ); //  [[1, 5, 4], ['b']]
+console.log(filterHomogenous([[1, 5, 4], ["a", 3, 5], ["b"], [], ["1", 2, 3]])); //  [[1, 5, 4], ['b']]

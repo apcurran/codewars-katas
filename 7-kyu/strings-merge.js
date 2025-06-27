@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} string1 
- * @param {string} string2 
- * @param {string} letter 
+ *
+ * @param {string} string1
+ * @param {string} string2
+ * @param {string} letter
  * @returns {string}
  */
 function stringMerge(string1, string2, letter) {
@@ -19,4 +19,4 @@ function stringMerge(string1, string2, letter) {
 
 // console.log( stringMerge("hello", "world", "l") ); // "held"
 // console.log( stringMerge("coding", "anywhere", "n") ); // "codinywhere"
-console.log( stringMerge("jason", "samson", "s") ); // "jasamson"
+console.log(stringMerge("jason", "samson", "s")); // "jasamson"

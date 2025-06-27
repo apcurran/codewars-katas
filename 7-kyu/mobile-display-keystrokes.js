@@ -3,8 +3,8 @@
 /**
  * time: O(n) -- charKeystrokes does not change in length, so fixed inner loop size
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function mobileKeyboard(str) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function solve(str) {
@@ -16,7 +16,10 @@ function solve(str) {
         const suffix = str.slice(str.length - i);
 
         if (prefix === suffix) {
-            maxPrefixSuffixLength = Math.max(maxPrefixSuffixLength, prefix.length);
+            maxPrefixSuffixLength = Math.max(
+                maxPrefixSuffixLength,
+                prefix.length,
+            );
         }
     }
 

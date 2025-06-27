@@ -1,7 +1,7 @@
 "use strict";
 
 class ListNode {
-    /** 
+    /**
      * @param {number} value
      * @param {ListNode|null} leftNode
      * @param {ListNode|null} rightNode
@@ -24,7 +24,7 @@ a.right = c;
  * solution 1 -- iterative pre-order dfs
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {ListNode} root
  * @returns {number}
  */
@@ -50,8 +50,8 @@ a.right = c;
  * solution 2 -- recursive pre-order dfs
  * time: O(n)
  * space: O(n)
- * 
- * @param {ListNode} root 
+ *
+ * @param {ListNode} root
  * @returns {number}
  */
 function sumTheTreeValues(root) {
@@ -63,4 +63,4 @@ function sumTheTreeValues(root) {
     return root.value + leftSum + rightSum;
 }
 
-console.log( sumTheTreeValues(a) ); // 13
+console.log(sumTheTreeValues(a)); // 13

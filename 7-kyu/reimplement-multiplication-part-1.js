@@ -4,9 +4,9 @@
  * solution 1 -- math
  * time: O(b)
  * space: O(1)
- * 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number} a
+ * @param {number} b
  * @returns {number}
  */
 function mul(a, b) {

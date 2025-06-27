@@ -4,10 +4,10 @@
  * solution 1
  * time: O(i + j)
  * space: O(i + j)
- * 
- * @param {string} str 
- * @param {number} i 
- * @param {number} j 
+ *
+ * @param {string} str
+ * @param {number} i
+ * @param {number} j
  * @returns {string}
  */
 function testit(str, i, j) {

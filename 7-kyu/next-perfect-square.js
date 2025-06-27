@@ -7,7 +7,7 @@ function findNextSquare(num) {
     }
 
     const nextSquareRootNum = squareRootNum + 1;
-    
+
     return nextSquareRootNum ** 2;
 }
 

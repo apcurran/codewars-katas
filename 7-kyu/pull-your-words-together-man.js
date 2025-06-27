@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[]} words 
+ *
+ * @param {string[]} words
  * @returns {string}
  */
 function sentencify(words) {
@@ -14,9 +14,11 @@ function sentencify(words) {
     if (words.length === 1) return `${revisedFirstWord}.`;
 
     const proceedingFirstWordStr = words.slice(1).join(" ");
-    
+
     return `${revisedFirstWord} ${proceedingFirstWordStr}.`;
 }
 
-console.log( sentencify(["yes"]) ); // "Yes."
-console.log( sentencify(["i'm", "afraid", "I", "can't", "let", "you", "do", "that"]) ); // "I'm afraid I can't let you do that."
+console.log(sentencify(["yes"])); // "Yes."
+console.log(
+    sentencify(["i'm", "afraid", "I", "can't", "let", "you", "do", "that"]),
+); // "I'm afraid I can't let you do that."

@@ -1,6 +1,6 @@
 "use strict";
 
-/** 
+/**
  * @typedef {Object} Item
  * @property {string} type - the type of the item
  * @property {string} material - the primary material of the item
@@ -11,8 +11,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {Item[]} items 
+ *
+ * @param {Item[]} items
  * @returns {string[][]}
  */
 function recycle(items) {
@@ -25,34 +25,33 @@ function recycle(items) {
         if (item.material === "paper" || item.secondMaterial === "paper") {
             paperItems.push(item.type);
         }
-        
+
         if (item.material === "glass" || item.secondMaterial === "glass") {
             glassItems.push(item.type);
         }
-        
+
         if (item.material === "organic" || item.secondMaterial === "organic") {
             organicItems.push(item.type);
         }
-        
+
         if (item.material === "plastic" || item.secondMaterial === "plastic") {
             plasticItems.push(item.type);
         }
     }
 
-    return [
-        paperItems,
-        glassItems,
-        organicItems,
-        plasticItems,
-    ];
+    return [paperItems, glassItems, organicItems, plasticItems];
 }
 
 const input = [
-    { "type": "rotten apples", "material": "organic" },
-    { "type": "out of date yogurt", "material": "organic", "secondMaterial": "plastic" },
-    { "type": "wine bottle", "material": "glass", "secondMaterial": "paper" },
-    { "type": "amazon box", "material": "paper" },
-    { "type": "beer bottle", "material": "glass", "secondMaterial": "paper" },
+    { type: "rotten apples", material: "organic" },
+    {
+        type: "out of date yogurt",
+        material: "organic",
+        secondMaterial: "plastic",
+    },
+    { type: "wine bottle", material: "glass", secondMaterial: "paper" },
+    { type: "amazon box", material: "paper" },
+    { type: "beer bottle", material: "glass", secondMaterial: "paper" },
 ];
 console.log(recycle(input));
 // [

@@ -6,10 +6,10 @@
  * the second argument tells you what has happened in the match.
  * Calculate the points, and return a string containing the teams final scores.
  * The team names should be sorted in the same order as in the first argument.
- * 
- * @param {string} teams 
+ *
+ * @param {string} teams
  * @param {string} actions
- * @returns {string} 
+ * @returns {string}
  */
 function quidditchScoreboard(teams, actions) {
     let team1Score = 0;
@@ -36,15 +36,24 @@ function quidditchScoreboard(teams, actions) {
         const actionPoints = actionsMap.get(currTeamAction);
 
         if (currTeamAction === "Caught Snitch") {
-            currTeam === team1 ? team1Score += actionPoints : team2Score += actionPoints;
+            currTeam === team1
+                ? (team1Score += actionPoints)
+                : (team2Score += actionPoints);
 
             break;
         }
 
-        currTeam === team1 ? team1Score += actionPoints : team2Score += actionPoints;
+        currTeam === team1
+            ? (team1Score += actionPoints)
+            : (team2Score += actionPoints);
     }
 
     return `${team1}: ${team1Score}, ${team2}: ${team2Score}`;
 }
 
-console.log(quidditchScoreboard("Ilkley vs Yorkshire", "Ilkley: Quaffle goal, Yorkshire: Haverstacking foul, Yorkshire: Caught Snitch")); // "Ilkley: 10, Yorkshire: 120"
+console.log(
+    quidditchScoreboard(
+        "Ilkley vs Yorkshire",
+        "Ilkley: Quaffle goal, Yorkshire: Haverstacking foul, Yorkshire: Caught Snitch",
+    ),
+); // "Ilkley: 10, Yorkshire: 120"

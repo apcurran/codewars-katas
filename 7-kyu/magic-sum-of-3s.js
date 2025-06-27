@@ -6,8 +6,8 @@
  * m = num length (digits)
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {number[]} numbers 
+ *
+ * @param {number[]} numbers
  * @returns {number} sum
  */
 function magicSum(numbers) {

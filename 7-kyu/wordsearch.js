@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} word 
- * @param {string} text 
+ *
+ * @param {string} word
+ * @param {string} text
  * @returns {boolean}
  */
 function wordSearch(word, text) {
@@ -15,7 +15,8 @@ function wordSearch(word, text) {
     return regex.test(text);
 }
 
-const text = "what makes the desert beautiful, said the little prince is that somewhere it hides a well";
+const text =
+    "what makes the desert beautiful, said the little prince is that somewhere it hides a well";
 console.log(wordSearch("prince", text)); // true
 console.log(wordSearch("beautiful", text)); // true
 console.log(wordSearch("clown", text)); // false

@@ -7,8 +7,8 @@
  * x = length of all nums
  * time: O(n * max(m))
  * space: O(x)
- * 
- * @param  {...number[]} arrays 
+ *
+ * @param  {...number[]} arrays
  * @returns {number[]}
  */
 function uniteUnique(...arrays) {

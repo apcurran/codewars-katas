@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} text 
+ *
+ * @param {string} text
  * @returns {string}
  */
 function toAcronym(text) {
@@ -15,6 +15,6 @@ function toAcronym(text) {
         .join("");
 }
 
-console.log( toAcronym("Code Wars") ); // "CW"
-console.log( toAcronym("Portable Network Graphics") ); // "PNG"
-console.log( toAcronym("PHP: Hypertext Preprocessor") ); // "PHP"
+console.log(toAcronym("Code Wars")); // "CW"
+console.log(toAcronym("Portable Network Graphics")); // "PNG"
+console.log(toAcronym("PHP: Hypertext Preprocessor")); // "PHP"

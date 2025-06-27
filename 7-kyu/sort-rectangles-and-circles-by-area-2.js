@@ -4,16 +4,14 @@
  * solution 1
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {array} array 
+ *
+ * @param {array} array
  * @returns {array}
  */
 function sortByArea(array) {
-    return array
-        .slice()
-        .sort(function sortAreas(valueA, valueB) {
-            return calcArea(valueA) - calcArea(valueB);
-        });
+    return array.slice().sort(function sortAreas(valueA, valueB) {
+        return calcArea(valueA) - calcArea(valueB);
+    });
 }
 
 function calcArea(value) {

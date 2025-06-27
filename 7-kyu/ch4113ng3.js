@@ -4,8 +4,8 @@
 //  * solution 1 -- regex
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} txt 
+//  *
+//  * @param {string} txt
 //  * @returns {string}
 //  */
 // function nerdify(txt) {
@@ -19,8 +19,8 @@
  * solution 2 -- Map obj
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} text 
+ *
+ * @param {string} text
  * @returns {string}
  */
 function nerdify(text) {
@@ -47,4 +47,4 @@ function nerdify(text) {
     return updatedText;
 }
 
-console.log( nerdify("Fundamentals") ); // "Fund4m3nt41s"
+console.log(nerdify("Fundamentals")); // "Fund4m3nt41s"

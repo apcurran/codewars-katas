@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {string|null}
  */
 function findSquares(num) {
@@ -27,6 +27,6 @@ function findSquares(num) {
     return null;
 }
 
-console.log( findSquares(9) ); // "25 - 16"
-console.log( findSquares(5) ); // "9 - 4"
-console.log( findSquares(7) ); // "16-9"
+console.log(findSquares(9)); // "25 - 16"
+console.log(findSquares(5)); // "9 - 4"
+console.log(findSquares(7)); // "16-9"

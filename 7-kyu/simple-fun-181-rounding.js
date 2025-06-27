@@ -4,9 +4,9 @@
  * solution 1
  * time: O(d) -- stringify division value
  * space: O(d) -- stringify division value
- * 
- * @param {number} n 
- * @param {number} m 
+ *
+ * @param {number} n
+ * @param {number} m
  * @returns {number}
  */
 function rounding(n, m) {
@@ -23,7 +23,7 @@ function rounding(n, m) {
 }
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {string}
  */
 function getAfterDecimalPortion(num) {
@@ -32,5 +32,5 @@ function getAfterDecimalPortion(num) {
 
 console.log(rounding(20, 3)); // 21
 console.log(rounding(19, 3)); // 18
-console.log(rounding(50, 100)); // 50 
-console.log(rounding(472, 16)); // 472 
+console.log(rounding(50, 100)); // 50
+console.log(rounding(472, 16)); // 472

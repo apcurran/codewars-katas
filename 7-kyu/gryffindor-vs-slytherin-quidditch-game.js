@@ -4,17 +4,23 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {[number, string]} gryffindor 
- * @param {[number, string]} slytherin 
+ *
+ * @param {[number, string]} gryffindor
+ * @param {[number, string]} slytherin
  * @returns {string}
  */
 function gameWinners(gryffindor, slytherin) {
     const SNITCH_VALUE = 150;
     const [gryffindorScore, isGryffindorSnitch] = gryffindor;
     const [slytherinScore, isSyltherinSnitch] = slytherin;
-    const gryffindorTotal = isGryffindorSnitch === "yes" ? gryffindorScore + SNITCH_VALUE : gryffindorScore;
-    const slytherinTotal = isSyltherinSnitch === "yes" ? slytherinScore + SNITCH_VALUE : slytherinScore;
+    const gryffindorTotal =
+        isGryffindorSnitch === "yes"
+            ? gryffindorScore + SNITCH_VALUE
+            : gryffindorScore;
+    const slytherinTotal =
+        isSyltherinSnitch === "yes"
+            ? slytherinScore + SNITCH_VALUE
+            : slytherinScore;
 
     if (gryffindorTotal > slytherinTotal) {
         return "Gryffindor wins!";

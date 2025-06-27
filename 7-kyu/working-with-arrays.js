@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]} without the last element
  */
 function withoutLast(arr) {
@@ -13,4 +13,3 @@ function withoutLast(arr) {
 }
 
 console.log(withoutLast([1, 2, 3, 4, 5])); // [1, 2, 3, 4]
-

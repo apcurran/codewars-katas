@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n * log n)
 //  * space: O(n)
-//  * 
-//  * @param {object[]} list 
+//  *
+//  * @param {object[]} list
 //  * @returns {string}
 //  */
 // function sentence(list) {
@@ -26,8 +26,8 @@
  * solution 2
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {object[]} list 
+ *
+ * @param {object[]} list
  * @returns {string}
  */
 function sentence(list) {
@@ -40,12 +40,12 @@ function sentence(list) {
 }
 
 const list = [
-    { "4": "dog" },
-    { "2": "took" },
-    { "3": "his" },
+    { 4: "dog" },
+    { 2: "took" },
+    { 3: "his" },
     { "-2": "Vatsan" },
-    { "5": "for" },
-    { "6": "a" },
-    { "12": "spin" },
+    { 5: "for" },
+    { 6: "a" },
+    { 12: "spin" },
 ];
 console.log(sentence(list)); // "Vatsan took his dog for a spin"

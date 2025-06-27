@@ -4,9 +4,9 @@
  * solution 1
  * time: O(log (n + m))
  * space: O(n + m)
- * 
- * @param {number[]} arrA 
- * @param {number[]} arrB 
+ *
+ * @param {number[]} arrA
+ * @param {number[]} arrB
  * @returns {number[]}
  */
 function mergeArrays(arrA, arrB) {

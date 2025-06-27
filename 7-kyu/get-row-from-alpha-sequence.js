@@ -4,21 +4,21 @@
  * solution 1 -- hashmap
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string|undefined}
  */
 function getRow(n) {
     const alphabetMap = new Map([
-        [1,  "ABCDEFGHIJKLMNOPQRSTUVWXYZ"],
-        [2,  "BBCDEFGHIJKLMNOPQRSTUVWXYZ"],
-        [3,  "CCCDEFGHIJKLMNOPQRSTUVWXYZ"],
-        [4,  "DDDDEFGHIJKLMNOPQRSTUVWXYZ"],
-        [5,  "EEEEEFGHIJKLMNOPQRSTUVWXYZ"],
-        [6,  "FFFFFFGHIJKLMNOPQRSTUVWXYZ"],
-        [7,  "GGGGGGGHIJKLMNOPQRSTUVWXYZ"],
-        [8,  "HHHHHHHHIJKLMNOPQRSTUVWXYZ"],
-        [9,  "IIIIIIIIIJKLMNOPQRSTUVWXYZ"],
+        [1, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"],
+        [2, "BBCDEFGHIJKLMNOPQRSTUVWXYZ"],
+        [3, "CCCDEFGHIJKLMNOPQRSTUVWXYZ"],
+        [4, "DDDDEFGHIJKLMNOPQRSTUVWXYZ"],
+        [5, "EEEEEFGHIJKLMNOPQRSTUVWXYZ"],
+        [6, "FFFFFFGHIJKLMNOPQRSTUVWXYZ"],
+        [7, "GGGGGGGHIJKLMNOPQRSTUVWXYZ"],
+        [8, "HHHHHHHHIJKLMNOPQRSTUVWXYZ"],
+        [9, "IIIIIIIIIJKLMNOPQRSTUVWXYZ"],
         [10, "JJJJJJJJJJKLMNOPQRSTUVWXYZ"],
         [11, "KKKKKKKKKKKLMNOPQRSTUVWXYZ"],
         [12, "LLLLLLLLLLLLMNOPQRSTUVWXYZ"],
@@ -38,7 +38,7 @@ function getRow(n) {
         [26, "ZZZZZZZZZZZZZZZZZZZZZZZZZZ"],
     ]);
 
-    const index = n > 26 ? (n % 26) : n;
+    const index = n > 26 ? n % 26 : n;
 
     if (index === 0) {
         return alphabetMap.get(26);

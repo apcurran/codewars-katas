@@ -4,9 +4,9 @@
  * solution 1 -- map cache
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr1 
- * @param {number[]} arr2 
+ *
+ * @param {number[]} arr1
+ * @param {number[]} arr2
  * @returns {boolean}
  */
 function arraysSimilar(arr1, arr2) {
@@ -45,6 +45,6 @@ function arraysSimilar(arr1, arr2) {
     return true;
 }
 
-console.log( arraysSimilar([1, 2, 2, 3, 4], [2, 1, 2, 4, 3]) ); // true
-console.log( arraysSimilar([2, 1, 2, 4, 3], [1, 2, 3, 4]) ); // false
-console.log( arraysSimilar([1, 2, 3, 4], [1, 2, 3, "4"]) ); // false
+console.log(arraysSimilar([1, 2, 2, 3, 4], [2, 1, 2, 4, 3])); // true
+console.log(arraysSimilar([2, 1, 2, 4, 3], [1, 2, 3, 4])); // false
+console.log(arraysSimilar([1, 2, 3, 4], [1, 2, 3, "4"])); // false

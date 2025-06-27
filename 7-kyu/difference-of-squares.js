@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function differenceOfSquares(n) {
@@ -24,4 +24,4 @@ function differenceOfSquares(n) {
     return nNumbersSumSquared - nNumbersSquaresSum;
 }
 
-console.log( differenceOfSquares(5) ); // 170
+console.log(differenceOfSquares(5)); // 170

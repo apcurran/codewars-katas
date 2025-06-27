@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
- * @param {number} n 
+ *
+ * @param {number[]} arr
+ * @param {number} n
  * @returns {number[]}
  */
 function removeNthElement(arr, n) {

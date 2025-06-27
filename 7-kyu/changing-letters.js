@@ -4,10 +4,10 @@
 //  * Solution 1
 //  * Time: O(n log n)
 //  * Space: O(n)
-//  * 
+//  *
 //  * When provided with a string, capitalize all vowels
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {string}
 //  */
 // function swap(str) {
@@ -31,10 +31,10 @@
  * Solution 2
  * Time: O(n)
  * Space: O(n)
- * 
+ *
  * When provided with a string, capitalize all vowels
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function swap(str) {
@@ -43,4 +43,4 @@ function swap(str) {
     return str.replace(vowelRegex, (letter) => letter.toUpperCase());
 }
 
-console.log( swap("Hello World!") ); // "HEllO WOrld!"
+console.log(swap("Hello World!")); // "HEllO WOrld!"

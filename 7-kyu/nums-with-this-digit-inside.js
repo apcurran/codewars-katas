@@ -4,9 +4,9 @@
 //  * solution 1 -- regex
 //  * time: O(n^2)
 //  * space: O(n)
-//  * 
-//  * @param {number} x 
-//  * @param {number} d 
+//  *
+//  * @param {number} x
+//  * @param {number} d
 //  * @returns {number[]}
 //  */
 // function numbersWithDigitInside(x, d) {
@@ -23,7 +23,7 @@
 //     const numsCount = numsArr.length;
 //     const numsSum = numsArr.reduce((sum, curr) => sum + curr, 0);
 //     const numsProd = numsArr.reduce((prod, curr) => prod * curr, 1);
-    
+
 //     return [numsCount, numsSum, numsProd];
 // }
 
@@ -31,9 +31,9 @@
  * solution 2 -- slightly optimized
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {number} x 
- * @param {number} d 
+ *
+ * @param {number} x
+ * @param {number} d
  * @returns {number[]}
  */
 function numbersWithDigitInside(x, d) {
@@ -52,8 +52,8 @@ function numbersWithDigitInside(x, d) {
     }
 
     if (numsCount === 0) return [0, 0, 0];
-    
+
     return [numsCount, numsSum, numsProd];
 }
 
-console.log( numbersWithDigitInside(11, 1) ); // numbers: 1, 10, 11 -> [3, 22, 110]
+console.log(numbersWithDigitInside(11, 1)); // numbers: 1, 10, 11 -> [3, 22, 110]

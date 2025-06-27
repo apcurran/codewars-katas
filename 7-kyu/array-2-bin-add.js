@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {any[]} arr 
+ *
+ * @param {any[]} arr
  * @returns {string|false}
  */
 function arr2bin(arr) {

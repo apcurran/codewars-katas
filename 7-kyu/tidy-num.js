@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {boolean}
 //  */
 // function tidyNumber(n) {
@@ -22,8 +22,8 @@
  * solution 2
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {boolean}
  */
 function tidyNumber(n) {
@@ -32,12 +32,12 @@ function tidyNumber(n) {
     for (let i = 0; i < strNum.length; i++) {
         const currDigit = Number(strNum[i]);
         const nextDigit = Number(strNum[i + 1]);
-        
+
         if (currDigit > nextDigit) return false;
     }
 
     return true;
 }
 
-console.log( tidyNumber(12) ); // true
-console.log( tidyNumber(102) ); // false
+console.log(tidyNumber(12)); // true
+console.log(tidyNumber(102)); // false

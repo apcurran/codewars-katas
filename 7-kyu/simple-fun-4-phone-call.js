@@ -4,11 +4,11 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} min1 
- * @param {number} min2_10 
- * @param {number} min11 
- * @param {number} centsLeft 
+ *
+ * @param {number} min1
+ * @param {number} min2_10
+ * @param {number} min11
+ * @param {number} centsLeft
  * @returns {number} total minutes
  */
 function phoneCall(min1, min2_10, min11, centsLeft) {
@@ -29,7 +29,7 @@ function phoneCall(min1, min2_10, min11, centsLeft) {
         if (centsLeft < 0) {
             return totalMinutes;
         }
-        
+
         totalMinutes++;
 
         if (centsLeft === 0) {

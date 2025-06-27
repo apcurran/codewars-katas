@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n^2)
 //  * space: O(n)
-//  * 
-//  * @param {string} str 
+//  *
+//  * @param {string} str
 //  * @returns {string}
 //  */
 // function onlyDuplicates(str) {
@@ -24,9 +24,9 @@
 // }
 
 // /**
-//  * @param {string} targetChar 
-//  * @param {number} targetCharIndex 
-//  * @param {string} str 
+//  * @param {string} targetChar
+//  * @param {number} targetCharIndex
+//  * @param {string} str
 //  * @returns {boolean}
 //  */
 // function isCharDuplicate(targetChar, targetCharIndex, str) {
@@ -45,8 +45,8 @@
  * solution 2
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function onlyDuplicates(str) {
@@ -54,7 +54,7 @@ function onlyDuplicates(str) {
 
     for (let i = 0; i < str.length; i++) {
         const targetChar = str[i];
-        
+
         if (str.indexOf(targetChar) !== str.lastIndexOf(targetChar)) {
             results += targetChar;
         }

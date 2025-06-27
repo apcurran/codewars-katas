@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[]} words 
+ *
+ * @param {string[]} words
  * @returns {boolean[]}
  */
 function flickSwitch(words) {

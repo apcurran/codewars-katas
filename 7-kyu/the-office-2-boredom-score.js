@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {object} staff 
+ *
+ * @param {object} staff
  * @returns {string}
  */
 function boredom(staff) {
@@ -38,9 +38,18 @@ function boredom(staff) {
     }
 }
 
-console.log(boredom({
-    tim: "IS", jim: "finance",
-    randy: "pissing about", sandy: "cleaning", andy: "cleaning",
-    katie: "cleaning", laura: "pissing about", saajid: "regulation",
-    alex: "regulation", john: "accounts", mr: "canteen",
-})); // "i can handle this"
+console.log(
+    boredom({
+        tim: "IS",
+        jim: "finance",
+        randy: "pissing about",
+        sandy: "cleaning",
+        andy: "cleaning",
+        katie: "cleaning",
+        laura: "pissing about",
+        saajid: "regulation",
+        alex: "regulation",
+        john: "accounts",
+        mr: "canteen",
+    }),
+); // "i can handle this"

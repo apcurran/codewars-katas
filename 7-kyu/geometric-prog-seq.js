@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} a 
- * @param {number} r 
- * @param {number} n 
+ *
+ * @param {number} a
+ * @param {number} r
+ * @param {number} n
  * @returns {string}
  */
 function geometricSequenceElements(a, r, n) {
@@ -22,4 +22,4 @@ function geometricSequenceElements(a, r, n) {
     return resStrArr.join(", ");
 }
 
-console.log( geometricSequenceElements(2, 3, 5) ); // '2, 6, 18, 54, 162'
+console.log(geometricSequenceElements(2, 3, 5)); // '2, 6, 18, 54, 162'

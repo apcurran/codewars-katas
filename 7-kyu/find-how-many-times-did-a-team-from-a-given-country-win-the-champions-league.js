@@ -4,13 +4,13 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
+//  *
 //  * @param {{
 //  *   season: string,
 //  *   team: string,
 //  *   country: string
 //  * }[]} winnerList
-//  * @param {string} country 
+//  * @param {string} country
 //  * @returns {number}
 //  */
 // function countWins(winnerList, country) {
@@ -22,13 +22,13 @@
  * solution 2
  * time: O(n)
  * space: O(1)
- * 
+ *
  * @param {{
  *   season: string,
  *   team: string,
  *   country: string
  * }[]} winnerList
- * @param {string} country 
+ * @param {string} country
  * @returns {number}
  */
 function countWins(winnerList, country) {

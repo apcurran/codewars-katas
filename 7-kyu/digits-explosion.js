@@ -4,8 +4,8 @@
  * Solution 1
  * Time: O(n*m)
  * Space: O(n+m)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function explode(str) {
@@ -19,4 +19,4 @@ function explode(str) {
     return resStr;
 }
 
-console.log( explode("312") ); // "333122"
+console.log(explode("312")); // "333122"

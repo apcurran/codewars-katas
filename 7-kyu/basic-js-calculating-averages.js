@@ -5,8 +5,8 @@ var Calculator = {
      * solution 1
      * time: O(n)
      * space: O(1)
-     * 
-     * @param  {...number} args 
+     *
+     * @param  {...number} args
      * @returns {number}
      */
     average(...args) {

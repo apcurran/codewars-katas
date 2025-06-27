@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {String} str 
+ *
+ * @param {String} str
  * @returns {{ val: Number, units: String }}
  */
 function valAndUnits(str) {

@@ -4,8 +4,8 @@
  * solution 1 -- regex
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {number}
  */
 function gap(num) {
@@ -16,7 +16,10 @@ function gap(num) {
     let mostConsecutiveZerosCount = 0;
 
     for (let match of matches) {
-        mostConsecutiveZerosCount = Math.max(mostConsecutiveZerosCount, match.length);
+        mostConsecutiveZerosCount = Math.max(
+            mostConsecutiveZerosCount,
+            match.length,
+        );
     }
 
     return mostConsecutiveZerosCount;

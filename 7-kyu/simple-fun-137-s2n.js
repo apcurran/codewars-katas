@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n * m)
  * space: O(1)
- * 
- * @param {number} m 
- * @param {number} n 
+ *
+ * @param {number} m
+ * @param {number} n
  * @returns {number}
  */
 function S2N(m, n) {

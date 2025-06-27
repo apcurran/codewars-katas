@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} dna 
+//  *
+//  * @param {string} dna
 //  * @returns {string}
 //  */
 // function reverseComplement(dna) {
@@ -33,8 +33,8 @@
  * solution 2 -- optimized
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} dna 
+ *
+ * @param {string} dna
  * @returns {string}
  */
 function reverseComplement(dna) {
@@ -63,4 +63,3 @@ console.log(reverseComplement("TTCCGGAA")); // "TTCCGGAA"
 console.log(reverseComplement("GACTGACTGTA")); // "TACAGTCAGTC"
 console.log(reverseComplement("")); // ""
 console.log(reverseComplement("XYZ")); // "Invalid sequence"
-

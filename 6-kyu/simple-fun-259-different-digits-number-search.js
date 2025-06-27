@@ -6,8 +6,8 @@
  * m = num length
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function differentDigitsNumberSearch(arr) {

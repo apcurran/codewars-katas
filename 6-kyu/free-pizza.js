@@ -4,10 +4,10 @@
 //  * solution 1
 //  * time: O(n * m)
 //  * space: O(m)
-//  * 
-//  * @param {object} customers 
-//  * @param {number} minOrders 
-//  * @param {number} minPrice 
+//  *
+//  * @param {object} customers
+//  * @param {number} minOrders
+//  * @param {number} minPrice
 //  */
 // function pizzaRewards(customers, minOrders, minPrice) {
 //     let eligibleCustomers = [];
@@ -28,10 +28,10 @@
  * solution 2
  * time: O(n * m)
  * space: O(1)
- * 
- * @param {object} customers 
- * @param {number} minOrders 
- * @param {number} minPrice 
+ *
+ * @param {object} customers
+ * @param {number} minOrders
+ * @param {number} minPrice
  */
 function pizzaRewards(customers, minOrders, minPrice) {
     let eligibleCustomers = [];

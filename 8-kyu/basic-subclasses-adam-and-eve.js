@@ -31,4 +31,3 @@ class Woman extends Human {
 }
 
 console.log(God.create()); // [Man obj, Woman obj]
-

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {number}
  */
 function uniTotal(str) {
@@ -19,5 +19,5 @@ function uniTotal(str) {
     return asciiValueSum;
 }
 
-console.log( uniTotal("a") ); // 97
-console.log( uniTotal("aaa") ); // 291
+console.log(uniTotal("a")); // 97
+console.log(uniTotal("aaa")); // 291

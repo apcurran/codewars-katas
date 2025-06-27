@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} x 
- * @param {number} n 
+ *
+ * @param {number} x
+ * @param {number} n
  * @returns {number[]}
  */
 function squares(x, n) {
@@ -24,5 +24,5 @@ function squares(x, n) {
     return resArr;
 }
 
-console.log( squares(2, 5) ); // [2, 4, 16, 256, 65536]
-console.log( squares(3, 3) ); // [3, 9, 81]
+console.log(squares(2, 5)); // [2, 4, 16, 256, 65536]
+console.log(squares(3, 3)); // [3, 9, 81]

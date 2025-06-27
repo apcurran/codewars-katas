@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} text 
-//  * @param {string} replacementChar 
+//  *
+//  * @param {string} text
+//  * @param {string} replacementChar
 //  * @returns {string}
 //  */
 // function contamination(text, replacementChar) {
@@ -22,14 +22,14 @@
  * solution 2
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} text 
- * @param {string} replacementChar 
+ *
+ * @param {string} text
+ * @param {string} replacementChar
  * @returns {string}
  */
 function contamination(text, replacementChar) {
     return replacementChar.repeat(text.length);
 }
 
-console.log( contamination("abc", "z") ); // "zzz"
-console.log( contamination("//case", " ") ); // "      "
+console.log(contamination("abc", "z")); // "zzz"
+console.log(contamination("//case", " ")); // "      "

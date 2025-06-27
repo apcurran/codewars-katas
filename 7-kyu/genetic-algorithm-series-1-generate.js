@@ -4,8 +4,8 @@
 //  * solution 1 -- with helper function
 //  * time: O(n)
 //  * space: O(1) -- not including results
-//  * 
-//  * @param {number} length 
+//  *
+//  * @param {number} length
 //  * @returns {string}
 //  */
 // function generate(length) {
@@ -30,8 +30,8 @@
  * solution 2
  * time: O(n)
  * space: O(1) -- not including results
- * 
- * @param {number} length 
+ *
+ * @param {number} length
  * @returns {string}
  */
 function generate(length) {

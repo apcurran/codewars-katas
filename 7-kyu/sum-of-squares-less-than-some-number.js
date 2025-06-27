@@ -4,8 +4,8 @@
  * solution 1
  * time: O(sqrt(n))
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function getNumberOfSquares(n) {

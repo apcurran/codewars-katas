@@ -6,14 +6,19 @@
  * m = currentNum digits length
  * time: O(s * m)
  * space: O(s + m)
- * 
- * @param {number} num 
- * @param {number} palindromesLength 
+ *
+ * @param {number} num
+ * @param {number} palindromesLength
  * @returns {number[]|"Not valid"}
  */
 function palindrome(num, palindromesLength) {
     // check for valid args
-    if (typeof num !== "number" || num < 0 || typeof palindromesLength !== "number" || palindromesLength < 0) {
+    if (
+        typeof num !== "number" ||
+        num < 0 ||
+        typeof palindromesLength !== "number" ||
+        palindromesLength < 0
+    ) {
         return "Not valid";
     }
 
@@ -36,7 +41,7 @@ function palindrome(num, palindromesLength) {
 console.log(palindrome(6, 4)); // [11,22,33,44]
 
 /**
- * @param {number} num 
+ * @param {number} num
  * @returns {boolean|void}
  */
 function isPalindrome(num) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string[]} queue 
+ *
+ * @param {string[]} queue
  * @returns {string}
  */
 function warnTheSheep(queue) {
@@ -26,6 +26,16 @@ function warnTheSheep(queue) {
     }
 }
 
-console.log( warnTheSheep(["wolf", "sheep", "sheep", "sheep", "sheep", "sheep", "sheep"]) ); // "Oi! Sheep number 6! You are about to be eaten by a wolf!"
-console.log( warnTheSheep(["sheep", "wolf", "sheep"]) ); // "Oi! Sheep number 1! You are about to be eaten by a wolf!"
-console.log( warnTheSheep(["wolf"]) ); // "Pls go away and stop eating my sheep"
+console.log(
+    warnTheSheep([
+        "wolf",
+        "sheep",
+        "sheep",
+        "sheep",
+        "sheep",
+        "sheep",
+        "sheep",
+    ]),
+); // "Oi! Sheep number 6! You are about to be eaten by a wolf!"
+console.log(warnTheSheep(["sheep", "wolf", "sheep"])); // "Oi! Sheep number 1! You are about to be eaten by a wolf!"
+console.log(warnTheSheep(["wolf"])); // "Pls go away and stop eating my sheep"

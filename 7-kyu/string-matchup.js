@@ -4,9 +4,9 @@
  * solution 1 -- hashmap
  * time: O(n)
  * space: O(n)
- * 
- * @param {string[]} arrA 
- * @param {string[]} arrB 
+ *
+ * @param {string[]} arrA
+ * @param {string[]} arrB
  * @returns {number[]}
  */
 function solve(arrA, arrB) {
@@ -30,4 +30,4 @@ function solve(arrA, arrB) {
 
 const arr1 = ["abc", "abc", "xyz", "cde", "uvw"];
 const arr2 = ["abc", "cde", "uap"];
-console.log( solve(arr1, arr2) ); // [2, 1, 0]
+console.log(solve(arr1, arr2)); // [2, 1, 0]

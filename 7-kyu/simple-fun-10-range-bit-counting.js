@@ -6,9 +6,9 @@
  * m = binaryStr of each num
  * time: O(n * m)
  * space: O(m)
- * 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number} a
+ * @param {number} b
  * @returns {number}
  */
 function rangeBitCount(a, b) {

@@ -2,7 +2,7 @@
 
 // /**
 //  * Solution 1 -- O(n) -> too slow...
-//  * @param {*} n 
+//  * @param {*} n
 //  * @returns {number}
 //  */
 // function solution(n) {
@@ -32,16 +32,16 @@ function solution(n) {
     // floor(10 / 3)
 
     const threesN = Math.floor(n / 3);
-    const sumMultiplesOfThree = threesN * (1 + threesN) * 3 / 2;
+    const sumMultiplesOfThree = (threesN * (1 + threesN) * 3) / 2;
 
     const fivesN = Math.floor(n / 5);
-    const sumMultiplesOfFive = fivesN * (1 + fivesN) * 5 / 2;
-    
+    const sumMultiplesOfFive = (fivesN * (1 + fivesN) * 5) / 2;
+
     const fifteensN = Math.floor(n / 15);
-    const sumMultiplesOfFifteen = fifteensN * (1 + fifteensN) * 15 / 2;
+    const sumMultiplesOfFifteen = (fifteensN * (1 + fifteensN) * 15) / 2;
 
     return sumMultiplesOfThree + sumMultiplesOfFive - sumMultiplesOfFifteen;
 }
 
-console.log( solution(10) ); // 23
-console.log( solution(20) ); // 78
+console.log(solution(10)); // 23
+console.log(solution(20)); // 78

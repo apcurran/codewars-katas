@@ -8,9 +8,9 @@
  * r = seen people arr len
  * time: O(n * m * r)
  * space: O(x)
- * 
- * @param {object} suspectInfo 
- * @param {string[]} dead 
+ *
+ * @param {object} suspectInfo
+ * @param {string[]} dead
  * @returns {string} killer
  */
 function killer(suspectInfo, dead) {
@@ -33,20 +33,24 @@ function killer(suspectInfo, dead) {
     return knownKiller;
 }
 
-console.log(killer(
-    {
-        "James": ["Jacob", "Bill", "Lucas"],
-        "Johnny": ["David", "Kyle", "Lucas"],
-        "Peter": ["Lucy", "Kyle"],
-    },
-    ["Lucas", "Bill"],
-)); // "James"
+console.log(
+    killer(
+        {
+            James: ["Jacob", "Bill", "Lucas"],
+            Johnny: ["David", "Kyle", "Lucas"],
+            Peter: ["Lucy", "Kyle"],
+        },
+        ["Lucas", "Bill"],
+    ),
+); // "James"
 
-console.log(killer(
-    {
-        "Brad": [],
-        "Megan": ["Ben", "Kevin"],
-        "Finn": [],
-    },
-    ["Ben"],
-)); // "Megan"
+console.log(
+    killer(
+        {
+            Brad: [],
+            Megan: ["Ben", "Kevin"],
+            Finn: [],
+        },
+        ["Ben"],
+    ),
+); // "Megan"

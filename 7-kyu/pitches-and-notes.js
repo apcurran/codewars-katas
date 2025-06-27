@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} pitch 
+ *
+ * @param {number} pitch
  * @returns {string} note
  */
 function getNote(pitch) {

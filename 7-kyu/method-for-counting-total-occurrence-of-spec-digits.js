@@ -8,9 +8,9 @@ function List() {
      * d = digits list length
      * time: O(n * m + d)
      * space: O(n + m)
-     * 
-     * @param {number[]} integersList 
-     * @param {number[]} digitsList 
+     *
+     * @param {number[]} integersList
+     * @param {number[]} digitsList
      * @returns {number[][]}
      */
     this.countSpecDigits = function (integersList, digitsList) {
@@ -45,4 +45,4 @@ const l = new List();
 
 const integersList = [-18, -31, 81, -19, 111, -888];
 const digitsList = [1, 8, 4];
-console.log( l.countSpecDigits(integersList, digitsList) ); // [[1, 7], [8, 5], [4, 0]]
+console.log(l.countSpecDigits(integersList, digitsList)); // [[1, 7], [8, 5], [4, 0]]

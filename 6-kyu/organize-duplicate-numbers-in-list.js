@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[][]}
  */
 function group(arr) {
@@ -13,7 +13,7 @@ function group(arr) {
 
     for (let num of arr) {
         const existingNumDuplicates = results.find((tuple) => tuple[0] === num);
-        
+
         if (existingNumDuplicates) {
             existingNumDuplicates.push(num);
         } else {

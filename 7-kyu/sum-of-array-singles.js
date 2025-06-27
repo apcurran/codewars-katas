@@ -2,7 +2,7 @@
 
 const { performance } = require("perf_hooks");
 
-function repeats(arr){
+function repeats(arr) {
     let valsMap = new Map();
     let singlesSum = 0;
 
@@ -28,17 +28,17 @@ function repeats(arr){
 // function repeats(arr){
 //     let valsSoFar = {};
 //     let singlesSum = 0;
-    
+
 //     for (let val of arr) {
 //         valsSoFar[val] = (valsSoFar[val] + 1) || 1;
 //     }
-    
+
 //     for (let [key, value] of Object.entries(valsSoFar)) {
 //         if (value === 1) {
 //             singlesSum += Number(key);
 //         }
 //     }
-    
+
 //     return singlesSum;
 // }
 

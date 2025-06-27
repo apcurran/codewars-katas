@@ -4,8 +4,8 @@
  * solution 1 -- math
  * time: O(1)
  * space: O(1)
- * 
- * @param {number[]} cogs 
+ *
+ * @param {number[]} cogs
  * @returns {number}
  */
 function cogRpm(cogs) {

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1) -- technically the same time/string length no matter the input
  * space: O(1)
- * 
- * @param {number} number 
+ *
+ * @param {number} number
  * @returns {string}
  */
 function multiTable(number) {
@@ -20,7 +20,7 @@ function multiTable(number) {
     return tableStrs.join("\n");
 }
 
-console.log( multiTable(5) );
+console.log(multiTable(5));
 // 1 * 5 = 5
 // 2 * 5 = 10
 // 3 * 5 = 15

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {boolean}
  */
 function isSmooth(arr) {
@@ -16,8 +16,7 @@ function isSmooth(arr) {
         const middleValue = arr[middleIndex];
         const rightValue = arr.at(-1);
 
-        if (leftValue === rightValue &&
-            leftValue === middleValue) {
+        if (leftValue === rightValue && leftValue === middleValue) {
             return true;
         }
     } else {
@@ -30,9 +29,7 @@ function isSmooth(arr) {
         const middleValuesSum = middle1Value + middle2Value;
         const rightValue = arr.at(-1);
 
-        if (leftValue === rightValue &&
-            leftValue === middleValuesSum
-        ) {
+        if (leftValue === rightValue && leftValue === middleValuesSum) {
             return true;
         }
     }

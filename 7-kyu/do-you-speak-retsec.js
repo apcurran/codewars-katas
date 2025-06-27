@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {string} s 
+//  *
+//  * @param {string} s
 //  * @returns {string}
 //  */
 // function reverseByCenter(s) {
@@ -28,13 +28,16 @@
  * solution 2 -- slightly refined
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {string}
  */
 function reverseByCenter(s) {
     const endChunk = s.slice(Math.ceil(s.length / 2));
-    const middleChar = s.slice(Math.floor(s.length / 2), Math.ceil(s.length / 2));
+    const middleChar = s.slice(
+        Math.floor(s.length / 2),
+        Math.ceil(s.length / 2),
+    );
     const startChunk = s.slice(0, Math.floor(s.length / 2));
 
     return `${endChunk}${middleChar}${startChunk}`;

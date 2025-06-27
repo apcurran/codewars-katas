@@ -4,10 +4,10 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {number} length 
- * @param {number} offset 
- * @param {number[]} list 
+ *
+ * @param {number} length
+ * @param {number} offset
+ * @param {number[]} list
  * @returns {number[][]}
  */
 function myWindow(length, offset, list) {

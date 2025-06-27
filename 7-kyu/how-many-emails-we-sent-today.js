@@ -4,9 +4,9 @@
  * solution 1 -- formula
  * time: O(n) -- stringify percentage num
  * space: O(n) -- stringify percentage num
- * 
- * @param {number} sent 
- * @param {number} limit 
+ *
+ * @param {number} sent
+ * @param {number} limit
  * @returns {string} percentage
  */
 function getPercentage(sent, limit = 1000) {

@@ -16,8 +16,8 @@ b.next = c;
 //  * solution 1 -- iterative
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {ListNode} node 
+//  *
+//  * @param {ListNode} node
 //  * @param {number} index
 //  * @returns {ListNode}
 //  */
@@ -41,8 +41,8 @@ b.next = c;
  * solution 2 -- recursive
  * time: O(n)
  * space: O(n)
- * 
- * @param {ListNode} node 
+ *
+ * @param {ListNode} node
  * @param {number} index
  * @returns {ListNode}
  */
@@ -54,6 +54,6 @@ function getNth(node, index) {
     return getNth(node.next, index - 1);
 }
 
-console.log( getNth(a, 0) ); // node with data = 1
-console.log( getNth(a, 5) ); // error
-console.log( getNth(d, 5) ); // error
+console.log(getNth(a, 0)); // node with data = 1
+console.log(getNth(a, 5)); // error
+console.log(getNth(d, 5)); // error

@@ -4,8 +4,8 @@
  * solution 1 -- custom sort comparator func
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {string[]} arr 
+ *
+ * @param {string[]} arr
  * @param {number} n 1-based indexing
  * @returns {string}
  */

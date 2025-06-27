@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} nums 
+ *
+ * @param {number[]} nums
  * @returns {number}
  */
 function consecutiveOnes(nums) {
@@ -29,6 +29,6 @@ function consecutiveOnes(nums) {
     return maxOnes;
 }
 
-console.log( consecutiveOnes([1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0]) ); // 3
-console.log( consecutiveOnes([0, 0, 0, 0, 0]) ); // 0
-console.log( consecutiveOnes([1, 1, 1, 1, 1]) ); // 5
+console.log(consecutiveOnes([1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0])); // 3
+console.log(consecutiveOnes([0, 0, 0, 0, 0])); // 0
+console.log(consecutiveOnes([1, 1, 1, 1, 1])); // 5

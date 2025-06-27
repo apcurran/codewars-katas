@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} number 
+ *
+ * @param {number} number
  * @returns {string}
  */
 function numberFormat(number) {

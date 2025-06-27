@@ -5,8 +5,8 @@
  * m = strNum length
  * time: O(log n * m)
  * space: O(log n + m) -- stack space and strNum string coercion
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number} count
  */
 function digitDegree(n, count = 0) {

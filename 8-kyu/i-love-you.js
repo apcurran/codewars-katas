@@ -4,8 +4,8 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} nbPetals 
+ *
+ * @param {number} nbPetals
  * @returns {string}
  */
 function howMuchILoveYou(nbPetals) {
@@ -27,5 +27,4 @@ function howMuchILoveYou(nbPetals) {
     }
 }
 
-console.log( howMuchILoveYou(7) ); // "I love you"
-
+console.log(howMuchILoveYou(7)); // "I love you"

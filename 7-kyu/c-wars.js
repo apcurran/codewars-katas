@@ -4,11 +4,11 @@
  * solution 1
  * time: O(n + m)
  * space: O(n + m)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
-function initials(str){
+function initials(str) {
     const words = str.split(" ");
     let result = [];
 
@@ -30,5 +30,5 @@ function initials(str){
     return result.join(".");
 }
 
-console.log( initials("code wars") ); // "C.Wars"
-console.log( initials("Barack Hussain obama") ); // "B.H.Obama"
+console.log(initials("code wars")); // "C.Wars"
+console.log(initials("Barack Hussain obama")); // "B.H.Obama"

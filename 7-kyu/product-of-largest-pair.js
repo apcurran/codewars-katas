@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number}
  */
 function maxProduct(arr) {
@@ -28,5 +28,5 @@ function maxProduct(arr) {
     return largestValue * secondLargestValue;
 }
 
-console.log( maxProduct([2, 1, 5, 0, 4, 3]) ); // 5 * 4 => 20
-console.log( maxProduct([7, 8, 9]) ); // 9 * 8 => 72
+console.log(maxProduct([2, 1, 5, 0, 4, 3])); // 5 * 4 => 20
+console.log(maxProduct([7, 8, 9])); // 9 * 8 => 72

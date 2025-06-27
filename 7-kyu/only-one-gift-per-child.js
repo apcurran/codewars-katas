@@ -6,8 +6,8 @@ let seenChildren = new Set();
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} name 
+ *
+ * @param {string} name
  * @returns {void|Error}
  */
 function handOutGift(name) {

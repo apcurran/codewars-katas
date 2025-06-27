@@ -4,11 +4,11 @@
  * solution 1
  * n = factorials len
  * m = digit
- * 
+ *
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function strong(n) {
@@ -16,7 +16,6 @@ function strong(n) {
     const factorials = String(n)
         .split("")
         .map((digitStr) => getFactorial(digitStr));
-
 
     // add factorial results of digits together
     const factorialsSum = factorials.reduce((sum, currNum) => sum + currNum, 0);
@@ -29,7 +28,7 @@ function strong(n) {
 /**
  * time: O(m)
  * space: O(1)
- * 
+ *
  * @param {string} digitStr
  * @returns {number}
  */
@@ -44,5 +43,5 @@ function getFactorial(digitStr) {
     return factorialTotal;
 }
 
-console.log( strong(145) ); // "STRONG!!!!"
-console.log( strong(7) ); // "NOT STRONG !!"
+console.log(strong(145)); // "STRONG!!!!"
+console.log(strong(7)); // "NOT STRONG !!"

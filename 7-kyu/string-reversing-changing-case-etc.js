@@ -6,9 +6,9 @@
  * s2 = m
  * time: O(n + m)
  * space: O(n + m)
- * 
- * @param {string} s1 
- * @param {string} s2 
+ *
+ * @param {string} s1
+ * @param {string} s2
  * @returns {string}
  */
 function reverseAndMirror(s1, s2) {
@@ -16,12 +16,12 @@ function reverseAndMirror(s1, s2) {
     const reversedInvertedStr2 = reverseInvertStr(s2);
     const reversedInvertedStr1 = reverseInvertStr(s1);
     const mirroredStr1 = reversedInvertedStr1.split("").reverse().join("");
-    
+
     return `${reversedInvertedStr2}${SEPARATOR}${reversedInvertedStr1}${mirroredStr1}`;
 }
 
 /**
- * @param {string} str 
+ * @param {string} str
  * @returns {string}
  */
 function reverseInvertStr(str) {

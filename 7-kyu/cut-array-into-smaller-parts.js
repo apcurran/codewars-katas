@@ -6,9 +6,9 @@
  * m = chunkSize
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {number[]} arr 
- * @param {number} chunkSize 
+ *
+ * @param {number[]} arr
+ * @param {number} chunkSize
  * @returns {number[][]}
  */
 function makeParts(arr, chunkSize) {

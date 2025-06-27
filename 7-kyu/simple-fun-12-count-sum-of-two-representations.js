@@ -4,10 +4,10 @@
 //  * solution 1 -- brute force (correct, but TLE)
 //  * time: O(n^2)
 //  * space: O(1)
-//  * 
-//  * @param {number} goalSum 
-//  * @param {number} left 
-//  * @param {number} right 
+//  *
+//  * @param {number} goalSum
+//  * @param {number} left
+//  * @param {number} right
 //  * @returns {number}
 //  */
 // function countSumOfTwoRepresentations(goalSum, left, right) {
@@ -36,10 +36,10 @@
  * solution 2 -- two pointers technique
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} goalSum 
- * @param {number} left 
- * @param {number} right 
+ *
+ * @param {number} goalSum
+ * @param {number} left
+ * @param {number} right
  * @returns {number}
  */
 function countSumOfTwoRepresentations(goalSum, left, right) {

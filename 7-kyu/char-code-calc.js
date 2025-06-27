@@ -4,7 +4,7 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {string} str
  * @returns {number}
  */
@@ -15,7 +15,7 @@ function calc(str) {
         .join("");
     // replace 7s with 1s (store as total2)
     const total2StrArr = total1StrArr.replace(/7/g, "1");
-    
+
     // sum digits of total1 and sub from sum total2
     const total1Num = total1StrArr
         .split("")
@@ -28,5 +28,5 @@ function calc(str) {
     return total1Num - total2Num;
 }
 
-console.log( calc("ABC") ); // 6
-console.log( calc("aaaaaddddr") ); // 30
+console.log(calc("ABC")); // 6
+console.log(calc("aaaaaddddr")); // 30

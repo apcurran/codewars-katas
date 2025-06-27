@@ -4,9 +4,9 @@
  * solution 1
  * time: O(s * n)
  * space: O(s)
- * 
- * @param {string} str 
- * @param {number} n 
+ *
+ * @param {string} str
+ * @param {number} n
  * @returns {string[]}
  */
 function stringChunk(str, n) {

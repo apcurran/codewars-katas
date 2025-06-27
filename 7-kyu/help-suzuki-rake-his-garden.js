@@ -4,7 +4,7 @@
 //  * solution 1 -- map method
 //  * time: O(n)
 //  * space: O(n)
-//  * 
+//  *
 //  * @param {string} garden
 //  * @returns {string}
 //  */
@@ -23,7 +23,7 @@
  * solution 2 -- string.replace() method
  * time: O(n)
  * space: O(n)
- * 
+ *
  * @param {string} garden
  * @returns {string}
  */
@@ -35,4 +35,8 @@ function rakeGarden(garden) {
     });
 }
 
-console.log(rakeGarden("slug spider rock gravel gravel gravel gravel gravel gravel gravel")); // gravel gravel rock gravel gravel gravel gravel gravel gravel gravel
+console.log(
+    rakeGarden(
+        "slug spider rock gravel gravel gravel gravel gravel gravel gravel",
+    ),
+); // gravel gravel rock gravel gravel gravel gravel gravel gravel gravel

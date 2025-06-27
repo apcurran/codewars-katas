@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
- * @param {number[]} arr 
+ *
+ * @param {string} str
+ * @param {number[]} arr
  * @returns {string}
  */
 function scramble(str, arr) {

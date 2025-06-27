@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {array} estimates 
+ *
+ * @param {array} estimates
  * @returns {[number, number, number]}
  */
 function globalEstimate(estimates) {
@@ -22,4 +22,9 @@ function globalEstimate(estimates) {
     return [min, avg, max];
 }
 
-console.log(globalEstimate([[1, 2], [3, 4]])); // [4, 5, 6]
+console.log(
+    globalEstimate([
+        [1, 2],
+        [3, 4],
+    ]),
+); // [4, 5, 6]

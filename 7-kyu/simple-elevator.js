@@ -4,9 +4,9 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} level 
- * @param {string} button 
+ *
+ * @param {number} level
+ * @param {string} button
  * @returns {number}
  */
 function goto(level, button) {

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} nums 
- * @param {number} arith_mean 
+ *
+ * @param {number[]} nums
+ * @param {number} arith_mean
  * @returns {number}
  */
 function geo_mean(nums, arith_mean) {
@@ -17,9 +17,12 @@ function geo_mean(nums, arith_mean) {
     const missingNumber = totalSum - currentSum;
     const completeList = [...nums, missingNumber];
     // geometricMean -> multiply all nums and take to nth root
-    const totalProduct = completeList.reduce((product, current) => product * current, 1);
+    const totalProduct = completeList.reduce(
+        (product, current) => product * current,
+        1,
+    );
 
     return totalProduct ** (1 / n);
 }
 
-console.log( geo_mean([1, 3, 9, 27], 24.2) ); // 9
+console.log(geo_mean([1, 3, 9, 27], 24.2)); // 9

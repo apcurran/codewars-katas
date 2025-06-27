@@ -4,9 +4,9 @@
 //  * solution 1 -- hashmap
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number[]} arr1 
-//  * @param {number[]} arr2 
+//  *
+//  * @param {number[]} arr1
+//  * @param {number[]} arr2
 //  * @returns {number}
 //  */
 // function findMissing(arr1, arr2) {
@@ -21,7 +21,7 @@
 
 //     for (let num of arr2) {
 //         const numPreviousCount = arr2Cache.get(num) || 0;
-//         arr2Cache.set(num, numPreviousCount + 1); 
+//         arr2Cache.set(num, numPreviousCount + 1);
 //     }
 
 //     for (let [arr1Num, arr1NumCount] of arr1Cache) {
@@ -37,9 +37,9 @@
  * solution 2 -- sum and diff
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr1 
- * @param {number[]} arr2 
+ *
+ * @param {number[]} arr1
+ * @param {number[]} arr2
  * @returns {number}
  */
 function findMissing(arr1, arr2) {
@@ -50,12 +50,12 @@ function findMissing(arr1, arr2) {
 }
 
 /**
- * @param {number[]} arr 
+ * @param {number[]} arr
  * @returns {number}
  */
 function getSum(arr) {
     return arr.reduce((sum, currentNum) => sum + currentNum, 0);
 }
 
-console.log( findMissing([1, 2, 2, 3], [1, 2, 3]) ); // 2
-console.log( findMissing([6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2]) ); // 8
+console.log(findMissing([1, 2, 2, 3], [1, 2, 3])); // 2
+console.log(findMissing([6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2])); // 8

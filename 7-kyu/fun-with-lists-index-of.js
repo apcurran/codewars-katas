@@ -9,9 +9,9 @@ function ListNode(data, next = null) {
  * solution 1 -- iterative
  * time: O(n)
  * space: O(1)
- * 
- * @param {ListNode} head 
- * @param {number} value index 
+ *
+ * @param {ListNode} head
+ * @param {number} value index
  * @returns {number}
  */
 function indexOf(head, value) {
@@ -42,5 +42,5 @@ a.next = b;
 b.next = c;
 c.next = d;
 
-console.log( indexOf(a, 3) ); // 2
-console.log( indexOf(null, 17) ); // -1
+console.log(indexOf(a, 3)); // 2
+console.log(indexOf(null, 17)); // -1

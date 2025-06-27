@@ -4,8 +4,8 @@
  * solution 1 -- two pointers
  * time: O(n)
  * space: O(n)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {boolean|"Not valid"}
  */
 function palindrome(num) {

@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {[string, number][]} counselors 
- * @param {number} jasonIntelligence 
+ *
+ * @param {[string, number][]} counselors
+ * @param {number} jasonIntelligence
  * @returns {string[]}
  */
 function killcount(counselors, jasonIntelligence) {
@@ -21,4 +21,12 @@ function killcount(counselors, jasonIntelligence) {
     return survivors;
 }
 
-console.log(killcount([["Mike", 7], ["Alysa", 3]], 7)); // ["Alysa"]
+console.log(
+    killcount(
+        [
+            ["Mike", 7],
+            ["Alysa", 3],
+        ],
+        7,
+    ),
+); // ["Alysa"]

@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2)
  * space: O(n^2)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {number[][]}
  */
 function getMatrix(num) {
@@ -33,4 +33,4 @@ console.log(getMatrix(5));
     [0, 0, 1, 0, 0],
     [0, 0, 0, 1, 0],
     [0, 0, 0, 0, 1],
-]; 
+];

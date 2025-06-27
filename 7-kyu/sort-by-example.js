@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2)
  * space: O(n)
- * 
- * @param {number[]} arr 
- * @param {number[]} exampleArr 
+ *
+ * @param {number[]} arr
+ * @param {number[]} exampleArr
  * @returns {number[]}
  */
 function exampleSort(arr, exampleArr) {

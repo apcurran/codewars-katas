@@ -4,8 +4,8 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(1)
-//  * 
-//  * @param {number} number 
+//  *
+//  * @param {number} number
 //  * @returns {number[]}
 //  */
 // function solution(number){
@@ -33,11 +33,11 @@
  * solution 1
  * time: O(1)
  * space: O(1)
- * 
- * @param {number} num 
+ *
+ * @param {number} num
  * @returns {number[]}
  */
-function solution(num){
+function solution(num) {
     const numExclusive = num - 1;
     const threesAndFivesCount = Math.floor(numExclusive / 15);
     const threesOnlyCount = Math.floor(numExclusive / 3) - threesAndFivesCount;

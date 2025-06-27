@@ -2,17 +2,17 @@
 //  * solution 1
 //  * time: O(n)
 //  * space: O(n)
-//  * 
-//  * @param {number} n 
+//  *
+//  * @param {number} n
 //  * @returns {number}
 //  */
 // function minDistance(n) {
 //     const factors = getFactors(n);
-    
+
 //     if (factors.length <= 1) return 0;
 
 //     let min = factors[1] - factors[0];
-    
+
 //     for (let i = 2; i < factors.length; i++) {
 //         const currentFactor = factors[i];
 //         const previousFactor = factors[i - 1];
@@ -24,7 +24,7 @@
 // }
 
 // /**
-//  * @param {number} num 
+//  * @param {number} num
 //  * @returns {number[]}
 //  */
 // function getFactors(num) {
@@ -36,8 +36,8 @@
  * solution 2
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function minDistance(n) {

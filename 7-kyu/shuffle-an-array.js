@@ -4,8 +4,8 @@
  * solution 1 -- mutating func (Fisher–Yates shuffle)
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]}
  */
 function shuffle(arr) {
@@ -18,7 +18,10 @@ function shuffle(arr) {
         currentIndex--;
 
         // swap elem with current elem
-        [arr[currentIndex], arr[randomIndex]] = [arr[randomIndex], arr[currentIndex]];
+        [arr[currentIndex], arr[randomIndex]] = [
+            arr[randomIndex],
+            arr[currentIndex],
+        ];
     }
 
     return arr;

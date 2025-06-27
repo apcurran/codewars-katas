@@ -4,13 +4,13 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {number[]} arr 
+ *
+ * @param {number[]} arr
  * @returns {number[]} distances from the average
  */
 function distancesFromAverage(arr) {
-    const average = (arr.reduce((sum, curr) => sum + curr, 0)) / arr.length;
-    
+    const average = arr.reduce((sum, curr) => sum + curr, 0) / arr.length;
+
     return arr.map(function getCurrentDistanceFromAverage(num) {
         const distanceFromAverage = average - num;
 

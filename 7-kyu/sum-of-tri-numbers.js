@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function sumTriangularNumbers(n) {
@@ -21,4 +21,4 @@ function sumTriangularNumbers(n) {
 }
 
 console.log(sumTriangularNumbers(4)); // 1 + 3 + 6 + 10 -> 20
-console.log(sumTriangularNumbers(34)); // 7140 
+console.log(sumTriangularNumbers(34)); // 7140

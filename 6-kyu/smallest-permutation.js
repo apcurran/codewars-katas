@@ -5,15 +5,13 @@
  * n = number digits length
  * time: O(n * log n)
  * space: O(n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function minPermutation(n) {
     // sort digits
-    let digits = String(Math.abs(n))
-        .split("")
-        .sort();
+    let digits = String(Math.abs(n)).split("").sort();
     // check if first digit is a leading 0,
     // if so, swap with next non 0 digit
     let i = 0;

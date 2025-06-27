@@ -5,10 +5,10 @@
  * n = total gardenSpaces in arr
  * time: O(n)
  * space: O(n) -- array.flat() call creates a new array
- * 
- * @param {string[][]} arr 
- * @param {number} bags 
- * @param {number} cap 
+ *
+ * @param {string[][]} arr
+ * @param {number} bags
+ * @param {number} cap
  * @returns {string}
  */
 function crap(arr, bags, cap) {
@@ -27,5 +27,15 @@ function crap(arr, bags, cap) {
     return presentsCount > totalCapacity ? "Cr@p" : "Clean";
 }
 
-console.log(crap([["_", "_", "_", "_"], ["_", "_", "_", "@"], ["_", "_", "@", "_"]], 2, 2));
+console.log(
+    crap(
+        [
+            ["_", "_", "_", "_"],
+            ["_", "_", "_", "@"],
+            ["_", "_", "@", "_"],
+        ],
+        2,
+        2,
+    ),
+);
 // "Clean"

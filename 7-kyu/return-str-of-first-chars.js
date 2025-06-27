@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function makeString(str) {
@@ -15,4 +15,4 @@ function makeString(str) {
         .join("");
 }
 
-console.log( makeString("cars are very nice") ); // "cavn"
+console.log(makeString("cars are very nice")); // "cavn"

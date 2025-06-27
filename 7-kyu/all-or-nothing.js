@@ -5,9 +5,9 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {string[]} key 
- * @param {string[]} studentAnswers 
+ *
+ * @param {string[]} key
+ * @param {string[]} studentAnswers
  * @returns {boolean}
  */
 function possiblyPerfect(key, studentAnswers) {
@@ -30,8 +30,13 @@ function possiblyPerfect(key, studentAnswers) {
 
     const adjustedPossibleAnswers = key.length - blanksCount;
 
-    return correctCount === adjustedPossibleAnswers || incorrectCount === adjustedPossibleAnswers;
+    return (
+        correctCount === adjustedPossibleAnswers ||
+        incorrectCount === adjustedPossibleAnswers
+    );
 }
 
-console.log(possiblyPerfect(["A", "_", "C", "_", "B"], ["A", "D", "C", "E", "B"]));
+console.log(
+    possiblyPerfect(["A", "_", "C", "_", "B"], ["A", "D", "C", "E", "B"]),
+);
 // true

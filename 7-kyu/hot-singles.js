@@ -6,10 +6,10 @@
  * m = arr2 length
  * time: O(n + m)
  * space: O(n + m)
- * 
- * @param {any[]} arr1 
- * @param {any[]} arr2 
- * @returns 
+ *
+ * @param {any[]} arr1
+ * @param {any[]} arr2
+ * @returns
  */
 function hotSingles(arr1, arr2) {
     const arr1Set = new Set(arr1);
@@ -30,5 +30,10 @@ function hotSingles(arr1, arr2) {
 console.log(hotSingles([1, 2, 3, 3], [3, 2, 1, 4, 5]));
 // [4, 5]
 
-console.log(hotSingles(["tartar", "blanket", "cinnamon"], ["cinnamon", "blanket", "domino"]));
+console.log(
+    hotSingles(
+        ["tartar", "blanket", "cinnamon"],
+        ["cinnamon", "blanket", "domino"],
+    ),
+);
 // ["tartar", "domino"]

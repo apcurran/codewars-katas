@@ -4,8 +4,8 @@
  * solution 1 -- counters and formula
  * time: O(n)
  * space: O(1)
- * 
- * @param {string} s 
+ *
+ * @param {string} s
  * @returns {number}
  */
 function solve(s) {

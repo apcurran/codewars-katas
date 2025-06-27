@@ -4,20 +4,20 @@
  * solution 1 -- object mapping
  * time: O(1)
  * space: O(1)
- * 
- * @param {string} fileAttribute 
+ *
+ * @param {string} fileAttribute
  * @returns {string}
  */
 function linuxType(fileAttribute) {
     const fileTypes = {
         "-": "file",
-        "d": "directory",
-        "l": "symlink",
-        "c": "character_file",
-        "b": "block_file",
-        "p": "pipe",
-        "s": "socket",
-        "D": "door",
+        d: "directory",
+        l: "symlink",
+        c: "character_file",
+        b: "block_file",
+        p: "pipe",
+        s: "socket",
+        D: "door",
     };
 
     return fileTypes[fileAttribute[0]];

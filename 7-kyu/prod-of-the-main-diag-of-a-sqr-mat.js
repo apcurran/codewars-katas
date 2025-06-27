@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[][]} matrix 
+ *
+ * @param {number[][]} matrix
  * @returns {number}
  */
 function mainDiagonalProduct(matrix) {
@@ -19,10 +19,10 @@ function mainDiagonalProduct(matrix) {
     return product;
 }
 
-console.log( mainDiagonalProduct(
-    [
+console.log(
+    mainDiagonalProduct([
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9],
-    ],
-) ); // 45
+    ]),
+); // 45

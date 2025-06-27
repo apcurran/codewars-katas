@@ -4,8 +4,8 @@
  * solution 1 -- iterative
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} sentence 
+ *
+ * @param {string} sentence
  * @returns {string}
  */
 function spongeMeme(sentence) {
@@ -17,7 +17,8 @@ function spongeMeme(sentence) {
             const isEven = index % 2 === 0;
 
             return isEven ? char.toUpperCase() : char.toLowerCase();
-        }).join("");
+        })
+        .join("");
 }
 
 console.log(spongeMeme("stop Making spongebob Memes!")); // "StOp mAkInG SpOnGeBoB MeMeS!"

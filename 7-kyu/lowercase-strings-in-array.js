@@ -6,8 +6,8 @@
  * m = string element length
  * time: O(n * m)
  * space: O(n)
- * 
- * @param {any[]} arr 
+ *
+ * @param {any[]} arr
  * @returns {any[]}
  */
 function arrayLowerCase(arr) {
@@ -18,5 +18,5 @@ function arrayLowerCase(arr) {
     });
 }
 
-console.log( arrayLowerCase(["Red", "Green"]) ); // ['red', 'green']
-console.log( arrayLowerCase([1, "Green"]) ); // [1, 'green']
+console.log(arrayLowerCase(["Red", "Green"])); // ['red', 'green']
+console.log(arrayLowerCase([1, "Green"])); // [1, 'green']

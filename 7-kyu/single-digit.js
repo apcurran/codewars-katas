@@ -4,8 +4,8 @@
  * solution 1 -- recursion
  * time: O(n * log n)
  * space: O(n + log n)
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {number}
  */
 function singleDigit(n) {
@@ -15,11 +15,12 @@ function singleDigit(n) {
     // convert int to bin
     const binStr = n.toString(2);
     // sum binary digits
-    const binStrDigitsSum = binStr
-        .split("")
-        .reduce(function sumDigits(sum, digitStr) {
-            return sum + Number(digitStr);
-        }, 0);
+    const binStrDigitsSum = binStr.split("").reduce(function sumDigits(
+        sum,
+        digitStr,
+    ) {
+        return sum + Number(digitStr);
+    }, 0);
 
     // check if sum is a single digit
     // if yes, return int

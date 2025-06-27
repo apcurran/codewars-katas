@@ -2,8 +2,8 @@
 
 class Dinglemouse {
     /**
-     * @param {string} firstName 
-     * @param {string} lastName 
+     * @param {string} firstName
+     * @param {string} lastName
      */
     constructor(firstName, lastName) {
         this.firstName = firstName;
@@ -14,7 +14,7 @@ class Dinglemouse {
      * solution 1
      * time: O(n)
      * space: O(n)
-     * 
+     *
      * @returns {string}
      */
     getFullName() {

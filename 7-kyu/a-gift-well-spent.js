@@ -4,9 +4,9 @@
  * solution 1
  * time: O(n^2)
  * space: O(1)
- * 
- * @param {number} giftCardBalance 
- * @param {number[]} items 
+ *
+ * @param {number} giftCardBalance
+ * @param {number[]} items
  * @returns {number[]|null}
  */
 function buy(giftCardBalance, items) {
@@ -26,5 +26,5 @@ function buy(giftCardBalance, items) {
     return null;
 }
 
-console.log( buy(5, [5, 2, 3, 4, 5]) ); // [1, 2]
-console.log( buy(5, [1, 1]) ); // null
+console.log(buy(5, [5, 2, 3, 4, 5])); // [1, 2]
+console.log(buy(5, [1, 1])); // null

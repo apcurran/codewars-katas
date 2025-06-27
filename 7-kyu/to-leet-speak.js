@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n)
- * 
- * @param {string} str 
+ *
+ * @param {string} str
  * @returns {string}
  */
 function toLeetSpeak(str) {
@@ -53,5 +53,5 @@ function toLeetSpeak(str) {
     return leetedWord;
 }
 
-console.log( toLeetSpeak("LEET") ); // "1337"
-console.log( toLeetSpeak("LOREM IPSUM DOLOR SIT AMET") ); // "10R3M !P$UM D010R $!7 @M37"
+console.log(toLeetSpeak("LEET")); // "1337"
+console.log(toLeetSpeak("LOREM IPSUM DOLOR SIT AMET")); // "10R3M !P$UM D010R $!7 @M37"

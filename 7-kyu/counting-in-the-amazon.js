@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(n) -- including results array
- * 
- * @param {number} n 
+ *
+ * @param {number} n
  * @returns {string}
  */
 function countArara(n) {

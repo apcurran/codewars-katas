@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n^2 * log n)
  * space: O(n^2)
- * 
- * @param {string} words 
+ *
+ * @param {string} words
  * @returns {string}
  */
 function sortTheInnerContent(words) {
@@ -25,7 +25,7 @@ function sortTheInnerContent(words) {
                 if (a < b) return 1;
                 if (a > b) return -1;
             })
-            .join("");        
+            .join("");
         // create a new str with first char, sorted middle chars, and last char
         const sortedWord = firstChar + sortedMiddleChars + lastChar;
         // append sorted word to new str
@@ -36,4 +36,8 @@ function sortTheInnerContent(words) {
 }
 
 // console.log( sortTheInnerContent("sort the inner content in descending order") ); // "srot the inner ctonnet in dsnnieedcg oredr"
-console.log( sortTheInnerContent("exxvjie qzrrjdcm vzzsqam pusrqnmiet tmmkgu oqhdm pypphx qxvssledz rr asz") ); // "exxvjie qzrrjdcm vzzsqam pusrqnmiet tmmkgu oqhdm pypphx qxvssledz r asz"
+console.log(
+    sortTheInnerContent(
+        "exxvjie qzrrjdcm vzzsqam pusrqnmiet tmmkgu oqhdm pypphx qxvssledz rr asz",
+    ),
+); // "exxvjie qzrrjdcm vzzsqam pusrqnmiet tmmkgu oqhdm pypphx qxvssledz r asz"

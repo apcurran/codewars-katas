@@ -4,8 +4,8 @@
  * soltuion 1 -- hashmap
  * time: O(n * log n) -- sorting results
  * space: O(n)
- * 
- * @param {string[]} players 
+ *
+ * @param {string[]} players
  * @returns {string}
  */
 function strangeCoach(players) {
@@ -29,14 +29,14 @@ function strangeCoach(players) {
         return "forfeit";
     }
 
-    return results
-        .sort()
-        .join("");
+    return results.sort().join("");
 }
 
-console.log(strangeCoach(["michael", "jordan", "lebron", "james", "kobe", "bryant"])); // "forfeit"
-console.log(strangeCoach(
-    [
+console.log(
+    strangeCoach(["michael", "jordan", "lebron", "james", "kobe", "bryant"]),
+); // "forfeit"
+console.log(
+    strangeCoach([
         "babic",
         "keksic",
         "boric",
@@ -55,4 +55,5 @@ console.log(strangeCoach(
         "kolacic",
         "kovacic",
         "prijestolonasljednikovic",
-    ])); // "bk"
+    ]),
+); // "bk"

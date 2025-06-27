@@ -4,8 +4,8 @@
  * solution 1
  * time: O(n)
  * space: O(1)
- * 
- * @param {number[]} grades 
+ *
+ * @param {number[]} grades
  * @returns {array}
  */
 function testResult(grades) {
@@ -41,4 +41,3 @@ console.log(testResult([10, 9, 9, 10, 9, 10, 9]));
 
 console.log(testResult([5, 6, 4, 8, 9, 8, 9, 10, 10, 10]));
 // [7.9, {'h': 5, 'a': 2, 'l': 3}]
-

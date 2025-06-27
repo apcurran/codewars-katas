@@ -4,9 +4,9 @@
 //  * solution 1
 //  * time: O(1) -- max 32-bits
 //  * space: O(1)
-//  * 
-//  * @param {number} a 
-//  * @param {number} b 
+//  *
+//  * @param {number} a
+//  * @param {number} b
 //  * @returns {number}
 //  */
 // function convertBits(a, b) {
@@ -27,9 +27,9 @@
  * solution 2 -- bitwise XOR
  * time: O(1) -- max 32-bits
  * space: O(1)
- * 
- * @param {number} a 
- * @param {number} b 
+ *
+ * @param {number} a
+ * @param {number} b
  * @returns {number}
  */
 function convertBits(a, b) {

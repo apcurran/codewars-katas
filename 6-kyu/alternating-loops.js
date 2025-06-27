@@ -7,8 +7,8 @@
  * x = total elements between all lists
  * time: O(max(m) * n)
  * space: O(x)
- * 
- * @param  {...Array} lists 
+ *
+ * @param  {...Array} lists
  * @returns {Array}
  */
 function combine(...lists) {

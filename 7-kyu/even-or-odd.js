@@ -5,7 +5,8 @@ function evenOrOdd(strNum) {
     for (let val of strNum) {
         const currValNum = Number(val);
 
-        if (currValNum % 2 === 0) { // Even val
+        if (currValNum % 2 === 0) {
+            // Even val
             evenSum += currValNum;
         } else {
             oddSum += currValNum;
