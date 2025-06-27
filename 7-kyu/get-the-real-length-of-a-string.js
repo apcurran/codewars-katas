@@ -5,13 +5,13 @@
  * time: O(n)
  * space: O(1)
  *
- * @param {string} string
+ * @param {string} str
  * @returns {number} str length
  */
-function getRealLength(string) {
+function getRealLength(str) {
     let length = 0;
 
-    for (let char of string) {
+    for (let _ of str) {
         length++;
     }
 
