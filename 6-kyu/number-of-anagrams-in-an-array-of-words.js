@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * solution 1
+ * solution 1 -- hashmap and combinations math formula
  * n = words length
  * m = word length
  * time: O(n * (m * log m))
