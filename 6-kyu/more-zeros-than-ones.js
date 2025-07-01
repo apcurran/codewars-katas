@@ -10,7 +10,7 @@
  */
 function moreZeros(str) {
     // create a Set to remove duplicate strings
-    const uniqueChars = new Set([...str]);
+    const uniqueChars = new Set(str);
     let charsWithMoreBinaryZeros = [];
     // iterate Set chars
     for (let char of uniqueChars) {
