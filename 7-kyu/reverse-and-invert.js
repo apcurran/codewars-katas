@@ -17,7 +17,7 @@ function reverseInvert(nums) {
         if (!Number.isInteger(num)) continue;
 
         // we have an int
-        const isNegativeInt = num < 0 ? true : false;
+        const isNegativeInt = num < 0;
         const intAbsValue = Math.abs(num);
         const reversedDigitsNum = Number(
             String(intAbsValue).split("").reverse().join(""),
