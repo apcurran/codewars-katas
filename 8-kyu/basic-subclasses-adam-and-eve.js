@@ -19,15 +19,11 @@ class Human {
 }
 
 class Man extends Human {
-    constructor() {
-        super();
-    }
+    
 }
 
 class Woman extends Human {
-    constructor() {
-        super();
-    }
+    
 }
 
 console.log(God.create()); // [Man obj, Woman obj]

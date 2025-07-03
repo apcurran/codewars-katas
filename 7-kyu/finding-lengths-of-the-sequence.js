@@ -18,7 +18,7 @@ function lengthOfSequence(arr, specialNum) {
         }
     }
 
-    if (specialNumFrequency < 2 || specialNumFrequency > 2) {
+    if (specialNumFrequency != 2) {
         // edge cases
         return 0;
     }
