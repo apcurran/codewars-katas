@@ -3,7 +3,7 @@
 /**
  * solution 1
  * time: O(n * log n)
- * space: O(log n)
+ * space: O(1)
  *
  * @param {number} kids
  * @returns {number}
@@ -35,5 +35,11 @@ function lcm(a, b) {
  * @returns {number}
  */
 function gcd(a, b) {
-    return b === 0 ? a : gcd(b, a % b);
+    while (b !== 0) {
+        let temp = b;
+        b = a % b;
+        a = temp;
+    }
+
+    return a;
 }
