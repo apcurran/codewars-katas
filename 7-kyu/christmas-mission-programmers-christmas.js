@@ -26,7 +26,7 @@ function merryChristmas(availableFuncs) {
     return results.join(",");
 }
 
-var a = (x) => "M",
+var a = (_) => "M",
     b = (_) => "e",
     c = (_) => "r",
     d = (_) => "y",
