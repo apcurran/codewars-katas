@@ -1,25 +1,49 @@
 "use strict";
 
+// /**
+//  * maximize profit (or minimize loss)
+//  * solution 1 -- correct, but TLE
+//  * time: O(n^2)
+//  * space: O(1)
+//  *
+//  * @param {number[]} prices
+//  * @returns {number}
+//  */
+// function maxProfit(prices) {
+//     let bestResult = -Infinity;
+
+//     for (let i = 0; i < prices.length; i++) {
+//         const first = prices[i];
+
+//         for (let j = i + 1; j < prices.length; j++) {
+//             const second = prices[j];
+//             const currentDiff = second - first;
+//             bestResult = Math.max(bestResult, currentDiff);
+//         }
+//     }
+
+//     return bestResult;
+// }
+
 /**
  * maximize profit (or minimize loss)
- * solution 1 -- correct, but TLE
- * time: O(n^2)
+ * solution 2
+ * time: O(n)
  * space: O(1)
  *
  * @param {number[]} prices
  * @returns {number}
  */
 function maxProfit(prices) {
+    let minPrice = Infinity;
     let bestResult = -Infinity;
 
     for (let i = 0; i < prices.length; i++) {
-        const first = prices[i];
-
-        for (let j = i + 1; j < prices.length; j++) {
-            const second = prices[j];
-            const currentDiff = second - first;
-            bestResult = Math.max(bestResult, currentDiff);
-        }
+        const currentPrice = prices[i];
+        // sell at current price
+        bestResult = Math.max(bestResult, currentPrice - minPrice);
+        // if we found a lower price
+        minPrice = Math.min(minPrice, currentPrice);
     }
 
     return bestResult;
