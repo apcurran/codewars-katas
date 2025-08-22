@@ -20,10 +20,27 @@
 //     return result;
 // }
 
+// /**
+//  * solution 2 -- recursion
+//  * time: O(n)
+//  * space: O(n)
+//  *
+//  * @param {number} first
+//  * @param {number} n
+//  * @param {number} c
+//  * @returns {number}
+//  */
+// function nthterm(first, n, c) {
+//     if (n === 0) return first;
+
+//     const sum = first + c;
+
+//     return nthterm(sum, n - 1, c);
+
 /**
- * solution 2 -- recursion
- * time: O(n)
- * space: O(n)
+ * solution 3 -- math formula
+ * time: O(1)
+ * space: O(1)
  *
  * @param {number} first
  * @param {number} n
@@ -31,11 +48,7 @@
  * @returns {number}
  */
 function nthterm(first, n, c) {
-    if (n === 0) return first;
-
-    const sum = first + c;
-
-    return nthterm(sum, n - 1, c);
+    return first + n * c;
 }
 
 console.log(nthterm(1, 2, 3)); // 7
