@@ -9,11 +9,13 @@
  */
 function search(files, currentPath = "") {
     if (typeof files === "string") {
-        return currentPath.slice();
+        return currentPath;
     }
 
     for (let prop in files) {
         const value = files[prop];
+        // if currentPath is empty (top level), just use prop
+        // otherwise, append /${prop} to the existing path
         const filePath = currentPath ? `${currentPath}/${prop}` : prop;
 
         try {
