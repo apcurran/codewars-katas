@@ -8,6 +8,7 @@
  * @returns {string} path to file
  */
 function search(files, currentPath = "") {
+    // not another obj, but file
     if (typeof files === "string") {
         return currentPath;
     }
