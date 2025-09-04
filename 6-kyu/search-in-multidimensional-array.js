@@ -15,8 +15,29 @@
 //     return flattenedValues.includes(value);
 // }
 
+// /**
+//  * solution 2 -- recursion
+//  * time: O(n)
+//  * space: O(d) -- depth of nesting
+//  *
+//  * @param {array} arr
+//  * @param {string} value
+//  * @returns {boolean}
+//  */
+// function locate(arr, value) {
+//     for (let elem of arr) {
+//         if (elem === value) return true;
+
+//         if (Array.isArray(elem) && locate(elem, value)) {
+//             return true;
+//         }
+//     }
+
+//     return false;
+// }
+
 /**
- * solution 2 -- recursion
+ * solution 3 -- stack
  * time: O(n)
  * space: O(d) -- depth of nesting
  *
@@ -25,11 +46,17 @@
  * @returns {boolean}
  */
 function locate(arr, value) {
-    for (let elem of arr) {
-        if (elem === value) return true;
+    let stack = [arr];
 
-        if (Array.isArray(elem) && locate(elem, value)) {
-            return true;
+    while (stack.length > 0) {
+        const current = stack.pop();
+
+        for (let elem of current) {
+            if (elem === value) return true;
+
+            if (Array.isArray(elem)) {
+                stack.push(elem);
+            }
         }
     }
 
