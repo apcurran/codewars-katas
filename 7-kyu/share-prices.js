@@ -1,5 +1,27 @@
+// /**
+//  * solution 1 -- loop style
+//  * n = changes list length
+//  * x = total stringified length
+//  * time: O(n + x)
+//  * space: O(x)
+//  *
+//  * @param {number} invested
+//  * @param {number[]} changes
+//  * @returns {string} two decimal places
+//  */
+// function sharePrice(invested, changes) {
+//     let total = invested;
+
+//     for (let changePercentage of changes) {
+//         const changeAmount = total * (changePercentage / 100);
+//         total += changeAmount;
+//     }
+
+//     return total.toFixed(2);
+// }
+
 /**
- * solution 1 -- loop style
+ * solution 2 -- functional style
  * n = changes list length
  * x = total stringified length
  * time: O(n + x)
@@ -10,12 +32,11 @@
  * @returns {string} two decimal places
  */
 function sharePrice(invested, changes) {
-    let total = invested;
+    const total = changes.reduce(function calcChangeAmount(prev, curr) {
+        const changeAmount = prev * (curr / 100);
 
-    for (let changePercentage of changes) {
-        const changeAmount = total * (changePercentage / 100);
-        total += changeAmount;
-    }
+        return prev + changeAmount;
+    }, invested);
 
     return total.toFixed(2);
 }
