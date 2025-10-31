@@ -2,6 +2,7 @@
  * solution 1
  * time: O(n + m)
  * space: O(n + m)
+ *
  * @param {string} ver1
  * @param {string} ver2
  * @returns {boolean} - true (1st version higher) false otherwise
