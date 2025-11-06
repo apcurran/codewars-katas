@@ -22,7 +22,7 @@
     "homepage": "https://github.com/apcurran/codewars-katas#readme",
     "devDependencies": {
         "@prettier/plugin-oxc": "^0.0.4",
-        "oxlint": "^1.23.0",
+        "oxlint": "^1.26.0",
         "prettier": "3.6.2"
     }
 }
