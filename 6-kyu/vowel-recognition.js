@@ -1,0 +1,30 @@
+/**
+ * solution 1 -- brute force (TLE)
+ * time: O(n^3)
+ * space: O(1)
+ *
+ * @param {string} input
+ * @returns {number} - sum of all vowel counts in substrs
+ */
+function vowelRecognition(input) {
+    const vowelsRegex = /[aeiou]/i;
+    let vowelsSum = 0;
+
+    for (let i = 0; i < input.length; i++) {
+        for (let j = i; j < input.length; j++) {
+            let substrVowelCount = 0;
+
+            for (let k = i; k <= j; k++) {
+                if (vowelsRegex.test(input[k])) {
+                    substrVowelCount++;
+                }
+            }
+
+            vowelsSum += substrVowelCount;
+        }
+    }
+
+    return vowelsSum;
+}
+
+console.log(vowelRecognition("baceb")); // 16
