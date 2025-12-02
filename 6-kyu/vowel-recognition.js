@@ -7,7 +7,7 @@
  * @returns {number} - sum of all vowel counts in substrs
  */
 function vowelRecognition(input) {
-    const vowelsRegex = /[aeiou]/i;
+    const vowels = "aeiouAEIOU";
     let vowelsSum = 0;
 
     for (let i = 0; i < input.length; i++) {
@@ -15,7 +15,7 @@ function vowelRecognition(input) {
             let substrVowelCount = 0;
 
             for (let k = i; k <= j; k++) {
-                if (vowelsRegex.test(input[k])) {
+                if (vowels.includes(input[k])) {
                     substrVowelCount++;
                 }
             }
