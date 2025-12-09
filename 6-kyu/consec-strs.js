@@ -28,18 +28,10 @@ function longestConsec(strArr, k) {
     return longestStr;
 }
 
-console.log(
-    longestConsec(["zone", "abigail", "theta", "form", "libe", "zas"], 2),
-); // "abigailtheta"
+console.log(longestConsec(["zone", "abigail", "theta", "form", "libe", "zas"], 2)); // "abigailtheta"
 console.log(
     longestConsec(
-        [
-            "ejjjjmmtthh",
-            "zxxuueeg",
-            "aanlljrrrxx",
-            "dqqqaaabbb",
-            "oocccffuucccjjjkkkjyyyeehh",
-        ],
+        ["ejjjjmmtthh", "zxxuueeg", "aanlljrrrxx", "dqqqaaabbb", "oocccffuucccjjjkkkjyyyeehh"],
         1,
     ),
 ); // "oocccffuucccjjjkkkjyyyeehh"

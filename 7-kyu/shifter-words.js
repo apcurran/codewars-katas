@@ -13,17 +13,7 @@ function shifter(words) {
     if (words.length === 0) return 0;
 
     const wordsList = words.split(" ");
-    const shifterLetters = new Set([
-        "H",
-        "I",
-        "N",
-        "O",
-        "S",
-        "X",
-        "Z",
-        "M",
-        "W",
-    ]);
+    const shifterLetters = new Set(["H", "I", "N", "O", "S", "X", "Z", "M", "W"]);
     let shifterWordsCount = 0;
     let uniqueWords = new Set();
 

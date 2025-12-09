@@ -1,12 +1,7 @@
 "use strict";
 
 class Person {
-    constructor(
-        firstName = "John",
-        lastName = "Doe",
-        age = 0,
-        gender = "Male",
-    ) {
+    constructor(firstName = "John", lastName = "Doe", age = 0, gender = "Male") {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;

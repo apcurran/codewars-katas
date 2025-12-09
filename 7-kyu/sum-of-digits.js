@@ -10,10 +10,7 @@ function sum(digits) {
 
     const splitDigits = String(digits).split("");
     const digitsStrEquation = splitDigits.join(" + ");
-    const digitsSum = splitDigits.reduce(
-        (total, currVal) => total + Number(currVal),
-        0,
-    );
+    const digitsSum = splitDigits.reduce((total, currVal) => total + Number(currVal), 0);
 
     return `${digitsStrEquation} = ${digitsSum}`;
 }

@@ -12,13 +12,9 @@ function findEvenIndex(arr) {
     // iterate arr
     for (let i = 0; i < arr.length; i++) {
         // create a copy of arr to left of index & then sum
-        const leftSideSum = arr
-            .slice(0, i)
-            .reduce((sum, currNum) => sum + currNum, 0);
+        const leftSideSum = arr.slice(0, i).reduce((sum, currNum) => sum + currNum, 0);
         // create a copy of arr to right of index & then sum
-        const rightSideSum = arr
-            .slice(i + 1)
-            .reduce((sum, currNum) => sum + currNum, 0);
+        const rightSideSum = arr.slice(i + 1).reduce((sum, currNum) => sum + currNum, 0);
         // if sums of left and right arr sides are equal return index
         if (leftSideSum === rightSideSum) return i;
     }

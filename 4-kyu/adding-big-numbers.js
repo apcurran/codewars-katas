@@ -1,8 +1,5 @@
 function add(a, b) {
-    if (
-        Number(a) < Number.MAX_SAFE_INTEGER &&
-        Number(b) < Number.MAX_SAFE_INTEGER
-    ) {
+    if (Number(a) < Number.MAX_SAFE_INTEGER && Number(b) < Number.MAX_SAFE_INTEGER) {
         const sum = Number(a) + Number(b);
 
         return String(sum);

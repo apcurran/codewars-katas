@@ -11,8 +11,7 @@
 function reverseOnDiagonals(matrix) {
     for (let row = 0; row < matrix.length / 2; row++) {
         const cellA1 = matrix[row][row];
-        const cellA2 =
-            matrix[matrix.length - 1 - row][matrix[0].length - 1 - row];
+        const cellA2 = matrix[matrix.length - 1 - row][matrix[0].length - 1 - row];
         const cellB1 = matrix[row][matrix.length - 1 - row];
         const cellB2 = matrix[matrix.length - 1 - row][row];
         // A cells swap

@@ -11,14 +11,8 @@
  * @returns {number}
  */
 function lostSheep(sheepFriday, sheepSaturday, sheepTotal) {
-    const sheepFridaySum = sheepFriday.reduce(
-        (sum, current) => sum + current,
-        0,
-    );
-    const sheepSaturdaySum = sheepSaturday.reduce(
-        (sum, current) => sum + current,
-        0,
-    );
+    const sheepFridaySum = sheepFriday.reduce((sum, current) => sum + current, 0);
+    const sheepSaturdaySum = sheepSaturday.reduce((sum, current) => sum + current, 0);
 
     return sheepTotal - sheepFridaySum - sheepSaturdaySum;
 }

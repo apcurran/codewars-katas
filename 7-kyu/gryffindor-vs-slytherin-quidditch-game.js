@@ -14,13 +14,9 @@ function gameWinners(gryffindor, slytherin) {
     const [gryffindorScore, isGryffindorSnitch] = gryffindor;
     const [slytherinScore, isSyltherinSnitch] = slytherin;
     const gryffindorTotal =
-        isGryffindorSnitch === "yes"
-            ? gryffindorScore + SNITCH_VALUE
-            : gryffindorScore;
+        isGryffindorSnitch === "yes" ? gryffindorScore + SNITCH_VALUE : gryffindorScore;
     const slytherinTotal =
-        isSyltherinSnitch === "yes"
-            ? slytherinScore + SNITCH_VALUE
-            : slytherinScore;
+        isSyltherinSnitch === "yes" ? slytherinScore + SNITCH_VALUE : slytherinScore;
 
     if (gryffindorTotal > slytherinTotal) {
         return "Gryffindor wins!";

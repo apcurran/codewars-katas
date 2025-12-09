@@ -33,10 +33,7 @@ function charToAscii(str) {
  * @returns {boolean}
  */
 function isAlphaChar(charCode) {
-    return (
-        (charCode >= 65 && charCode <= 90) ||
-        (charCode >= 97 && charCode <= 122)
-    );
+    return (charCode >= 65 && charCode <= 90) || (charCode >= 97 && charCode <= 122);
 }
 
 console.log(charToAscii("ABaa ^")); // {"A":65, "B":66, "a":97}

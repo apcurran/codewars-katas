@@ -34,11 +34,9 @@ function getConsectiveItems(items, key) {
 
     if (!consecutiveKeysMatches) return 0;
 
-    const consecutiveKeysMatchesLengths = consecutiveKeysMatches.map(
-        function getLengths(match) {
-            return match.length;
-        },
-    );
+    const consecutiveKeysMatchesLengths = consecutiveKeysMatches.map(function getLengths(match) {
+        return match.length;
+    });
 
     return Math.max(...consecutiveKeysMatchesLengths);
 }

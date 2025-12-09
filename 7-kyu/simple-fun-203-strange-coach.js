@@ -32,9 +32,7 @@ function strangeCoach(players) {
     return results.sort().join("");
 }
 
-console.log(
-    strangeCoach(["michael", "jordan", "lebron", "james", "kobe", "bryant"]),
-); // "forfeit"
+console.log(strangeCoach(["michael", "jordan", "lebron", "james", "kobe", "bryant"])); // "forfeit"
 console.log(
     strangeCoach([
         "babic",

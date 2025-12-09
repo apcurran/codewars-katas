@@ -16,19 +16,13 @@ function midpointSum(nums) {
 
         if (leftChunk.length === 0) continue;
 
-        const leftSum = leftChunk.reduce(
-            (sum, currentNum) => sum + currentNum,
-            0,
-        );
+        const leftSum = leftChunk.reduce((sum, currentNum) => sum + currentNum, 0);
 
         const rightChunk = nums.slice(i + 1);
 
         if (rightChunk.length === 0) continue;
 
-        const rightSum = rightChunk.reduce(
-            (sum, currentNum) => sum + currentNum,
-            0,
-        );
+        const rightSum = rightChunk.reduce((sum, currentNum) => sum + currentNum, 0);
 
         if (leftSum === rightSum) return i;
     }

@@ -21,16 +21,7 @@ function paul(arr) {
 
 console.log(paul(["life", "eating", "life"])); // "Super happy!"
 console.log(paul(["life", "Petes kata", "Petes kata", "Petes kata", "eating"])); // "Super happy!"
-console.log(
-    paul([
-        "Petes kata",
-        "Petes kata",
-        "eating",
-        "Petes kata",
-        "Petes kata",
-        "eating",
-    ]),
-); // "Happy!"
+console.log(paul(["Petes kata", "Petes kata", "eating", "Petes kata", "Petes kata", "eating"])); // "Happy!"
 console.log(
     paul([
         "eating",

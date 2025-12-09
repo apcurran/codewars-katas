@@ -17,10 +17,7 @@ function geo_mean(nums, arith_mean) {
     const missingNumber = totalSum - currentSum;
     const completeList = [...nums, missingNumber];
     // geometricMean -> multiply all nums and take to nth root
-    const totalProduct = completeList.reduce(
-        (product, current) => product * current,
-        1,
-    );
+    const totalProduct = completeList.reduce((product, current) => product * current, 1);
 
     return totalProduct ** (1 / n);
 }

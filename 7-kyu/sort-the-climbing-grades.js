@@ -34,10 +34,7 @@ function sortGrades(arr) {
     ];
 
     return arr.sort(function sortGradesAsc(gradeA, gradeB) {
-        return (
-            boulderingGradesOrdering.indexOf(gradeA) -
-            boulderingGradesOrdering.indexOf(gradeB)
-        );
+        return boulderingGradesOrdering.indexOf(gradeA) - boulderingGradesOrdering.indexOf(gradeB);
     });
 }
 

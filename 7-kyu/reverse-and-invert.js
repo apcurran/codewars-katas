@@ -19,9 +19,7 @@ function reverseInvert(nums) {
         // we have an int
         const isNegativeInt = num < 0;
         const intAbsValue = Math.abs(num);
-        const reversedDigitsNum = Number(
-            String(intAbsValue).split("").reverse().join(""),
-        );
+        const reversedDigitsNum = Number(String(intAbsValue).split("").reverse().join(""));
 
         if (isNegativeInt) {
             results.push(Math.abs(reversedDigitsNum));

@@ -19,9 +19,7 @@ function sumDifferencesBetweenProductsAndLCMs(pairs) {
     let finalResult = 0;
 
     for (let innerArr of pairs) {
-        const product = innerArr.reduce(
-            (prevNum, currNum) => prevNum * currNum,
-        );
+        const product = innerArr.reduce((prevNum, currNum) => prevNum * currNum);
         const leastCommonMultiple = lcm(...innerArr);
         const differenceBetweenProductAndLcm = product - leastCommonMultiple;
 

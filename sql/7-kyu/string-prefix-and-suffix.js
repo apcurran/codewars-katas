@@ -16,10 +16,7 @@ function solve(str) {
         const suffix = str.slice(str.length - i);
 
         if (prefix === suffix) {
-            maxPrefixSuffixLength = Math.max(
-                maxPrefixSuffixLength,
-                prefix.length,
-            );
+            maxPrefixSuffixLength = Math.max(maxPrefixSuffixLength, prefix.length);
         }
     }
 

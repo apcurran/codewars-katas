@@ -16,9 +16,7 @@ function time(distance, boatSpeed, stream) {
     const streamSpeedNum = Number(streamSpeedStr);
     // either add or sub stream speed to boat speed depending on going with downstream or against (upstream)
     const totalSpeed =
-        streamDir === "Downstream"
-            ? boatSpeed + streamSpeedNum
-            : boatSpeed - streamSpeedNum;
+        streamDir === "Downstream" ? boatSpeed + streamSpeedNum : boatSpeed - streamSpeedNum;
     // divide total dist by prev val
     const resTime = distance / totalSpeed;
 

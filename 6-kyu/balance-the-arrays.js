@@ -27,17 +27,17 @@ function balance(arr1, arr2) {
         arr2ValuesFrequencies.set(elem, previousFreqCount + 1);
     }
     // sort arr1 freq counts
-    const sortedArr1ValuesFrequencies = [
-        ...arr1ValuesFrequencies.values(),
-    ].sort(function sortAsc(a, b) {
-        return a - b;
-    });
+    const sortedArr1ValuesFrequencies = [...arr1ValuesFrequencies.values()].sort(
+        function sortAsc(a, b) {
+            return a - b;
+        },
+    );
     // sort arr2 freq counts
-    const sortedArr2ValuesFrequencies = [
-        ...arr2ValuesFrequencies.values(),
-    ].sort(function sortAsc(a, b) {
-        return a - b;
-    });
+    const sortedArr2ValuesFrequencies = [...arr2ValuesFrequencies.values()].sort(
+        function sortAsc(a, b) {
+            return a - b;
+        },
+    );
     // iterate larger arr, check for same values on each iteration
     const largestArr =
         sortedArr1ValuesFrequencies.length >= sortedArr2ValuesFrequencies.length
@@ -48,10 +48,7 @@ function balance(arr1, arr2) {
         const sortedArr1ValuesFrequenciesValue = sortedArr1ValuesFrequencies[i];
         const sortedArr2ValuesFrequenciesValue = sortedArr2ValuesFrequencies[i];
 
-        if (
-            sortedArr1ValuesFrequenciesValue !==
-            sortedArr2ValuesFrequenciesValue
-        ) {
+        if (sortedArr1ValuesFrequenciesValue !== sortedArr2ValuesFrequenciesValue) {
             return false;
         }
     }

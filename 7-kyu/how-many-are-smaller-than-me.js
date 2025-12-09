@@ -13,9 +13,7 @@ function smaller(nums) {
 
     for (let i = 0; i < nums.length; i++) {
         const currNum = nums[i];
-        const smallerNumsAmtThanCurr = nums
-            .slice(i + 1)
-            .filter((num) => num < currNum).length;
+        const smallerNumsAmtThanCurr = nums.slice(i + 1).filter((num) => num < currNum).length;
 
         smallerThanArr.push(smallerNumsAmtThanCurr);
     }

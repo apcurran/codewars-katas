@@ -14,10 +14,7 @@ function parameter(n) {
     const digitsSum = strNDigits.reduce(function getSum(strPrev, strCurr) {
         return Number(strPrev) + Number(strCurr);
     }, 0);
-    const digitsProduct = strNDigits.reduce(function getProduct(
-        strPrev,
-        strCurr,
-    ) {
+    const digitsProduct = strNDigits.reduce(function getProduct(strPrev, strCurr) {
         return Number(strPrev) * Number(strCurr);
     }, 1);
     const lcm = calcLcm(digitsSum, digitsProduct);

@@ -15,10 +15,8 @@ function isLucky(ticket) {
     // must not include letters
     if (ticket.match(/[a-z]/g)) return false;
 
-    const firstThreeDigitsSum =
-        Number(ticket[0]) + Number(ticket[1]) + Number(ticket[2]);
-    const lastThreeDigitsSum =
-        Number(ticket[3]) + Number(ticket[4]) + Number(ticket[5]);
+    const firstThreeDigitsSum = Number(ticket[0]) + Number(ticket[1]) + Number(ticket[2]);
+    const lastThreeDigitsSum = Number(ticket[3]) + Number(ticket[4]) + Number(ticket[5]);
 
     return firstThreeDigitsSum === lastThreeDigitsSum;
 }

@@ -14,8 +14,7 @@ function longestPossible(maxPlaybackTime) {
     const possibleSongs = songs
         .map((song) => {
             const [songMinutesStr, songSecondsStr] = song.playback.split(":");
-            const totalSongTimeSeconds =
-                Number(songMinutesStr) * 60 + Number(songSecondsStr);
+            const totalSongTimeSeconds = Number(songMinutesStr) * 60 + Number(songSecondsStr);
 
             return {
                 ...song,

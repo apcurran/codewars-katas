@@ -79,9 +79,7 @@
  */
 function reverseCase(str) {
     return str.replace(/([a-zA-Z])\1+/g, function invertCharCasing(letter) {
-        return letter.toLowerCase() === letter
-            ? letter.toUpperCase()
-            : letter.toLowerCase();
+        return letter.toLowerCase() === letter ? letter.toUpperCase() : letter.toLowerCase();
     });
 }
 

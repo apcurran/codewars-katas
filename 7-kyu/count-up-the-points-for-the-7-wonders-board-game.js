@@ -15,8 +15,7 @@ function solve(compasses, gears, tablets) {
     const inventorySetDistinctCount = Math.min(compasses, gears, tablets);
     const inventorySetDistinctPoints = inventorySetDistinctCount * 7;
     // amt of each glyph is squared and then summed
-    const squaredAndSummedGlyphPoints =
-        compasses ** 2 + gears ** 2 + tablets ** 2;
+    const squaredAndSummedGlyphPoints = compasses ** 2 + gears ** 2 + tablets ** 2;
     // sum both preceding steps for a grand total
     return inventorySetDistinctPoints + squaredAndSummedGlyphPoints;
 }

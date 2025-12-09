@@ -9,9 +9,7 @@
  * @returns {"both"|"vowel"|"consonant"|"neither"}
  */
 function palindrome(str) {
-    const strConsonants = str
-        .toLowerCase()
-        .replace(/[^bcdfghjklmnpqrstvwxyz]/g, "");
+    const strConsonants = str.toLowerCase().replace(/[^bcdfghjklmnpqrstvwxyz]/g, "");
     const strVowels = str.toLowerCase().replace(/[^aeiou]/g, "");
     const isConsonantChunkPalindrome = isPalindromeTest(strConsonants);
     const isVowelChunkPalindrome = isPalindromeTest(strVowels);

@@ -29,6 +29,4 @@ function diamondBurglar(locker) {
     return totalRepsToStealDiamonds;
 }
 
-console.log(
-    diamondBurglar(["*.*.*.*.*.", "...*..**..", "**.**...*.", "**..**..**"]),
-); // 13
+console.log(diamondBurglar(["*.*.*.*.*.", "...*..**..", "**.**...*.", "**..**..**"])); // 13

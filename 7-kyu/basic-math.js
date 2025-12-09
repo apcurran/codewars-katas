@@ -6,10 +6,7 @@
  * @returns {string} - Return a string version of the final result
  */
 function calculate(str) {
-    const result = str
-        .replace(/plus/gi, "+")
-        .replace(/minus/gi, "-")
-        .toString();
+    const result = str.replace(/plus/gi, "+").replace(/minus/gi, "-").toString();
 
     console.log(result);
 }

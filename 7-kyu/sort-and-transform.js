@@ -28,10 +28,7 @@ function sortTransform(nums) {
         })
         .sort();
     const part4 =
-        convertedChars[0] +
-        convertedChars[1] +
-        convertedChars.at(-2) +
-        convertedChars.at(-1);
+        convertedChars[0] + convertedChars[1] + convertedChars.at(-2) + convertedChars.at(-1);
 
     return `${part1}-${part2}-${part3}-${part4}`;
 }

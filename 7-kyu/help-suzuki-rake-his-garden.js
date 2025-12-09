@@ -35,8 +35,4 @@ function rakeGarden(garden) {
     });
 }
 
-console.log(
-    rakeGarden(
-        "slug spider rock gravel gravel gravel gravel gravel gravel gravel",
-    ),
-); // gravel gravel rock gravel gravel gravel gravel gravel gravel gravel
+console.log(rakeGarden("slug spider rock gravel gravel gravel gravel gravel gravel gravel")); // gravel gravel rock gravel gravel gravel gravel gravel gravel gravel

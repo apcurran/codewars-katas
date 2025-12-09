@@ -22,13 +22,9 @@ function mostMoney(students) {
         return students[0].name;
     }
 
-    const studentDollarAmounts = students.map(
-        function getStudentDollarAmount(student) {
-            return (
-                student.fives * 5 + student.tens * 10 + student.twenties * 20
-            );
-        },
-    );
+    const studentDollarAmounts = students.map(function getStudentDollarAmount(student) {
+        return student.fives * 5 + student.tens * 10 + student.twenties * 20;
+    });
     const allStudentsHaveEqualDollarAmounts = studentDollarAmounts.every(
         function checkStudentDollarAmountsEqual(dollarAmount) {
             return dollarAmount === studentDollarAmounts[0];
@@ -40,8 +36,7 @@ function mostMoney(students) {
     }
 
     const maxDollarAmount = Math.max(...studentDollarAmounts);
-    const maxDollarAmountStudentIndex =
-        studentDollarAmounts.indexOf(maxDollarAmount);
+    const maxDollarAmountStudentIndex = studentDollarAmounts.indexOf(maxDollarAmount);
 
     return students[maxDollarAmountStudentIndex].name;
 }

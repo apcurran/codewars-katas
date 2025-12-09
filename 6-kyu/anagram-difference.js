@@ -43,9 +43,7 @@ function anagramDifference(w1, w2) {
     let counter = 0;
 
     for (let i = 0; i < 26; i++) {
-        const letterFrequencyDiff = Math.abs(
-            word1LetterFrequencies[i] - word2LetterFrequencies[i],
-        );
+        const letterFrequencyDiff = Math.abs(word1LetterFrequencies[i] - word2LetterFrequencies[i]);
         counter += letterFrequencyDiff;
     }
 

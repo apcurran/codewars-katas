@@ -16,10 +16,7 @@ function gap(num) {
     let mostConsecutiveZerosCount = 0;
 
     for (let match of matches) {
-        mostConsecutiveZerosCount = Math.max(
-            mostConsecutiveZerosCount,
-            match.length,
-        );
+        mostConsecutiveZerosCount = Math.max(mostConsecutiveZerosCount, match.length);
     }
 
     return mostConsecutiveZerosCount;

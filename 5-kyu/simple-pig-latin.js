@@ -4,11 +4,7 @@ function pigIt(str) {
         .map((word) => {
             const firstLetter = word.charAt(0);
 
-            if (
-                firstLetter === "?" ||
-                firstLetter === "!" ||
-                firstLetter === "."
-            ) {
+            if (firstLetter === "?" || firstLetter === "!" || firstLetter === ".") {
                 return firstLetter;
             }
 

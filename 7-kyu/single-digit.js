@@ -15,10 +15,7 @@ function singleDigit(n) {
     // convert int to bin
     const binStr = n.toString(2);
     // sum binary digits
-    const binStrDigitsSum = binStr.split("").reduce(function sumDigits(
-        sum,
-        digitStr,
-    ) {
+    const binStrDigitsSum = binStr.split("").reduce(function sumDigits(sum, digitStr) {
         return sum + Number(digitStr);
     }, 0);
 

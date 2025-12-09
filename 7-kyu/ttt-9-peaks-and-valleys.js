@@ -42,11 +42,7 @@ function peakAndValley(arr) {
     return results;
 }
 
-console.log(
-    peakAndValley([
-        10, 20, 30, 40, 30, 20, 10, 11, 12, 13, 14, 15, 16, 15, 14, 13,
-    ]),
-);
+console.log(peakAndValley([10, 20, 30, 40, 30, 20, 10, 11, 12, 13, 14, 15, 16, 15, 14, 13]));
 // [40,10,16]
 console.log(peakAndValley([50, 84, 49, 47, 80, 87, 87, 53, 76, 30, 10]));
 // [47]

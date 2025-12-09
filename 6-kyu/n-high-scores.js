@@ -22,18 +22,16 @@ function topScores(records, nTop) {
     }
 
     const collator = new Intl.Collator("en", { sensitivity: "base" });
-    const sortedPeople = [...peopleMap.entries()].sort(
-        function sortByScoreThenAlph(
-            [tupleAName, tupleAScore],
-            [tupleBName, tupleBScore],
-        ) {
-            if (tupleAScore === tupleBScore) {
-                return collator.compare(tupleAName, tupleBName);
-            } else {
-                return tupleBScore - tupleAScore;
-            }
-        },
-    );
+    const sortedPeople = [...peopleMap.entries()].sort(function sortByScoreThenAlph(
+        [tupleAName, tupleAScore],
+        [tupleBName, tupleBScore],
+    ) {
+        if (tupleAScore === tupleBScore) {
+            return collator.compare(tupleAName, tupleBName);
+        } else {
+            return tupleBScore - tupleAScore;
+        }
+    });
 
     return sortedPeople.slice(0, nTop);
 }

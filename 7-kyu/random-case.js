@@ -29,6 +29,4 @@ function randomCase(x) {
     return result;
 }
 
-console.log(
-    randomCase("Lorem ipsum dolor sit amet, consectetur adipiscing elit"),
-);
+console.log(randomCase("Lorem ipsum dolor sit amet, consectetur adipiscing elit"));

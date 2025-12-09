@@ -23,10 +23,7 @@ function printNums(...args) {
 
         // now we have digits count
         // possible update to max digits num
-        largestNumDigitsCount = Math.max(
-            largestNumDigitsCount,
-            currentNumDigitsCount,
-        );
+        largestNumDigitsCount = Math.max(largestNumDigitsCount, currentNumDigitsCount);
     }
 
     // max available now

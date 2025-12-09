@@ -49,9 +49,6 @@ function findChildren(santasList, children) {
 }
 
 console.log(
-    findChildren(
-        ["Jason", "Jackson", "Jordan", "Johnny"],
-        ["Jason", "Jordan", "Jennifer"],
-    ),
+    findChildren(["Jason", "Jackson", "Jordan", "Johnny"], ["Jason", "Jordan", "Jennifer"]),
 );
 // ["Jason", "Jordan"]

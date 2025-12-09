@@ -73,15 +73,5 @@ function inArray(array1, array2) {
     return resArr.sort();
 }
 
-console.log(
-    inArray(
-        ["arp", "live", "strong"],
-        ["lively", "alive", "harp", "sharp", "armstrong"],
-    ),
-); // ["arp", "live", "strong"]
-console.log(
-    inArray(
-        ["tarp", "mice", "bull"],
-        ["lively", "alive", "harp", "sharp", "armstrong"],
-    ),
-); // []
+console.log(inArray(["arp", "live", "strong"], ["lively", "alive", "harp", "sharp", "armstrong"])); // ["arp", "live", "strong"]
+console.log(inArray(["tarp", "mice", "bull"], ["lively", "alive", "harp", "sharp", "armstrong"])); // []

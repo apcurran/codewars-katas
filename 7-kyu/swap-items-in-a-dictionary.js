@@ -24,7 +24,5 @@ function switchDict(dict) {
     return result;
 }
 
-console.log(
-    switchDict({ Ice: "Cream", Age: "21", Light: "Cream", Double: "Cream" }),
-);
+console.log(switchDict({ Ice: "Cream", Age: "21", Light: "Cream", Double: "Cream" }));
 // {'Cream': ['Ice', 'Double', 'Light'], '21': ['Age']}

@@ -11,11 +11,9 @@
  */
 function aliasGen(primaryName, lastName) {
     const initialLetterOfFirstName = primaryName[0].toUpperCase();
-    const initialLetterOfFirstNameCharCode =
-        initialLetterOfFirstName.charCodeAt(0);
+    const initialLetterOfFirstNameCharCode = initialLetterOfFirstName.charCodeAt(0);
     const initialLetterOfLastName = lastName[0].toUpperCase();
-    const initialLetterOfLastNameCharCode =
-        initialLetterOfLastName.charCodeAt(0);
+    const initialLetterOfLastNameCharCode = initialLetterOfLastName.charCodeAt(0);
 
     const upperCaseLetterCharCodeRangeStart = 65;
     const upperCaseLetterCharCodeRangeEnd = 90;

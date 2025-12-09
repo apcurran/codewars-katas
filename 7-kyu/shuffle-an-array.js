@@ -18,10 +18,7 @@ function shuffle(arr) {
         currentIndex--;
 
         // swap elem with current elem
-        [arr[currentIndex], arr[randomIndex]] = [
-            arr[randomIndex],
-            arr[currentIndex],
-        ];
+        [arr[currentIndex], arr[randomIndex]] = [arr[randomIndex], arr[currentIndex]];
     }
 
     return arr;

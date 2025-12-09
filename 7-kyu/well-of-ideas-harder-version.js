@@ -17,8 +17,7 @@ function well(arr) {
         for (let column = 0; column < currentRow.length; column++) {
             const value = currentRow[column];
 
-            if (typeof value === "string" && value.toLowerCase() === "good")
-                goodCount++;
+            if (typeof value === "string" && value.toLowerCase() === "good") goodCount++;
         }
     }
 
@@ -45,10 +44,4 @@ console.log(
         ["GOOD", "bad", "bad", "bAd"],
     ]),
 ); // "Publish!"
-console.log(
-    well([
-        ["gOOd", "bAd", "BAD", "bad", "bad", "GOOD"],
-        ["bad"],
-        ["gOOd", "BAD"],
-    ]),
-); // "I smell a series!"
+console.log(well([["gOOd", "bAd", "BAD", "bad", "bad", "GOOD"], ["bad"], ["gOOd", "BAD"]])); // "I smell a series!"

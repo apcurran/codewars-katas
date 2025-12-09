@@ -11,11 +11,9 @@ function persistence(num) {
     while (splitStrNum.length > 1) {
         multiplicativePersistence++;
 
-        const multipliedNum = splitStrNum
-            .split("")
-            .reduce((prevNum, currNum) => {
-                return Number(prevNum) * Number(currNum);
-            });
+        const multipliedNum = splitStrNum.split("").reduce((prevNum, currNum) => {
+            return Number(prevNum) * Number(currNum);
+        });
         splitStrNum = multipliedNum.toString();
     }
 

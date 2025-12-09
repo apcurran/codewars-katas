@@ -77,6 +77,4 @@ function replaceZero(arr) {
     return bestIndex;
 }
 
-console.log(
-    replaceZero([1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1]),
-); // 10
+console.log(replaceZero([1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1])); // 10

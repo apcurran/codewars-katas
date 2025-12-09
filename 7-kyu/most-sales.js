@@ -34,13 +34,7 @@ function top3(products, amounts, prices) {
         });
 }
 
-console.log(
-    top3(
-        ["Computer", "Cell Phones", "Vacuum Cleaner"],
-        [3, 24, 8],
-        [199, 299, 399],
-    ),
-);
+console.log(top3(["Computer", "Cell Phones", "Vacuum Cleaner"], [3, 24, 8], [199, 299, 399]));
 // ["Cell Phones", "Vacuum Cleaner", "Computer"]
 console.log(
     top3(

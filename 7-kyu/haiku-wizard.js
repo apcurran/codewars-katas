@@ -1,18 +1,7 @@
 "use strict";
 
 const words = [
-    [
-        "like",
-        "a",
-        "tweet",
-        "what",
-        "for",
-        "world",
-        "whale",
-        "one",
-        "last",
-        "sun",
-    ],
+    ["like", "a", "tweet", "what", "for", "world", "whale", "one", "last", "sun"],
     [
         "ocean",
         "beauty",

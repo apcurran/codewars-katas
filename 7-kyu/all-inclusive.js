@@ -48,9 +48,7 @@ function containAllRots(str, arr) {
     return true;
 }
 
-console.log(
-    containAllRots("bsjq", ["bsjq", "qbsj", "sjqb", "twZNsslC", "jqbs"]),
-); // true
+console.log(containAllRots("bsjq", ["bsjq", "qbsj", "sjqb", "twZNsslC", "jqbs"])); // true
 console.log(
     containAllRots("Ajylvpy", [
         "Ajylvpy",

@@ -19,8 +19,5 @@ function makesTheSentence(characterArray, sentenceString) {
 }
 
 console.log(
-    makesTheSentence(
-        ["D", "u", "c", "k", "s", "q", "u", "a", "c", "k", "."],
-        "Ducks quack.",
-    ),
+    makesTheSentence(["D", "u", "c", "k", "s", "q", "u", "a", "c", "k", "."], "Ducks quack."),
 ); // true

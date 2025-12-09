@@ -19,10 +19,7 @@ function longestPalindrome(str) {
         for (let j = i + 1; j <= str.length; j++) {
             const miniStr = str.slice(i, j);
 
-            if (
-                isPalindrome(miniStr) &&
-                miniStr.length > longestPalindromeLength
-            ) {
+            if (isPalindrome(miniStr) && miniStr.length > longestPalindromeLength) {
                 longestPalindromeLength = miniStr.length;
             }
         }

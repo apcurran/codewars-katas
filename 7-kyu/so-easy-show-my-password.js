@@ -24,6 +24,4 @@ function showMyPassword(birthdays) {
     return `${johnsDigits}${gfDigits}${dadDigits}${momsDigits}`;
 }
 
-console.log(
-    showMyPassword(["1968-1-2", "1980-8-15", "1982-9-20", "1966-12-3"]),
-); // "80821202"
+console.log(showMyPassword(["1968-1-2", "1980-8-15", "1982-9-20", "1966-12-3"])); // "80821202"

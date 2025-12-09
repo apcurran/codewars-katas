@@ -23,14 +23,7 @@ function conferencePicker(citiesVisited, citiesOffered) {
 
 console.log(
     conferencePicker(
-        [
-            "Mexico City",
-            "Johannesburg",
-            "Stockholm",
-            "Osaka",
-            "Saint Petersburg",
-            "London",
-        ],
+        ["Mexico City", "Johannesburg", "Stockholm", "Osaka", "Saint Petersburg", "London"],
         ["Stockholm", "Paris", "Melbourne"],
     ),
 ); // "Paris"

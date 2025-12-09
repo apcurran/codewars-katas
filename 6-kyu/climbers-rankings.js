@@ -24,9 +24,7 @@ class RankCalculator {
             };
         });
 
-        return climbersSummedPoints.sort(
-            (climberA, climberB) => climberB.points - climberA.points,
-        );
+        return climbersSummedPoints.sort((climberA, climberB) => climberB.points - climberA.points);
     }
 }
 

@@ -10,9 +10,7 @@
  */
 function calc(str) {
     // take str and convert each char to ASCII code (total1)
-    const total1StrArr = [...str]
-        .map((letter) => letter.charCodeAt(0))
-        .join("");
+    const total1StrArr = [...str].map((letter) => letter.charCodeAt(0)).join("");
     // replace 7s with 1s (store as total2)
     const total2StrArr = total1StrArr.replace(/7/g, "1");
 

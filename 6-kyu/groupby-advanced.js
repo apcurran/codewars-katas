@@ -12,9 +12,7 @@ function groupBy(people, classifier, downstream, accumulatorSupplier) {
 
     for (let person of people) {
         const key = classifier(person);
-        const current = results.has(key)
-            ? results.get(key)
-            : accumulatorSupplier();
+        const current = results.has(key) ? results.get(key) : accumulatorSupplier();
         const downstreamResult = downstream(current, person);
         results.set(key, downstreamResult);
     }

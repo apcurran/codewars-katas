@@ -14,10 +14,7 @@ function strongEnough(shockwaves, age) {
     let magnitude = 1;
 
     for (let shockwave of shockwaves) {
-        const tremorSum = shockwave.reduce(
-            (sum, currentValue) => sum + currentValue,
-            0,
-        );
+        const tremorSum = shockwave.reduce((sum, currentValue) => sum + currentValue, 0);
         magnitude *= tremorSum;
     }
 

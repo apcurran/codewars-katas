@@ -11,9 +11,7 @@ function cubeTimes(times) {
     const minTime = sortedTimes.shift();
     sortedTimes.pop();
     // Calc avgTime with min and max times removed
-    const avgTime = +(
-        sortedTimes.reduce((total, currNum) => total + currNum, 0) / 3
-    ).toFixed(2);
+    const avgTime = +(sortedTimes.reduce((total, currNum) => total + currNum, 0) / 3).toFixed(2);
 
     return [avgTime, minTime];
 }

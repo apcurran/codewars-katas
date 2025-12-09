@@ -16,10 +16,7 @@ function countzero(s) {
     for (let i = 0; i < s.length; i++) {
         const currentChar = s[i];
 
-        if (
-            (currentChar === "(" && s[i + 1] === ")") ||
-            oneZeroChars.includes(currentChar)
-        ) {
+        if ((currentChar === "(" && s[i + 1] === ")") || oneZeroChars.includes(currentChar)) {
             totalZeros += 1;
         } else if (twoZerosChars.includes(currentChar)) {
             totalZeros += 2;

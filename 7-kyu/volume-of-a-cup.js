@@ -14,9 +14,7 @@ function cupVolume(d1, d2, height) {
     const r1 = d1 / 2;
     const r2 = d2 / 2;
     // volume of a conical frustum -- rounded to 2 decimal places
-    return Number(
-        ((1 / 3) * Math.PI * height * (r1 ** 2 + r1 * r2 + r2 ** 2)).toFixed(2),
-    );
+    return Number(((1 / 3) * Math.PI * height * (r1 ** 2 + r1 * r2 + r2 ** 2)).toFixed(2));
 }
 
 console.log(cupVolume(1, 1, 1)); // 0.79

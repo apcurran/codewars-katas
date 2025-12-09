@@ -30,18 +30,12 @@
  * @returns {number}
  */
 function pizzaPrice(diameter, price) {
-    if (
-        !diameter ||
-        typeof diameter !== "number" ||
-        !price ||
-        typeof price !== "number"
-    ) {
+    if (!diameter || typeof diameter !== "number" || !price || typeof price !== "number") {
         return 0;
     }
 
     const areaOfPizza = Math.PI * (diameter / 2) ** 2;
-    const pricePerSquareInchRoundedTwoDecimals =
-        Math.round(100 * (price / areaOfPizza)) / 100;
+    const pricePerSquareInchRoundedTwoDecimals = Math.round(100 * (price / areaOfPizza)) / 100;
 
     return pricePerSquareInchRoundedTwoDecimals;
 }

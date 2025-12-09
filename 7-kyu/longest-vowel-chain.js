@@ -20,19 +20,13 @@ function solve(str) {
             currentVowelSubstrCount++;
         } else {
             // record max
-            maxVowelSubstrCount = Math.max(
-                maxVowelSubstrCount,
-                currentVowelSubstrCount,
-            );
+            maxVowelSubstrCount = Math.max(maxVowelSubstrCount, currentVowelSubstrCount);
             // reset current counter
             currentVowelSubstrCount = 0;
         }
     }
 
-    maxVowelSubstrCount = Math.max(
-        maxVowelSubstrCount,
-        currentVowelSubstrCount,
-    );
+    maxVowelSubstrCount = Math.max(maxVowelSubstrCount, currentVowelSubstrCount);
 
     return maxVowelSubstrCount;
 }

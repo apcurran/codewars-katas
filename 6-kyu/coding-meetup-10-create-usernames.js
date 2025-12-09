@@ -31,9 +31,7 @@ function addUsername(list) {
     return list.map(function updateWithUsername(person) {
         const birthYear = CURRENT_YEAR - person.age;
         const username =
-            person.firstName.toLowerCase() +
-            person.lastName[0].toLowerCase() +
-            birthYear;
+            person.firstName.toLowerCase() + person.lastName[0].toLowerCase() + birthYear;
 
         return {
             ...person,

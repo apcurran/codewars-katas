@@ -30,13 +30,8 @@ function possiblyPerfect(key, studentAnswers) {
 
     const adjustedPossibleAnswers = key.length - blanksCount;
 
-    return (
-        correctCount === adjustedPossibleAnswers ||
-        incorrectCount === adjustedPossibleAnswers
-    );
+    return correctCount === adjustedPossibleAnswers || incorrectCount === adjustedPossibleAnswers;
 }
 
-console.log(
-    possiblyPerfect(["A", "_", "C", "_", "B"], ["A", "D", "C", "E", "B"]),
-);
+console.log(possiblyPerfect(["A", "_", "C", "_", "B"], ["A", "D", "C", "E", "B"]));
 // true

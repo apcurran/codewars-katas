@@ -23,10 +23,7 @@ function quicksum(packet) {
             continue;
         }
 
-        if (
-            charCode < UPPERCASE_CHARCODE_START ||
-            charCode > UPPERCASE_CHARCODE_END
-        ) {
+        if (charCode < UPPERCASE_CHARCODE_START || charCode > UPPERCASE_CHARCODE_END) {
             // invalid packet data
             return 0;
         }

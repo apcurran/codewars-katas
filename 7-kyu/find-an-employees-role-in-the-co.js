@@ -11,8 +11,7 @@
 function findEmployeesRole(name) {
     const [firstName, lastName] = name.split(" ");
     const employee = employees.find(
-        (employee) =>
-            employee.firstName === firstName && employee.lastName === lastName,
+        (employee) => employee.firstName === firstName && employee.lastName === lastName,
     );
 
     if (employee) {

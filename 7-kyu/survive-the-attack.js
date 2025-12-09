@@ -13,8 +13,7 @@ function hasSurvived(attackers, defenders) {
     let attackingSurvivorsCount = 0;
     let defendingSurvivorsCount = 0;
 
-    const longestLengthList =
-        attackers.length >= defenders.length ? attackers : defenders;
+    const longestLengthList = attackers.length >= defenders.length ? attackers : defenders;
     // iterate whichever list is the longest (attackers or defenders)
     for (let i = 0; i < longestLengthList.length; i++) {
         const attacker = attackers[i];

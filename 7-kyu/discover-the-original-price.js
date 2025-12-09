@@ -25,8 +25,7 @@
  * @returns {number}
  */
 function discoverOriginalPrice(discountedPrice, salePercentage) {
-    const originalPrice =
-        Math.round((discountedPrice / (1 - salePercentage / 100)) * 100) / 100;
+    const originalPrice = Math.round((discountedPrice / (1 - salePercentage / 100)) * 100) / 100;
 
     return originalPrice;
 }

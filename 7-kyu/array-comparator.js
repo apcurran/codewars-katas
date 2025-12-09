@@ -25,8 +25,5 @@ function matchArrays(arr1, arr2) {
 }
 
 console.log(
-    matchArrays(
-        ["incapsulation", "OOP", "array"],
-        ["time", "propert", "paralelism", "OOP"],
-    ),
+    matchArrays(["incapsulation", "OOP", "array"], ["time", "propert", "paralelism", "OOP"]),
 ); // 1

@@ -36,16 +36,12 @@ function quidditchScoreboard(teams, actions) {
         const actionPoints = actionsMap.get(currTeamAction);
 
         if (currTeamAction === "Caught Snitch") {
-            currTeam === team1
-                ? (team1Score += actionPoints)
-                : (team2Score += actionPoints);
+            currTeam === team1 ? (team1Score += actionPoints) : (team2Score += actionPoints);
 
             break;
         }
 
-        currTeam === team1
-            ? (team1Score += actionPoints)
-            : (team2Score += actionPoints);
+        currTeam === team1 ? (team1Score += actionPoints) : (team2Score += actionPoints);
     }
 
     return `${team1}: ${team1Score}, ${team2}: ${team2Score}`;

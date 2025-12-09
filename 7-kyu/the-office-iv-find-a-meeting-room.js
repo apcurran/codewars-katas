@@ -9,9 +9,7 @@
  * @returns {number|string} index of the first empty meeting room, or "None available!"
  */
 function meeting(rooms) {
-    const firstEmptyRoomIndex = rooms.findIndex(
-        (roomStatus) => roomStatus === "O",
-    );
+    const firstEmptyRoomIndex = rooms.findIndex((roomStatus) => roomStatus === "O");
 
     if (firstEmptyRoomIndex === -1) return "None available!";
 

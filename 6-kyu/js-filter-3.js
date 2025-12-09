@@ -11,8 +11,7 @@ function searchNames(logins) {
         // when index exists and is odd
         if (arr[i - 1] && i % 2 === 1) {
             const username = arr[i - 1];
-            const isInvalidName =
-                username.startsWith(".") || username.endsWith(".");
+            const isInvalidName = username.startsWith(".") || username.endsWith(".");
 
             return isInvalidName; // keep this email address
         }
@@ -21,13 +20,4 @@ function searchNames(logins) {
     });
 }
 
-console.log(
-    searchNames([
-        "foo",
-        "foo@bar.com",
-        "bar",
-        "bar@foo.com",
-        ".foo",
-        "food@bar.com",
-    ]),
-); // ["food@bar.com"]
+console.log(searchNames(["foo", "foo@bar.com", "bar", "bar@foo.com", ".foo", "food@bar.com"])); // ["food@bar.com"]

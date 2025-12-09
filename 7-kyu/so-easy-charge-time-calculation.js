@@ -31,10 +31,7 @@ function calculateTime(battery, charger) {
     const zeroToEightyFivePercent = (battery * 0.85) / charger;
     const eightyFiveToNinetyFivePercent = (battery * 0.1) / (charger * 0.5);
     const ninetyFiveToFull = (battery * 0.05) / (charger * 0.2);
-    const totalTime =
-        zeroToEightyFivePercent +
-        eightyFiveToNinetyFivePercent +
-        ninetyFiveToFull;
+    const totalTime = zeroToEightyFivePercent + eightyFiveToNinetyFivePercent + ninetyFiveToFull;
 
     return Math.round(totalTime * 100) / 100;
 }

@@ -61,9 +61,7 @@
  * @returns {array}
  */
 function anagrams(targetWord, words) {
-    return words.filter(
-        (currWord) => reorderWord(currWord) === reorderWord(targetWord),
-    );
+    return words.filter((currWord) => reorderWord(currWord) === reorderWord(targetWord));
 }
 
 /**

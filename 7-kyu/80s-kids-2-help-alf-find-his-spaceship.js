@@ -33,6 +33,5 @@ function findSpaceship(myMap) {
     return "Spaceship lost forever.";
 }
 
-const myMap =
-    "..........\n..........\n..........\n.......X..\n..........\n..........";
+const myMap = "..........\n..........\n..........\n.......X..\n..........\n..........";
 console.log(findSpaceship(myMap)); // [7, 2]

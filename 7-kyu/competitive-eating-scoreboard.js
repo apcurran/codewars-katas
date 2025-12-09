@@ -30,8 +30,7 @@ function scoreboard(whoAteWhat) {
             const chickenwingsPoints = person.chickenwings * 5;
             const hamburgersPoints = person.hamburgers * 3;
             const hotdogsPoints = person.hotdogs * 2;
-            const scoreTotal =
-                chickenwingsPoints + hamburgersPoints + hotdogsPoints;
+            const scoreTotal = chickenwingsPoints + hamburgersPoints + hotdogsPoints;
 
             return {
                 name: person.name,

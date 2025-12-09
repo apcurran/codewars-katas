@@ -19,6 +19,4 @@ function sentencify(words) {
 }
 
 console.log(sentencify(["yes"])); // "Yes."
-console.log(
-    sentencify(["i'm", "afraid", "I", "can't", "let", "you", "do", "that"]),
-); // "I'm afraid I can't let you do that."
+console.log(sentencify(["i'm", "afraid", "I", "can't", "let", "you", "do", "that"])); // "I'm afraid I can't let you do that."

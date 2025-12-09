@@ -37,7 +37,5 @@ function sortTheInnerContent(words) {
 
 // console.log( sortTheInnerContent("sort the inner content in descending order") ); // "srot the inner ctonnet in dsnnieedcg oredr"
 console.log(
-    sortTheInnerContent(
-        "exxvjie qzrrjdcm vzzsqam pusrqnmiet tmmkgu oqhdm pypphx qxvssledz rr asz",
-    ),
+    sortTheInnerContent("exxvjie qzrrjdcm vzzsqam pusrqnmiet tmmkgu oqhdm pypphx qxvssledz rr asz"),
 ); // "exxvjie qzrrjdcm vzzsqam pusrqnmiet tmmkgu oqhdm pypphx qxvssledz r asz"

@@ -10,12 +10,7 @@
  */
 function squeakyClean(arr) {
     return arr.filter(function removeNullLikeValues(value) {
-        if (
-            value === "" ||
-            value === null ||
-            value === 0 ||
-            value === undefined
-        ) {
+        if (value === "" || value === null || value === 0 || value === undefined) {
             return false;
         } else {
             return true;

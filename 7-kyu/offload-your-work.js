@@ -14,8 +14,7 @@ function workNeeded(projectMinutes, freelancersTime) {
     let totalTimeLeft = projectMinutes;
 
     for (let [freelancerHours, freelancerMinutes] of freelancersTime) {
-        const totalFreelancerTimeInMinutes =
-            freelancerHours * 60 + freelancerMinutes;
+        const totalFreelancerTimeInMinutes = freelancerHours * 60 + freelancerMinutes;
         totalTimeLeft -= totalFreelancerTimeInMinutes;
 
         if (totalTimeLeft <= 0) {

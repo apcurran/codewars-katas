@@ -11,9 +11,7 @@
  * @returns {number[]} sorted array
  */
 function sectSort(nums, start, length) {
-    let numsPortion = length
-        ? nums.slice(start, start + length)
-        : nums.slice(start);
+    let numsPortion = length ? nums.slice(start, start + length) : nums.slice(start);
     numsPortion.sort((a, b) => a - b);
 
     if (length) {

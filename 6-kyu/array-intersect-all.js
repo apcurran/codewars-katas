@@ -40,10 +40,4 @@ function intersect(...arrays) {
     return results;
 }
 
-console.log(
-    intersect(
-        ["dog", "bar", "foo"],
-        ["foo", "bar", "cat"],
-        ["gin", "bar", "foo"],
-    ),
-); // ['bar', 'foo']
+console.log(intersect(["dog", "bar", "foo"], ["foo", "bar", "cat"], ["gin", "bar", "foo"])); // ['bar', 'foo']

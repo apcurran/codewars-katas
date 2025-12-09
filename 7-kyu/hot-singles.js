@@ -30,10 +30,5 @@ function hotSingles(arr1, arr2) {
 console.log(hotSingles([1, 2, 3, 3], [3, 2, 1, 4, 5]));
 // [4, 5]
 
-console.log(
-    hotSingles(
-        ["tartar", "blanket", "cinnamon"],
-        ["cinnamon", "blanket", "domino"],
-    ),
-);
+console.log(hotSingles(["tartar", "blanket", "cinnamon"], ["cinnamon", "blanket", "domino"]));
 // ["tartar", "domino"]

@@ -18,10 +18,7 @@ function fit_in(squareOneSide, squareTwoSide, suitcaseSideA, suitcaseSideB) {
     const suitcaseActualLength = Math.max(suitcaseSideA, suitcaseSideB);
     const suitcaseActualWidth = Math.min(suitcaseSideA, suitcaseSideB);
 
-    return (
-        suitcaseMinLength <= suitcaseActualLength &&
-        suitcaseMinWidth <= suitcaseActualWidth
-    );
+    return suitcaseMinLength <= suitcaseActualLength && suitcaseMinWidth <= suitcaseActualWidth;
 }
 
 console.log(fit_in(1, 2, 3, 2)); // true

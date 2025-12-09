@@ -28,10 +28,7 @@ function solve(str) {
         }
 
         // after summing chunk values, check against global max value
-        maxConsonantChunkValue = Math.max(
-            maxConsonantChunkValue,
-            chunkValuesSum,
-        );
+        maxConsonantChunkValue = Math.max(maxConsonantChunkValue, chunkValuesSum);
     }
 
     // return global max value

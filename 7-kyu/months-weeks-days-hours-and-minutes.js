@@ -15,25 +15,21 @@ function displayValue(totalMinutes) {
     const minutesInMonth = 40320;
 
     const months = Math.floor(totalMinutes / minutesInMonth);
-    const formattedMonths =
-        months > 0 ? `${months} ${months === 1 ? "month" : "months"}` : "";
+    const formattedMonths = months > 0 ? `${months} ${months === 1 ? "month" : "months"}` : "";
     totalMinutes %= minutesInMonth;
 
     const weeks = Math.floor(totalMinutes / minutesInWeek);
-    const formattedWeeks =
-        weeks > 0 ? `${weeks} ${weeks === 1 ? "week" : "weeks"}` : "";
+    const formattedWeeks = weeks > 0 ? `${weeks} ${weeks === 1 ? "week" : "weeks"}` : "";
 
     totalMinutes %= minutesInWeek;
 
     const days = Math.floor(totalMinutes / minutesInDay);
-    const formattedDays =
-        days > 0 ? `${days} ${days === 1 ? "day" : "days"}` : "";
+    const formattedDays = days > 0 ? `${days} ${days === 1 ? "day" : "days"}` : "";
 
     totalMinutes %= minutesInDay;
 
     const hours = Math.floor(totalMinutes / minutesInHour);
-    const formattedHours =
-        hours > 0 ? `${hours} ${hours === 1 ? "hour" : "hours"}` : "";
+    const formattedHours = hours > 0 ? `${hours} ${hours === 1 ? "hour" : "hours"}` : "";
 
     totalMinutes %= minutesInHour;
 

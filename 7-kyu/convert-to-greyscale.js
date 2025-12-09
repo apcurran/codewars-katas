@@ -3,10 +3,7 @@
 function color2grey(clrImg) {
     return clrImg.map((innerArr) => {
         return innerArr.map((secondInnerArr) => {
-            const totalPixelVal = secondInnerArr.reduce(
-                (total, currVal) => total + currVal,
-                0,
-            );
+            const totalPixelVal = secondInnerArr.reduce((total, currVal) => total + currVal, 0);
             const avgPixelVal = Math.round(totalPixelVal / 3);
             const greyscaledArr = [avgPixelVal, avgPixelVal, avgPixelVal];
 

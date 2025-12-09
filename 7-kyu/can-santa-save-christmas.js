@@ -17,8 +17,7 @@ function determineTime(durations) {
         const hoursToSecondsTotal = Number(hoursStr) * 60 * 60;
         const minutesToSecondsTotal = Number(minutesStr) * 60;
         const secondsTotal = Number(secondsStr);
-        const giftTotalTime =
-            hoursToSecondsTotal + minutesToSecondsTotal + secondsTotal;
+        const giftTotalTime = hoursToSecondsTotal + minutesToSecondsTotal + secondsTotal;
 
         totalTime += giftTotalTime;
     }

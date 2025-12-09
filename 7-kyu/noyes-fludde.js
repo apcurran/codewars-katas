@@ -45,23 +45,5 @@ function boatLoader(a) {
     return animalPairs;
 }
 
-console.log(
-    boatLoader([
-        5,
-        6,
-        5,
-        "g",
-        "g",
-        "G",
-        "c",
-        "p",
-        "x",
-        "z",
-        "Z",
-        "G",
-        "c",
-        "g",
-        "g",
-    ]),
-);
+console.log(boatLoader([5, 6, 5, "g", "g", "G", "c", "p", "x", "z", "Z", "G", "c", "g", "g"]));
 // [['c','c'],['G','G'],['g','g']]

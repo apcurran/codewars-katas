@@ -14,12 +14,7 @@ function solve(str) {
     const numberChars = str.match(/[0-9]/g) || [];
     const specialChars = str.match(/\W|_/g) || [];
 
-    return [
-        uppercaseChars.length,
-        lowercaseChars.length,
-        numberChars.length,
-        specialChars.length,
-    ];
+    return [uppercaseChars.length, lowercaseChars.length, numberChars.length, specialChars.length];
 }
 
 // console.log( solve("*'&ABCDabcde12345") ); // [4,5,5,3]

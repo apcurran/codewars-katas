@@ -8,9 +8,7 @@
  */
 function sumOrProduct(arr, n) {
     const sortedArr = arr.sort((a, b) => a - b);
-    const largestNumsSum = sortedArr
-        .slice(-n)
-        .reduce((total, currNum) => total + currNum, 0);
+    const largestNumsSum = sortedArr.slice(-n).reduce((total, currNum) => total + currNum, 0);
     const smallestNumsProduct = sortedArr
         .slice(0, n)
         .reduce((product, currNum) => product * currNum, 1);
