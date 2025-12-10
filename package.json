@@ -22,6 +22,6 @@
     "homepage": "https://github.com/apcurran/codewars-katas#readme",
     "devDependencies": {
         "oxfmt": "^0.17.0",
-        "oxlint": "^1.26.0"
+        "oxlint": "^1.32.0"
     }
 }
