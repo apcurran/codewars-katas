@@ -2,26 +2,25 @@
     "name": "codewars",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
-    "type": "module",
-    "scripts": {
-        "lint": "npx oxlint .",
-        "lint:fix": "npx oxlint --fix .",
-        "format:check": "npx oxfmt . --check",
-        "format:write": "npx oxfmt ."
+    "homepage": "https://github.com/apcurran/codewars-katas#readme",
+    "bugs": {
+        "url": "https://github.com/apcurran/codewars-katas/issues"
     },
+    "license": "ISC",
+    "author": "Alex Curran",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/apcurran/codewars-katas.git"
     },
-    "author": "Alex Curran",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/apcurran/codewars-katas/issues"
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "lint": "npx oxlint .",
+        "lint:fix": "npx oxlint --fix .",
+        "format": "npx oxfmt --write ."
     },
-    "homepage": "https://github.com/apcurran/codewars-katas#readme",
     "devDependencies": {
-        "oxfmt": "^0.17.0",
-        "oxlint": "^1.32.0"
+        "oxfmt": "^0.21.0",
+        "oxlint": "^1.36.0"
     }
 }
