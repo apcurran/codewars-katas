@@ -1,5 +1,5 @@
 /**
- * solution 1
+ * solution 1 -- euclidean distance math formula comparison
  * time: O(n)
  * space: O(1)
  *
