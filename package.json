@@ -20,7 +20,7 @@
         "format": "npx oxfmt --write ."
     },
     "devDependencies": {
-        "oxfmt": "^0.31.0",
-        "oxlint": "^1.46.0"
+        "oxfmt": "^0.32.0",
+        "oxlint": "^1.47.0"
     }
 }
