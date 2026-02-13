@@ -13,6 +13,7 @@ function validWord(dictionary, targetWord) {
      * @returns {boolean}
      */
     function helper(remaining) {
+        // base case stop when end is reached
         if (remaining === "") {
             return true;
         }
