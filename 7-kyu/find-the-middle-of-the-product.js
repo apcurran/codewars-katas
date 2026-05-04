@@ -7,7 +7,6 @@
  * @returns {number} - middle digit(s) in the product of each digit in the string otherwise, -1
  */
 function findMiddle(str) {
-    // check input type first
     if (typeof str !== "string") {
         return -1;
     }
@@ -25,7 +24,6 @@ function findMiddle(str) {
         return -1;
     }
 
-    // multiply
     let digitsProduct = 1;
 
     for (let digit of foundDigits) {
