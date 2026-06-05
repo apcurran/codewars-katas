@@ -17,7 +17,7 @@
     "scripts": {
         "lint": "npx oxlint .",
         "lint:fix": "npx oxlint --fix .",
-        "format": "npx oxfmt --write ."
+        "fmt": "npx oxfmt --write ."
     },
     "devDependencies": {
         "oxfmt": "^0.52.0",
