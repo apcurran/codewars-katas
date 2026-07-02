@@ -16,17 +16,16 @@ function longestSubstringOf(str) {
         const currentChar = str[rightPointer];
 
         while (validWindow.has(currentChar)) {
-            // If that makes the window invalid, shrink from the left until it's valid again.
+            // if that makes the window invalid, shrink from the left until it's valid again
             const leftChar = str[leftPointer];
             validWindow.delete(leftChar);
             leftPointer++;
         }
 
-        // now add right char to window
+        // expand by adding the right char to the window
         validWindow.add(currentChar);
         rightPointer++;
 
-        // the window is valid
         longestLength = Math.max(longestLength, validWindow.size);
     }
 
