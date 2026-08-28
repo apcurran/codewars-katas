@@ -37,8 +37,7 @@
 function collision(x1, y1, radius1, x2, y2, radius2) {
     const dx = x2 - x1;
     const dy = y2 - y1;
-    // Pythagorean theorem for right triangle
-    const c = Math.sqrt(dx ** 2 + dy ** 2);
+    const c = Math.hypot(dx, dy);
     const radSum = radius1 + radius2;
 
     return c <= radSum;
