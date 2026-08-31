@@ -24,7 +24,7 @@
 
 /**
  * solution 1 -- array.sort()
- * time: O(n * log n) -- .sort() method
+ * time: O(n * log n) sort() method
  * space: O(n)
  *
  * @param {number} k
