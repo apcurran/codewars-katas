@@ -1,6 +1,30 @@
+// /**
+//  * solution 1 -- separate arrays
+//  * time: O(n)
+//  * space: O(n)
+//  *
+//  * @param {number} k
+//  * @param {number[]} elements
+//  * @returns {number[]}
+//  */
+// function splitByValue(k, elements) {
+//     let valsLessThanK = [];
+//     let valsGreaterThanOrEqualToK = [];
+
+//     for (let val of elements) {
+//         if (val < k) {
+//             valsLessThanK.push(val);
+//         } else {
+//             valsGreaterThanOrEqualToK.push(val);
+//         }
+//     }
+
+//     return [...valsLessThanK, ...valsGreaterThanOrEqualToK];
+// }
+
 /**
- * solution 1 -- separate arrays
- * time: O(n)
+ * solution 1 -- array.sort()
+ * time: O(n * log n) -- .sort() method
  * space: O(n)
  *
  * @param {number} k
@@ -8,18 +32,12 @@
  * @returns {number[]}
  */
 function splitByValue(k, elements) {
-    let valsLessThanK = [];
-    let valsGreaterThanOrEqualToK = [];
+    return elements.sort((a, b) => {
+        const aGreater = a >= k ? 1 : 0;
+        const bGreater = b >= k ? 1 : 0;
 
-    for (let val of elements) {
-        if (val < k) {
-            valsLessThanK.push(val);
-        } else {
-            valsGreaterThanOrEqualToK.push(val);
-        }
-    }
-
-    return [...valsLessThanK, ...valsGreaterThanOrEqualToK];
+        return aGreater - bGreater;
+    });
 }
 
 console.log(splitByValue(6, [6, 4, 10, 10, 6])); // [4, 6, 10, 10, 6]
